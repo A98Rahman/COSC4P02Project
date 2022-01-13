@@ -1,6 +1,6 @@
 # COSC4P02Project Chatbot Project Proposal 
 
-Objective: 
+Objective: </br>
 To create a JavaScript based chat bot that uses Natural Language Processing to answer queries from the end-user. To develop this software, we have a team of 8 people using SCRUM methodology. The chatbot will aim to provide users with human-like responses to their queries without the need of human agents. This will not only serve a larger group of customers but will also alleviate human resources that can be used elsewhere. The chatbot application will be integrated to the existing website of Brock University and will be available for the visitors to use and get quick answers to their queries. 
 
 Team  
@@ -19,7 +19,7 @@ GitHub page
 https://github.com/A98Rahman/COSC4P02Project 
 
 
-Schedule:  
+Schedule:</br>
 Sprint Review: Bi-weekly Friday 4:30-4:45 
 Daily Scrum: Monday 4:30, Friday 4:30 (unless there is a Sprint Review) 
 
