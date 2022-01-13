@@ -5,14 +5,14 @@ To create a JavaScript based chat bot that uses Natural Language Processing to a
 
 Team  
 
-Abdul Rahman Abdullah, 6320493 (Team leader)
-Aws Al Jumaily, 6459861  
-Anwar Hashmi, 6584957 
-Ifti Ahmed, 6559348 
-Ray Keating, 6510200 
-Nilaanjann Misra, 6366298 
-Amots Avigad, 6556591 
-Austin Goodman, 6314363 
+Abdul Rahman Abdullah, 6320493 (Team leader) </br>
+Aws Al Jumaily, 6459861  </br>
+Anwar Hashmi, 6584957 </br>
+Ifti Ahmed, 6559348 </br>
+Ray Keating, 6510200 </br>
+Nilaanjann Misra, 6366298 </br>
+Amots Avigad, 6556591 </br>
+Austin Goodman, 6314363 </br>
 
  
 GitHub page 
