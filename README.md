@@ -14,8 +14,10 @@ Our objective is to create a JavaScript based chatbot that uses natural language
 •	The university’s main page events and news, as well information regarding the campus</br>
 
 
-To develop this software, we have a team of 8 people using SCRUM methodology. The chatbot will aim to provide users with human-like responses to their queries without the need of human agents. Not only will this serve a larger group of customers, it will also alleviate human resources that can be used elsewhere. The chatbot application will be integrated into the existing website of Brock University for ease of use by Brock students. 
+To develop this software, we have a team of 8 people using SCRUM methodology. The chatbot will aim to provide users with human-like responses to their queries without the need of human agents. Not only will this serve a larger group of customers, it will also alleviate human resources that can be used elsewhere. The chatbot application will be integrated into the existing website of Brock University for ease of use by Brock students. </br>
+
 Team Name : Roadmen Bugsy</br>
+
 Team leader: Abdul Rahman Abdullah, 6320493 </br>
 Aws Al Jumaily, 6459861 </br> 
 Anwar Hashmi, 6584957 </br>
