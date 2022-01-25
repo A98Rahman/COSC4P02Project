@@ -14,17 +14,17 @@ once you've finished installing Node and NPM, you can double check that they're 
 
 "node -v" and "npm -v".
 
-If they are properly installed, your version of node should show up.
+If they are properly installed, your version of node/npm should show up.
 
 ### Step 2
 
 Make sure the dependencies are installed
 
-To install the dependencies, just navigate into the "webapp" directory within the project folder, and run the command
+To install the dependencies, just navigate into this directory within the project folder (in your terminal), and run the command
 
 "npm install"
 
-Once the dependencies finish installing, you should see a node_modules folder show up in the webapp folder.
+Once the dependencies finish installing, you should see a node_modules folder show up.
 
 ### Step 3
 
@@ -33,9 +33,9 @@ Start the server
 To run the server, double check that you are still in the webapp directory within the project folder, then run the command
 
 "node app.js", 
-or "nodemon app.js" if you're going to be working on the app.
+or "nodemon app.js" if you're going to be making changes to the app.
 
-The app should say "Chat app listening on port 3000", and you can access the web app from your browser by going to "localhost:3000"
+The app should output "Chat app listening on port 3000" to the terminal, and you can access it from your browser by going to "localhost:3000"
 
 ## Folder Contents
 
