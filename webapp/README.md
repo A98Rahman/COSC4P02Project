@@ -1,6 +1,6 @@
 ## Overview
 
-The "webapp" folder contains the web app for the project.  It is an express app, created with Node.js.
+The "webapp" folder contains the web app for the project.  It is an Express app, created with Node.js.
 
 ## Execution Instructions
 
