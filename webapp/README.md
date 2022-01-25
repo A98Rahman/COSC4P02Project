@@ -4,7 +4,7 @@ The "webapp" folder contains the foundation for the whole project.
 
 ## Execution Instructions
 
-# Step 1
+### Step 1
 
 Make sure Node and NPM are installed.  To get an instance of the web app running on your machine, make sure you have Node and NPM installed.
 
@@ -16,7 +16,7 @@ once you've finished installing Node and NPM, you can double check that they're 
 
 If they are properly installed, your version of node should show up.
 
-# Step 2
+### Step 2
 
 Make sure the dependencies are installed
 
@@ -26,7 +26,7 @@ To install the dependencies, just navigate into the "webapp" directory within th
 
 Once the dependencies finish installing, you should see a node_modules folder show up in the webapp folder.
 
-# Step 3
+### Step 3
 
 Start the server
 
@@ -39,27 +39,27 @@ The app should say "Chat app listening on port 3000", and you can access the web
 
 ## Folder Contents
 
-# app.js
+### app.js
 
 The app.js file is the most important part of the web app.  This contains the code for an express app which which will serve the website.
 
 Think of the express app as the center of the project, where all of the pieces will fit together.
 
-# /public 
+### /public 
 
 This is where all of the "static assets" are served.  It's like the express app's local storage.
 
 there are a few subdirectories in the public directory, each with a different purpose 
 (ex. currently there is one for images and one for css files).
 
-# /pages
+### /pages
 
 This is where all of the static HTML pages are stored, for now.
 
 Eventually we should have a more sophisticated way to hold HTML code, 
 like using a templating engine or front-end framework like React.
 
-# /node_modules
+### /node_modules
 
 This is where all of the dependencies are stored.  You should never need to change anything inside this folder.
 
@@ -67,6 +67,6 @@ If you don't see this folder, use the command "npm install" to update your depen
 
 NPM will fill up your node_modules based on what's listed in the package.json, so don't make changes to that either.
 
-# package.json, package-lock.json
+### package.json, package-lock.json
 
 These files list all of the project's dependencies and other information about the project.
