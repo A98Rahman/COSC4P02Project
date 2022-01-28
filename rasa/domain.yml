@@ -11,6 +11,7 @@ intents:
   - general_information
 
 responses:
+
   utter_greet:
   - text: "Hey! How are you?"
 

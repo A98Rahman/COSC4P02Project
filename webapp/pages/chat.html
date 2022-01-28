@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chat App</title>
+    <!-- scripts -->
+    <script defer src="/scripts/client-chat-script.js"></script>
     <!-- stylesheets -->
     <link rel="stylesheet" href="/stylesheets/chat.css">
 </head>
@@ -17,16 +19,16 @@
                 <p class="text-light">Brock Online Chatbot</p>
             </div>
             <div id="chatboxBody" class="pb-2 pt-1">
-                <div class="msg msg-out">
-                    <span>Hello</span>
-                </div>
                 <div class="msg msg-in">
-                    <span>Hi, How are you?</span>
+                    <span>Hi! Enter a message to talk to the bot</span>
                 </div>
             </div>
             <div id="chatboxInput" class="w-100">
-                <form>
-                    <input placeholder="Enter a message..." class="w-100" type="text" name="messageInput" id="messageInput">
+                <form id="messageForm">
+                    <div class="input-group mb-0">
+                        <input autocomplete="off" id="messageInput" type="text" class="form-control" placeholder="Enter a message...">
+                        <button class="btn btn-outline-secondary" type="submit" id="sendButton">Send</button>
+                    </div>
                 </form>
             </div>
         </div>
