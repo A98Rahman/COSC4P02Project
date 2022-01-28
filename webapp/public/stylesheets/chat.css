@@ -3,26 +3,11 @@ p {
     margin-bottom: 0 !important;
 }
 
-/* changes placeholder font size */
-::-webkit-input-placeholder {
-    font-size: 10px;
-  }
-  ::-moz-placeholder {
-    font-size: 10px;
-  }
-  :-ms-input-placeholder {
-    font-size: 10px;
-  }
-  ::placeholder {
-    font-size: 10px;
-  }
-
 #chatbox {
     filter: drop-shadow(3px 3px 3px lightgrey);
 }
 
 #chatboxHeader p {
-    font-size: small;
     margin-left: 0.5em;
 }
 
@@ -36,8 +21,9 @@ p {
     color: white;
     padding: 0.6em 1.1em;
     margin: 0 0.5em;
-    font-size: 10px;
+    font-size: 0.9rem;
     border-radius: 0.3rem;
+    max-width: 80%;
 }
 
 .msg-out {
@@ -51,6 +37,11 @@ p {
 
 .msg-in span {
     background-color: #747474;
+}
+
+.msg-img {
+    width: 75%;
+    margin-left: 0.5rem;
 }
 
 
