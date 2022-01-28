@@ -1,19 +1,19 @@
-## Overview
+# Overview
 
 The "rasa" folder contains the rasa application.
 
 Rasa is a python application for building chatbots.  
 Here's a good tutorial for learning how to use Rasa: https://www.youtube.com/watch?v=sazsWmP2d3o
 
-## Execution Instructions
+# Execution Instructions
 
-# Installation
+## Installation
 
 First, install Rasa.
 
 https://rasa.com/docs/rasa/installation/
 
-# Using Rasa
+## Using Rasa
 
 To play with rasa from the command line, cd into this directory, and enter the command "rasa shell". 
 
