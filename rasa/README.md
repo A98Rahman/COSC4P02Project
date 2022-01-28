@@ -2,7 +2,8 @@
 
 The "rasa" folder contains the rasa application.
 
-Rasa is a python application
+Rasa is a python application for building chatbots.  
+For a tutorial on how Rasa works, watch this video: https://www.youtube.com/watch?v=sazsWmP2d3o
 
 ## Execution Instructions
 
