@@ -7,18 +7,22 @@ module.exports = {
 	entry: "./src/index.js",
 	mode: "development",
 	module: {
-		rules: [{
-			test: /\.js$/,
-			exclude: /node_modules/,
-			use: {
-				loader: "babel-loader"
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: {
+					loader: "babel-loader"
+				}
+			},
+			{
+				test: /\.css$/,
+				use: ["style-loader", "css-loader"]
 			}
-		},
-		{
-			test: /\.css$/,
-			use: ["style-loader", "css-loader"]
-		}
 		]
+	},
+	devServer: {
+		open: true,
 	},
 	plugins: [htmlPlugin]
 };
