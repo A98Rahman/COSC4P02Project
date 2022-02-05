@@ -5,6 +5,8 @@ import Titlebar from './Titlebar'
 import InfoPanel from "./InfoPanel"
 import ChatPanel from "./ChatPanel"
 import FlexContainer from "./FlexContainer"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 export default function App() {
 	return (
