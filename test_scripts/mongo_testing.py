@@ -31,7 +31,7 @@ def main():
     client = MongoClient('mongodb+srv://RasaApp:Chatbot123@cluster0.phnw6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
     db = client["BrockInfo"] # db holds "BrockInfo" database
     
-    find_course(db, "COSC2P12")    
+    find_course(db, "COSC3P03")    
     
 if __name__ == "__main__":
     main()
