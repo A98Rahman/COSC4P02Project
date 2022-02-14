@@ -8,7 +8,6 @@ import FlexContainer from "./FlexContainer"
 
 export default function App() {
 	return (
-
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ width: "100vw", height: "100vh", background: "white" }}> {/* content */}
 			<Titlebar></Titlebar>
 

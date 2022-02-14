@@ -44,6 +44,26 @@ export default function ChatPanel({ children }) {
 				fromUser: true
 			}
 		])
+
+		fetch('http://localhost:8080/api/webhooks/rest/webhook', {
+			method: 'POST',
+			headers: { 'Content-Type': 'application/json' },
+			body: JSON.stringify({ sender: "austin", message: textValue })
+		}).then(result => result.json().then(res => handleRASAResponse(res)))
+	}
+
+	function handleRASAResponse(res) {
+		const textValue = res[0].text
+
+		setMessagesState(curMessagesState => [
+			...curMessagesState,
+			{
+				text: textValue,
+				fromUser: false
+			}
+		])
+
+		console.log(res[0])
 	}
 
 	return (
@@ -53,7 +73,8 @@ export default function ChatPanel({ children }) {
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
 							<p style={{ padding: "8px" }}>{message.text}</p>
-						</Message>)
+						</Message>
+					)
 				}
 			</FlexContainer>
 

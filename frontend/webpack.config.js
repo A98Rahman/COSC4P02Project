@@ -23,6 +23,13 @@ module.exports = {
 	},
 	devServer: {
 		open: true,
+		proxy: {
+			'/api': {
+				target: 'http://localhost:5005',
+				pathRewrite: {'^/api' : ''}, 
+				secure: false,
+			}
+		}
 	},
 	plugins: [htmlPlugin]
 };
