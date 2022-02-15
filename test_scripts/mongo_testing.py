@@ -28,7 +28,8 @@ def find_course(db, course_code):
 
 def main():
     # connect to Mongo Atlas
-    client = MongoClient('mongodb+srv://RasaApp:Chatbot123@cluster0.phnw6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+    client = MongoClient('mongodb+srv://RasaApp:Chatbot123@cluster0.phnw6.mongodb.net/myFirstDatabase?retryWrites=true')
+    
     db = client["BrockInfo"] # db holds "BrockInfo" database
     
     find_course(db, "COSC3P03")    

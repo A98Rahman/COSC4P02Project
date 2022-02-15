@@ -98,3 +98,7 @@ nlu:
     - what should i know about brock university?
     - what can you tell me about brock?
     - can you give me an overview of brock university?
+
+- intent: course_inquiry
+  examples: |
+    - tell me more about algorithms
