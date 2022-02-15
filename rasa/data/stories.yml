@@ -33,3 +33,8 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: algorithms path
+  steps:
+  - intent: course_inquiry
+  - action: action_course_info

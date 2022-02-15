@@ -9,6 +9,10 @@ intents:
   - mood_unhappy
   - bot_challenge
   - general_information
+  - course_inquiry
+
+actions:
+  - action_course_info
 
 responses:
 
