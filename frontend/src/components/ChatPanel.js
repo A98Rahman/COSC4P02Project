@@ -1,4 +1,5 @@
 import React from 'react'
+import {useRef} from 'react'
 import useStateRef from "../useStateRef.js"
 import colorScheme from '../colorScheme'
 import ChatBar from './ChatBar'
@@ -32,11 +33,11 @@ export default function ChatPanel({ children }) {
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
 
 	function handleMessageSubmit(e) {
-		e.preventDefault()
-
+		//get the submitted text from the message and clear the chatbar
 		const textValue = e.target[0].value
 		e.target[0].value = ""
 
+		//update the messages state to include the user submitted message
 		setMessagesState(curMessagesState => [
 			...curMessagesState,
 			{
@@ -45,6 +46,7 @@ export default function ChatPanel({ children }) {
 			}
 		])
 
+		//submit the user message to rasa and handle the response
 		fetch('http://localhost:8080/api/webhooks/rest/webhook', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
@@ -77,7 +79,7 @@ export default function ChatPanel({ children }) {
 					)
 				}
 			</FlexContainer>
-
+	
 			<ChatBar onSubmitMessage={handleMessageSubmit}></ChatBar>
 		</FlexContainer>
 	)
