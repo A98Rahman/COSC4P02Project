@@ -70,7 +70,7 @@ export default function ChatPanel({ children }) {
 
 	return (
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: colorScheme.grey }}>
-			<FlexContainer flexDirection="column" style={{ flex: "1 1 100%" }}>
+			<FlexContainer flexDirection="column" style={{ flex: "1 1 100%", overflowY: "auto" }}>
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
