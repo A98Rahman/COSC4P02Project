@@ -31,6 +31,7 @@ export default function ChatPanel({ children }) {
 	]
 
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
+	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(false)
 
 	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
@@ -50,8 +51,16 @@ export default function ChatPanel({ children }) {
 		fetch('http://localhost:8080/api/webhooks/rest/webhook', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ sender: "austin", message: textValue })
-		}).then(result => result.json().then(res => handleRASAResponse(res)))
+			body: JSON.stringify({ sender: "user", message: textValue })
+		})
+			.then(response => {
+				setResponsePendingState(true)
+				return response.json()
+			})
+			.then(data => {
+				setResponsePendingState(false)
+				handleRASAResponse(data)
+			})
 	}
 
 	function handleRASAResponse(res) {
@@ -77,6 +86,11 @@ export default function ChatPanel({ children }) {
 							<p style={{ padding: "8px" }}>{message.text}</p>
 						</Message>
 					)
+				}
+				{responsePendingState &&
+					<Message floatRight={false}>
+						<p style={{ padding: "8px" }}>...</p>
+					</Message>
 				}
 			</FlexContainer>
 
