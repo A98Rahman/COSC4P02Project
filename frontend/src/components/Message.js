@@ -13,10 +13,11 @@ export default function Message({ floatRight = false, children }) {
 				borderRadius: `${8 * floatRight}px ${8 * !floatRight}px 8px 8px`,
 				background: floatRight ? "white" : colorScheme.darkRed,
 				color: floatRight ? "black" : "white",
-				boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)"
+				boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)",
+				flex: "0 0 auto"
 			}}
 		>
-			<FlexContainer width="100%" height="100%">
+			<FlexContainer width="100%" style={{flex: "0 0 100%"}}>
 				{children}
 			</FlexContainer>
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import {useRef} from 'react'
+import { useRef } from 'react'
 import useStateRef from "../useStateRef.js"
 import colorScheme from '../colorScheme'
 import ChatBar from './ChatBar'
@@ -70,7 +70,7 @@ export default function ChatPanel({ children }) {
 
 	return (
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: colorScheme.grey }}>
-			<FlexContainer flexDirection="column" style={{ flex: "1 1 100%", overflowY: "auto" }}>
+			<FlexContainer flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
@@ -79,7 +79,7 @@ export default function ChatPanel({ children }) {
 					)
 				}
 			</FlexContainer>
-	
+
 			<ChatBar onSubmitMessage={handleMessageSubmit}></ChatBar>
 		</FlexContainer>
 	)

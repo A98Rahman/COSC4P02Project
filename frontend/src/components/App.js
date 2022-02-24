@@ -8,11 +8,11 @@ import FlexContainer from "./FlexContainer"
 
 export default function App() {
 	return (
-		<div style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
+		<FlexContainer style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
 			<FlexContainer width="100%" height="100%" flexDirection="column" alignItems="stretch" style={{ background: "white" }}> {/* content */}
 				<Titlebar></Titlebar>
 
-				<FlexContainer flexDirection="row" alignItems="stretch" style={{ flexShrink: "1", width: "100%", height: "100%"}}> {/* panels */}
+				<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%"}}> {/* panels */}
 					<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 25%" }}> {/* info subpanels */}
 						<InfoPanel style={{ flex: "1 1 100%", margin: "8px 8px 0px 8px" }}></InfoPanel>
 						<InfoPanel style={{ flex: "1 1 100%", margin: "8px 8px 8px 8px" }}></InfoPanel>
@@ -22,7 +22,7 @@ export default function App() {
 
 				</FlexContainer>
 			</FlexContainer>
-		</div>
+		</FlexContainer>
 	)
 }
 
