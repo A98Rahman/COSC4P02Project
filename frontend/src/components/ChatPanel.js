@@ -32,10 +32,10 @@ export default function ChatPanel({ children }) {
 
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
 
-	function handleMessageSubmit(e) {
+	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
-		const textValue = e.target[0].value
-		e.target[0].value = ""
+		const textValue = messageValue
+
 
 		//update the messages state to include the user submitted message
 		setMessagesState(curMessagesState => [

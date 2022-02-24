@@ -49,6 +49,10 @@ table {
 	border-spacing: 0;
 }
 
+input:invalid {
+	background-color: #f89595;
+  }
+
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
