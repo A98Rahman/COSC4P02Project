@@ -8,11 +8,12 @@ export default function FlexContainer({
 	alignItems = "stretch",
 	flexWrap = "nowrap",
 
+	refs,
 	style,
 	children
 }) {
 	return (
-		<div style={{
+		<div ref={refs} style={{
 			width: width,
 			height: height,
 			display: "flex",

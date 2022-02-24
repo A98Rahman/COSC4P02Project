@@ -32,6 +32,7 @@ export default function ChatPanel({ children }) {
 
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(false)
+	const messageContainerRef = useRef(null)
 
 	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
@@ -58,8 +59,8 @@ export default function ChatPanel({ children }) {
 				return response.json()
 			})
 			.then(data => {
-				setResponsePendingState(false)
 				handleRASAResponse(data)
+				setResponsePendingState(false)
 			})
 	}
 
@@ -74,12 +75,13 @@ export default function ChatPanel({ children }) {
 			}
 		])
 
-		console.log(res[0])
+		//const messageContainer = messageContainerRef.current
+		//messageContainer.scrollTo(0,messageContainer.scrollHeight)
 	}
 
 	return (
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: colorScheme.grey }}>
-			<FlexContainer flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
+			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
