@@ -26,7 +26,7 @@ module.exports = {
 		proxy: {
 			'/api': {
 				target: 'http://localhost:5005',
-				pathRewrite: {'^/api' : ''}, 
+				pathRewrite: { '^/api': '' },
 				secure: false,
 			}
 		}

@@ -26,7 +26,7 @@
 	"devDependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "webpack serve --config webpack.config.js",
+		"start": "webpack serve --config webpack.config.js --mode development",
 		"build": "webpack --mode production"
 	},
 	"author": "Roadmen Bugsy",
