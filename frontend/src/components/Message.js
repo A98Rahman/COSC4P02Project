@@ -10,7 +10,7 @@ export default function Message({ floatRight = false, children }) {
 				minHeight: "50px",
 				alignSelf: floatRight ? "flex-end" : "flex-start",
 				margin: "16px 16px 0px 16px",
-				borderRadius: `${8 * floatRight}px ${8 * !floatRight}px 8px 8px`,
+				borderRadius: `${4 * floatRight}px ${4 * !floatRight}px 4px 4px`,
 				background: floatRight ? "white" : colorScheme.darkRed,
 				color: floatRight ? "black" : "white",
 				boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)",
