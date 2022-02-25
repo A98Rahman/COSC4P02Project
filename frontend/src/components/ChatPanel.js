@@ -6,10 +6,13 @@ import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
 import Message from './Message'
 
+
+
 export default function ChatPanel({ children }) {
+
 	const placeholderMessageData = [
 		{
-			text: "test text",
+			text: "text",
 			fromUser: false
 		},
 		{
@@ -79,13 +82,15 @@ export default function ChatPanel({ children }) {
 		//messageContainer.scrollTo(0,messageContainer.scrollHeight)
 	}
 
+	
+
 	return (
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: colorScheme.grey }}>
 			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
-							<p style={{ padding: "8px" }}>{message.text}</p>
+							<p style={{ margin: "8px 8px 8px 8px" }}>{message.text}</p>
 						</Message>
 					)
 				}

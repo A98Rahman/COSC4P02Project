@@ -6,8 +6,8 @@ import FlexContainer from './FlexContainer'
 
 export default function Titlebar() {
 	return (
-		<FlexContainer width="100%" height="60px" alignItems='center' style={{ background: colorScheme.lightRed }}>
-			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{paddingLeft: "8px"}}/>
+		<FlexContainer width="100%" height="60px" alignItems='center' flexDirection='row-reverse' style={{ background: colorScheme.lightRed }}>
+			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{paddingRight: "1%"}}/>
 		</FlexContainer>
 	)
 }

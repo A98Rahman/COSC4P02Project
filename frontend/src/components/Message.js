@@ -6,8 +6,8 @@ export default function Message({ floatRight = false, children }) {
 	return (
 		<div
 			style={{
-				width: "350px",
-				minHeight: "50px",
+				width: "50%",
+				minHeight: "2%",
 				alignSelf: floatRight ? "flex-end" : "flex-start",
 				margin: "16px 16px 0px 16px",
 				borderRadius: `${4 * floatRight}px ${4 * !floatRight}px 4px 4px`,
