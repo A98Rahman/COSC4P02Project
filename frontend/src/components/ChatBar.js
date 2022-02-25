@@ -10,11 +10,13 @@ export default function ChatBar({ onSubmitMessage }) {
 	const [emptyChatbarErrorState, setEmptyChatbarErrorState, emptyChatbarErrorStateRef] = useStateRef(false)
 	const clearButtonRef = useRef(null)
 	const inputBarRef = useRef(null)
-
+	const submitButton = useRef(null)
+	const formBarRef = useRef(null)
+	
 	function clearInput(e){
 		e.preventDefault()
 
-		console.log(inputBarRef.current)
+		console.log("clear")
 
 		const inputElement = inputBarRef.current
 		inputElement.value = ""
@@ -24,9 +26,9 @@ export default function ChatBar({ onSubmitMessage }) {
 		//so the page doesn't reload
 		e.preventDefault()
 
-		console.log(e.target[1])
+		console.log("submit")
 
-		const inputElement = e.target[1]
+		const inputElement = inputBarRef.current
 		const textValue = inputElement.value
 
 		//clear the input 
@@ -43,6 +45,7 @@ export default function ChatBar({ onSubmitMessage }) {
 		//send the message the the chat panel
 		onSubmitMessage(textValue)
 	}
+	
 	function handleOnInput(e) {
 		const textValue = e.target.value
 
@@ -66,7 +69,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	return (
 		<FlexContainer style={{ flex: "0 0 40px", margin: "8px 8px 8px 8px", background: "white" }}>
-			<form  onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
+			<form ref={formBarRef} onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
 
 				<button ref={clearButtonRef} onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none"}}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
@@ -76,17 +79,20 @@ export default function ChatBar({ onSubmitMessage }) {
 
 				<input
 					ref={inputBarRef}
+					onSubmit={handleOnSubmit}
 					onInput={handleOnInput}
 					onBlur={handleOnBlurInputField}
 					type="text"
 					placeholder="Ask a question"
-					style={{ width: "100%", height: "40px", border: "none" }}
+					style={{ width: "100%", height: "px", border: "none" }}
 				/>
-				<button  type = "submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: colorScheme.darkRed }}>
+
+				<button ref={submitButton}  type = "submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: colorScheme.darkRed }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "24px", color: "white" }} />
 					</div>
 				</button>
+				
 			</form>
 
 		</FlexContainer>
