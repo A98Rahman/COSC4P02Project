@@ -1,9 +1,10 @@
 import React from 'react'
 import colorScheme from "../colorScheme"
+import InfoPanel from './InfoPanel'
 
 export default function InfoPanel1({ style }) {
 	return (
-		<div style={{ background: colorScheme.grey, ...style }}>
+		<InfoPanel style={style}>
 			<div>
 				<p style={{fontSize: "1.6rem"}}>PLACE HOLDERS</p>
 			</div>
@@ -27,8 +28,6 @@ export default function InfoPanel1({ style }) {
 			<div>
 				<a style={{fontSize: "1.6rem"}} href="https://www.coolmathgames.com/">Cool Math Games</a>
 			</div>
-			
-
-		</div>
+		</InfoPanel>
 	)
 }

@@ -21,7 +21,6 @@ export default function App() {
 				<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%"}}> {/* panels */}
 					<FlexContainer flexDirection="column" alignItems="stretch" style={{flex: isComputer ? ('1 1 30%'):('0 0 0%')}}> {/* info subpanels */}
 						<InfoPanel1 flexDirection="column" style={{ flex: "1 1 70%", margin: "8px 8px 0px 8px" }}>
-							
 						</InfoPanel1>
 						<InfoPanel2 style={{ flex: "1 1 30%", margin: "8px 8px 8px 8px" }}></InfoPanel2>
 					</FlexContainer>

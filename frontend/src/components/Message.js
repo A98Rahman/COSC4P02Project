@@ -6,7 +6,7 @@ export default function Message({ floatRight = false, children }) {
 	return (
 		<div
 			style={{
-				width: "50%",
+				maxWidth: "50%",
 				minHeight: "2%",
 				alignSelf: floatRight ? "flex-end" : "flex-start",
 				margin: "16px 16px 0px 16px",
