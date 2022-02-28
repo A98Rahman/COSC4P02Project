@@ -8,10 +8,7 @@ import FlexContainer from './FlexContainer'
 export default function ChatBar({ onSubmitMessage }) {
 
 	const [emptyChatbarErrorState, setEmptyChatbarErrorState, emptyChatbarErrorStateRef] = useStateRef(false)
-	const clearButtonRef = useRef(null)
 	const inputBarRef = useRef(null)
-	const submitButton = useRef(null)
-	const formBarRef = useRef(null)
 	
 	function clearInput(e){
 		e.preventDefault()
@@ -69,9 +66,9 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	return (
 		<FlexContainer style={{ flex: "0 0 40px", margin: "8px 8px 8px 8px", background: "white" }}>
-			<form ref={formBarRef} onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
+			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
 
-				<button ref={clearButtonRef} onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none"}}>
+				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none"}}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: "5C615E" }} />
 					</div>
@@ -79,7 +76,6 @@ export default function ChatBar({ onSubmitMessage }) {
 
 				<input
 					ref={inputBarRef}
-					onSubmit={handleOnSubmit}
 					onInput={handleOnInput}
 					onBlur={handleOnBlurInputField}
 					type="text"
@@ -87,7 +83,7 @@ export default function ChatBar({ onSubmitMessage }) {
 					style={{ width: "100%", height: "px", border: "none" }}
 				/>
 
-				<button ref={submitButton}  type = "submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: colorScheme.darkRed }}>
+				<button type = "submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: colorScheme.darkRed }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "24px", color: "white" }} />
 					</div>
