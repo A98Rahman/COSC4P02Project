@@ -1,13 +1,14 @@
 import React from 'react'
-import colorScheme from "../colorScheme"
+import InfoPanel from './InfoPanel'
+import { useTheme } from "./ThemeContext"
 
 
 export default function InfoPanel2({ style }) {
+	const [theme, setTheme] = useTheme()
+
 	return (
-		<div style={{ background: colorScheme.grey, ...style }}>
-			
+		<InfoPanel style={{  ...style }}>
 
-
-		</div>
+		</InfoPanel>
 	)
 }

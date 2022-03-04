@@ -1,15 +1,12 @@
 import React from 'react'
 import { useRef } from 'react'
 import useStateRef from "../useStateRef.js"
-import colorScheme from '../colorScheme'
 import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
 import Message from './Message'
-
-
+import {useTheme} from "./ThemeContext"
 
 export default function ChatPanel({ children }) {
-
 	const placeholderMessageData = [
 		{
 			text: "text",
@@ -32,6 +29,8 @@ export default function ChatPanel({ children }) {
 			fromUser: false
 		},
 	]
+
+	const [theme, setTheme] = useTheme()
 
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(false)
@@ -85,7 +84,7 @@ export default function ChatPanel({ children }) {
 	
 
 	return (
-		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: colorScheme.grey }}>
+		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "8px", background: theme.colors.secondaryColorBackground }}>
 			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>

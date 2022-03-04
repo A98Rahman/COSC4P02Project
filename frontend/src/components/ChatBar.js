@@ -2,25 +2,26 @@ import React, { useRef, useState, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import useStateRef from '../useStateRef'
-import colorScheme from "../colorScheme"
 import FlexContainer from './FlexContainer'
+import { useTheme } from "./ThemeContext"
 
 export default function ChatBar({ onSubmitMessage }) {
+	const [theme, setTheme] = useTheme()
 
 	const [emptyChatbarErrorState, setEmptyChatbarErrorState, emptyChatbarErrorStateRef] = useStateRef(false)
 	const clearButtonRef = useRef(null)
 	const inputBarRef = useRef(null)
 	const submitButton = useRef(null)
 	const formBarRef = useRef(null)
-	
-	function clearInput(e){
+
+	function clearInput(e) {
 		e.preventDefault()
 
 		console.log("clear")
 
 		const inputElement = inputBarRef.current
 		inputElement.value = ""
-		
+
 	}
 	function handleOnSubmit(e) {
 		//so the page doesn't reload
@@ -45,7 +46,7 @@ export default function ChatBar({ onSubmitMessage }) {
 		//send the message the the chat panel
 		onSubmitMessage(textValue)
 	}
-	
+
 	function handleOnInput(e) {
 		const textValue = e.target.value
 
@@ -59,19 +60,26 @@ export default function ChatBar({ onSubmitMessage }) {
 	function handleOnBlurInputField(e) {
 		const related = e.relatedTarget
 
-		if(related && e.target.parentElement.contains(related)) {
+		if (related && e.target.parentElement.contains(related)) {
 			return
 		}
-		
+
 		e.target.setCustomValidity("");
 		e.target.reportValidity()
 	}
 
+	function getInputBarHeight(desiredFontScale) {
+		const browserDefaultFontSize = window.getComputedStyle(document.body).getPropertyValue('font-size')
+		const pixelSize = `${Math.max(desiredFontScale * parseInt(browserDefaultFontSize), 40)}px`
+
+		return pixelSize
+	}
+
 	return (
-		<FlexContainer style={{ flex: "0 0 40px", margin: "8px 8px 8px 8px", background: "white" }}>
+		<FlexContainer style={{ flex: `0 0 ${getInputBarHeight(theme.fontScaleFactor * 1.0)}`, margin: "8px 8px 8px 8px", background: "white" }}>
 			<form ref={formBarRef} onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
 
-				<button ref={clearButtonRef} onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none"}}>
+				<button ref={clearButtonRef} onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none" }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: "5C615E" }} />
 					</div>
@@ -84,15 +92,15 @@ export default function ChatBar({ onSubmitMessage }) {
 					onBlur={handleOnBlurInputField}
 					type="text"
 					placeholder="Ask a question"
-					style={{ width: "100%", height: "px", border: "none" }}
+					style={{ width: "100%", minHeight: "auto", border: "none", fontSize: `${theme.fontScaleFactor * 1.0}rem` }}
 				/>
 
-				<button ref={submitButton}  type = "submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: colorScheme.darkRed }}>
+				<button ref={submitButton} type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColor }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "24px", color: "white" }} />
 					</div>
 				</button>
-				
+
 			</form>
 
 		</FlexContainer>
