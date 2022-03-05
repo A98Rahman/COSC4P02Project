@@ -94,11 +94,98 @@ nlu:
   examples: |
     - can you tell me more about brock?
     - what is brock like?
-    - give me information about brock?
-    - what should i know about brock university?
-    - what can you tell me about brock?
     - can you give me an overview of brock university?
 
-- intent: course_inquiry
+- intent: program_inquiry
   examples: |
-    - tell me more about algorithms
+    - tell me about the programs at brock
+    - what programs does brock offer?
+    - what kind of degrees can you get at brock?
+
+- intent: respond_program_interested
+  examples: |
+    - I'm interested in [Computer Science]{"entity": "Program"}
+    - [Physics]{"entity": "Program"}
+
+- lookup: Program
+  examples: |
+    - Accounting
+    - Adult Education
+    - Applied Computing
+    - Applied Linguistics
+    - Biochemistry
+    - Biological Sciences
+    - Biomedical Sciences
+    - Biophysics
+    - Biotechnology
+    - Business Administration
+    - Business Administration Co-op International Double Degree
+    - Business Communication
+    - Business Economics
+    - Canadian Studies
+    - Chemistry
+    - Child and Youth Studies
+    - Child Health
+    - Classics and Archaeology
+    - Community Health
+    - Computer Science
+    - Computer Science and Mathematics
+    - Computing and Business
+    - Computing and Network Communications
+    - Concurrent Teacher Education – Intermediate/Senior (Grades 7-12)
+    - Concurrent Teacher Education – Junior/Intermediate (Grades 4-10)
+    - Concurrent Teacher Education – Primary/Junior (Grades K-6)
+    - Critical Criminology
+    - Dramatic Arts
+    - Early Childhood Education
+    - Earth Sciences
+    - Economics
+    - Engineering Science
+    - English Language and Literature
+    - Environmental Geoscience
+    - Environmental Sustainability
+    - Film Studies
+    - Forensic Psychology and Criminal Justice
+    - French Studies
+    - Game Design
+    - Game Programming
+    - General Humanities
+    - Geography
+    - German
+    - Hispanic and Latin American Studies
+    - History
+    - Indigenous Education
+    - Interactive Arts and Science
+    - Italian Studies
+    - Kinesiology
+    - Kinesiology – Accelerate Into Master’s
+    - Labour Studies
+    - Mathematics and Statistics
+    - Media and Communication Studies
+    - Medical Sciences
+    - Medieval and Renaissance Studies
+    - Music
+    - Neuroscience
+    - Nursing
+    - Oenology and Viticulture
+    - Philosophy
+    - Physical Education
+    - Physics
+    - Political Science
+    - Popular Culture
+    - Psychology
+    - Public Health
+    - Public Health – Accelerate Into Master’s
+    - Recreation and Leisure Studies
+    - Sciences
+    - Social Sciences
+    - Sociology
+    - Sport Management
+    - Studies in Arts and Culture
+    - Teacher Education – Consecutive
+    - Technological Education
+    - Tourism Studies
+    - Visual Arts
+    - Women’s and Gender Studies
+
+  

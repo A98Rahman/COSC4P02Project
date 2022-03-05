@@ -34,7 +34,12 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: algorithms path
+- story: program inquiry
   steps:
-  - intent: course_inquiry
-  - action: action_course_info
+  - intent: program_inquiry
+  - action: utter_program_interested
+  - intent: respond_program_interested
+    entities:
+      - Program: "Computer Science"
+  - action: action_program_info
+
