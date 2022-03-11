@@ -1,10 +1,11 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useRef,useContext, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import FlexContainer from './FlexContainer'
 import { useTheme, lightTheme, darkTheme } from './ThemeContext'
 
-export default function Titlebar() {
+
+export default function Titlebar({children}) {
 	const [theme, setTheme] = useTheme()
 
 	function handleOnChangeFontSize(e) {
@@ -22,6 +23,8 @@ export default function Titlebar() {
 
 		setTheme(newTheme)
 	}
+
+	
 
 	return (
 		<FlexContainer

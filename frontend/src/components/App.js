@@ -1,6 +1,7 @@
 import "../reset.css"
 import React from 'react'
 import {useEffect} from 'react'
+import ReactToPrint from 'react-to-print';
 import Titlebar from './Titlebar'
 import InfoPanel1 from "./InfoPanel1"
 import InfoPanel2 from "./InfoPanel2"
