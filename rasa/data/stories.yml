@@ -43,3 +43,9 @@ stories:
       - Program: "Computer Science"
   - action: action_program_info
 
+- story: course inquiry
+  steps:
+  - intent: course_inquiry
+    entities:
+      - Course: "Engineering"
+  - action: action_course_info

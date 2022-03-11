@@ -6,12 +6,14 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
+from dataclasses import field
 from pymongo import MongoClient
 from typing import Any, Text, Dict, List
 import json
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
+from sqlalchemy import desc
 
 class ActionCourseInfo(Action):
 
@@ -22,16 +24,17 @@ class ActionCourseInfo(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        client = MongoClient('mongodb+srv://RasaApp:Chatbot123@cluster0.phnw6.mongodb.net/myFirstDatabase?retryWrites=true')
-        db = client["BrockInfo"] # db holds "BrockInfo" database
-        courses = db.get_collection("Courses")
-        course = courses.find_one({"course_code": "COSC3P03"})
+        course_entity = tracker.get_latest_entity_values(entity_type="Course")
+        course_entity = next(course_entity)
 
         # response
-        if course:
-            dispatcher.utter_message(text=f'{course["course_name"]} is taught by {course["instructor"]}')
+        if course_entity:
+            description = get_field_from_JSON(course_entity, "course_name", "course_description", "CourseInfo")
+            dispatcher.utter_message(text=f'Yes, we offer {course_entity}, here\'s some information about that course')
+            dispatcher.utter_message(text=f'{description}')
         else:
-            dispatcher.utter_message(text="I couldn't find that course")
+            dispatcher.utter_message(text="Sorry, I couldn't find that course, here's a link to our catalog of courses:")
+            dispatcher.utter_message(text="https://brocku.ca/webcal/2021/undergrad")
 
         return []
 
@@ -49,7 +52,7 @@ class ActionProgramInfo(Action):
 
         # response
         if program_entity:
-            link = get_program_link(program_entity)
+            link = get_field_from_JSON(program_entity, "Name", "Link", "ProgramInfo")
             dispatcher.utter_message(text=f'Yes, we offer {program_entity}, here\'s a link to the page: {link}')
         else:
             dispatcher.utter_message(text="I couldn't find that program")
@@ -66,6 +69,21 @@ def get_program_link(program_name):
     for i in data:
         if program_name.lower() == i["Name"].lower():
             return i["Link"]
+
+    f.close()
+    return None
+
+# get the data from the JSON file.  
+# Should eventually come from Mongo
+# re-write this to return an array of field_names
+def get_field_from_JSON(key, key_name, field_name, file_name):
+    f = open(f'/home/ray/Code/chatbot/rasa/actions/{file_name}.json')
+
+    data = json.load(f)
+
+    for i in data:
+        if key.lower() == i[key_name].lower():
+            return i[field_name]
 
     f.close()
     return None

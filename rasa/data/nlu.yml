@@ -107,6 +107,12 @@ nlu:
     - I'm interested in [Computer Science]{"entity": "Program"}
     - [Physics]{"entity": "Program"}
 
+- intent: course_inquiry
+  examples: |
+    - Do you offer a course about [Engineering]{"entity": "Course"}
+    - Does Brock have a [Product Management]{"entity": "Course"} course?
+    - What [Support]{"entity": "Course"} courses does brock have?
+
 - lookup: Program
   examples: |
     - Accounting
@@ -132,9 +138,6 @@ nlu:
     - Computer Science and Mathematics
     - Computing and Business
     - Computing and Network Communications
-    - Concurrent Teacher Education – Intermediate/Senior (Grades 7-12)
-    - Concurrent Teacher Education – Junior/Intermediate (Grades 4-10)
-    - Concurrent Teacher Education – Primary/Junior (Grades K-6)
     - Critical Criminology
     - Dramatic Arts
     - Early Childhood Education
@@ -158,7 +161,7 @@ nlu:
     - Interactive Arts and Science
     - Italian Studies
     - Kinesiology
-    - Kinesiology – Accelerate Into Master’s
+    - Kinesiology Accelerate Into Masters
     - Labour Studies
     - Mathematics and Statistics
     - Media and Communication Studies
@@ -175,17 +178,30 @@ nlu:
     - Popular Culture
     - Psychology
     - Public Health
-    - Public Health – Accelerate Into Master’s
+    - Public Health Accelerate Into Masters
     - Recreation and Leisure Studies
     - Sciences
     - Social Sciences
     - Sociology
     - Sport Management
     - Studies in Arts and Culture
-    - Teacher Education – Consecutive
+    - Teacher Education Consecutive
     - Technological Education
     - Tourism Studies
     - Visual Arts
-    - Women’s and Gender Studies
+    - Womens and Gender Studies
 
-  
+- lookup: Course
+  examples: |
+    - Engineering
+    - Accounting
+    - Product Management
+    - Sales
+    - Research and Development
+    - Business Development
+    - Training
+    - Support
+    - Marketing
+    - Legal
+    - Human Resources
+    - Services
