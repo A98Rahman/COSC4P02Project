@@ -49,3 +49,10 @@ stories:
     entities:
       - Course: "Engineering"
   - action: action_course_info
+
+- story: club inquiry
+  steps:
+  - intent: club_inquiry
+    entities:
+      - Club: "Champions of Change"
+  - action: action_club_info

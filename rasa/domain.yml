@@ -14,14 +14,18 @@ intents:
       use_entities: true
   - course_inquiry:
       use_entities: true
+  - club_inquiry:
+      use_entities: true
 
 entities:
   - Program
   - Course
+  - Club
 
 actions:
   - action_course_info
   - action_program_info
+  - action_club_info
 
 responses:
 

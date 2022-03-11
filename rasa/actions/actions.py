@@ -59,23 +59,31 @@ class ActionProgramInfo(Action):
 
         return []
 
-# get the program link from the JSON file.  
+class ActionClubInfo(Action):
+
+    def name(self) -> Text:
+        return "action_club_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        club_entity = tracker.get_latest_entity_values(entity_type="Club")
+        club_entity = next(club_entity)
+
+        # response
+        if club_entity:
+            club_description = get_field_from_JSON(club_entity, "club_name", "club_description", "ClubInfo")
+            dispatcher.utter_message(text=f'You should check out our {club_entity}, here\'s a bit of information about them:')
+            dispatcher.utter_message(text=f'{club_description}')
+        else:
+            dispatcher.utter_message(text="I couldn't find that program")
+
+        return []
+
+# get the proper field from the JSON file.  
 # Should eventually come from Mongo
-def get_program_link(program_name):
-    f = open('/home/ray/Code/chatbot/rasa/actions/ProgramInfo.json')
-
-    data = json.load(f)
-
-    for i in data:
-        if program_name.lower() == i["Name"].lower():
-            return i["Link"]
-
-    f.close()
-    return None
-
-# get the data from the JSON file.  
-# Should eventually come from Mongo
-# re-write this to return an array of field_names
+# maybe eventually re-write this to return an array of field_names
 def get_field_from_JSON(key, key_name, field_name, file_name):
     f = open(f'/home/ray/Code/chatbot/rasa/actions/{file_name}.json')
 

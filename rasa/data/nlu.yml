@@ -113,6 +113,11 @@ nlu:
     - Does Brock have a [Product Management]{"entity": "Course"} course?
     - What [Support]{"entity": "Course"} courses does brock have?
 
+- intent: club_inquiry
+  examples: |
+    - Does brock have a [Hiking]{"entity": "Club"} Club?
+    - What kind of [Hiking]{"entity": "Club"} Clubs are at Brock?
+
 - lookup: Program
   examples: |
     - Accounting
@@ -205,3 +210,49 @@ nlu:
     - Legal
     - Human Resources
     - Services
+
+- lookup: Club
+  examples: |
+    - Active Mental Health Initiative
+    - Cams Kids Foundation
+    - Canadian Association for Global Health
+    - First Love Centre
+    - Heart and Stroke Foundation Club
+    - Mental Health Association
+    - Montionball
+    - Recharge: Mind & Body Wellness Club
+    - Relay for Life
+    - Run Club
+    - Senior Ties
+    - Stem Cell Club
+    - Student Hikers
+    - American Sign Language Club
+    - Bangladeshi Students Association
+    - Chinese Students and Scholars Association
+    - Filipino Students Association com
+    - Ghana Association
+    - Gujarati Student Association
+    - Hellenic Students Association
+    - Indian Student Association
+    - Korean Students Association
+    - Macedonian Students Association
+    - Middle Eastern and North African Students Association
+    - Malayalee Association
+    - Mandarin Chinese Christian Fellowship
+    - Pakistani Students Association
+    - Sri Lankan Student Association
+    - Tamil Student Association
+    - Vietnamese Students Association
+    - Angels without Boundaries
+    - Animal Activism Club
+    - Badgers Against Homelessness
+    - Cancer Awareness Society
+    - Champions of Change
+    - Eco Society
+    - Hercampus at Brock U
+    - Inclusive Communities of Canada
+    - Menstruation REDefined
+    - Niagara Rotaract Club
+    - Niagara Strong at Brock
+    - Physicians for Human Rights Brock University Chapter
+    - Plant Based at Brock
