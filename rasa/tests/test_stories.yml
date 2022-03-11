@@ -2,6 +2,17 @@
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
 
 stories:
+- story: program inquiry
+  steps:
+  - user: |
+      can you tell me a bit more about the programs at brock?
+    intent: program_inquiry
+  - action: utter_program_interested
+  - user: |
+      i'm interested in [Biochemistry]{"entity": "Program"}
+    intent: respond_program_interested
+  - action: action_program_info
+
 - story: happy path 1
   steps:
   - user: |

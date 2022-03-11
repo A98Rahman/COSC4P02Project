@@ -12,9 +12,12 @@ intents:
   - program_inquiry
   - respond_program_interested:
       use_entities: true
+  - course_inquiry:
+      use_entities: true
 
 entities:
   - Program
+  - Course
 
 actions:
   - action_course_info
