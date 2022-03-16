@@ -56,3 +56,11 @@ stories:
     entities:
       - Club: "Champions of Change"
   - action: action_club_info
+
+
+- story: exam general info 
+  steps:
+  - intent: exam_general_info
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - action: action_exam_general_info
