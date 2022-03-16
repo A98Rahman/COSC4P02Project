@@ -33,3 +33,26 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+
+- story: program inquiry
+  steps:
+  - intent: program_inquiry
+  - action: utter_program_interested
+  - intent: respond_program_interested
+    entities:
+      - Program: "Computer Science"
+  - action: action_program_info
+
+- story: course inquiry
+  steps:
+  - intent: course_inquiry
+    entities:
+      - Course: "Engineering"
+  - action: action_course_info
+
+- story: club inquiry
+  steps:
+  - intent: club_inquiry
+    entities:
+      - Club: "Champions of Change"
+  - action: action_club_info

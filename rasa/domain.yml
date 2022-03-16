@@ -9,6 +9,23 @@ intents:
   - mood_unhappy
   - bot_challenge
   - general_information
+  - program_inquiry
+  - respond_program_interested:
+      use_entities: true
+  - course_inquiry:
+      use_entities: true
+  - club_inquiry:
+      use_entities: true
+
+entities:
+  - Program
+  - Course
+  - Club
+
+actions:
+  - action_course_info
+  - action_program_info
+  - action_club_info
 
 responses:
 
@@ -40,6 +57,9 @@ responses:
   Sir Isaac Brock, who was responsible for defending Upper Canada against 
   the United States during the War of 1812.
   "
+
+  utter_program_interested:
+  - text: "What field are you interested in?"
 
 session_config:
   session_expiration_time: 60
