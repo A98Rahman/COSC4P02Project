@@ -16,16 +16,20 @@ intents:
       use_entities: true
   - club_inquiry:
       use_entities: true
+  - exam_general_info:
+      use_entities: true
 
 entities:
   - Program
   - Course
   - Club
+  - CourseCode
 
 actions:
   - action_course_info
   - action_program_info
   - action_club_info
+  - action_exam_general_info
 
 responses:
 

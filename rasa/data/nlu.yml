@@ -118,6 +118,32 @@ nlu:
     - Does brock have a [Hiking]{"entity": "Club"} Club?
     - What kind of [Hiking]{"entity": "Club"} Clubs are at Brock?
 
+- intent: exam_general_info
+  examples: |
+    - tell me about the [ACTG 4P41]{"entity": "CourseCode"} exam?
+    - I want to know more about the [ACTG 1P91]{"entity": "CourseCode"} exam?
+    - Is there an exam for [ACTG 3P11] {"entity": "CourseCode"}?
+
+
+- intent: exam_location
+  examples: |
+    - where is the [ACTG 4P41]{"entity": "CourseCode"} exam?
+    - What is the location of the [ACTG 4P12]{"entity": "CourseCode"} exam?
+    - Is the [ACTG 4P34] {"entity": "CourseCode"} exam face-to-face?
+
+- intent: exam_date
+  examples: |
+    - when is the [ACTG 4P11]{"entity": "CourseCode"} exam?
+    - What time is the [ACTG 2P51]{"entity": "CourseCode"} exam?
+    - What day is the [ACTG 1p91] {"entity": "CourseCode"} exam?
+
+- intent: exam_delivery
+  examples: |
+    - Is the [ACTG 1P02]{"entity": "CourseCode"} exam online?
+    - How is the [ACTG 3P11]{"entity": "CourseCode"} exam being delivered?
+    - Is there an in-person exam for [ACTG 1P02] {"entity": "CourseCode"}?
+
+
 - lookup: Program
   examples: |
     - Accounting
@@ -256,3 +282,23 @@ nlu:
     - Niagara Strong at Brock
     - Physicians for Human Rights Brock University Chapter
     - Plant Based at Brock
+
+- lookup: CourseCode
+  examples: |
+    - ACTG 1P02
+    - ACTG 1P91
+    - ACTG 2P12
+    - ACTG 2P21
+    - ACTG 2P31
+    - ACTG 2P32
+    - ACTG 2P51
+    - ACTG 3P11
+    - ACTG 3P23
+    - ACTG 4P11
+    - ACTG 4P12
+    - ACTG 4P34
+    - ACTG 4P41
+    - ACTG 4P42
+    - ACTG 4P62
+
+
