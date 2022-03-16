@@ -1,0 +1,134 @@
+{
+  "utter_cheer_up": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "affirm": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 3
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "action_program_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2
+  },
+  "[Biochemistry](Program)": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18
+  },
+  "utter_iamabot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_program_interested": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "respond_program_interested": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_did_that_help": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 3
+  },
+  "utter_happy": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 3
+  },
+  "utter_greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5
+  },
+  "micro avg": {
+    "precision": 0.9824561403508771,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9739130434782608,
+    "support": 58
+  },
+  "macro avg": {
+    "precision": 0.9305555555555556,
+    "recall": 0.9259259259259258,
+    "f1-score": 0.9253968253968254,
+    "support": 58
+  },
+  "weighted avg": {
+    "precision": 0.9698275862068966,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9650246305418718,
+    "support": 58
+  },
+  "conversation_accuracy": {
+    "accuracy": 0.875,
+    "correct": 7,
+    "with_warnings": 0,
+    "total": 8
+  }
+}

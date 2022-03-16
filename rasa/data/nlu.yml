@@ -94,7 +94,165 @@ nlu:
   examples: |
     - can you tell me more about brock?
     - what is brock like?
-    - give me information about brock?
-    - what should i know about brock university?
-    - what can you tell me about brock?
     - can you give me an overview of brock university?
+
+- intent: program_inquiry
+  examples: |
+    - tell me about the programs at brock
+    - what programs does brock offer?
+    - what kind of degrees can you get at brock?
+
+- intent: respond_program_interested
+  examples: |
+    - I'm interested in [Computer Science]{"entity": "Program"}
+    - [Physics]{"entity": "Program"}
+
+- intent: course_inquiry
+  examples: |
+    - Do you offer a course about [Engineering]{"entity": "Course"}
+    - Does Brock have a [Product Management]{"entity": "Course"} course?
+    - What [Support]{"entity": "Course"} courses does brock have?
+
+- intent: club_inquiry
+  examples: |
+    - Does brock have a [Hiking]{"entity": "Club"} Club?
+    - What kind of [Hiking]{"entity": "Club"} Clubs are at Brock?
+
+- lookup: Program
+  examples: |
+    - Accounting
+    - Adult Education
+    - Applied Computing
+    - Applied Linguistics
+    - Biochemistry
+    - Biological Sciences
+    - Biomedical Sciences
+    - Biophysics
+    - Biotechnology
+    - Business Administration
+    - Business Administration Co-op International Double Degree
+    - Business Communication
+    - Business Economics
+    - Canadian Studies
+    - Chemistry
+    - Child and Youth Studies
+    - Child Health
+    - Classics and Archaeology
+    - Community Health
+    - Computer Science
+    - Computer Science and Mathematics
+    - Computing and Business
+    - Computing and Network Communications
+    - Critical Criminology
+    - Dramatic Arts
+    - Early Childhood Education
+    - Earth Sciences
+    - Economics
+    - Engineering Science
+    - English Language and Literature
+    - Environmental Geoscience
+    - Environmental Sustainability
+    - Film Studies
+    - Forensic Psychology and Criminal Justice
+    - French Studies
+    - Game Design
+    - Game Programming
+    - General Humanities
+    - Geography
+    - German
+    - Hispanic and Latin American Studies
+    - History
+    - Indigenous Education
+    - Interactive Arts and Science
+    - Italian Studies
+    - Kinesiology
+    - Kinesiology Accelerate Into Masters
+    - Labour Studies
+    - Mathematics and Statistics
+    - Media and Communication Studies
+    - Medical Sciences
+    - Medieval and Renaissance Studies
+    - Music
+    - Neuroscience
+    - Nursing
+    - Oenology and Viticulture
+    - Philosophy
+    - Physical Education
+    - Physics
+    - Political Science
+    - Popular Culture
+    - Psychology
+    - Public Health
+    - Public Health Accelerate Into Masters
+    - Recreation and Leisure Studies
+    - Sciences
+    - Social Sciences
+    - Sociology
+    - Sport Management
+    - Studies in Arts and Culture
+    - Teacher Education Consecutive
+    - Technological Education
+    - Tourism Studies
+    - Visual Arts
+    - Womens and Gender Studies
+
+- lookup: Course
+  examples: |
+    - Engineering
+    - Accounting
+    - Product Management
+    - Sales
+    - Research and Development
+    - Business Development
+    - Training
+    - Support
+    - Marketing
+    - Legal
+    - Human Resources
+    - Services
+
+- lookup: Club
+  examples: |
+    - Active Mental Health Initiative
+    - Cams Kids Foundation
+    - Canadian Association for Global Health
+    - First Love Centre
+    - Heart and Stroke Foundation Club
+    - Mental Health Association
+    - Montionball
+    - Recharge: Mind & Body Wellness Club
+    - Relay for Life
+    - Run Club
+    - Senior Ties
+    - Stem Cell Club
+    - Student Hikers
+    - American Sign Language Club
+    - Bangladeshi Students Association
+    - Chinese Students and Scholars Association
+    - Filipino Students Association com
+    - Ghana Association
+    - Gujarati Student Association
+    - Hellenic Students Association
+    - Indian Student Association
+    - Korean Students Association
+    - Macedonian Students Association
+    - Middle Eastern and North African Students Association
+    - Malayalee Association
+    - Mandarin Chinese Christian Fellowship
+    - Pakistani Students Association
+    - Sri Lankan Student Association
+    - Tamil Student Association
+    - Vietnamese Students Association
+    - Angels without Boundaries
+    - Animal Activism Club
+    - Badgers Against Homelessness
+    - Cancer Awareness Society
+    - Champions of Change
+    - Eco Society
+    - Hercampus at Brock U
+    - Inclusive Communities of Canada
+    - Menstruation REDefined
+    - Niagara Rotaract Club
+    - Niagara Strong at Brock
+    - Physicians for Human Rights Brock University Chapter
+    - Plant Based at Brock

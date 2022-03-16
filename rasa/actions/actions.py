@@ -6,23 +6,92 @@
 
 
 # This is a simple example for a custom action which utters "Hello World!"
+from dataclasses import field
+from pymongo import MongoClient
+from typing import Any, Text, Dict, List
+import json
 
-# from typing import Any, Text, Dict, List
-#
-# from rasa_sdk import Action, Tracker
-# from rasa_sdk.executor import CollectingDispatcher
-#
-#
+from rasa_sdk import Action, Tracker
+from rasa_sdk.executor import CollectingDispatcher
+from sqlalchemy import desc
 
-# class ActionHelloWorld(Action):
+class ActionCourseInfo(Action):
 
-#     def name(self) -> Text:
-#         return "action_hello_world"
+    def name(self) -> Text:
+        return "action_course_info"
 
-#     def run(self, dispatcher: CollectingDispatcher,
-#             tracker: Tracker,
-#             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-#         dispatcher.utter_message(text="Hello World!")
+        course_entity = tracker.get_latest_entity_values(entity_type="Course")
+        course_entity = next(course_entity)
 
-#         return []
+        # response
+        if course_entity:
+            description = get_field_from_JSON(course_entity, "course_name", "course_description", "CourseInfo")
+            dispatcher.utter_message(text=f'Yes, we offer {course_entity}, here\'s some information about that course')
+            dispatcher.utter_message(text=f'{description}')
+        else:
+            dispatcher.utter_message(text="Sorry, I couldn't find that course, here's a link to our catalog of courses:")
+            dispatcher.utter_message(text="https://brocku.ca/webcal/2021/undergrad")
+
+        return []
+
+class ActionProgramInfo(Action):
+
+    def name(self) -> Text:
+        return "action_program_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        program_entity = tracker.get_latest_entity_values(entity_type="Program")
+        program_entity = next(program_entity)
+
+        # response
+        if program_entity:
+            link = get_field_from_JSON(program_entity, "Name", "Link", "ProgramInfo")
+            dispatcher.utter_message(text=f'Yes, we offer {program_entity}, here\'s a link to the page: {link}')
+        else:
+            dispatcher.utter_message(text="I couldn't find that program")
+
+        return []
+
+class ActionClubInfo(Action):
+
+    def name(self) -> Text:
+        return "action_club_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        club_entity = tracker.get_latest_entity_values(entity_type="Club")
+        club_entity = next(club_entity)
+
+        # response
+        if club_entity:
+            club_description = get_field_from_JSON(club_entity, "club_name", "club_description", "ClubInfo")
+            dispatcher.utter_message(text=f'You should check out our {club_entity}, here\'s a bit of information about them:')
+            dispatcher.utter_message(text=f'{club_description}')
+        else:
+            dispatcher.utter_message(text="I couldn't find that program")
+
+        return []
+
+# get the proper field from the JSON file.  
+# Should eventually come from Mongo
+# maybe eventually re-write this to return an array of field_names
+def get_field_from_JSON(key, key_name, field_name, file_name):
+    f = open(f'/home/ray/Code/chatbot/rasa/actions/{file_name}.json')
+
+    data = json.load(f)
+
+    for i in data:
+        if key.lower() == i[key_name].lower():
+            return i[field_name]
+
+    f.close()
+    return None

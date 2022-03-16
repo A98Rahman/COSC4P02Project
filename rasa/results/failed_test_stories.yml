@@ -1,0 +1,10 @@
+version: "3.0"
+stories:
+- story: program inquiry (./tests/test_stories.yml)
+  steps:
+  - intent: mood_great  # predicted: program_inquiry: can you tell me a bit more about the programs at brock?
+  - action: utter_program_interested  # predicted: utter_happy after action_unlikely_intent
+  - intent: respond_program_interested
+    entities:
+    - Program: Biochemistry
+  - action: action_program_info
