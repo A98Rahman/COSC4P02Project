@@ -1,0 +1,2147 @@
+{
+    "Program":[
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Biotechnology Lab",
+    "Extension":"3227",
+    "Location":"IH 210"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Conference Room",
+    "Extension":"4721",
+    "Location":"IH 207"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Extension":"3388",
+    "Location":"MCF 234"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"",
+    "Extension":"3513",
+    "Location":"MCJ 314"
+    },
+    {
+    "Department":"Faculty Of Mathematics & Science",
+    "FirstName":"",
+    "Extension":"3421",
+    "Location":"MCD 407"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"",
+    "Extension":"3300",
+    "Location":"MCJ 415"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Cellar Tasting Room",
+    "Extension":"4695",
+    "Location":"IH 104"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Sensory Evaluation Lab",
+    "Extension":"4278",
+    "Location":"IH 301"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Viticulture Lab",
+    "Extension":"4773",
+    "Location":"IH 310"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"",
+    "Title":"Mass Spec Lab",
+    "Extension":"4172",
+    "Location":"MCH 205"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Teaching Assistants",
+    "Extension":"5227",
+    "Location":"MCD 433"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Biogeography Lab - dmccarthy2@brocku.ca",
+    "Extension":"5770",
+    "Location":"MCD 315"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Igneous Petrology Lab - mschmidt2@brocku.ca",
+    "Extension":"3522",
+    "Location":"MCD 317"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Flume Lab - rcheel@brocku.ca",
+    "Extension":"4425",
+    "Location":"MCD 210"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Geochem Lab - ubrand@brocku.ca",
+    "Extension":"3014",
+    "Location":"MCD 206"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Lichen Research Lab/Dendrochronology Lab - dmccarthy2@brocku.ca",
+    "Extension":"5771",
+    "Location":"MCD 446"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Micromorphology Research Lab - jmenzies@brocku.ca",
+    "Extension":"5699",
+    "Location":"MCD 316"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Palynology Lab - mjhead@brocku.ca or fmccarthy@brocku.ca",
+    "Extension":"3013",
+    "Location":"MCD 314"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Petrographic Lab (TSL) - mouellette@brocku.ca",
+    "Extension":"3523",
+    "Location":"MCG 212"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Petroleum Biostratigraphy Lab - mjhead@brocku.ca",
+    "Extension":"5471",
+    "Location":"MCD 448"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Micropaleontology Research Lab - fmccarthy@brocku.ca",
+    "Extension":"4134",
+    "Location":"MCD 443"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Structural/Metamorphic Lab - ffueten@brocku.ca",
+    "Extension":"3859",
+    "Location":"MCD 438A"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"",
+    "Title":"Learning Resource Manager",
+    "Extension":"4333",
+    "Location":"MCJ 434"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"",
+    "Title":"Graduate Students' Office",
+    "Extension":"3416",
+    "Location":"MCB 214"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"",
+    "Title":"Graduate Students' Office",
+    "Extension":"4738",
+    "Location":"MCB 228"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"",
+    "Title":"Graduate Students' Office",
+    "Extension":"5038",
+    "Location":"MCB 229"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Title":"Post Doctorate Office",
+    "Extension":"4407",
+    "Location":"MCF 209"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Title":"Post Doctorate Office",
+    "Extension":"5382",
+    "Location":"MCF 205"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Extension":"4949",
+    "Location":"IH 206"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Rare Earth Lab - gfinn@brocku.ca",
+    "Extension":"3528",
+    "Location":"MCD 416"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Vitrinite Reflectance Lab - mjhead@brocku.ca",
+    "Extension":"5490",
+    "Location":"MCD 415"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Structure Prep Lab - ffueten@brocku.ca",
+    "Extension":"3856",
+    "Location":"MCD 442"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Micromorphology Lab - jmenzies@brocku.ca",
+    "Extension":"5748",
+    "Location":"MCD 417"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Teaching Lab",
+    "Extension":"5497",
+    "Location":"MCD 308"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Teaching Lab",
+    "Extension":"5498",
+    "Location":"MCD 309"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Teaching Lab",
+    "Extension":"5499",
+    "Location":"MCD 319"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Cartographic Office - mlozon@brocku.ca",
+    "Extension":"3858",
+    "Location":"MCD 426"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Title":"Fax: 905-688-1855",
+    "Location":"MCF F234"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"",
+    "Title":"Fax: 905-984-4864",
+    "Location":"MCE E304"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"",
+    "Title":"Fax: 905-688-3255",
+    "Location":"MCJ J314"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"",
+    "Title":"Fax: 905-688-3104",
+    "Location":"IH 206"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"",
+    "Title":"Fax: 905-984-4864",
+    "Location":"MCE E304"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Fax: 905-641-8186",
+    "Location":"MCG G207"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"",
+    "Title":"Fax: 905-378-5713",
+    "Location":"MCJ J415"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"",
+    "Title":"Fax: 905-984-4857",
+    "Location":"MCB B210"
+    },
+    {
+    "Department":"M&S Stores",
+    "FirstName":"",
+    "Title":"Fax: 905-984-4864",
+    "Location":"MCE E304"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"",
+    "Title":"Igneous Petrology Lab - mschmidt2@brocku.ca",
+    "Extension":"3373",
+    "Location":"MCD 447"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"",
+    "Title":"Post Doc",
+    "Extension":"6232",
+    "Location":"CRN 516"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Title":"Sessional Office",
+    "Extension":"6198",
+    "Location":"MCF 215"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"",
+    "Title":"Research",
+    "Extension":"5035",
+    "Location":"MCF 210"
+    },
+    {
+    "Department":"M&S Stores",
+    "FirstName":"",
+    "Title":"Science Stores",
+    "Extension":"4934",
+    "Location":"MCE 304"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"",
+    "Title":"Graduate Students' Office",
+    "Extension":"4434",
+    "Location":"MCB 230"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Sarah",
+    "LastName":"Ackles",
+    "Email":"sackles@brocku.ca",
+    "Email_url":"mailto:sackles@brocku.ca",
+    "Title":"RESEARCH ASSISTANT - 4th yr complete",
+    "Extension":"4471",
+    "Location":"IH 204"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"S. Ejaz",
+    "LastName":"Ahmed",
+    "Email":"sahmed5@brocku.ca",
+    "Email_url":"mailto:sahmed5@brocku.ca",
+    "Title":"Dean",
+    "Extension":"3421",
+    "Location":"MCD 418"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Beulah",
+    "LastName":"Alexander",
+    "Email":"balexander@brocku.ca",
+    "Email_url":"mailto:balexander@brocku.ca",
+    "Title":"RESEARCH ASSISTANT - MA complete",
+    "Extension":"3502",
+    "Location":"MCB 450D"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Brittani",
+    "LastName":"Allan",
+    "Email":"ballan@brocku.ca",
+    "Email_url":"mailto:ballan@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3253",
+    "Location":"MCF 234"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Stephen",
+    "LastName":"Anco",
+    "Email":"sanco@brocku.ca",
+    "Email_url":"mailto:sanco@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"3728",
+    "Location":"MCJ 423"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Jeffrey",
+    "LastName":"Atkinson",
+    "Email":"jatkin@brocku.ca",
+    "Email_url":"mailto:jatkin@brocku.ca",
+    "Title":"Professor | Lab (CHEM)",
+    "Extension":"6135",
+    "Location":"CRN 542"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Jeffrey",
+    "LastName":"Atkinson",
+    "Email":"jatkinson@brocku.ca",
+    "Email_url":"mailto:jatkinson@brocku.ca",
+    "Title":"Professor | Lab (BTEC)",
+    "Extension":"6158",
+    "Location":"CRN 457"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Jeffrey",
+    "LastName":"Atkinson",
+    "Email":"jatkin@brocku.ca",
+    "Email_url":"mailto:jatkin@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3967",
+    "Location":"CRN 416"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Heather",
+    "LastName":"Bellisario",
+    "Email":"hbellisario@brocku.ca",
+    "Email_url":"mailto:hbellisario@brocku.ca",
+    "Title":"Academic Advisor/Liaison Officer",
+    "Extension":"4102",
+    "Location":"MCD 471"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Hichem",
+    "LastName":"Ben-El-Mechaiekh",
+    "Email":"hmechaie@brocku.ca",
+    "Email_url":"mailto:hmechaie@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3758",
+    "Location":"MCJ 419"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Michael",
+    "LastName":"Bidochka",
+    "Email":"bidochka@brocku.ca",
+    "Email_url":"mailto:bidochka@brocku.ca",
+    "Title":"Lab",
+    "Extension":"3424",
+    "Location":"CRN 450"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Michael",
+    "LastName":"Bidochka",
+    "Email":"bidochka@brocku.ca",
+    "Email_url":"mailto:bidochka@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3392",
+    "Location":"MCF 238"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"John",
+    "LastName":"Black",
+    "Title":"Emeritus",
+    "Extension":"3997",
+    "Location":"MCE 220"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Dave",
+    "LastName":"Bockus",
+    "Email":"bockusd@brocku.ca",
+    "Email_url":"mailto:bockusd@brocku.ca",
+    "Title":"Instructor/Instructional Support",
+    "Extension":"3281",
+    "Location":"MCJ 324"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Po Ling",
+    "LastName":"Bork",
+    "Email":"pbork@brocku.ca",
+    "Email_url":"mailto:pbork@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator/Coordinator",
+    "Extension":"4025",
+    "Location":"MCJ 403"
+    },
+    {
+    "Department":"Associate Dean's Office - M&S",
+    "FirstName":"Shyamal K.",
+    "LastName":"Bose",
+    "Email":"bose@brocku.ca",
+    "Email_url":"mailto:bose@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"3876",
+    "Location":"MCB 207"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Fulvio",
+    "LastName":"Boseglav",
+    "Email":"fbosegla@brocku.ca",
+    "Email_url":"mailto:fbosegla@brocku.ca",
+    "Title":"Lab Demonstrator",
+    "Extension":"4109",
+    "Location":"MCB 211"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Uwe",
+    "LastName":"Brand",
+    "Email":"ubrand@brocku.ca",
+    "Email_url":"mailto:ubrand@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3529",
+    "Location":"MCD 424"
+    },
+    {
+    "Department":"Engineering",
+    "FirstName":"Shengrong",
+    "LastName":"Bu",
+    "Email":"sbu@brocku.ca",
+    "Email_url":"mailto:sbu@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5333",
+    "Location":"CRN 509"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Chantal",
+    "LastName":"Buteau",
+    "Email":"cbuteau@brocku.ca",
+    "Email_url":"mailto:cbuteau@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3167",
+    "Location":"MCJ 427"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Christene",
+    "LastName":"Carpenter-Cleland",
+    "Email":"ccarpenterclela@brocku.ca",
+    "Email_url":"mailto:ccarpenterclela@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator",
+    "Extension":"5788",
+    "Location":"MCF 210"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Alan",
+    "LastName":"Castle",
+    "Title":"Professor",
+    "Extension":"3598",
+    "Location":"MCF 229"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Amber",
+    "LastName":"Cecchini",
+    "Email":"acecchini2@brocku.ca",
+    "Email_url":"mailto:acecchini2@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3513",
+    "Location":"MCJ 314"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Richard",
+    "LastName":"Cheel",
+    "Email":"rcheel@brocku.ca",
+    "Email_url":"mailto:rcheel@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3512",
+    "Location":"MCJ 216"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"John",
+    "LastName":"Ciolfi",
+    "Email":"jciolfi@brocku.ca",
+    "Email_url":"mailto:jciolfi@brocku.ca",
+    "Title":"Senior Lab Demonstrator/TA Coordinator",
+    "Extension":"3763",
+    "Location":"MCF 241"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"David",
+    "LastName":"Crandles",
+    "Email":"dcrandle@brocku.ca",
+    "Email_url":"mailto:dcrandle@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4459",
+    "Location":"MCH 206"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"David",
+    "LastName":"Crandles",
+    "Email":"dcrandle@brocku.ca",
+    "Email_url":"mailto:dcrandle@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4527",
+    "Location":"MCH 206A"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"David",
+    "LastName":"Crandles",
+    "Email":"dcrandle@brocku.ca",
+    "Email_url":"mailto:dcrandle@brocku.ca",
+    "Title":"Professor | Office",
+    "Extension":"3539",
+    "Location":"MCB 202"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Jacinta",
+    "LastName":"Dano",
+    "Email":"jdano@brocku.ca",
+    "Email_url":"mailto:jdano@brocku.ca",
+    "Title":"Sr. Lab Demonstrator&Coord. Cairns Phytotron Facil | Greenhouse",
+    "Extension":"6212",
+    "Location":"CRN 567"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Jacinta",
+    "LastName":"Dano",
+    "Email":"jdano@brocku.ca",
+    "Email_url":"mailto:jdano@brocku.ca",
+    "Title":"Sr. Lab Demonstrator&Coord. Cairns Phytotron Facil",
+    "Extension":"4968",
+    "Location":"MCF 217"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Robson",
+    "LastName":"De Grande",
+    "Email":"rdegrande@brocku.ca",
+    "Email_url":"mailto:rdegrande@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3090",
+    "Location":"MCJ J311"
+    },
+    {
+    "Department":"Tech Services - Electronics Shop",
+    "FirstName":"Michael",
+    "LastName":"De Lange",
+    "Email":"mdelange@brocku.ca",
+    "Email_url":"mailto:mdelange@brocku.ca",
+    "Title":"Electronics Technologist",
+    "Extension":"3419",
+    "Location":"MCG 301"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Vincenzo",
+    "LastName":"De Luca",
+    "Email":"vdeluca@brocku.ca",
+    "Email_url":"mailto:vdeluca@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4161",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Vincenzo",
+    "LastName":"De Luca",
+    "Email":"vdeluca@brocku.ca",
+    "Email_url":"mailto:vdeluca@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4554",
+    "Location":"CRN 521"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Charles",
+    "LastName":"Despres",
+    "Email":"cdespres@brocku.ca",
+    "Email_url":"mailto:cdespres@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4165",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Charles",
+    "LastName":"Despres",
+    "Email":"cdespres@brocku.ca",
+    "Email_url":"mailto:cdespres@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4161",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Charles",
+    "LastName":"Despres",
+    "Email":"cdespres@brocku.ca",
+    "Email_url":"mailto:cdespres@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3100",
+    "Location":"CRN 522"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Margarita",
+    "LastName":"Di Profio",
+    "Email":"mdiprofio@brocku.ca",
+    "Email_url":"mailto:mdiprofio@brocku.ca",
+    "Title":"Laboratory Technician, Junior",
+    "Extension":"4408",
+    "Location":"MCH 321"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Lisa",
+    "LastName":"Dowling",
+    "Email":"ldowling@brocku.ca",
+    "Email_url":"mailto:ldowling@brocku.ca",
+    "Title":"CCOVI Technician",
+    "Extension":"3510",
+    "Location":"IH 215"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Talin",
+    "LastName":"Doyle",
+    "Email":"tdoyle@brocku.ca",
+    "Email_url":"mailto:tdoyle@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3250",
+    "Location":"CUB 200"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Travis",
+    "LastName":"Dudding",
+    "Email":"tdudding@brocku.ca",
+    "Email_url":"mailto:tdudding@brocku.ca",
+    "Title":"Professor | Lab",
+    "Location":"MCH 224"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Travis",
+    "LastName":"Dudding",
+    "Email":"tdudding@brocku.ca",
+    "Email_url":"mailto:tdudding@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"5031",
+    "Location":"MCF 203"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Travis",
+    "LastName":"Dudding",
+    "Email":"tdudding@brocku.ca",
+    "Email_url":"mailto:tdudding@brocku.ca",
+    "Title":"Professor | Lab",
+    "Location":"MCH 209"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Travis",
+    "LastName":"Dudding",
+    "Email":"tdudding@brocku.ca",
+    "Email_url":"mailto:tdudding@brocku.ca",
+    "Title":"Professor | office",
+    "Extension":"3405",
+    "Location":"CRN 519"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Ali",
+    "LastName":"Emami",
+    "Email":"aemami@brocku.ca",
+    "Email_url":"mailto:aemami@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3867",
+    "Location":"MCJ 318"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Naser",
+    "LastName":"Ezzati-Jivan",
+    "Email":"nezzatijivan@brocku.ca",
+    "Email_url":"mailto:nezzatijivan@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3516",
+    "Location":"MCJ 312"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Cale",
+    "LastName":"Fairchild",
+    "Email":"cale@brocku.ca",
+    "Email_url":"mailto:cale@brocku.ca",
+    "Title":"Network Systems Administrator",
+    "Extension":"3738",
+    "Location":"MCJ 305"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Gregory",
+    "LastName":"Finn",
+    "Email":"gfinn@brocku.ca",
+    "Email_url":"mailto:gfinn@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3528",
+    "Location":"MCD 419"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Earl",
+    "LastName":"Foxwell",
+    "Email":"efoxwell@brocku.ca",
+    "Email_url":"mailto:efoxwell@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"6125",
+    "Location":"MCD 410"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Frank",
+    "LastName":"Fueten",
+    "Email":"ffueten@brocku.ca",
+    "Email_url":"mailto:ffueten@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"3856",
+    "Location":"MCD 429"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Henryk",
+    "LastName":"Fuks",
+    "Email":"hfuks@brocku.ca",
+    "Email_url":"mailto:hfuks@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3296",
+    "Location":"MCJ 407"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Elena",
+    "LastName":"Genkin",
+    "Email":"egenkin@brocku.ca",
+    "Email_url":"mailto:egenkin@brocku.ca",
+    "Title":"Graduate Administrative Specialist",
+    "Extension":"3115",
+    "Location":"MCD 473"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Stephen",
+    "LastName":"Glasgow",
+    "Email":"sglasgow@brocku.ca",
+    "Email_url":"mailto:sglasgow@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3879",
+    "Location":"MCF 235A"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"",
+    "LastName":"Glass Blowing Shop",
+    "Extension":"3759",
+    "Location":"MCG 201"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Kiyoko",
+    "LastName":"Gotanda",
+    "Email":"kgotanda@brocku.ca",
+    "Email_url":"mailto:kgotanda@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3192"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Thad",
+    "LastName":"Harroun",
+    "Email":"tharroun@brocku.ca",
+    "Email_url":"mailto:tharroun@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"5905",
+    "Location":"MCB 201"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"J Stephen",
+    "LastName":"Hartman",
+    "Email":"shartman@brocku.ca",
+    "Email_url":"mailto:shartman@brocku.ca",
+    "Title":"Instructor - Half Course",
+    "Extension":"3849",
+    "Location":"CRN 513"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Majid",
+    "LastName":"Hassas Roudsari",
+    "Email":"mhassasroudsari@brocku.ca",
+    "Email_url":"mailto:mhassasroudsari@brocku.ca",
+    "Title":"Project Director",
+    "Extension":"6256",
+    "Location":"CRN 209K"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Martin",
+    "LastName":"Head",
+    "Email":"mjhead@brocku.ca",
+    "Email_url":"mailto:mjhead@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5216",
+    "Location":"MCD 425"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Elizabeth",
+    "LastName":"Horvath",
+    "Email":"ehorvath@brocku.ca",
+    "Email_url":"mailto:ehorvath@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3412",
+    "Location":"MCB 210"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Sheridan",
+    "LastName":"Houghten",
+    "Email":"shoughten@brocku.ca",
+    "Email_url":"mailto:shoughten@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4526",
+    "Location":"MCJ 313"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tomas",
+    "LastName":"Hudlicky",
+    "Email":"thudlicky@brocku.ca",
+    "Email_url":"mailto:thudlicky@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"4174",
+    "Location":"MCH 202/204"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tomas",
+    "LastName":"Hudlicky",
+    "Email":"thudlicky@brocku.ca",
+    "Email_url":"mailto:thudlicky@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"3753",
+    "Location":"MCH 311"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tomas",
+    "LastName":"Hudlicky",
+    "Email":"thudlicky@brocku.ca",
+    "Email_url":"mailto:thudlicky@brocku.ca",
+    "Title":"Professor | Office",
+    "Extension":"4956",
+    "Location":"MCH 311C"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"",
+    "LastName":"Hudlicky/Tdc Research",
+    "Title":"Fax: 905-984-4841",
+    "Location":"MCH H311"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Fiona",
+    "LastName":"Hunter",
+    "Email":"hunterf@brocku.ca",
+    "Email_url":"mailto:hunterf@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"3408",
+    "Location":"CRN 455"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Fiona",
+    "LastName":"Hunter",
+    "Email":"hunterf@brocku.ca",
+    "Email_url":"mailto:hunterf@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3394",
+    "Location":"MCF 227"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"",
+    "LastName":"Ilta Office",
+    "Extension":"3103",
+    "Location":"MCJ 401"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Debbie",
+    "LastName":"Inglis",
+    "Email":"dinglis@brocku.ca",
+    "Email_url":"mailto:dinglis@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3828",
+    "Location":"IH 206B"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Debbie",
+    "LastName":"Inglis",
+    "Title":"Director, CCOVI",
+    "Extension":"3828",
+    "Location":"IH 206B"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Brittany",
+    "LastName":"Kalbfleisch",
+    "Email":"bkalbfleisch@brocku.ca",
+    "Email_url":"mailto:bkalbfleisch@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3252",
+    "Location":"MCF 234"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Jasneet",
+    "LastName":"Kaur",
+    "Email":"jkaur2@brocku.ca",
+    "Email_url":"mailto:jkaur2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3997",
+    "Location":"MCE 220"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Jasneet",
+    "LastName":"Kaur",
+    "Title":"Lab",
+    "Extension":"5045",
+    "Location":"MCH 310"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Belinda",
+    "LastName":"Kemp",
+    "Email":"bkemp@brocku.ca",
+    "Email_url":"mailto:bkemp@brocku.ca",
+    "Title":"Senior Staff Scientist, Oenology",
+    "Extension":"6123",
+    "Location":"IH 202"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Omar",
+    "LastName":"Kihel",
+    "Email":"okihel@brocku.ca",
+    "Email_url":"mailto:okihel@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3295",
+    "Location":"MCJ 425"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Kyung-Hee",
+    "LastName":"Kim",
+    "Email":"kim.kyunghee@brocku.ca",
+    "Email_url":"mailto:kim.kyunghee@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4161",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Kyung-Hee",
+    "LastName":"Kim",
+    "Email":"kim.kyunghee@brocku.ca",
+    "Email_url":"mailto:kim.kyunghee@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4151",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Ivana",
+    "LastName":"Komljenovic Metcalf",
+    "Email":"ikomljenovicmet@brocku.ca",
+    "Email_url":"mailto:ikomljenovicmet@brocku.ca",
+    "Title":"Senior Lab Co-ordinator|Demonstrator",
+    "Extension":"3417",
+    "Location":"MCB 210A"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Polydoros",
+    "LastName":"Kyriacou",
+    "Email":"pkyriacou@brocku.ca",
+    "Email_url":"mailto:pkyriacou@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator, Chemistry",
+    "Extension":"3400",
+    "Location":"CRN 409"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Martin",
+    "LastName":"Lemaire",
+    "Email":"mlemaire@brocku.ca",
+    "Email_url":"mailto:mlemaire@brocku.ca",
+    "Title":"Lab",
+    "Extension":"3411",
+    "Location":"MCE 214"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Martin",
+    "LastName":"Lemaire",
+    "Email":"martin.lemaire@brocku.ca",
+    "Email_url":"mailto:martin.lemaire@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6432",
+    "Location":"CRN 508"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Dorothy",
+    "LastName":"Levay",
+    "Email":"dlevay@brocku.ca",
+    "Email_url":"mailto:dlevay@brocku.ca",
+    "Title":"Instructor/Manager, Academic Support",
+    "Extension":"4440",
+    "Location":"MCJ 431"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Yuanlin",
+    "LastName":"Li",
+    "Email":"yuanlin.li@brocku.ca",
+    "Email_url":"mailto:yuanlin.li@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4626",
+    "Location":"MCJ 422"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Yifeng",
+    "LastName":"Li",
+    "Email":"yli2@brocku.ca",
+    "Email_url":"mailto:yli2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3557",
+    "Location":"MCJ 322"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Ping",
+    "LastName":"Liang",
+    "Email":"pliang@brocku.ca",
+    "Email_url":"mailto:pliang@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5922",
+    "Location":"MCF 236"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Ping",
+    "LastName":"Liang",
+    "Title":"Lab",
+    "Extension":"3340",
+    "Location":"MCF 211"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Mike",
+    "LastName":"Lozon",
+    "Email":"mlozon@brocku.ca",
+    "Email_url":"mailto:mlozon@brocku.ca",
+    "Title":"Cartographer",
+    "Extension":"3858",
+    "Location":"MCD 426"
+    },
+    {
+    "Department":"Tech Services - Electronics Shop",
+    "FirstName":"Thomas",
+    "LastName":"Macdonald",
+    "Email":"tommacd@brocku.ca",
+    "Email_url":"mailto:tommacd@brocku.ca",
+    "Title":"Manager, Technical Services",
+    "Extension":"3419",
+    "Location":"MCG 301"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Lori",
+    "LastName":"Macneil",
+    "Email":"lmacneil@brocku.ca",
+    "Email_url":"mailto:lmacneil@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5924",
+    "Location":"MCF 218"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Neil",
+    "LastName":"Marshall",
+    "Email":"nmarshall@brocku.ca",
+    "Email_url":"mailto:nmarshall@brocku.ca",
+    "Title":"Mathematics Development Programs Coordinator",
+    "Extension":"3138",
+    "Location":"MCJ 429"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"William",
+    "LastName":"Marshall",
+    "Email":"wmarshall@brocku.ca",
+    "Email_url":"mailto:wmarshall@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3940",
+    "Location":"MCJ 403"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Stephanie",
+    "LastName":"Martin",
+    "Email":"sjmartin@brocku.ca",
+    "Email_url":"mailto:sjmartin@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator | Senior Lab Instructor",
+    "Extension":"3830",
+    "Location":"MCF 214"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"",
+    "LastName":"Math Help Centre",
+    "Title":"Math Help Centre",
+    "Extension":"4333",
+    "Location":"MCJ 434"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Francine",
+    "LastName":"Mccarthy",
+    "Email":"fmccarthy@brocku.ca",
+    "Email_url":"mailto:fmccarthy@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4286",
+    "Location":"MCD 418"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Daniel",
+    "LastName":"Mccarthy",
+    "Email":"dmccarthy2@brocku.ca",
+    "Email_url":"mailto:dmccarthy2@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3864",
+    "Location":"MCD 423"
+    },
+    {
+    "Department":"Associate Dean's Office - M&S",
+    "FirstName":"Cheryl",
+    "LastName":"Mccormick",
+    "Email":"cmccormick@brocku.ca",
+    "Email_url":"mailto:cmccormick@brocku.ca",
+    "Title":"Associate Dean | Director Neuroscience",
+    "Extension":"3700",
+    "Location":"MCB 314"
+    },
+    {
+    "Department":"Tech Services - Electronics Shop",
+    "FirstName":"Gary M",
+    "LastName":"Mcdonnell",
+    "Email":"garymcdl@brocku.ca",
+    "Email_url":"mailto:garymcdl@brocku.ca",
+    "Title":"Electronics",
+    "Extension":"3419",
+    "Location":"MCG 301"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"John",
+    "LastName":"Menzies",
+    "Email":"jmenzies@brocku.ca",
+    "Email_url":"mailto:jmenzies@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3865",
+    "Location":"MCD 421"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Costa",
+    "LastName":"Metallinos",
+    "Email":"metallic@brocku.ca",
+    "Email_url":"mailto:metallic@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"6155",
+    "Location":"CRN 542"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Costa",
+    "LastName":"Metallinos",
+    "Email":"metallic@brocku.ca",
+    "Email_url":"mailto:metallic@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3848",
+    "Location":"CRN 518"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Aleksandar",
+    "LastName":"Necakov",
+    "Email":"anecakov@brocku.ca",
+    "Email_url":"mailto:anecakov@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3829",
+    "Location":"MCF 239"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Aleksandar",
+    "LastName":"Necakov",
+    "Title":"Lab",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Georgii",
+    "LastName":"Nikonov",
+    "Email":"gnikonov@brocku.ca",
+    "Email_url":"mailto:gnikonov@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"6131",
+    "Location":"CRN 466"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Georgii",
+    "LastName":"Nikonov",
+    "Email":"gnikonov@brocku.ca",
+    "Email_url":"mailto:gnikonov@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"3350",
+    "Location":"CRN 414"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Alexandre",
+    "LastName":"Odesski",
+    "Email":"aodesski@brocku.ca",
+    "Email_url":"mailto:aodesski@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3297",
+    "Location":"MCJ 432"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Beatrice",
+    "LastName":"Ombuki-Berman",
+    "Email":"bombuki@brocku.ca",
+    "Email_url":"mailto:bombuki@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3494",
+    "Location":"MCJ 307"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Martin",
+    "LastName":"Ouellette",
+    "Email":"mouellette@brocku.ca",
+    "Email_url":"mailto:mouellette@brocku.ca",
+    "Title":"Earth Sciences Technician",
+    "Extension":"5699",
+    "Location":"MCD 316"
+    },
+    {
+    "Department":"M&S Stores",
+    "FirstName":"Irene",
+    "LastName":"Palumbo",
+    "Email":"ipalumbo@brocku.ca",
+    "Email_url":"mailto:ipalumbo@brocku.ca",
+    "Title":"Science Stores Manager",
+    "Extension":"3407",
+    "Location":"MCE 304"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Sergio",
+    "LastName":"Paone",
+    "Email":"spaone@brocku.ca",
+    "Email_url":"mailto:spaone@brocku.ca",
+    "Title":"Laboratory Coordinator/Instructor",
+    "Extension":"3324",
+    "Location":"MCE 305"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Justin",
+    "LastName":"Pentesco",
+    "Email":"jpentesco@brocku.ca",
+    "Email_url":"mailto:jpentesco@brocku.ca",
+    "Title":"Online Course Developer/Administrator",
+    "Extension":"5835",
+    "Location":"MCD 428"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Donna",
+    "LastName":"Phelps",
+    "Email":"donna.phelps@brocku.ca",
+    "Email_url":"mailto:donna.phelps@brocku.ca",
+    "Title":"Coordinator, Student Support, Computer Science",
+    "Extension":"3157",
+    "Location":"MCJ 332"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Gary",
+    "LastName":"Pickering",
+    "Email":"gpickering@brocku.ca",
+    "Email_url":"mailto:gpickering@brocku.ca",
+    "Title":"Viticulture Lab",
+    "Extension":"4719",
+    "Location":"IH 315"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Gary",
+    "LastName":"Pickering",
+    "Email":"gpickeri@brocku.ca",
+    "Email_url":"mailto:gpickeri@brocku.ca",
+    "Title":"Office",
+    "Extension":"4715",
+    "Location":"MCF 240"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Melanie",
+    "LastName":"Pilkington",
+    "Email":"mpilkington@brocku.ca",
+    "Email_url":"mailto:mpilkington@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"6134",
+    "Location":"CRN 466"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Melanie",
+    "LastName":"Pilkington",
+    "Email":"mpilkington@brocku.ca",
+    "Email_url":"mailto:mpilkington@brocku.ca",
+    "Title":"Professor | Office",
+    "Extension":"3403",
+    "Location":"CRN 410"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Ke",
+    "LastName":"Qiu",
+    "Email":"kqiu@brocku.ca",
+    "Email_url":"mailto:kqiu@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5062",
+    "Location":"MCJ 306"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Liqun",
+    "LastName":"Qiu",
+    "Email":"lqiu@brocku.ca",
+    "Email_url":"mailto:lqiu@brocku.ca",
+    "Title":"Mass Spectrometry & Analytical Instrumentation Tec",
+    "Extension":"4172",
+    "Location":"MCH 205A"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Liqun",
+    "LastName":"Qiu",
+    "Title":"Coordinator, Analytical Service Office",
+    "Extension":"3850",
+    "Location":"CRN 407"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Renata",
+    "LastName":"Queiroz Dividino",
+    "Email":"rdividino@brocku.ca",
+    "Email_url":"mailto:rdividino@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3520",
+    "Location":"MCJ 321"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Fereidoon",
+    "LastName":"Razavi",
+    "Email":"frazavi@brocku.ca",
+    "Email_url":"mailto:frazavi@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"4110",
+    "Location":"MCH 307"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Fereidoon",
+    "LastName":"Razavi",
+    "Email":"frazavi@brocku.ca",
+    "Email_url":"mailto:frazavi@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"4090",
+    "Location":"MCH 303"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Fereidoon",
+    "LastName":"Razavi",
+    "Email":"frazavi@brocku.ca",
+    "Email_url":"mailto:frazavi@brocku.ca",
+    "Title":"Professor | Office",
+    "Extension":"3343",
+    "Location":"MCB 204"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Maureen",
+    "LastName":"Reedyk",
+    "Email":"reedyk@brocku.ca",
+    "Email_url":"mailto:reedyk@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4527",
+    "Location":"MCH 206A"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Maureen",
+    "LastName":"Reedyk",
+    "Email":"reedyk@brocku.ca",
+    "Email_url":"mailto:reedyk@brocku.ca",
+    "Title":"Professor | Office",
+    "Extension":"3877",
+    "Location":"MCB 205"
+    },
+    {
+    "Department":"Tech Services - Machine Shop",
+    "FirstName":"Art",
+    "LastName":"Reimer",
+    "Email":"areimer@brocku.ca",
+    "Email_url":"mailto:areimer@brocku.ca",
+    "Title":"Machine Shop",
+    "Extension":"3420",
+    "Location":"MCD 202"
+    },
+    {
+    "Department":"Tech Services - Machine Shop",
+    "FirstName":"Stephen",
+    "LastName":"Renda",
+    "Email":"srenda@brocku.ca",
+    "Email_url":"mailto:srenda@brocku.ca",
+    "Title":"Machine Shop",
+    "Extension":"3420",
+    "Location":"MCD 202"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Miriam",
+    "LastName":"Richards",
+    "Email":"miriam@brocku.ca",
+    "Email_url":"mailto:miriam@brocku.ca",
+    "Title":"Lab",
+    "Extension":"3956",
+    "Location":"MCH 218"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Miriam",
+    "LastName":"Richards",
+    "Email":"miriam@brocku.ca",
+    "Email_url":"mailto:miriam@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4406",
+    "Location":"MCF 240"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Caroline",
+    "LastName":"Romero",
+    "Email":"cromero@brocku.ca",
+    "Email_url":"mailto:cromero@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3526",
+    "Location":"MCD 431"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Brian",
+    "LastName":"Ross",
+    "Email":"bross@brocku.ca",
+    "Email_url":"mailto:bross@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"4284",
+    "Location":"MCJ 319"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Kirill",
+    "LastName":"Samokhin",
+    "Email":"kirill.samokhin@brocku.ca",
+    "Email_url":"mailto:kirill.samokhin@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3875",
+    "Location":"MCB 208"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Mariek",
+    "LastName":"Schmidt",
+    "Email":"mschmidt2@brocku.ca",
+    "Email_url":"mailto:mschmidt2@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3527",
+    "Location":"MCD 414"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Barak",
+    "LastName":"Shoshany",
+    "Email":"bshoshany@brocku.ca",
+    "Email_url":"mailto:bshoshany@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5785",
+    "Location":"MCE 219"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Astride",
+    "LastName":"Silis",
+    "Email":"asilis@brocku.ca",
+    "Email_url":"mailto:asilis@brocku.ca",
+    "Title":"Senior Laboratory Coordinator",
+    "Extension":"3703",
+    "Location":"MCD 420"
+    },
+    {
+    "Department":"Tech Services - Machine Shop",
+    "FirstName":"Mitch",
+    "LastName":"Sillaste",
+    "Email":"msillaste@brocku.ca",
+    "Email_url":"mailto:msillaste@brocku.ca",
+    "Title":"Mechanical Instrument Technician",
+    "Extension":"3420",
+    "Location":"MCD 202"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Glaucio Haroldo",
+    "LastName":"Silva de Carvalho",
+    "Email":"gdecarvalho@brocku.ca",
+    "Email_url":"mailto:gdecarvalho@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5960",
+    "Location":"MCE 218"
+    },
+    {
+    "Department":"Engineering",
+    "FirstName":"Glaucio Haroldo",
+    "LastName":"Silva De Carvalho",
+    "Title":"Assistant Professor",
+    "Extension":"5960",
+    "Location":"MCE 218"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Razvan",
+    "LastName":"Simionescu",
+    "Email":"rsimionescu@brocku.ca",
+    "Email_url":"mailto:rsimionescu@brocku.ca",
+    "Title":"Nuclear Magnetic ResonanceTechnician | NMR Lab",
+    "Extension":"4171",
+    "Location":"MCH 207"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Razvan",
+    "LastName":"Simionescu",
+    "Email":"rsimionescu@brocku.ca",
+    "Email_url":"mailto:rsimionescu@brocku.ca",
+    "Title":"Nuclear Magnetic ResonanceTechnician | NMR Lab",
+    "Extension":"6168",
+    "Location":"CRN 112"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Razvan",
+    "LastName":"Simionescu",
+    "Email":"rsimionescu@brocku.ca",
+    "Email_url":"mailto:rsimionescu@brocku.ca",
+    "Title":"Nuclear Magnetic ResonanceTechnician | office",
+    "Extension":"5681",
+    "Location":"CRN 406"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Adonis",
+    "LastName":"Skandalis",
+    "Email":"askandal@brocku.ca",
+    "Email_url":"mailto:askandal@brocku.ca",
+    "Title":"Lab",
+    "Extension":"3956",
+    "Location":"MCH 218"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Adonis",
+    "LastName":"Skandalis",
+    "Email":"askandal@brocku.ca",
+    "Email_url":"mailto:askandal@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3399",
+    "Location":"MCF 231"
+    },
+    {
+    "Department":"M&S Stores",
+    "FirstName":"Alison",
+    "LastName":"Smart",
+    "Email":"alsmart@brocku.ca",
+    "Email_url":"mailto:alsmart@brocku.ca",
+    "Title":"Science Stores Assistant",
+    "Extension":"3389",
+    "Location":"MCE 304"
+    },
+    {
+    "Department":"Centre For Neuroscience",
+    "FirstName":"Jennifer",
+    "LastName":"Smith",
+    "Email":"jennifer.smith@brocku.ca",
+    "Email_url":"mailto:jennifer.smith@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"5924",
+    "Location":"MCF 218"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Gaynor",
+    "LastName":"Spencer",
+    "Email":"gspencer@brocku.ca",
+    "Email_url":"mailto:gspencer@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4164",
+    "Location":"MCH 225"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Gaynor",
+    "LastName":"Spencer",
+    "Email":"gspencer@brocku.ca",
+    "Email_url":"mailto:gspencer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3391",
+    "Location":"MCF 222"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Caroline",
+    "LastName":"Starrs",
+    "Email":"cstarrs@brocku.ca",
+    "Email_url":"mailto:cstarrs@brocku.ca",
+    "Title":"Teaching Assistant",
+    "Extension":"3760",
+    "Location":"CRN 515"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Justin",
+    "LastName":"Steepe",
+    "Email":"jsteepe@brocku.ca",
+    "Email_url":"mailto:jsteepe@brocku.ca",
+    "Title":"Strategic Planning, Outreach & Events Specialist",
+    "Extension":"6227",
+    "Location":"MCD 472"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Edward",
+    "LastName":"Sternin",
+    "Email":"edward.sternin@brocku.ca",
+    "Email_url":"mailto:edward.sternin@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4457",
+    "Location":"MCH 208"
+    },
+    {
+    "Department":"Physics",
+    "FirstName":"Edward",
+    "LastName":"Sternin",
+    "Email":"edward.sternin@brocku.ca",
+    "Email_url":"mailto:edward.sternin@brocku.ca",
+    "Title":"Associate Professor | Office",
+    "Extension":"3414",
+    "Location":"MCB 206"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Jeff",
+    "LastName":"Stuart",
+    "Email":"jstuart@brocku.ca",
+    "Email_url":"mailto:jstuart@brocku.ca",
+    "Title":"Associate Professor | Lab",
+    "Extension":"4166",
+    "Location":"CRN 535"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Jeff",
+    "LastName":"Stuart",
+    "Email":"jstuart@brocku.ca",
+    "Email_url":"mailto:jstuart@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4814",
+    "Location":"MCF 224"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Dorina",
+    "LastName":"Szuroczki",
+    "Email":"dszuroczki@brocku.ca",
+    "Email_url":"mailto:dszuroczki@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator",
+    "Extension":"6199",
+    "Location":"MCF 216"
+    },
+    {
+    "Department":"Faculty Of Mathematics & Science",
+    "FirstName":"",
+    "LastName":"T.B.D.",
+    "Title":"Academic Advisor/Liaison Officer",
+    "Location":"MCD D471"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Barbara",
+    "LastName":"Tatarnic",
+    "Email":"btatarnic@brocku.ca",
+    "Email_url":"mailto:btatarnic@brocku.ca",
+    "Title":"Manager, Continuing Education & Outreach | Continuing Education Coordinator and Managing Director, Canadian Wine Library",
+    "Extension":"4652",
+    "Location":"IH 206a"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Glenn",
+    "LastName":"Tattersall",
+    "Email":"gtatters@brocku.ca",
+    "Email_url":"mailto:gtatters@brocku.ca",
+    "Title":"Lab",
+    "Extension":"4180",
+    "Location":"MCC 204"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Glenn",
+    "LastName":"Tattersall",
+    "Email":"gtatters@brocku.ca",
+    "Email_url":"mailto:gtatters@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4815",
+    "Location":"MCF 242"
+    },
+    {
+    "Department":"Earth Sciences",
+    "FirstName":"Hernan",
+    "LastName":"Ugalde",
+    "Email":"hugalde@brocku.ca",
+    "Email_url":"mailto:hugalde@brocku.ca",
+    "Title":"Adjunct Professor",
+    "Extension":"3121",
+    "Location":"MCD 422"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Arthur",
+    "LastName":"Van Der Est",
+    "Email":"avde@brocku.ca",
+    "Email_url":"mailto:avde@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"3410",
+    "Location":"CRN 130"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Arthur",
+    "LastName":"Van Der Est",
+    "Email":"avde@brocku.ca",
+    "Email_url":"mailto:avde@brocku.ca",
+    "Title":"Professor | office",
+    "Extension":"4602",
+    "Location":"CRN 408"
+    },
+    {
+    "Department":"Tech Services - Electronics Shop",
+    "FirstName":"Jordan",
+    "LastName":"Vandenhoff",
+    "Email":"jvandenhoff2@brocku.ca",
+    "Email_url":"mailto:jvandenhoff2@brocku.ca",
+    "Title":"Glassblower",
+    "Extension":"3759",
+    "Location":"MCG 201"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Liette",
+    "LastName":"Vasseur",
+    "Email":"lvasseur@brocku.ca",
+    "Email_url":"mailto:lvasseur@brocku.ca",
+    "Title":"Professor | office",
+    "Extension":"4023",
+    "Location":"MCF 228"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Liette",
+    "LastName":"Vasseur",
+    "Email":"lvasseur@brocku.ca",
+    "Email_url":"mailto:lvasseur@brocku.ca",
+    "Title":"Lab",
+    "Extension":"3318",
+    "Location":"MCH 214"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Nicholas",
+    "LastName":"Vesprini",
+    "Email":"nvesprini@brocku.ca",
+    "Email_url":"mailto:nvesprini@brocku.ca",
+    "Title":"Online Course Administrator",
+    "Extension":"3395",
+    "Location":"MCF 221"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Jan",
+    "LastName":"Vrbik",
+    "Email":"jvrbik@brocku.ca",
+    "Email_url":"mailto:jvrbik@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3298",
+    "Location":"MCJ 410"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Leslie",
+    "LastName":"Wenzl",
+    "Email":"leslie.wenzl@brocku.ca",
+    "Email_url":"mailto:leslie.wenzl@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3388",
+    "Location":"MCF 234"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Mark",
+    "LastName":"Willoughby",
+    "Email":"mwilloughby@brocku.ca",
+    "Email_url":"mailto:mwilloughby@brocku.ca",
+    "Title":"Online Course Developer/Administrator",
+    "Extension":"5269",
+    "Location":"MCJ 402"
+    },
+    {
+    "Department":"Biological Sciences",
+    "FirstName":"Jim",
+    "LastName":"Willwerth",
+    "Email":"jwillwerth@brocku.ca",
+    "Email_url":"mailto:jwillwerth@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6118",
+    "Location":"IH 220"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Jim",
+    "LastName":"Willwerth",
+    "Title":"Senior Staff Scientist, Viticulture",
+    "Extension":"5477",
+    "Location":"IH 311"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Michael",
+    "LastName":"Winter",
+    "Email":"mwinter@brocku.ca",
+    "Email_url":"mailto:mwinter@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3355",
+    "Location":"MCJ 323"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Dorothy",
+    "LastName":"Witte",
+    "Email":"dwitte@brocku.ca",
+    "Email_url":"mailto:dwitte@brocku.ca",
+    "Title":"Executive Assistant To The Dean",
+    "Extension":"3421",
+    "Location":"MCD 407"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Thomas",
+    "LastName":"Wolf",
+    "Email":"twolf@brocku.ca",
+    "Email_url":"mailto:twolf@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3803",
+    "Location":"MCJ 413"
+    },
+    {
+    "Department":"Cool Climate Oenology & Viticulture Institute",
+    "FirstName":"Shufen",
+    "LastName":"Xu",
+    "Email":"sxu@brocku.ca",
+    "Email_url":"mailto:sxu@brocku.ca",
+    "Title":"Ccovi Technologist",
+    "Extension":"3510",
+    "Location":"IH 215"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Xiaojian",
+    "LastName":"Xu",
+    "Email":"xiaojian.xu@brocku.ca",
+    "Email_url":"mailto:xiaojian.xu@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3299",
+    "Location":"MCJ 412"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tony",
+    "LastName":"Yan",
+    "Email":"tyan@brocku.ca",
+    "Email_url":"mailto:tyan@brocku.ca",
+    "Title":"Professor | Lab (CHEM)",
+    "Extension":"3411",
+    "Location":"CRN 542"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tony",
+    "LastName":"Yan",
+    "Email":"tyan@brocku.ca",
+    "Email_url":"mailto:tyan@brocku.ca",
+    "Title":"Professor | Lab (BTEC)",
+    "Extension":"6158",
+    "Location":"CRN 457"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Tony",
+    "LastName":"Yan",
+    "Email":"tyan@brocku.ca",
+    "Email_url":"mailto:tyan@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3545",
+    "Location":"CRN 415"
+    },
+    {
+    "Department":"Mathematics",
+    "FirstName":"Jayne",
+    "LastName":"Zarecky",
+    "Email":"jzarecky@brocku.ca",
+    "Email_url":"mailto:jzarecky@brocku.ca",
+    "Title":"Administrative Coordinator, Academic",
+    "Extension":"3300",
+    "Location":"MCJ 415"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Paul",
+    "LastName":"Zelisko",
+    "Email":"pzelisko@brocku.ca",
+    "Email_url":"mailto:pzelisko@brocku.ca",
+    "Title":"Associate Professor | Lab",
+    "Location":"MCH 221"
+    },
+    {
+    "Department":"Chemistry",
+    "FirstName":"Paul",
+    "LastName":"Zelisko",
+    "Email":"pzelisko@brocku.ca",
+    "Email_url":"mailto:pzelisko@brocku.ca",
+    "Title":"Associate Professor | office",
+    "Extension":"4389",
+    "Location":"CRN 520"
+    },
+    {
+    "Department":"Dean's Office - Math & Science",
+    "FirstName":"Hannah",
+    "LastName":"Zhang",
+    "Email":"hzhang@brocku.ca",
+    "Email_url":"mailto:hzhang@brocku.ca",
+    "Title":"Financial Manager",
+    "Extension":"5126",
+    "Location":"SBH 321"
+    },
+    {
+    "Department":"Engineering",
+    "FirstName":"Josie",
+    "LastName":"Zhao",
+    "Email":"yzhao6@brocku.ca",
+    "Email_url":"mailto:yzhao6@brocku.ca",
+    "Title":"Administrative Assistant, Engineering",
+    "Extension":"3239",
+    "Location":"CRN 517A"
+    },
+    {
+    "Department":"M&S Stores",
+    "FirstName":"Rosalie",
+    "LastName":"Zielinski-Lawrence",
+    "Email":"rzielinskilawre@brocku.ca",
+    "Email_url":"mailto:rzielinskilawre@brocku.ca",
+    "Title":"Science Stores Assistant",
+    "Extension":"4934",
+    "Location":"MCE 304"
+    }
+    ]
+    }
