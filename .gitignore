@@ -41,8 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
-# rasa models
+# rasa models, python virtual environments
 models/
+venv/
 
 # TypeScript v1 declaration files
 typings/
