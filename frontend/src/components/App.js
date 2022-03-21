@@ -10,14 +10,16 @@ import FlexContainer from "./FlexContainer"
 import useMediaQuery from "./mediaQuery"
 import ThemeContext from "./ThemeContext"
 import {useTheme} from "./ThemeContext"
+import Content from "./Content";
 
 export default function App() {
 	const isComputer = useMediaQuery('(min-device-width: 600px)')
-
+	var theme,setTheme
 	return (
 		<ThemeContext>
+			{[theme, setTheme] = useTheme()}
 			<FlexContainer style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
-				<FlexContainer width="100%" height="100%" flexDirection="column" alignItems="stretch" style={{ background: "white" }}> {/* content */}
+				<Content> {/* page contents */}
 					<Titlebar></Titlebar>
 
 					<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%" }}> {/* panels */}
@@ -30,7 +32,7 @@ export default function App() {
 						<ChatPanel></ChatPanel>
 
 					</FlexContainer>
-				</FlexContainer>
+				</Content>
 			</FlexContainer>
 		</ThemeContext>
 	)

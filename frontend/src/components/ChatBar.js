@@ -95,7 +95,7 @@ export default function ChatBar({ onSubmitMessage }) {
 				/>
 
 
-				<button type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColor }}>
+				<button type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.primaryColor }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "24px", color: "white" }} />
 					</div>

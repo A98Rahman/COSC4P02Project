@@ -8,7 +8,7 @@ export default function InfoPanel1({ style }) {
 	return (
 		<InfoPanel style={style}>
 			<div>
-				<p style={{fontSize: `${theme.fontScaleFactor*1.6}rem`}}>PLACE HOLDERS</p>
+				<p style={{ color: theme.colors.secondaryColorText,fontSize: `${theme.fontScaleFactor*1.6}rem`}}>PLACE HOLDERS</p>
 			</div>
 			<br></br>
 			<div>

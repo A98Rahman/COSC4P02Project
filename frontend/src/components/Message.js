@@ -12,9 +12,9 @@ export default function Message({ floatRight = false, children }) {
 				minHeight: "2%",
 				alignSelf: floatRight ? "flex-end" : "flex-start",
 				margin: "16px 16px 0px 16px",
-				borderRadius: `${4 * floatRight}px ${4 * !floatRight}px 4px 4px`,
-				background: floatRight ? theme.colors.primaryColorBackground: theme.colors.secondaryColor,
-				color: floatRight ? "black" : "white",
+				borderRadius: `${6 * floatRight}px ${6 * !floatRight}px 6px 6px`,
+				background: floatRight ? theme.colors.textBackgroundRight : theme.colors.textBackgroundLeft,
+				color: floatRight ? theme.colors.textColorRight : "white",
 				boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)",
 				flex: "0 0 auto"
 			}}

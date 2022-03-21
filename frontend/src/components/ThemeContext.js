@@ -11,29 +11,41 @@ export const lightTheme = {
 		primaryColor: "#cc0000",
 		secondaryColor: "#ac0000",
 
+		textBackgroundLeft: "#ac0000",
+		textColorRight: "black",
+		textBackgroundRight: "rgba(255, 255, 255, 0.2)",
+
 		primaryColorBackground: "white",
 		secondaryColorBackground: "#eeeeee",
 		tertiaryColorBackground: "#e7e7e7",
 
 		primaryColorText: "white",
 		secondaryColorText: "black",
-		tertiaryColorText: "lightgrey"
+		tertiaryColorText: "lightgrey",
+
+		pageColorBackground: "white"
 	}
 }
 
 export const darkTheme = {
 	...common,
 	colors: {
-		primaryColor: "green",
-		secondaryColor: "blue",
+		primaryColor: "#94030F",
+		secondaryColor: "rgba(255, 255, 255, 0.2)", // somewhat transperent white to have writing over black background
+
+		textBackgroundLeft: "rgba(255, 5, 5, 0.4)",
+		textColorRight: "white",
+		textBackgroundRight:"rgba(255, 255, 255, 0.45)",
 
 		primaryColorBackground: "yellow",
-		secondaryColorBackground: "cyan",
+		secondaryColorBackground: "rgba(0, 0, 0, 0.2)",
 		tertiaryColorBackground: "red",
 
 		primaryColorText: "black",
-		secondaryColorText: "magenta",
-		tertiaryColorText: "lightgrey"
+		secondaryColorText: "rgba(255, 255, 255, 0.8)",
+		tertiaryColorText: "lightgrey",
+
+		pageColorBackground: "rgba(0, 0, 0, 0.85)"
 	}
 }
 
