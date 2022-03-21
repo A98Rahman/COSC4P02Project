@@ -11,9 +11,26 @@ from pymongo import MongoClient
 from typing import Any, Text, Dict, List
 import json
 
+import mariadb
+import sys
+
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from sqlalchemy import desc
+
+# Connect to MariaDB Platform
+try:
+    conn = mariadb.connect(
+        user="root",
+        password="chatbot",
+        host="127.0.0.1",
+        port=3306,
+        database="brockdb"
+    )
+
+except mariadb.Error as e:
+    print(f"Error connecting to MariaDB Platform: {e}")
+    sys.exit(1)
 
 class ActionCourseInfo(Action):
 
@@ -111,12 +128,17 @@ class ActionExamGeneralInfo(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="CourseCode")
-        entity = next(entity)
+        course_code = next(entity)
 
         # response
-        if entity:
-            description = get_field_from_JSON(entity, "course_code", "exam_date", "ACTG_exams")  #key, key name, field name,file (no .json)
-            dispatcher.utter_message(text=f'The exam for {entity} will be held at: {description}')
+        if course_code:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT CrsCode, ExamDate, ExamStartTime, ExamEndTime, ExamLocation FROM exam WHERE CrsCode=?;",
+                (course_code,)
+            )
+            exam_info = next(cur)
+            dispatcher.utter_message(text=f'The exam for {exam_info[0]} will be held on {exam_info[1]}, from {exam_info[2]} to {exam_info[3]}, at {exam_info[4]}')
         else:
             dispatcher.utter_message(text="I couldn't find that exam")
         return []
