@@ -1,0 +1,865 @@
+{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": null
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "8",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "9",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "10",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 1P96",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "11",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MGMT 3P98",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}
