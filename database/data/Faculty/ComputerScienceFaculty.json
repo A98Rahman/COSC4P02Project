@@ -1,0 +1,175 @@
+{
+    "Program":[
+    {
+    "Department":"Computer Science",
+    "FirstName":"",
+    "LastName":"",
+    "Email":"",
+    "Title":"",
+    "Extension":"3513",
+    "Location":"MCJ 314"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"",
+    "LastName":"",
+    "Email":"",
+    "Title":"Fax: 905-688-3255",
+    "Extension":"",
+    "Location":"MCJ J314"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Dave",
+    "LastName":"Bockus",
+    "Email":"bockusd@brocku.ca",
+    "Title":"Instructor/Instructional Support",
+    "Extension":"3281",
+    "Location":"MCJ 324"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Po Ling",
+    "LastName":"Bork",
+    "Email":"pbork@brocku.ca",
+    "Title":"Senior Laboratory Demonstrator/Coordinator",
+    "Extension":"4025",
+    "Location":"MCJ 403"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Amber",
+    "LastName":"Cecchini",
+    "Email":"acecchini2@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3513",
+    "Location":"MCJ 314"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Robson",
+    "LastName":"De Grande",
+    "Email":"rdegrande@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3090",
+    "Location":"MCJ J311"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Ali",
+    "LastName":"Emami",
+    "Email":"aemami@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3867",
+    "Location":"MCJ 318"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Naser",
+    "LastName":"Ezzati-Jivan",
+    "Email":"nezzatijivan@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3516",
+    "Location":"MCJ 312"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Cale",
+    "LastName":"Fairchild",
+    "Email":"cale@brocku.ca",
+    "Title":"Network Systems Administrator",
+    "Extension":"3738",
+    "Location":"MCJ 305"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Earl",
+    "LastName":"Foxwell",
+    "Email":"efoxwell@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"6125",
+    "Location":"MCD 410"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Sheridan",
+    "LastName":"Houghten",
+    "Email":"shoughten@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4526",
+    "Location":"MCJ 313"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Yifeng",
+    "LastName":"Li",
+    "Email":"yli2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3557",
+    "Location":"MCJ 322"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Beatrice",
+    "LastName":"Ombuki-Berman",
+    "Email":"bombuki@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3494",
+    "Location":"MCJ 307"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Donna",
+    "LastName":"Phelps",
+    "Email":"donna.phelps@brocku.ca",
+    "Title":"Coordinator, Student Support, Computer Science",
+    "Extension":"3157",
+    "Location":"MCJ 332"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Ke",
+    "LastName":"Qiu",
+    "Email":"kqiu@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5062",
+    "Location":"MCJ 306"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Renata",
+    "LastName":"Queiroz Dividino",
+    "Email":"rdividino@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3520",
+    "Location":"MCJ 321"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Brian",
+    "LastName":"Ross",
+    "Email":"bross@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"4284",
+    "Location":"MCJ 319"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Glaucio Haroldo",
+    "LastName":"Silva de Carvalho",
+    "Email":"gdecarvalho@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5960",
+    "Location":"MCE 218"
+    },
+    {
+    "Department":"Computer Science",
+    "FirstName":"Michael",
+    "LastName":"Winter",
+    "Email":"mwinter@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3355",
+    "Location":"MCJ 323"
+    }
+    ]
+    }
