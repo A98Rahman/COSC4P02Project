@@ -34,7 +34,7 @@ export const darkTheme = {
 		secondaryColor: "rgba(255, 255, 255, 0.2)", // somewhat transperent white to have writing over black background
 
 		textBackgroundLeft: "rgba(255, 5, 5, 0.4)",
-		textColorRight: "white",
+		textColorRight: "rgba(255, 255, 255, 0.85)",
 		textBackgroundRight:"rgba(255, 255, 255, 0.45)",
 
 		primaryColorBackground: "yellow",
