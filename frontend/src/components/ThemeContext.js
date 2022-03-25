@@ -5,6 +5,7 @@ export const common = {
 	fontScaleFactor: 1.0
 }
 
+
 export const lightTheme = {
 	...common,
 	colors: {

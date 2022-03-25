@@ -85,7 +85,7 @@ export default function ChatPanel({ children }) {
 
 	return (
 		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "10px", background: theme.colors.secondaryColorBackground }}>
-			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
+			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "auto" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>

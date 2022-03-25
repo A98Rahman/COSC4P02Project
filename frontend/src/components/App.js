@@ -18,7 +18,7 @@ export default function App() {
 	return (
 		<ThemeContext>
 			{[theme, setTheme] = useTheme()}
-			<FlexContainer style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
+			<FlexContainer style={{ width: "100vw", height: "100vh", overflowY: "auto" }}>
 				<Content> {/* page contents */}
 					<Titlebar></Titlebar>
 
