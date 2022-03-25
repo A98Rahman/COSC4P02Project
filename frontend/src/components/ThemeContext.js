@@ -10,7 +10,7 @@ export const lightTheme = {
 	...common,
 	colors: {
 		primaryColor: "#b02a2a",
-		secondaryColor: "#ac0000",
+		secondaryColor: "#00a99d",
 
 		textBackgroundLeft: "#ac0000",
 		textColorRight: "black",
@@ -31,8 +31,8 @@ export const lightTheme = {
 export const darkTheme = {
 	...common,
 	colors: {
-		primaryColor: "#94030F",
-		secondaryColor: "rgba(255, 255, 255, 0.2)", // somewhat transperent white to have writing over black background
+		primaryColor: "#b02a2a",
+		secondaryColor: "#00a99d",
 
 		textBackgroundLeft: "rgba(255, 5, 5, 0.4)",
 		textColorRight: "rgba(255, 255, 255, 0.85)",

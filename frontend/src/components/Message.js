@@ -29,9 +29,9 @@ export default function Message({ floatRight = false, children }) {
 
 			<FlexContainer flexDirection={floatRight ? "row-reverse" : "row"} >
 				<div style={{ width: "50px", height: "50px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: "darkgrey" }}></div> {/* image */}
-				<div style={{ minWidth: "10vw", maxWidth: "30vw", background: floatRight ? "#b02a2a" : "#00a99d", color: floatRight ? "white" : "white", fontSize: "1.2rem"}}>
+				<div style={{ minWidth: "10vw", maxWidth: "30vw", background: floatRight ? theme.colors.primaryColor : theme.colors.secondaryColor, color: theme.colors.primaryColorText, fontSize: "1.2rem" }}>
 					{children}
-				</div> {/* message */}
+				</div>
 			</FlexContainer >
 
 			<p style={{ margin: "0 calc(50px + 16px) 0 calc(50px + 16px)", color: "grey" }}>sent at 8:05am</p>

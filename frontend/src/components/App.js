@@ -11,8 +11,6 @@ import ThemeContext from "./ThemeContext"
 import { useTheme } from "./ThemeContext"
 import Content from "./Content";
 
-
-
 export default function App() {
 	const isComputer = useMediaQuery('(min-device-width: 600px)')
 
@@ -30,8 +28,7 @@ export default function App() {
 
 					<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%" }}> {/* panels */}
 
-						<FlexContainer style={{ width: "5vw", minWidth: "50px", height: "100%", background: "white", borderRight: "solid 1px lightgrey" }}>
-
+						<FlexContainer style={{ width: "5vw", minWidth: "50px", height: "100%", background: "white", borderRight: "solid 1px lightgrey" }}> {/* will be the left side panel*/}
 						</FlexContainer>
 
 						<ChatPanel></ChatPanel>

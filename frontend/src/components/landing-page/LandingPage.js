@@ -2,10 +2,13 @@ import React from 'react'
 import Header from "./Header"
 import LandingPageRow from "./LandingPageRow";
 import FlexContainer from "../FlexContainer"
+import { useTheme } from "../ThemeContext"
 
 export default function LandingPage() {
+	const [theme, setTheme] = useTheme()
+
 	return (
-		<FlexContainer flexDirection="column" style={{ width: "100%", minHeight: "100vh" }}> {/* landing page */}
+		<FlexContainer flexDirection="column" style={{ width: "100%", minHeight: "100vh", background: theme.colors.primaryColorBackground }}> {/* landing page */}
 
 			<Header></Header>
 
