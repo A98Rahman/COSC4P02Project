@@ -76,27 +76,38 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	return (
 
-		<FlexContainer style={{ flex: "0 1 60px", margin: "8px 10vw 24px 10vw", boxSizing: "border-box", background: "white", border: "solid 1px lightgrey", borderRight: "none", borderRadius: "4px" }}>
-			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
-
-				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none" }}>
+		<FlexContainer
+			style={{
+				flex: "0 1 60px",
+				margin: "8px 10vw 24px 10vw",
+				boxSizing: "border-box",
+				background: theme.colors.primaryColorBackground,
+				border: `solid 1px ${theme.colors.borderColor}`,
+				borderRadius: "4px"
+			}}
+		>
+			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px" }}>
+				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
-						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: "5C615E" }} />
+						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: theme.colors.secondaryColorText }} />
 					</div>
 				</button>
 
 				<input
-					ref={inputBarRef}
-					onInput={handleOnInput}
-					onBlur={handleOnBlurInputField}
-					type="text"
+					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField}
 					placeholder="Ask a question"
-					style={{ width: "100%", minHeight: "auto", border: "none", fontSize: `${theme.fontScaleFactor * 1.0}rem` }}
+					style={{
+						width: "100%",
+						minHeight: "auto",
+						border: "none",
+						fontSize: `${theme.fontScaleFactor * 1.0}rem`,
+						background: theme.colors.secondaryColorBackground,
+						color: theme.colors.secondaryColorText
+					}}
 				/>
 
-
 				<button type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.primaryColor }}>
-					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
+					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", boxSizing: "border-box", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "32px", color: "white" }} />
 					</div>
 				</button>

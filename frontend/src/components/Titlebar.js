@@ -33,8 +33,8 @@ export default function Titlebar({ children }) {
 			alignItems='center'
 			flexDirection='row-reverse'
 			style={{
-				background: "#b02a2a",
-				borderBottom: "solid 1px lightgrey"
+				flexShrink: 0,
+				background: "#b02a2a"
 			}}
 		>
 			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{ paddingRight: "1%", paddingLeft: "1%" }} />

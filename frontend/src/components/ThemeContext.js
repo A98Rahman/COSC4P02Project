@@ -16,15 +16,17 @@ export const lightTheme = {
 		textColorRight: "black",
 		textBackgroundRight: "rgba(255, 255, 255, 0.2)",
 
-		primaryColorBackground: "white",
-		secondaryColorBackground: "#eeeeee",
-		tertiaryColorBackground: "#e7e7e7",
+		primaryColorBackground: "#ededed",
+		secondaryColorBackground: "white",
+		tertiaryColorBackground: "#c9c9c9",
 
 		primaryColorText: "white",
 		secondaryColorText: "black",
 		tertiaryColorText: "lightgrey",
 
-		pageColorBackground: "white"
+		pageColorBackground: "white",
+
+		borderColor: "lightgrey"
 	}
 }
 
@@ -38,15 +40,17 @@ export const darkTheme = {
 		textColorRight: "rgba(255, 255, 255, 0.85)",
 		textBackgroundRight:"rgba(255, 255, 255, 0.45)",
 
-		primaryColorBackground: "yellow",
-		secondaryColorBackground: "rgba(0, 0, 0, 0.2)",
-		tertiaryColorBackground: "red",
+		primaryColorBackground: "#292929",
+		secondaryColorBackground: "#212121",
+		tertiaryColorBackground: "#212121",
 
 		primaryColorText: "black",
 		secondaryColorText: "rgba(255, 255, 255, 0.8)",
 		tertiaryColorText: "lightgrey",
 
-		pageColorBackground: "rgba(0, 0, 0, 0.85)"
+		pageColorBackground: "rgba(0, 0, 0, 0.85)",
+
+		borderColor: "#363636"
 	}
 }
 

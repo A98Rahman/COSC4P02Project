@@ -28,13 +28,13 @@ export default function Message({ floatRight = false, message, children }) {
 		<FlexContainer flexDirection="column" alignItems={floatRight ? "flex-end" : "flex-start"} style={{ margin: "0 10vw 32px 10vw", boxSizing: "border-box" }}>
 
 			<FlexContainer flexDirection={floatRight ? "row-reverse" : "row"} >
-				<div style={{ width: "50px", height: "50px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: "darkgrey" }}></div> {/* image */}
-				<div style={{ minWidth: "10vw", maxWidth: "30vw", background: floatRight ? theme.colors.primaryColor : theme.colors.secondaryColor, color: theme.colors.primaryColorText, fontSize: "1.2rem" }}>
+				<div style={{ width: "60px", height: "60px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: theme.colors.tertiaryColorBackground }}></div> {/* image */}
+				<div style={{ minWidth: "10vw", maxWidth: "30vw", background: floatRight ? theme.colors.primaryColor : theme.colors.secondaryColor, color: "#ededed", fontSize: "1.2rem" }}>
 					{children}
 				</div>
 			</FlexContainer >
 
-			<p style={{ margin: "0 calc(50px + 16px) 0 calc(50px + 16px)", color: "grey" }}>sent at {message.time}</p>
+			<p style={{ margin: "0 calc(60px + 16px) 0 calc(60px + 16px)", color: "grey" }}>sent at {message.time}</p>
 
 		</FlexContainer >
 

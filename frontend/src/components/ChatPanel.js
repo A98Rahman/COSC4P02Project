@@ -94,11 +94,12 @@ export default function ChatPanel({ children }) {
 			alignItems="stretch"
 			style={{
 				flex: "1 1 75%",
+				minHeight: "0", 
 				margin: "0px",
 				background: theme.colors.primaryColorBackground
 			}}
 		>
-			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", paddingTop: "64px", overflowY: "auto" }}> {/*message container*/}
+			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "0 1 90%", minHeight: "0", paddingTop: "64px", overflowY: "auto" }}> {/*message container*/}
 
 				{
 					messagesState.map((message, i) =>
