@@ -92,6 +92,7 @@ export default function ChatPanel({ children }) {
 			}}
 		>
 			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", paddingTop: "64px", overflowY: "auto" }}> {/*message container*/}
+
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>

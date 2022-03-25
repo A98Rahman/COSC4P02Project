@@ -25,6 +25,7 @@ export default function App() {
 
 			<FlexContainer style={{ width: "100%", height: "100vh" }}> {/* chat page */}
 				<Content> {/* chate page contents */}
+
 					<Titlebar></Titlebar>
 
 					<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%" }}> {/* panels */}
