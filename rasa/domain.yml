@@ -18,18 +18,37 @@ intents:
       use_entities: true
   - exam_general_info:
       use_entities: true
+  - faculty_general_info:
+      use_entities: true
+  - faculty_department:
+      use_entities: true
+  - faculty_email:
+      use_entities: true
+  - faculty_title:
+      use_entities: true
+  - faculty_extension:
+      use_entities: true
+  - faculty_location:
+      use_entities: true
 
 entities:
   - Program
   - Course
   - Club
   - CourseCode
+  - Faculty
 
 actions:
   - action_course_info
   - action_program_info
   - action_club_info
   - action_exam_general_info
+  - action_faculty_general_info
+  - action_faculty_department
+  - action_faculty_email
+  - action_faculty_title
+  - action_faculty_extension
+  - action_faculty_location
 
 responses:
 
