@@ -1,32 +1,36 @@
 import "../reset.css"
 import React from 'react'
-import {useEffect} from 'react'
+import { useEffect, useRef } from 'react'
 import ReactToPrint from 'react-to-print';
+import LandingPage from "./landing-page/LandingPage";
 import Titlebar from './Titlebar'
-import InfoPanel1 from "./InfoPanel1"
-import InfoPanel2 from "./InfoPanel2"
 import ChatPanel from "./ChatPanel"
 import FlexContainer from "./FlexContainer"
 import useMediaQuery from "./mediaQuery"
 import ThemeContext from "./ThemeContext"
-import {useTheme} from "./ThemeContext"
+import { useTheme } from "./ThemeContext"
 import Content from "./Content";
+
+
 
 export default function App() {
 	const isComputer = useMediaQuery('(min-device-width: 600px)')
-	var theme,setTheme
+
+	const dotSize = 2
+	const spaceBetween = 16
+
 	return (
 		<ThemeContext>
-			{[theme, setTheme] = useTheme()}
-			<FlexContainer style={{ width: "100vw", height: "100vh", overflowY: "scroll" }}>
-				<Content> {/* page contents */}
+			<LandingPage></LandingPage>
+
+			<FlexContainer style={{ width: "100%", height: "100vh" }}> {/* chat page */}
+				<Content> {/* chate page contents */}
 					<Titlebar></Titlebar>
 
 					<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%" }}> {/* panels */}
-						<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: isComputer ? ('1 1 30%') : ('0 0 0%') }}> {/* info subpanels */}
-							<InfoPanel1 flexDirection="column" style={{ flex: "1 1 70%", margin: "8px 8px 0px 8px" }}>
-							</InfoPanel1>
-							<InfoPanel2 style={{ flex: "1 1 30%", margin: "8px 8px 8px 8px" }}></InfoPanel2>
+
+						<FlexContainer style={{ width: "5vw", minWidth: "50px", height: "100%", background: "white", borderRight: "solid 1px lightgrey" }}>
+
 						</FlexContainer>
 
 						<ChatPanel></ChatPanel>

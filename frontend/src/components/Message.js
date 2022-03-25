@@ -6,23 +6,37 @@ export default function Message({ floatRight = false, children }) {
 	const [theme, setTheme] = useTheme()
 
 	return (
-		<div
+		/*<FlexContainer
 			style={{
 				maxWidth: "50%",
-				minHeight: "2%",
 				alignSelf: floatRight ? "flex-end" : "flex-start",
-				margin: "16px 16px 0px 16px",
+				margin: "16px 10vw 0px 10vw",
 				borderRadius: `${6 * floatRight}px ${6 * !floatRight}px 6px 6px`,
-				background: floatRight ? theme.colors.textBackgroundRight : theme.colors.textBackgroundLeft,
 				color: floatRight ? theme.colors.textColorRight : "white",
-				boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)",
+
 				flex: "0 0 auto"
 			}}
 		>
-			<FlexContainer width="100%" style={{flex: "0 0 100%", fontSize: `${theme.fontScaleFactor*1.0}rem`}}>
+			<div style={{ width: "50px", height: "50px", flexShrink: "0", borderRadius: "50%", background: "green" }}></div>
+			<FlexContainer width="100%" style={{ minWidth: "8vw", fontSize: `${theme.fontScaleFactor * 1.0}rem`, background: floatRight ? theme.colors.textBackgroundRight : theme.colors.textBackgroundLeft, boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)", }}>
 				{children}
 			</FlexContainer>
+			<p>TEST TEXT</p>
+		</FlexContainer> */
 
-		</div>
+
+		<FlexContainer flexDirection="column" alignItems={floatRight ? "flex-end" : "flex-start"} style={{ margin: "0 10vw 32px 10vw", boxSizing: "border-box" }}>
+
+			<FlexContainer flexDirection={floatRight ? "row-reverse" : "row"} >
+				<div style={{ width: "50px", height: "50px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: "darkgrey" }}></div> {/* image */}
+				<div style={{ minWidth: "10vw", maxWidth: "30vw", background: floatRight ? "#b02a2a" : "#00a99d", color: floatRight ? "white" : "white", fontSize: "1.2rem"}}>
+					{children}
+				</div> {/* message */}
+			</FlexContainer >
+
+			<p style={{ margin: "0 calc(50px + 16px) 0 calc(50px + 16px)", color: "grey" }}>sent at 8:05am</p>
+
+		</FlexContainer >
+
 	)
 }

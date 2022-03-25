@@ -8,7 +8,7 @@ export const common = {
 export const lightTheme = {
 	...common,
 	colors: {
-		primaryColor: "#cc0000",
+		primaryColor: "#b02a2a",
 		secondaryColor: "#ac0000",
 
 		textBackgroundLeft: "#ac0000",

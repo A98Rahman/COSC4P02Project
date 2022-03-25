@@ -33,5 +33,8 @@
 		"build": "webpack --mode production"
 	},
 	"author": "Roadmen Bugsy",
-	"license": "MIT"
+	"license": "MIT",
+	"devDependencies": {
+		"file-loader": "^6.2.0"
+	}
 }

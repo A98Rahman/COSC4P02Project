@@ -1,11 +1,11 @@
-import React, { useRef,useContext, useEffect } from 'react'
+import React, { useRef, useContext, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import FlexContainer from './FlexContainer'
 import { useTheme, lightTheme, darkTheme } from './ThemeContext'
 
 
-export default function Titlebar({children}) {
+export default function Titlebar({ children }) {
 	const [theme, setTheme] = useTheme()
 
 	function handleOnChangeFontSize(e) {
@@ -24,20 +24,21 @@ export default function Titlebar({children}) {
 		setTheme(newTheme)
 	}
 
-	
+
 
 	return (
 		<FlexContainer
 			width="100%"
-			heig ht="60px"
+			height="60px"
 			alignItems='center'
 			flexDirection='row-reverse'
 			style={{
-				background: theme.colors.primaryColor
+				background: "#b02a2a",
+				borderBottom: "solid 1px lightgrey"
 			}}
 		>
-			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{ paddingRight: "1%", paddingLeft:"1%" }} />
-			<FlexContainer style={{background: /*theme.colors.secondaryColor*/ theme.colors.primaryColor , paddingRight: "1%", paddingLeft:"1%"}}>
+			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{ paddingRight: "1%", paddingLeft: "1%" }} />
+			<FlexContainer style={{ background: /*theme.colors.secondaryColor*/ theme.colors.primaryColor, paddingRight: "1%", paddingLeft: "1%" }}>
 				<p style={{ color: "white" }}>Use Dark Theme</p>
 				<input onChange={handleOnChangeTheme} type="checkbox" />
 			</FlexContainer>
@@ -47,9 +48,9 @@ export default function Titlebar({children}) {
 					<input onChange={handleOnChangeFontSize} min="1.0" max="4.0" defaultValue="1.0" step="0.1" type="range" />
 				</div>
 			</FlexContainer>
-			
 
-			
+
+
 		</FlexContainer>
 	)
 }

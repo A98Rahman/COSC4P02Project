@@ -76,7 +76,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	return (
 
-		<FlexContainer style={{ flex: "0 0 40px", margin: "8px 8px 8px 8px", background: "white" }}>
+		<FlexContainer style={{ flex: "0 1 40px", margin: "8px 10vw 8px 10vw", boxSizing: "border-box", background: "white", border: "solid 1px lightgrey", borderRight: "none", borderRadius: "4px" }}>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
 
 				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none" }}>

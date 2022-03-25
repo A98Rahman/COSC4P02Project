@@ -4,7 +4,7 @@ import useStateRef from "../useStateRef.js"
 import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
 import Message from './Message'
-import {useTheme} from "./ThemeContext"
+import { useTheme } from "./ThemeContext"
 
 export default function ChatPanel({ children }) {
 	const placeholderMessageData = [
@@ -81,11 +81,17 @@ export default function ChatPanel({ children }) {
 		//messageContainer.scrollTo(0,messageContainer.scrollHeight)
 	}
 
-	
-
 	return (
-		<FlexContainer flexDirection="column" alignItems="stretch" style={{ flex: "1 1 75%", margin: "8px 8px 8px 0px", borderRadius: "10px", background: theme.colors.secondaryColorBackground }}>
-			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", overflowY: "scroll" }}> {/*message container*/}
+		<FlexContainer
+			flexDirection="column"
+			alignItems="stretch"
+			style={{
+				flex: "1 1 75%",
+				margin: "0px",
+				background: theme.colors.primaryColorBackground
+			}}
+		>
+			<FlexContainer refs={messageContainerRef} flexDirection="column" style={{ flex: "1 1 90%", paddingTop: "64px", overflowY: "auto" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser}>
