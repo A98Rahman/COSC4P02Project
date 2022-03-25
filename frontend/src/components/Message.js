@@ -2,7 +2,7 @@ import React from 'react'
 import FlexContainer from './FlexContainer'
 import { useTheme } from './ThemeContext'
 
-export default function Message({ floatRight = false, children }) {
+export default function Message({ floatRight = false, message, children }) {
 	const [theme, setTheme] = useTheme()
 
 	return (
@@ -34,7 +34,7 @@ export default function Message({ floatRight = false, children }) {
 				</div>
 			</FlexContainer >
 
-			<p style={{ margin: "0 calc(50px + 16px) 0 calc(50px + 16px)", color: "grey" }}>sent at 8:05am</p>
+			<p style={{ margin: "0 calc(50px + 16px) 0 calc(50px + 16px)", color: "grey" }}>sent at {message.time}</p>
 
 		</FlexContainer >
 

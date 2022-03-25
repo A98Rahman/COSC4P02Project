@@ -76,7 +76,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	return (
 
-		<FlexContainer style={{ flex: "0 1 40px", margin: "8px 10vw 8px 10vw", boxSizing: "border-box", background: "white", border: "solid 1px lightgrey", borderRight: "none", borderRadius: "4px" }}>
+		<FlexContainer style={{ flex: "0 1 60px", margin: "8px 10vw 24px 10vw", boxSizing: "border-box", background: "white", border: "solid 1px lightgrey", borderRight: "none", borderRadius: "4px" }}>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px", boxShadow: "0px 2px 2px 1px rgba(0, 0, 0, 0.1)" }}>
 
 				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: "none" }}>
@@ -97,7 +97,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 				<button type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.primaryColor }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
-						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "24px", color: "white" }} />
+						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "32px", color: "white" }} />
 					</div>
 				</button>
 

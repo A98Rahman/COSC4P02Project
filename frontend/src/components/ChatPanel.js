@@ -10,22 +10,27 @@ export default function ChatPanel({ children }) {
 	const placeholderMessageData = [
 		{
 			text: "text",
+			time: "8:05 am",
 			fromUser: false
 		},
 		{
 			text: "test text",
+			time: "8:05 am",
 			fromUser: true
 		},
 		{
 			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+			time: "8:05 am",
 			fromUser: true
 		},
 		{
 			text: "test text",
+			time: "8:05 am",
 			fromUser: true
 		},
 		{
 			text: "test text",
+			time: "8:05 am",
 			fromUser: false
 		},
 	]
@@ -40,12 +45,14 @@ export default function ChatPanel({ children }) {
 		//get the submitted text from the message and clear the chatbar
 		const textValue = messageValue
 
+		const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
 
 		//update the messages state to include the user submitted message
 		setMessagesState(curMessagesState => [
 			...curMessagesState,
 			{
 				text: textValue,
+				time: time,
 				fromUser: true
 			}
 		])
@@ -95,13 +102,13 @@ export default function ChatPanel({ children }) {
 
 				{
 					messagesState.map((message, i) =>
-						<Message key={i} floatRight={message.fromUser}>
+						<Message key={i} floatRight={message.fromUser} message={message}>
 							<p style={{ margin: "8px 8px 8px 8px" }}>{message.text}</p>
 						</Message>
 					)
 				}
 				{responsePendingState &&
-					<Message floatRight={false}>
+					<Message floatRight={false} message={{ text: "...", time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}>
 						<p style={{ padding: "8px" }}>...</p>
 					</Message>
 				}
