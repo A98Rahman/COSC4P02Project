@@ -87,6 +87,7 @@ export default function ChatBar({ onSubmitMessage }) {
 			}}
 		>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px" }}>
+				
 				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: theme.colors.secondaryColorText }} />
