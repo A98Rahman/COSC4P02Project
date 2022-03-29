@@ -41,7 +41,7 @@ build/Release
 node_modules/
 jspm_packages/
 
-# rasa models, python virtual environments, rasa cache
+# rasa models, python virtual environments, rasa cache, pycache
 models/
 venv/
 __pycache__/
