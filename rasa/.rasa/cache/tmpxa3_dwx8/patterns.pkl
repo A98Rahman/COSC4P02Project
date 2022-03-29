@@ -1,6 +1,0 @@
-[
-  {
-    "name": "Program",
-    "pattern": "(\\bComputer\\ Science\\b|\\bBiochemistry\\b|\\bPhysics\\b|\\bComputing\\ and\\ Business\\b)"
-  }
-]
