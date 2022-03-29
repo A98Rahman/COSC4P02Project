@@ -1,6 +1,7 @@
 version: "3.0"
 
 intents:
+    # Base Intents 
   - greet
   - goodbye
   - affirm
@@ -8,17 +9,23 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
-  - general_information
-  - respond_program_interested:
-      use_entities: true
-  - course_inquiry:
-      use_entities: true
+    # Program Intents 
   - program_general_info:
       use_entities: true
-  - club_inquiry:
-      use_entities: true
+    # Exam Intents 
+  - course_duration:
+      use_entites: true
+  - course_section:
+      use_entites: true
+  - exam_delivery:
+      use_entites: true
+  - exam_date:
+      use_entites: true
   - exam_general_info:
-      use_entities: true
+      use_entites: true
+  - exam_location:
+      use_entites: true
+    # Faculty Intents 
   - faculty_general_info:
       use_entities: true
   - faculty_department:
@@ -34,26 +41,49 @@ intents:
 
 entities:
   - Program
-  - Course
   - Club
   - CourseCode
   - Faculty
+  - CourseDuration
+  - CourseSection
+
+slots:
+  CourseCode:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: CourseCode
+  CourseDuration:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: CourseDuration
+  CourseSection:
+    type: text
+    influence_conversation: true
+    mappings:
+    - type: from_entity
+      entity: CourseSection
 
 actions:
-  - action_course_info
-  - action_program_info
-  - action_club_info
-  - action_exam_general_info
+  # Program Actions
   - action_program_general_info
+  # Faculty Actions
   - action_faculty_general_info
   - action_faculty_department
   - action_faculty_email
   - action_faculty_title
   - action_faculty_extension
   - action_faculty_location
+  # Exam Actions
+  - action_exam_date
+  - action_exam_delivery
+  - action_exam_general_info
+  - action_exam_location
 
 responses:
-
   utter_greet:
   - text: "Hey! How are you?"
 
@@ -73,18 +103,18 @@ responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
-  utter_general_information:
-  - text: "
-  Brock University is a public research university in St. Catharines, 
-  Ontario, Canada. It is the only university in Canada in a UNESCO 
-  Biosphere Reserve,[7] at the centre of Canada's Niagara Peninsula 
-  on the Niagara Escarpment. The university bears the name of Maj.-General 
-  Sir Isaac Brock, who was responsible for defending Upper Canada against 
-  the United States during the War of 1812.
-  "
+  utter_course_duration:
+  - text: |
+       What semester are you asking about? 
+       - Type 'D2' for fall 
+       - Type 'D3' for winter 
 
-  utter_program_interested:
-  - text: "What field are you interested in?"
+  utter_course_section:
+  - text: What section are you asking about?
+
+  utter_exam_duration:
+  - text: Type 1 for fall, 2 for winter, 3 for spring
+
 
 session_config:
   session_expiration_time: 60

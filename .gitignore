@@ -41,9 +41,11 @@ build/Release
 node_modules/
 jspm_packages/
 
-# rasa models, python virtual environments
+# rasa models, python virtual environments, rasa cache
 models/
 venv/
+__pycache__/
+cache/
 
 # TypeScript v1 declaration files
 typings/
