@@ -1,0 +1,52 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-Club",
+      "2": "I-Club",
+      "3": "L-Club",
+      "4": "U-Club",
+      "5": "B-Course",
+      "6": "I-Course",
+      "7": "L-Course",
+      "8": "U-Course",
+      "9": "B-CourseCode",
+      "10": "I-CourseCode",
+      "11": "L-CourseCode",
+      "12": "U-CourseCode",
+      "13": "B-Faculty",
+      "14": "I-Faculty",
+      "15": "L-Faculty",
+      "16": "U-Faculty",
+      "17": "B-Program",
+      "18": "I-Program",
+      "19": "L-Program",
+      "20": "U-Program",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-Club": 1,
+      "I-Club": 2,
+      "L-Club": 3,
+      "U-Club": 4,
+      "B-Course": 5,
+      "I-Course": 6,
+      "L-Course": 7,
+      "U-Course": 8,
+      "B-CourseCode": 9,
+      "I-CourseCode": 10,
+      "L-CourseCode": 11,
+      "U-CourseCode": 12,
+      "B-Faculty": 13,
+      "I-Faculty": 14,
+      "L-Faculty": 15,
+      "U-Faculty": 16,
+      "B-Program": 17,
+      "I-Program": 18,
+      "L-Program": 19,
+      "U-Program": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  }
+]

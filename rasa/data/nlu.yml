@@ -96,12 +96,6 @@ nlu:
     - what is brock like?
     - can you give me an overview of brock university?
 
-- intent: program_inquiry
-  examples: |
-    - tell me about the programs at brock
-    - what programs does brock offer?
-    - what kind of degrees can you get at brock?
-
 - intent: respond_program_interested
   examples: |
     - I'm interested in [Computer Science]{"entity": "Program"}
@@ -117,6 +111,18 @@ nlu:
   examples: |
     - Does brock have a [Hiking]{"entity": "Club"} Club?
     - What kind of [Hiking]{"entity": "Club"} Clubs are at Brock?
+
+############################
+##### PROGRAM INTENTS ######
+############################
+
+- intent: program_general_info
+  examples: |
+    - does brock have a [Popular Culture]{"entity": "Program"} program?
+    - is [Psychology]{"entity": "Program"} a degree offered at brock?
+    - is [Labour Studies]{"entity": "Program"} a major at brock?
+    - can you tell me a bit about brock's [Game Design]{"entity": "Program"} program?
+    - What can you tell me about the [Computer Science]{"entity": "Program"} program?
 
 #########################
 ##### EXAM INTENTS ######
@@ -171,12 +177,12 @@ nlu:
     - Can you give me [Michael Fawkes]{"entity": "Faculty"}'s email?
     - Can I reach [Curtis Fogel]{"entity": "Faculty"} by email?
 
+# this is getting mixed up with the general info questions
 - intent: faculty_title
   examples: |
-    - what does [Colleen Hood]{"entity": "Faculty"} do?
     - What is [Pei-Chun Hsieh]{"entity": "Faculty"}'s title?
-    - What does [Garrett Hutson]{"entity": "Faculty"} do at brock
     - What is [Craig Hyatt]{"entity": "Faculty"}'s role at brock?
+    - What is [Erin Sharpe]'s official position at brock?
 
 - intent: faculty_extension
   examples: |
@@ -1220,4 +1226,3 @@ nlu:
     - Hannah Zhang
     - Josie Zhao
     - Rosalie Zielinski-Lawrence
-

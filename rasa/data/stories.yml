@@ -34,14 +34,7 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: program inquiry
-  steps:
-  - intent: program_inquiry
-  - action: utter_program_interested
-  - intent: respond_program_interested
-    entities:
-      - Program: "Computer Science"
-  - action: action_program_info
+  
 
 - story: course inquiry
   steps:
@@ -64,6 +57,17 @@ stories:
     entities:
       - CourseCode: "ACTG 1P91"
   - action: action_exam_general_info
+
+- story: program general info
+  steps:
+  - intent: program_general_info
+    entities:
+      - Program: "Neuroscience"
+  - action: action_program_general_info
+
+############################
+##### FACULTY INTENTS ######
+############################
 
 - story: faculty general info 
   steps:
