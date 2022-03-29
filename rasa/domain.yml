@@ -9,10 +9,11 @@ intents:
   - mood_unhappy
   - bot_challenge
   - general_information
-  - program_inquiry
   - respond_program_interested:
       use_entities: true
   - course_inquiry:
+      use_entities: true
+  - program_general_info:
       use_entities: true
   - club_inquiry:
       use_entities: true
@@ -43,6 +44,7 @@ actions:
   - action_program_info
   - action_club_info
   - action_exam_general_info
+  - action_program_general_info
   - action_faculty_general_info
   - action_faculty_department
   - action_faculty_email

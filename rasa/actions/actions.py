@@ -119,6 +119,37 @@ except mariadb.Error as e:
 
 #         return []
 
+class ActionProgramGeneralInfo(Action):
+    def name(self) -> Text:
+        return "action_program_general_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        entity = tracker.get_latest_entity_values(entity_type="Program")
+        program_name = any(True for _ in entity)
+
+        # response
+        if program_name:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT PrgName, PrgDesc, PrgLink, PrgFac FROM program WHERE PrgName=?;",
+                (program_name,)
+            )
+
+            info = next(cur)
+
+            dispatcher.utter_message(text=f'''
+                Yes, the {info[0]} program is offered by the {info[3]}.  Here's a bit of information about it.
+            ''')
+            dispatcher.utter_message(text=f'''
+                {info[1]}.  Here's a link for more information: {info[2]}
+            ''')
+        else:
+            dispatcher.utter_message(text="I couldn't find that program")
+        return []
+
 class ActionExamGeneralInfo(Action):
     def name(self) -> Text:
         return "action_exam_general_info"
@@ -160,13 +191,13 @@ class ActionFacultyGeneralInfo(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
+        name = any(True for _ in entity)
 
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, Title, Email, Extension, FacLocation FROM Faculty WHERE FirstName=? and LastName=?;",
@@ -191,13 +222,13 @@ class ActionFacultyDepartment(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
-
+        name = any(True for _ in entity)
+        
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, FacDept FROM Faculty WHERE FirstName=? and LastName=?;",
@@ -222,13 +253,13 @@ class ActionFacultyEmail(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
+        name = any(True for _ in entity)
 
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, Email FROM Faculty WHERE FirstName=? and LastName=?;",
@@ -253,13 +284,13 @@ class ActionFacultyTitle(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
+        name = any(True for _ in entity)
 
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, Title FROM Faculty WHERE FirstName=? and LastName=?;",
@@ -284,13 +315,13 @@ class ActionFacultyExtension(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
+        name = any(True for _ in entity)
 
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, Extension FROM Faculty WHERE FirstName=? and LastName=?;",
@@ -315,13 +346,13 @@ class ActionFacultyLocation(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
         entity = tracker.get_latest_entity_values(entity_type="Faculty")
-        name = next(entity)
-        first_name = name.split(' ')[0]
-        last_name = name.split(' ')[1:]
-        last_name = " ".join(last_name) # turn last name from list into string separated by spaces
+        name = any(True for _ in entity)
 
         # response
         if name:
+            first_name = name.split(' ')[0]
+            last_name = name.split(' ')[1:]
+            last_name = " ".join(last_name) # turn last name from list into string separated by spaces
             cur = conn.cursor()
             cur.execute(
                 "SELECT FirstName, LastName, FacLocation FROM Faculty WHERE FirstName=? and LastName=?;",
