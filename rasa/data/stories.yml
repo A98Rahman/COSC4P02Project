@@ -2,10 +2,7 @@ version: "3.0"
 
 stories:
 
-- story: general info path
-  steps:
-  - intent: general_information
-  - action: utter_general_information
+# BASE STORIES
 
 - story: happy path
   steps:
@@ -34,29 +31,9 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-  
-
-- story: course inquiry
-  steps:
-  - intent: course_inquiry
-    entities:
-      - Course: "Engineering"
-  - action: action_course_info
-
-- story: club inquiry
-  steps:
-  - intent: club_inquiry
-    entities:
-      - Club: "Champions of Change"
-  - action: action_club_info
-
-
-- story: exam general info 
-  steps:
-  - intent: exam_general_info
-    entities:
-      - CourseCode: "ACTG 1P91"
-  - action: action_exam_general_info
+###############################
+####### PROGRAM STORIES #######
+###############################
 
 - story: program general info
   steps:
@@ -66,7 +43,74 @@ stories:
   - action: action_program_general_info
 
 ############################
-##### FACULTY INTENTS ######
+####### EXAM STORIES #######
+############################
+
+- story: exam general info 
+  steps:
+  - intent: exam_general_info
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: utter_course_section  
+  - intent: course_section
+    entities:
+      - CourseSection: "3"
+  - slot_was_set:
+      - CourseSection: "3"  
+  - action: action_exam_general_info
+
+- story: exam location  
+  steps:
+  - intent: exam_location 
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: utter_course_section  
+  - intent: course_section
+    entities:
+      - CourseSection: "3"
+  - slot_was_set:
+      - CourseSection: "3"
+  - action: action_exam_location
+
+- story: exam delivery   
+  steps:
+  - intent: exam_delivery 
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: utter_course_section  
+  - intent: course_section
+    entities:
+      - CourseSection: "3"
+  - slot_was_set:
+      - CourseSection: "3"
+  - action: action_exam_delivery
+
+############################
+##### FACULTY STORIES ######
 ############################
 
 - story: faculty general info 

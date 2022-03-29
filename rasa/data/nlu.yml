@@ -1,6 +1,7 @@
 version: "3.0"
 
 nlu:
+# BASE INTENTS
 - intent: greet
   examples: |
     - hey
@@ -90,39 +91,17 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
-- intent: general_information
-  examples: |
-    - can you tell me more about brock?
-    - what is brock like?
-    - can you give me an overview of brock university?
-
-- intent: respond_program_interested
-  examples: |
-    - I'm interested in [Computer Science]{"entity": "Program"}
-    - [Physics]{"entity": "Program"}
-
-- intent: course_inquiry
-  examples: |
-    - Do you offer a course about [Engineering]{"entity": "Course"}
-    - Does Brock have a [Product Management]{"entity": "Course"} course?
-    - What [Support]{"entity": "Course"} courses does brock have?
-
-- intent: club_inquiry
-  examples: |
-    - Does brock have a [Hiking]{"entity": "Club"} Club?
-    - What kind of [Hiking]{"entity": "Club"} Clubs are at Brock?
-
 ############################
 ##### PROGRAM INTENTS ######
 ############################
 
 - intent: program_general_info
   examples: |
-    - does brock have a [Popular Culture]{"entity": "Program"} program?
-    - is [Psychology]{"entity": "Program"} a degree offered at brock?
-    - is [Labour Studies]{"entity": "Program"} a major at brock?
-    - can you tell me a bit about brock's [Game Design]{"entity": "Program"} program?
-    - What can you tell me about the [Computer Science]{"entity": "Program"} program?
+    - does brock have a [Popular Culture](Program) program?
+    - is [Psychology](Program) a degree offered at brock?
+    - is [Labour Studies](Program) a major at brock?
+    - can you tell me a bit about brock's [Game Design](Program) program?
+    - What can you tell me about the [Computer Science](Program) program?
 
 #########################
 ##### EXAM INTENTS ######
@@ -130,27 +109,44 @@ nlu:
 
 - intent: exam_general_info
   examples: |
-    - tell me about the [ACTG 4P41]{"entity": "CourseCode"} exam?
-    - I want to know more about the [ACTG 1P91]{"entity": "CourseCode"} exam?
-    - Is there an exam for [ACTG 3P11] {"entity": "CourseCode"}?
-
+    - tell me about the [ACTG 4P41](CourseCode) exam?
+    - I want to know more about the [ACTG 1P91](CourseCode) exam?
+    - Is there an exam for [ACTG 3P11] (CourseCode)?
 - intent: exam_location
   examples: |
-    - where is the [ACTG 4P41]{"entity": "CourseCode"} exam?
-    - What is the location of the [ACTG 4P12]{"entity": "CourseCode"} exam?
-    - Is the [ACTG 4P34] {"entity": "CourseCode"} exam face-to-face?
-
+    - where will the [ACTG 1P02](CourseCode) exam take place?
+    - What is the location of the [ACTG 3P11](CourseCode) exam?
+    - I want to know where [ACTG 1P02] (CourseCode) exam will be
+    - I want to know the room of the [ACTG 1P02] (CourseCode) exam
+    - where is the [ACTG 4P41](CourseCode) exam?
+    - Is the [ACTG 4P34] (CourseCode) exam face-to-face?
 - intent: exam_date
   examples: |
-    - when is the [ACTG 4P11]{"entity": "CourseCode"} exam?
-    - What time is the [ACTG 2P51]{"entity": "CourseCode"} exam?
-    - What day is the [ACTG 1p91] {"entity": "CourseCode"} exam?
-
+    - when is the [ACTG 4P11](CourseCode) exam?
+    - when is the exam for [ACTG 4P11](CourseCode)?
+    - What time is the [ACTG 2P51](CourseCode) exam?
+    - What day is the [ACTG 1p91] (CourseCode) exam?
+    - when will the [ACTG 4P11](CourseCode) take place?
+    - what is the date of the [ACTG 4P11](CourseCode) exam?
 - intent: exam_delivery
   examples: |
-    - Is the [ACTG 1P02]{"entity": "CourseCode"} exam online?
-    - How is the [ACTG 3P11]{"entity": "CourseCode"} exam being delivered?
-    - Is there an in-person exam for [ACTG 1P02] {"entity": "CourseCode"}?
+    - Is the [ACTG 1P02](CourseCode) exam online?
+    - How is the [ACTG 3P11](CourseCode) exam being delivered?
+    - Is there an in-person exam for [ACTG 1P02] (CourseCode)?
+    - is the [actg 1p02](CourseCode) exam online?
+
+- intent: course_duration
+  examples: |
+    - [D1](CourseDuration)
+    - [D2](CourseDuration)
+    - [D3](CourseDuration)
+    - [D4](CourseDuration)
+- intent: course_section
+  examples: |
+    - [1](CourseSection)
+    - [2](CourseSection)
+    - [3](CourseSection)
+    - [4](CourseSection)
 
 ############################
 ##### FACULTY INTENTS ######
@@ -158,45 +154,45 @@ nlu:
 
 - intent: faculty_general_info
   examples: |
-    - Does [Robson De Grande]{"entity": "Faculty"} work at Brock?
-    - How can I get a hold of [Earl Foxwell]{"entity": "Faculty"}?
-    - I'm looking for [Dave Bockus]{"entity": "Faculty"}?
-    - Is there a [Martha Barnes]{"entity": "Faculty"} at Brock?
+    - Does [Robson De Grande](Faculty) work at Brock?
+    - How can I get a hold of [Earl Foxwell](Faculty)?
+    - I'm looking for [Dave Bockus](Faculty)?
+    - Is there a [Martha Barnes](Faculty) at Brock?
 
 - intent: faculty_department
   examples: |
-    - What department does [Corliss Bean]{"entity": "Faculty"} work in?
-    - What does [Nathan Hall]{"entity": "Faculty"} teach?
-    - What department is [David Gabriel]{"entity": "Faculty"} in?
-    - What is [Timothy Fletcher]{"entity": "Faculty"}'s area of study?
+    - What department does [Corliss Bean](Faculty) work in?
+    - What does [Nathan Hall](Faculty) teach?
+    - What department is [David Gabriel](Faculty) in?
+    - What is [Timothy Fletcher](Faculty)'s area of study?
 
 - intent: faculty_email
   examples: |
-    - what is [Daniel Caterini]{"entity": "Faculty"}'s email?
-    - I want to send a message to [Kimberly Anderson]{"entity": "Faculty"}.
-    - Can you give me [Michael Fawkes]{"entity": "Faculty"}'s email?
-    - Can I reach [Curtis Fogel]{"entity": "Faculty"} by email?
+    - what is [Daniel Caterini](Faculty)'s email?
+    - I want to send a message to [Kimberly Anderson](Faculty).
+    - Can you give me [Michael Fawkes](Faculty)'s email?
+    - Can I reach [Curtis Fogel](Faculty) by email?
 
 # this is getting mixed up with the general info questions
 - intent: faculty_title
   examples: |
-    - What is [Pei-Chun Hsieh]{"entity": "Faculty"}'s title?
-    - What is [Craig Hyatt]{"entity": "Faculty"}'s role at brock?
-    - What is [Erin Sharpe]'s official position at brock?
+    - What is [Pei-Chun Hsieh](Faculty)'s title?
+    - What is [Craig Hyatt](Faculty)'s role at brock?
+    - What is [Erin Sharpe](Faculty)'s official position at brock?
 
 - intent: faculty_extension
   examples: |
-    - can you give me [William Gittings]{"entity": "Faculty"}'s extension number?
-    - what is [Meghan Harlow]{"entity": "Faculty"}s extension number
-    - Can I reach [Eduardo Fernandez Cerna]{"entity": "Faculty"} by phone?
-    - what is [Michael Holmes]{"entity": "Faculty"}'s phone number?
+    - can you give me [William Gittings](Faculty)'s extension number?
+    - what is [Meghan Harlow](Faculty)'s extension number
+    - Can I reach [Eduardo Fernandez Cerna](Faculty) by phone?
+    - what is [Michael Holmes](Faculty)'s phone number?
 
 - intent: faculty_location
   examples: |
-    - Where is [Alisa Grigorovich]{"entity": "Faculty"}'s office?
-    - Can I find [Suzanne Gabriel]{"entity": "Faculty"} on campus?
-    - Where could I find [Pauli Gardner]{"entity": "Faculty"}?
-    - Where is [Kimberley Gammage]{"entity": "Faculty"} located?
+    - Where is [Alisa Grigorovich](Faculty)'s office?
+    - Can I find [Suzanne Gabriel](Faculty) on campus?
+    - Where could I find [Pauli Gardner](Faculty)?
+    - Where is [Kimberley Gammage](Faculty) located?
 
 - lookup: Program
   examples: |
@@ -1226,3 +1222,10 @@ nlu:
     - Hannah Zhang
     - Josie Zhao
     - Rosalie Zielinski-Lawrence
+
+- lookup: CourseDuration
+  examples: |
+    - D1
+    - D2
+    - D3
+    - D4
