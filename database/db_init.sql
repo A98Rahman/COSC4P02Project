@@ -712,7 +712,7 @@ INSERT INTO Exam (CrsCode, CrsDuration, CrsSection, ExamDate, ExamStartTime, Exa
     ('Break the Case and Goodman Consulting Competition','https://experiencebu.brocku.ca/event/203946','Saturday, March 26 at 9:00AM EDT','https://experiencebu.brocku.ca/event/203946','Online','https://experiencebu.brocku.ca/event/203946'),
     ('Break the Case','https://experiencebu.brocku.ca/event/203735','Saturday, March 26 at 3:00PM EDT','https://experiencebu.brocku.ca/event/203735','Online','https://experiencebu.brocku.ca/event/203735');
 
-INSERT INTO Staff (StaffDept, FirstName, LastName, Email, Email_Url, Title, Extension ,StaffLocation) VALUES
+INSERT INTO Staff (StaffDept, FirstName, LastName, Email, Email_Url, Extension, StaffLocation, Title) VALUES
     ('Faculty & Staff Relations','Gabriela','Donia','gdonia@brocku.ca','mailto:gdonia@brocku.ca',3807,'ST 1220A',NULL),
     ('Faculty & Staff Relations','Danielle','McCrindle','dmccrindle@brocku.ca','mailto:dmccrindle@brocku.ca',4329,'ST 1210B',NULL),
     ('Faculty & Staff Relations','Rebecca','Pilot','rpilot@brocku.ca','mailto:rpilot@brocku.ca',3978,'ST 1220A',NULL),

@@ -101,7 +101,17 @@ nlu:
     - is [Psychology](Program) a degree offered at brock?
     - is [Labour Studies](Program) a major at brock?
     - can you tell me a bit about brock's [Game Design](Program) program?
-    - What can you tell me about the [Computer Science](Program) program?
+    - Give me an overview of [Biomedical Science](Program)
+    - Tell me about the [Earth Sciences](Program)
+
+- intent: program_requirements
+  examples: |
+    - What are the [Popular Culture](Program) program's requirements?
+    - What average do I need to get into [Psychology](Program)?
+    - What grades do I need to get into [Labour Studies](Program)?
+    - What requirements are there to get into the [Game Design](Program) program?
+    - What are the requirements for [Computer Science](Program)?
+    - What are the minimum requirements to get into [Chemistry](Program)
 
 #########################
 ##### EXAM INTENTS ######

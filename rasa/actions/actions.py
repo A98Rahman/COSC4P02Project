@@ -165,14 +165,58 @@ class ActionProgramGeneralInfo(Action):
                 (program_name,)
             )
 
-            info = next(cur)
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
+                The {info[0]} program is offered by the {info[3]}.  Here's a bit of information about it.
+                ''')
+                dispatcher.utter_message(text=f'''
+                    {info[1]}.  Here's a link for more information: {info[2]}
+                ''')
+            except:
+                dispatcher.utter_message(text="I couldn't find that program")
 
-            dispatcher.utter_message(text=f'''
-                Yes, the {info[0]} program is offered by the {info[3]}.  Here's a bit of information about it.
-            ''')
-            dispatcher.utter_message(text=f'''
-                {info[1]}.  Here's a link for more information: {info[2]}
-            ''')
+        else:
+            dispatcher.utter_message(text="I couldn't find that program")
+        return []
+
+class ActionProgramRequirements(Action):
+    def name(self) -> Text:
+        return "action_program_requirements"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        entity = tracker.get_latest_entity_values(entity_type="Program")
+        program_name = False
+        try:
+            program_name = next(entity)
+        except:
+            pass
+
+        # response
+        if program_name:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT PrgName, PrgReqs FROM program WHERE PrgName=?;",
+                (program_name,)
+            )
+
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
+                Here are the admission requirements for {info[0]}, if you were a Secondary Student at an Ontario high school.
+                ''')
+                dispatcher.utter_message(text=f'''
+                    {info[1]}
+                ''')
+                dispatcher.utter_message(text=f'''
+                    For more details, visit our admissions website: https://brocku.ca/admissions/undergraduate/
+                ''')
+            except:
+                dispatcher.utter_message(text="I couldn't find that program")
+
         else:
             dispatcher.utter_message(text="I couldn't find that program")
         return []
@@ -207,11 +251,15 @@ class ActionFacultyGeneralInfo(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
+                Yes, {info[0]} {info[1]} is a {info[2]} here at Brock.  They can be reached at {info[3]} or extension number {info[4]}.  Their office is located at {info[5]}.
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
 
-            dispatcher.utter_message(text=f'''
-            Yes, {info[0]} {info[1]} is a {info[2]} here at Brock.  They can be reached at {info[3]} or extension number {info[4]}.  Their office is located at {info[5]}.
-            ''')
+            
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
@@ -242,11 +290,15 @@ class ActionFacultyDepartment(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
-
-            dispatcher.utter_message(text=f'''
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
                 {info[0]} {info[1]} works in {info[2]}
-            ''')
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+
+            
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
@@ -277,11 +329,15 @@ class ActionFacultyEmail(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
-
-            dispatcher.utter_message(text=f'''
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
                 {info[0]} {info[1]}'s email is {info[2]}
-            ''')
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+
+            
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
@@ -312,11 +368,15 @@ class ActionFacultyTitle(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
-
-            dispatcher.utter_message(text=f'''
+            try:
+                 info = next(cur)
+                 dispatcher.utter_message(text=f'''
                 {info[0]} {info[1]}'s official title is {info[2]}
-            ''')
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+
+            
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
@@ -347,11 +407,14 @@ class ActionFacultyExtension(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
-
-            dispatcher.utter_message(text=f'''
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
                 {info[0]} {info[1]}'s extension number is {info[2]}.  You can reach them at (905) 688-5550 x{info[2]}
-            ''')
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
@@ -382,11 +445,15 @@ class ActionFacultyLocation(Action):
                 (first_name, last_name)
             )
 
-            info = next(cur)
-
-            dispatcher.utter_message(text=f'''
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
                 You can find {info[0]} {info[1]} at {info[2]}.
-            ''')
+                ''')
+            except:
+                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+
+            
         else:
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []

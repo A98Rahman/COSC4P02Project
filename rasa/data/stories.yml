@@ -42,6 +42,13 @@ stories:
       - Program: "Neuroscience"
   - action: action_program_general_info
 
+- story: program requirements
+  steps:
+  - intent: program_requirements
+    entities:
+      - Program: "Computing and Business"
+  - action: action_program_requirements
+
 ############################
 ####### EXAM STORIES #######
 ############################
