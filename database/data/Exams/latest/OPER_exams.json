@@ -1,0 +1,505 @@
+[{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": null
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "6",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 2P91",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "7",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 3P93",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "OPER 4P26",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}]
