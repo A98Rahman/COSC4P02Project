@@ -31,6 +31,17 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
+############################
+####### CLUB STORIES #######
+############################
+
+- story: club general info
+  steps:
+  - intent: club_general_info
+    entities:
+      - Club: "Activism"
+  - action: action_club_general_info
+
 ###############################
 ####### PROGRAM STORIES #######
 ###############################

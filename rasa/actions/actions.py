@@ -29,6 +29,52 @@ except mariadb.Error as e:
     sys.exit(1)
 
 #########################
+##### CLUB ACTIONS ######
+#########################
+
+class ActionClubGeneralInfo(Action):
+    def name(self) -> Text:
+        return "action_club_general_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+
+        entity = tracker.get_latest_entity_values(entity_type="Club")
+        club_keyword = False
+        try:
+            print(club_keyword)
+            club_keyword = next(entity)
+            print(club_keyword)
+        except:
+            pass
+
+        # response
+        if club_keyword:
+            club_wildcard = "%" + club_keyword + "%"
+            print(club_wildcard)
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT ClubName, ClubContact, ClubDesc FROM club WHERE ClubDesc LIKE %s or ClubName LIKE %s;",
+                (club_wildcard, club_wildcard)
+            )
+            
+            try:
+                info = next(cur)
+                dispatcher.utter_message(text=f'''
+                {info[0]} might interest you.  Here's a bit of information about it.
+                ''')
+                dispatcher.utter_message(text=f'''
+                    {info[2]}.  You can contact them at {info[1]}.
+                ''')
+            except:
+                dispatcher.utter_message(text="I'm not sure if we have that club.  Here's a link to all of our clubs. https://www.brockbusu.ca/involvement/clubs/")
+
+        else:
+            dispatcher.utter_message(text="I'm not sure if we have that club.  Here's a link to all of our clubs. https://www.brockbusu.ca/involvement/clubs/")
+        return []
+
+#########################
 ##### EXAM ACTIONS ######
 #########################
 
