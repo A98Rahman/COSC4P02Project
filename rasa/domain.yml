@@ -12,6 +12,8 @@ intents:
     # Program Intents 
   - program_general_info:
       use_entities: true
+  - program_requirements:
+      use_entities: true
     # Exam Intents 
   - course_duration:
       use_entites: true
@@ -70,6 +72,7 @@ slots:
 actions:
   # Program Actions
   - action_program_general_info
+  - action_program_requirements
   # Faculty Actions
   - action_faculty_general_info
   - action_faculty_department
