@@ -1,0 +1,145 @@
+[{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": null
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 3P21",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "11:30",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "SPMA 4P86",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+}]

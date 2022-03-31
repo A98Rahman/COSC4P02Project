@@ -1,0 +1,145 @@
+[{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": null
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12 \u2013 Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12 \u2013 Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12 \u2013 Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "19:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12 \u2013 Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "19:00",
+  "exam_location": "ONLINE"
+},{
+  "course_code": "NEUR 3P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12 \u2013 Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "19:00",
+  "exam_location": "ONLINE"
+}]

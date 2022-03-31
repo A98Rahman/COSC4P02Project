@@ -1,0 +1,433 @@
+[{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": null
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1F18",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 1P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "16:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 2P70",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P12",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P14",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "NUSC 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}]
