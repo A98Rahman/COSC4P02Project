@@ -9,6 +9,9 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+    # Club intents 
+  - club_general_info:
+      use_entities: true
     # Program Intents 
   - program_general_info:
       use_entities: true
@@ -70,6 +73,8 @@ slots:
       entity: CourseSection
 
 actions:
+  # Club Actions
+  - action_club_general_info 
   # Program Actions
   - action_program_general_info
   - action_program_requirements

@@ -91,6 +91,17 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+
+#########################
+##### CLUB INTENTS ######
+#########################
+
+- intent: club_general_info
+  examples: |
+    - does brock have a [Dance](Club) Club
+    - Is there a [Chess](Club) Club at brock?
+    - Are there any [Health](Club) Clubs at brock?
+
 ############################
 ##### PROGRAM INTENTS ######
 ############################
@@ -299,49 +310,198 @@ nlu:
 
 - lookup: Club
   examples: |
-    - Active Mental Health Initiative
-    - Cams Kids Foundation
-    - Canadian Association for Global Health
-    - First Love Centre
-    - Heart and Stroke Foundation Club
-    - Mental Health Association
+    - Active
+    - Mental
+    - Health
+    - Initiative
+    - American
+    - Sign
+    - Language
+    - Club
+    - Angels
+    - Animal
+    - Activism
+    - Anime
+    - Against
+    - Homelessness
+    - Baking
+    - Bangladeshi
+    - Association
+    - Best
+    - Buddies
+    - Black
+    - Student
+    - Euchre
+    - Biological
+    - Society
+    - Bollywood
+    - Dance
+    - Campus
+    - Conservatives
+    - Kids
+    - Foundation
+    - Canadian
+    - for
+    - Global
+    - Nursing
+    - Students
+    - Cancer
+    - Awareness
+    - Catholic
+    - Champions
+    - Change
+    - Chess
+    - Chinese
+    - Scholars
+    - CHYS
+    - Christian
+    - Fellowship
+    - Climbing
+    - Bouldering
+    - Commerce
+    - ECON
+    - Concurrent
+    - Education
+    - Crafting
+    - Cure
+    - Creeds
+    - Cybersecurity
+    - Eco
+    - English
+    - Esports
+    - Faculty
+    - Applied
+    - Sciences
+    - Mentorship
+    - Program
+    - Math
+    - Science
+    - Council
+    - Filipino
+    - First
+    - Love
+    - Centre
+    - French
+    - FOCUS
+    - Game
+    - Research
+    - Development
+    - Ghana
+    - Medical
+    - Brigade
+    - GoLive
+    - Gujarati
+    - Magazine
+    - Heart
+    - Stroke
+    - Hellenic
+    - Hercampus
+    - HOSA
+    - Improv
+    - Inclusive
+    - Communities
+    - Canada
+    - Indian
+    - Institute
+    - Healthcare
+    - Improvement
+    - Open
+    - School
+    - Chapter
+    - Jews
+    - Chabad
+    - Kinesiology
+    - Kin
+    - Games
+    - K-Pop
+    - Korean
+    - Leaders
+    - League
+    - Legends
+    - Learners
+    - Lift
+    - Church
+    - Linguistic
+    - Network
+    - Macedonian
+    - Middle
+    - Eastern
+    - North
+    - African
+    - Magic
+    - Malayalee
+    - Mandarin
+    - Menstruation
+    - REDefined
+    - Model
+    - United
+    - Nations
+    - Molecular
+    - Technologies
     - Montionball
-    - Recharge: Mind & Body Wellness Club
-    - Relay for Life
-    - Run Club
-    - Senior Ties
-    - Stem Cell Club
-    - Student Hikers
-    - American Sign Language Club
-    - Bangladeshi Students Association
-    - Chinese Students and Scholars Association
-    - Filipino Students Association com
-    - Ghana Association
-    - Gujarati Student Association
-    - Hellenic Students Association
-    - Indian Student Association
-    - Korean Students Association
-    - Macedonian Students Association
-    - Middle Eastern and North African Students Association
-    - Malayalee Association
-    - Mandarin Chinese Christian Fellowship
-    - Pakistani Students Association
-    - Sri Lankan Student Association
-    - Tamil Student Association
-    - Vietnamese Students Association
-    - Angels without Boundaries
-    - Animal Activism Club
-    - Badgers Against Homelessness
-    - Cancer Awareness Society
-    - Champions of Change
-    - Eco Society
-    - Hercampus at Brock U
-    - Inclusive Communities of Canada
-    - Menstruation REDefined
-    - Niagara Rotaract Club
-    - Niagara Strong at Brock
-    - Physicians for Human Rights Brock University Chapter
-    - Plant Based at Brock
+    - Photography
+    - Motorsports
+    - Music
+    - Memory
+    - Musical
+    - Theatre
+    - Muslim
+    - Niagara
+    - Rotaract
+    - Strong
+    - Pakistani
+    - Pentecost
+    - Associates
+    - Party
+    - Physicians
+    - Human
+    - Rights
+    - Plant-Based
+    - Pursuit
+    - Happiness
+    - Power
+    - Podcast
+    - Pride
+    - Psychology
+    - Mind
+    - Body
+    - Wellness
+    - RECL
+    - Rehabilitation
+    - Relay
+    - Life
+    - Run
+    - Senior
+    - Ties
+    - Shinerama
+    - Sikh
+    - Smash
+    - STEMSource
+    - Sociology
+    - Criminology
+    - South
+    - Asian
+    - Space
+    - Exploration
+    - Sport
+    - Business
+    - Helps
+    - Everyone
+    - Make
+    - Allies
+    - Management
+    - Sri
+    - Lankan
+    - Stem
+    - Cell
+    - Hikers
+    - Tamil
+    - Vietnamese
+    - Vinyl
+    - Westmarches
+    - Women
+    - Young
+    - Liberals
 
 - lookup: CourseCode
   examples: |
