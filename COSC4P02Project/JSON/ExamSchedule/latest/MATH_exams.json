@@ -1,0 +1,1801 @@
+{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": null
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P02",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "16:30",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P20",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P40",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P67",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "3",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "4",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P97",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "5",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 1P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P08",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "17:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P75",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P82",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P94",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 2P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "11:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P06",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 26",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "22:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P13",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:30",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P41",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "TH259"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P85",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "12:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "MCA203"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 3P95",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P61",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}{
+  "course_code": "MATH 4P84",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "ONLINE"
+}

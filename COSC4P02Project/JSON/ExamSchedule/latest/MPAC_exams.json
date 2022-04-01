@@ -1,0 +1,289 @@
+{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": null,
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": null
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P09",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P30",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 12",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCDVIS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P31",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "STH202"
+}{
+  "course_code": "MPAC 5P38",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 19",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "STH202"
+}

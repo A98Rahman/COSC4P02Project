@@ -1,0 +1,1220 @@
+version: "3.0"
+
+nlu:
+# BASE INTENTS
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+############################
+##### PROGRAM INTENTS ######
+############################
+
+- intent: program_general_info
+  examples: |
+    - does brock have a [Popular Culture](Program) program?
+    - is [Psychology](Program) a degree offered at brock?
+    - is [Labour Studies](Program) a major at brock?
+    - can you tell me a bit about brock's [Game Design](Program) program?
+    - What can you tell me about the [Computer Science](Program) program?
+
+#########################
+##### EXAM INTENTS ######
+#########################
+
+- intent: exam_general_info
+  examples: |
+    - tell me about the [ACTG 4P41](CourseCode) exam?
+    - I want to know more about the [ACTG1P91](CourseCode) exam?
+    - Is there an exam for [3P11ACTG] (CourseCode)?
+- intent: exam_location
+  examples: |
+    - where will the [ACTG 1P02](CourseCode) exam take place?
+    - What is the location of the [ACTG 3P11](CourseCode) exam?
+    - I want to know where [1P02ACTG] (CourseCode) exam will be
+    - I want to know the room of the [1P02 ACTG] (CourseCode) exam
+    - where is the [ACTG4P41](CourseCode) exam?
+    - Is the [ACTG 4P34] (CourseCode) exam face-to-face?
+- intent: exam_date
+  examples: |
+    - when is the [ACTG4P11](CourseCode) exam?
+    - when is the exam for [4P11 ACTG](CourseCode)?
+    - What time is the [2P51ACTG](CourseCode) exam?
+    - What day is the [ACTG 1p91] (CourseCode) exam?
+    - when will the [ACTG 4P11](CourseCode) take place?
+    - what is the date of the [ACTG 4P11](CourseCode) exam?
+- intent: exam_delivery
+  examples: |
+    - Is the [ACTG1P02](CourseCode) exam online?
+    - How is the [3P11ACTG](CourseCode) exam being delivered?
+    - Is there an in-person exam for [1p02 ACTG] (CourseCode)?
+    - is the [actg 1p02](CourseCode) exam online?
+
+- intent: course_duration
+  examples: |
+    - [D1](CourseDuration)
+    - [D2](CourseDuration)
+    - [D3](CourseDuration)
+    - [D4](CourseDuration)
+- intent: course_section
+  examples: |
+    - [1](CourseSection)
+    - [2](CourseSection)
+    - [3](CourseSection)
+    - [4](CourseSection)
+
+############################
+##### FACULTY INTENTS ######
+############################
+
+- intent: faculty_general_info
+  examples: |
+    - Does [Robson De Grande](Faculty) work at Brock?
+    - How can I get a hold of [Earl Foxwell](Faculty)?
+    - I'm looking for [Dave Bockus](Faculty)?
+    - Is there a [Martha Barnes](Faculty) at Brock?
+
+- intent: faculty_department
+  examples: |
+    - What department does [Corliss Bean](Faculty) work in?
+    - What does [Nathan Hall](Faculty) teach?
+    - What department is [David Gabriel](Faculty) in?
+    - What is [Timothy Fletcher](Faculty)'s area of study?
+
+- intent: faculty_email
+  examples: |
+    - what is [Daniel Caterini](Faculty)'s email?
+    - I want to send a message to [Kimberly Anderson](Faculty).
+    - Can you give me [Michael Fawkes](Faculty)'s email?
+    - Can I reach [Curtis Fogel](Faculty) by email?
+
+# this is getting mixed up with the general info questions
+- intent: faculty_title
+  examples: |
+    - What is [Pei-Chun Hsieh](Faculty)'s title?
+    - What is [Craig Hyatt](Faculty)'s role at brock?
+    - What is [Erin Sharpe](Faculty)'s official position at brock?
+
+- intent: faculty_extension
+  examples: |
+    - can you give me [William Gittings](Faculty)'s extension number?
+    - what is [Meghan Harlow](Faculty)'s extension number
+    - Can I reach [Eduardo Fernandez Cerna](Faculty) by phone?
+    - what is [Michael Holmes](Faculty)'s phone number?
+
+- intent: faculty_location
+  examples: |
+    - Where is [Alisa Grigorovich](Faculty)'s office?
+    - Can I find [Suzanne Gabriel](Faculty) on campus?
+    - Where could I find [Pauli Gardner](Faculty)?
+    - Where is [Kimberley Gammage](Faculty) located?
+
+- lookup: Program
+  examples: |
+    - Accounting
+    - Adult Education
+    - Applied Computing
+    - Applied Linguistics
+    - Biochemistry
+    - Biological Sciences
+    - Biomedical Sciences
+    - Biophysics
+    - Biotechnology
+    - Business Administration
+    - Business Administration Co-op International Double Degree
+    - Business Communication
+    - Business Economics
+    - Canadian Studies
+    - Chemistry
+    - Child and Youth Studies
+    - Child Health
+    - Classics and Archaeology
+    - Community Health
+    - Computer Science
+    - Computer Science and Mathematics
+    - Computing and Business
+    - Computing and Network Communications
+    - Critical Criminology
+    - Dramatic Arts
+    - Early Childhood Education
+    - Earth Sciences
+    - Economics
+    - Engineering Science
+    - English Language and Literature
+    - Environmental Geoscience
+    - Environmental Sustainability
+    - Film Studies
+    - Forensic Psychology and Criminal Justice
+    - French Studies
+    - Game Design
+    - Game Programming
+    - General Humanities
+    - Geography
+    - German
+    - Hispanic and Latin American Studies
+    - History
+    - Indigenous Education
+    - Interactive Arts and Science
+    - Italian Studies
+    - Kinesiology
+    - Kinesiology Accelerate Into Masters
+    - Labour Studies
+    - Mathematics and Statistics
+    - Media and Communication Studies
+    - Medical Sciences
+    - Medieval and Renaissance Studies
+    - Music
+    - Neuroscience
+    - Nursing
+    - Oenology and Viticulture
+    - Philosophy
+    - Physical Education
+    - Physics
+    - Political Science
+    - Popular Culture
+    - Psychology
+    - Public Health
+    - Public Health Accelerate Into Masters
+    - Recreation and Leisure Studies
+    - Sciences
+    - Social Sciences
+    - Sociology
+    - Sport Management
+    - Studies in Arts and Culture
+    - Teacher Education Consecutive
+    - Technological Education
+    - Tourism Studies
+    - Visual Arts
+    - Womens and Gender Studies
+
+- lookup: Course
+  examples: |
+    - Engineering
+    - Accounting
+    - Product Management
+    - Sales
+    - Research and Development
+    - Business Development
+    - Training
+    - Support
+    - Marketing
+    - Legal
+    - Human Resources
+    - Services
+
+- lookup: Club
+  examples: |
+    - Active Mental Health Initiative
+    - Cams Kids Foundation
+    - Canadian Association for Global Health
+    - First Love Centre
+    - Heart and Stroke Foundation Club
+    - Mental Health Association
+    - Montionball
+    - Recharge: Mind & Body Wellness Club
+    - Relay for Life
+    - Run Club
+    - Senior Ties
+    - Stem Cell Club
+    - Student Hikers
+    - American Sign Language Club
+    - Bangladeshi Students Association
+    - Chinese Students and Scholars Association
+    - Filipino Students Association com
+    - Ghana Association
+    - Gujarati Student Association
+    - Hellenic Students Association
+    - Indian Student Association
+    - Korean Students Association
+    - Macedonian Students Association
+    - Middle Eastern and North African Students Association
+    - Malayalee Association
+    - Mandarin Chinese Christian Fellowship
+    - Pakistani Students Association
+    - Sri Lankan Student Association
+    - Tamil Student Association
+    - Vietnamese Students Association
+    - Angels without Boundaries
+    - Animal Activism Club
+    - Badgers Against Homelessness
+    - Cancer Awareness Society
+    - Champions of Change
+    - Eco Society
+    - Hercampus at Brock U
+    - Inclusive Communities of Canada
+    - Menstruation REDefined
+    - Niagara Rotaract Club
+    - Niagara Strong at Brock
+    - Physicians for Human Rights Brock University Chapter
+    - Plant Based at Brock
+
+- lookup: CourseCode
+  examples: |
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\s\d[A-Za-z]\d\d
+    - \d[A-Za-z]\d\d\s[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
+    - \d[A-Za-z]\d\d[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
+
+
+
+
+- lookup: Faculty
+  examples: |
+    - Physical Health Activity Study Team
+    - Allan Adkin
+    - Kimberly Anderson
+    - Martha Barnes
+    - Corliss Bean
+    - Jackie Bean
+    - Shawn Beaudette
+    - Katrina Bennie
+    - Tony Bogaert
+    - Ty Bolibruck
+    - Catherine Brigantino
+    - Stephanie Brooks
+    - Rachael Bujtas
+    - Nicholas Burton
+    - Daniel Caterini
+    - Chris Chard
+    - Stephen Cheung
+    - Nicole Chimera
+    - Antony Wai Ho Chum
+    - Sanghee Chun
+    - Heather Church
+    - Ryan Clutterbuck
+    - Maureen Connolly
+    - Jens Coorssen
+    - Laura Cousens
+    - Joanne Crawford
+    - Jess Crosthwaite
+    - Cindy Curtis
+    - David Ditor
+    - Michele Donnelly
+    - Martin Dragan
+    - Melanie Elliott
+    - Val Andrew Fajardo
+    - Bareket Falk
+    - Ally Fast
+    - Brent Faught
+    - Michael Fawkes
+    - Eduardo Fernandez Cerna
+    - Timothy Fletcher
+    - Curtis Fogel
+    - David Gabriel
+    - Suzanne Gabriel
+    - Kimberley Gammage
+    - Pauli Gardner
+    - William Gittings
+    - Alisa Grigorovich
+    - Nathan Hall
+    - Meghan Harlow
+    - Michael Holmes
+    - Colleen Hood
+    - Pei-Chun Hsieh
+    - Garrett Hutson
+    - Craig Hyatt
+    - Greig Inglis
+    - Joe Kenny
+    - Shannon Kerwin
+    - Asif Khowaja
+    - Lisa Kikulis
+    - Darlene Kitcher
+    - Stephen Klassen
+    - Nota Klentrou
+    - Joanne Kremble
+    - Elyse Lappano
+    - Madelyn Law
+    - Kelli-An Lawrance
+    - Paul LeBlanc
+    - Jason Liu
+    - Sean Locke
+    - Kelly Lockwood
+    - Ken Lodewyk
+    - Izabella Ludwa
+    - Diane Mack
+    - Adam Macneil
+    - Adam MacNeil
+    - Rebecca MacPherson
+    - Farhana Madhani
+    - Dan Malleck
+    - Cheryl Mallen
+    - Mike McAlpine
+    - Taylor McKee
+    - Valerie Michaelson
+    - Sandra Micsinszki
+    - Rob Millington
+    - Brad Millington
+    - Sarah Mitchell-Ewart
+    - Mary Montgomery
+    - Parthajit Mukherjee
+    - Taniya Nagpal
+    - Michael Naraine
+    - Miya Narushima
+    - Tim O'Connell
+    - Sheila O'Keefe-Mccarthy
+    - Deborah O'Leary
+    - Elizabeth Orr
+    - Karen Patte
+    - Jae Patterson
+    - Colleen Patterson
+    - William Pickett
+    - Maryann Polce-Gordon
+    - Dawn Prentice
+    - Zaida Rahaman
+    - Vanessa Raso
+    - Kyle Rich
+    - Ian Ritchie
+    - Jennifer Ritchie
+    - Talia Ritondo
+    - Danny Rosenberg
+    - Jenn Salfi
+    - Ana Sanchez
+    - Tracey Schenck
+    - Connie Schumacher
+    - Olan Scott
+    - Erin Sharpe
+    - Kerry Shoalts
+    - Shalini Singh
+    - Kirsty Spence
+    - Caron Staff
+    - Norica Stein
+    - Julie Stevens
+    - Salima Sulaiman
+    - Philip Sullivan
+    - Newman Siu Kwan Sze
+    - Karyn Taplay
+    - Jonathan Therrien
+    - Nicole Therrien
+    - Peter Tiidus
+    - Craig Tokuno
+    - Demi Toms
+    - Dawn Trussell
+    - Litsa Tsiani
+    - Michael Van Bussel
+    - Cathy Van Ingen
+    - Rene Vandenboom
+    - Michelle Vine
+    - Terrance Wade
+    - Hui Di Wang
+    - Wendy Ward
+    - Janet Westbury
+    - Heather Whalen
+    - Tammy Whitaker-Campbell
+    - Colleen Whyte
+    - Shelley Wills
+    - Philip Wilson
+    - Tammy Woodhouse-Gilby
+    - Dave Bockus
+    - Po Ling Bork
+    - Amber Cecchini
+    - Robson De Grande
+    - Ali Emami
+    - Naser Ezzati-Jivan
+    - Cale Fairchild
+    - Earl Foxwell
+    - Sheridan Houghten
+    - Yifeng Li
+    - Beatrice Ombuki-Berman
+    - Donna Phelps
+    - Ke Qiu
+    - Renata Queiroz Dividino
+    - Brian Ross
+    - Glaucio Haroldo Silva de Carvalho
+    - Michael Winter
+    - Denise Armstrong
+    - Mira Bajovic
+    - Joe Barrett
+    - Monique Beauregard
+    - Sheila Bennett
+    - Ethna Bernat
+    - Fiona Blaikie
+    - Jody Boone
+    - Sandra Bosacki
+    - Hilary Brown
+    - Dorothy Buchanan
+    - Wanda Burger
+    - Mark Castrodale
+    - Diem Chanhsavang
+    - Lorenzo Cherubini
+    - Darlene Ciuffetelli Parker
+    - Diane Collier
+    - Sandra Della Porta
+    - Dane Di Cesare
+    - Ann-Marie Dibiase
+    - Tony Dipetta
+    - Tamara Dover
+    - Susan M. Drake
+    - Xavier Fazio
+    - Candace Figg
+    - Tiffany Gallagher
+    - Cecilia Garcia Vega
+    - David Genkin
+    - Dino Giancola
+    - Shelley Griffin
+    - Ashley Grover
+    - Catherine Hands
+    - Debra Harwood
+    - Stanley Henry
+    - David Hutchison
+    - Kamini Jaipal-Jamani
+    - Doug Karrow
+    - Clinton Kewley
+    - Steven Khan
+    - Anjali Khirwadkar
+    - Liz Kirk
+    - Janice Kit
+    - Julian Kitchen
+    - Rahul Kumar
+    - Tarryn Landman
+    - Danielle Larmon
+    - Xiaobin Li
+    - Catherine Longboat
+    - Chunlei Lu
+    - Tina MacPherson
+    - Joshua Markle
+    - Pina McDonnell
+    - Sarah McGean
+    - Robert McGray
+    - Ruth Mcquirter
+    - Francine Menashy
+    - Joyce Mgombelo
+    - Michael Mindzak
+    - Dolana Mogadime
+    - Teresa Mozol
+    - Wendy Muir
+    - Brittany Nagy
+    - Trevor Norris
+    - Michael O'Sullivan
+    - Michael Owen
+    - Lissa Paul
+    - Kimberley Pelchat
+    - Sandra Plavinskis
+    - Erin Plyley
+    - Dave Potts
+    - Snezana Ratkovic
+    - Natalie Reynolds
+    - Michael Savage
+    - Brian Serroul
+    - Margo Shuttleworth
+    - Nicola Simmons
+    - Sharon Smith
+    - Michelle Smythe
+    - Monique Somma
+    - Cara Sparman
+    - Sharon Spiece
+    - Nancy Taber
+    - Eriona Tarelli
+    - Leanne Taylor
+    - Susan Tilley
+    - Mary-Louise Vanderlee
+    - Sherri Vansickle
+    - Peter Vietgen
+    - Susan Virtue
+    - Louis Volante
+    - Mark Walker
+    - Shannon Welbourn
+    - James Windjack
+    - Jon Winterbottom
+    - Kari-Lynn Winters
+    - Vera Woloshyn
+    - Joanna Amodeo
+    - Lyndsay Bocchinfuso
+    - Sarah Burger
+    - Lauryn Carrick
+    - Jaye Cawood
+    - Cheryl Clark
+    - Shelley Croll
+    - Suzanne Curtin
+    - Allison Flynn-Bowman
+    - Stacia Heaton
+    - Kimberly Kelly
+    - Tania Melnyk
+    - Katie Jane Millington
+    - Shannon Rakutt
+    - Brian Roy
+    - Angie Rubino
+    - Jasmine Stasiuk Riddell
+    - Lauren Stewart
+    - Elizabeth Ye
+    - Elaine Aldridge-Low
+    - Robert Alexander
+    - James Allard
+    - Lynn Arner
+    - Boyanna Bancic
+    - Lesley Bell
+    - Michael Berman
+    - Gregory Betts
+    - Diane Bielicki
+    - Michele Black
+    - Irene Blayer
+    - John Bonnett
+    - Renee-Claude Breitenstein
+    - Thomas Brown
+    - Nadine Brundrett
+    - Amanda Burk
+    - Natalee Caple
+    - Linda Carreiro
+    - Michael Carter
+    - Alexander Christie
+    - Jessica Clark
+    - George W Cleland
+    - Violetta Clitheroe
+    - Carmela Colella
+    - Athena Colman
+    - Tim Conley
+    - Gale Coskan-Johnson
+    - Keri Cronin
+    - Brian Cumberland
+    - Christine Daigle
+    - Rohit Dalvi
+    - Martin Danahay
+    - Karin Di Bella
+    - Adam Dickinson
+    - Fanny Dolansky
+    - Roberta Doylend
+    - Michael Driedger
+    - Tamara El-Hoss
+    - David Fancy
+    - Gavin Fearon
+    - Karen Fricker
+    - Tami Friedman
+    - Amy Friend
+    - Michael Gicante
+    - Allison Glazebrook
+    - Neta Gordon
+    - Elizabeth Greene
+    - Mike Griffin
+    - Edgar Harris
+    - Nicholas Hauck
+    - Jason Hawreliak
+    - Liz Hay
+    - Astrid Heyer
+    - Maximiliano Holten-Andersen
+    - Ann Howey
+    - Jenny Ing
+    - Alison Innes
+    - Anton Jansen
+    - Rajiv Kaushik
+    - Liz Keenan
+    - Derek Knight
+    - Leah Knight
+    - Jane Koustas
+    - Gregor Kranjc
+    - Murray Kropf
+    - Peter Landey
+    - Monika Lederich
+    - Nigel Lezama
+    - Brian Lightbody
+    - Jack Lightstone
+    - Maureen Lux
+    - Deanna Maerz
+    - Sandra Marcroft
+    - Mathew Martin
+    - Aaron Mauro
+    - Arnie Mcbay
+    - Andrew McDonald
+    - Jane A. Mcleod
+    - Carol Merriam
+    - Murray Miles
+    - Gillian Minaker
+    - Behnaz Mirzai
+    - Carrie Murray
+    - Richard Ndayizigamiye
+    - Elizabeth Neswald
+    - Roberto Nickel
+    - Jean Ntakirutimana
+    - Olatunji Ojo
+    - Troy Ouellette
+    - Catherine Parayre
+    - Sarah Parker
+    - Andrew Pendakis
+    - Nina Penner
+    - Liz Powell
+    - Brian Power
+    - Gyllian Raby
+    - Adam Rappold
+    - Lauren Regier
+    - Jeff Reichheld
+    - Rachel Rensink-Hoff
+    - Katarina Rieger
+    - Cindy Rorke
+    - Colin Rose
+    - Andrew Roth
+    - Matthew Royal
+    - Felipe Ruan
+    - Renee Salhany
+    - Daniel Samson
+    - Cristina Santos
+    - Elizabeth Sauer
+    - David Schimmelpenninck
+    - Barbara Seeber
+    - Ravindra Singh
+    - Angus Smith
+    - Luciano Soligo
+    - Susan Spearey
+    - Mark Spencer
+    - Linda Steer
+    - Carole Stewart
+    - Clara Suba
+    - Maria Del Carmen Suescun Pozas
+    - Violetta Alexandra Sutton
+    - Donna Szoke
+    - Reza Tabandeh
+    - Melissa Vanatte
+    - Melissa VanAtte
+    - Ernesto Virgulti
+    - David Vivian
+    - Elizabeth Vlossak
+    - Katharine Von Stackelberg
+    - Michelle Vosburgh
+    - Ning Wang
+    - Murray Wickett
+    - Danielle Wilson
+    - Beate Wolf
+    - Naomi Andrews
+    - Arlene Arch
+    - Karen Arnell
+    - Michael Ashton
+    - Xue Bai
+    - Julia Baird
+    - Lora Baliukas
+    - Kate Bezanson
+    - Amanda Bishop
+    - Simon Black
+    - Jessica Blythe
+    - Joanne Boekestyn
+    - Jeff Boggs
+    - Angela Book
+    - Jacqueline Botterill
+    - Dale Bradley
+    - Leah Bradshaw
+    - Alison Braley-Rattai
+    - Marian Bredin
+    - David Brown
+    - Priscilla Burnham Riosa
+    - Michael Busseri
+    - Jonah Butovsky
+    - David Butz
+    - Karen Campbell
+    - Miguel Cardoso
+    - Heather Chalmers
+    - Cornelius Christian
+    - Liz Clarke
+    - Rosemary Condillac
+    - Charles Conteh
+    - Janet Conway
+    - Nancy Cook
+    - Lauren Corman
+    - Kimberly Cote
+    - Kendra Coulter
+    - Alison Cox
+    - Lindsay Cramp
+    - Dan Cui
+    - Erin Daly
+    - Drew Dane
+    - Hevina Dashwood
+    - Danuta De Grosbois
+    - Katerina Deliovsky
+    - Lynn Dempsey
+    - James Desjardins
+    - Andrew Dickens
+    - R. W. Dimand
+    - Stefan Dolgert
+    - Andrea Doucet
+    - Paula Duarte Guterman
+    - Tim Dun
+    - Thomas Dunk
+    - Veena Dwivedi
+    - Hannah Dyer
+    - Stephen Emrich
+    - Angela Evans
+    - Glenn Ewing
+    - Ifeanyi Ezeonu
+    - Thomas Farrell
+    - Ann Farrell
+    - Maurice Feldman
+    - David Fennell
+    - Derek Foster
+    - Margot Francis
+    - Jan Frijters
+    - Christopher Fullerton
+    - Claire Gallop
+    - Greg Gillespie
+    - Lori Ann Gomez
+    - Dawn Good
+    - Jennifer Good
+    - Nicole Goodman
+    - Kevin Gosine
+    - Paul Gray
+    - Lindsay Grifa
+    - Blayne Haggart
+    - William Hall
+    - Paul Hamilton
+    - Indra Hardeen
+    - Atsuko Hashimoto
+    - David Hayes
+    - Tim Heinmiller
+    - Charlotte Henay
+    - Matthew Hennigar
+    - Joanne Heritz
+    - Kim Hill
+    - Gordon Hodson
+    - Miles Howe
+    - Dimitre Iankoulov
+    - Jennifer Janke-Predovich
+    - Megan Johnson
+    - Russell Johnston
+    - Marilyne Jollineau
+    - Chelsea Jones
+    - Anthony Kinik
+    - Tamari Kitossa
+    - Robert Koehn
+    - Duncan Koerber
+    - Katerina Koka
+    - Julie Koudys
+    - Joseph Kushner
+    - Matt Kwan
+    - Lester Mk Kwong
+    - Alison Lahn
+    - Jean Francois Lamarche
+    - Andrew Lee
+    - Diane Leon
+    - Mae Leong
+    - Peter Lester
+    - Gary Libben
+    - Qian Liu
+    - Pierre Lizee
+    - Sadie Lovett
+    - Nicole Luke
+    - Cheng Luo
+    - Pascal Lupien
+    - Phillip Mackintosh
+    - Jeannie Mackintosh
+    - Samantha MacNeil
+    - Caitlin Mahy
+    - Ingrid Makus
+    - Voula Marinos
+    - Tanya Martini
+    - Sarah Matheson
+    - Ginny Mckinney
+    - John McNamara
+    - Ivan Medovikov
+    - Liam Midzain-Gobin
+    - Christie Milliken
+    - Richard Mitchell
+    - Catherine Mondloch
+    - Shannon Moore
+    - Samantha Morris
+    - Ann Motte
+    - Cameron Muir
+    - Laura Mullins
+    - Tim Murphy
+    - Bohdan Nebesio
+    - Scott Neufeld
+    - Trent Newmeyer
+    - Melissa Nichol
+    - Fatima Noorbhai
+    - Thomas O'Neill
+    - Marcel Oestreich
+    - Tomson Ogwang
+    - Debbie Ouellette
+    - Monika Ovsonka
+    - Erin Panda
+    - Hijin Park
+    - Christina Peters
+    - Milica Petkovic
+    - Michael Pisaric
+    - Ryan Plummer
+    - Shauna Pomerantz
+    - Rebecca Raby
+    - Mary-Beth Raddon
+    - Charlis Raineki
+    - Heather Ramey
+    - Michael Ripmeester
+    - Julie Ross
+    - Nikki Roy
+    - Valdeep Saini
+    - Larry Savage
+    - Sid Segalowitz
+    - Teresa Shanley
+    - Tayler Shannon
+    - Lindsay Shaw
+    - Elizabeth Shulman
+    - Dragos Simandan
+    - Jo-Anne Sinnige-Egger
+    - Danielle Sirianni Molnar
+    - Teshawn Smikle
+    - Murray Smith
+    - Karen Louise Smith
+    - Amanda Smits
+    - Brandy Sokoloski
+    - John Sorenson
+    - Dennis Soron
+    - Tammy Stewart
+    - Vaisnavi Sugumar
+    - Ling Sun
+    - Gökbörü Sarp Tanyildiz
+    - Christine Tardif-Williams
+    - Donato Tarulli
+    - Ayda Tekok-Kilic
+    - David Telfer
+    - Sabrina Thai
+    - Katie Thompson
+    - Kendra Thomson
+    - Ron Thomson
+    - Livianna Tossutti
+    - Jennifer Turner
+    - Kevin Turner
+    - Ebru Ustundag
+    - Kirsti Van Dorsser
+    - Tricia Vause
+    - Zain Virani
+    - Tony Volk
+    - Elizabeth Wasylowich
+    - Michelle Webber
+    - Richard Welland
+    - Teena Willoughby
+    - Teegawende Zeida
+    - Dawn Zinga
+    - Kimberley Zonneveld
+    - Ian Adamson
+    - Osman Ulas Aktas
+    - Philip Alexander
+    - Mohsen Alghazali
+    - Steve Argiropoulos
+    - Michael Armstrong
+    - Abdul Rehman Ashraf
+    - Mohamed Ayadi
+    - Anteneh Ayanso
+    - Jason Barfoot
+    - Darlene Bay
+    - Walid Ben Omrane
+    - Ernest Biktimirov
+    - Dave Bouckenooghe
+    - Jennifer Brisson
+    - Kareen Brown
+    - Martin Caruana
+    - Norman Chasse
+    - Dipanjan Chatterjee
+    - Shawna Chen
+    - Danny Cho
+    - Kajsa Cirocco
+    - Francois Cote-Vaillancourt
+    - Louis Culumovic
+    - Donald Cyr
+    - John D'Amico
+    - Filippo Dall'Olio
+    - Dirk De Clercq
+    - Sheng Deng
+    - Hilary Derreck
+    - Valerie Desimone
+    - Eric Dolansky
+    - Stephanie Domanico
+    - Paul Dunn
+    - Fayez Elayan
+    - Teresa Feng
+    - Andrew Gaudes
+    - Jacqueline Glenney
+    - Sabrina Gong
+    - Cristina Greco
+    - Todd Green
+    - Sylvia Grewatsch
+    - Luiza Guimaraes Santos
+    - Hania Halwani
+    - Stella Han
+    - Zhongzhi He
+    - Wesley Helms
+    - Hemantha Herath
+    - Teju Herath
+    - Nam Ho
+    - Sangeeta Hollo
+    - Geoffrey Hoover
+    - Magnus Hultman
+    - Princely Ifinedo
+    - Melissa Ingoldsby
+    - Sadia Jahanzeb
+    - Marshall Shibing Jiang
+    - Katherine Johnston
+    - Mark Julien
+    - Eugene Kaciak
+    - Adam Kanar
+    - Carrie Kelly
+    - Sohyung Kim
+    - Ken Klassen
+    - Martin Kusy
+    - Pascale Lapointe-Antunes
+    - Michelle Lau
+    - Skander Lazrak
+    - Susan Leblanc
+    - Jin Lei
+    - Kevin Leung
+    - Jennifer Li
+    - Crystal Li
+    - Mengtian Li
+    - Steve Lim
+    - Zhefeng Frank Liu
+    - Heidi Madden
+    - Antonia Mantonakis
+    - Huda Masood
+    - Stephanie McIntosh
+    - Teighan McIntyre
+    - Deborah McPhee
+    - Nigussie Mengesha
+    - Teresa Menzies
+    - Diane Miller
+    - Waqar Nadeem
+    - Sultana Naimi
+    - Saima Naseer
+    - Alyssa Nasello
+    - Alex Nikitkov
+    - Onem Ozocak
+    - Parunchana Pacharn
+    - Paulo Palombo
+    - Donna Panetta
+    - Mark Parker
+    - Yasanthi Perera
+    - Unyong (Howard) Pyo
+    - Abdul Rahimi
+    - Usman Raja
+    - Laurie Redford
+    - Kojo Saffu
+    - Barbara Sainty
+    - Paul Scarbrough
+    - Joachim Scholz
+    - Lydia Schuele
+    - Harry Serabian
+    - Anamitra Shome
+    - Glenn Skrubbeltrang
+    - Lauren Smith
+    - Tashfeen Sohail
+    - Tatyana Sokolyk
+    - Robert Steinbauer
+    - Linda Stillabower
+    - Abbas Sumar
+    - Francis Sun
+    - Simon Suwanyangyuan
+    - Tanya Tang
+    - Tek Thongpapanl
+    - Amy Tomaino
+    - Samir Trabelsi
+    - Francine Vachon
+    - Ali Vaezi
+    - Marianne Vessel
+    - Lainie Wagner
+    - Kai-Yu Wang
+    - Yan Wang
+    - Robert Welch
+    - Becky White-Côté
+    - Barry Wright
+    - Reena Yoogalingam
+    - Shuai Yuan
+    - Asma Zafar
+    - Xia (Celine) Zhang
+    - Lianxi Zhou
+    - Sarah Ackles
+    - S. Ejaz Ahmed
+    - Beulah Alexander
+    - Brittani Allan
+    - Stephen Anco
+    - Jeffrey Atkinson
+    - Heather Bellisario
+    - Hichem Ben-El-Mechaiekh
+    - Michael Bidochka
+    - John Black
+    - Shyamal K. Bose
+    - Fulvio Boseglav
+    - Uwe Brand
+    - Shengrong Bu
+    - Chantal Buteau
+    - Christene Carpenter-Cleland
+    - Alan Castle
+    - Richard Cheel
+    - John Ciolfi
+    - David Crandles
+    - Jacinta Dano
+    - Michael De Lange
+    - Vincenzo De Luca
+    - Charles Despres
+    - Margarita Di Profio
+    - Lisa Dowling
+    - Talin Doyle
+    - Travis Dudding
+    - Gregory Finn
+    - Frank Fueten
+    - Henryk Fuks
+    - Elena Genkin
+    - Stephen Glasgow
+    - Kiyoko Gotanda
+    - Thad Harroun
+    - J Stephen Hartman
+    - Majid Hassas Roudsari
+    - Martin Head
+    - Elizabeth Horvath
+    - Tomas Hudlicky
+    - Fiona Hunter
+    - Debbie Inglis
+    - Brittany Kalbfleisch
+    - Jasneet Kaur
+    - Belinda Kemp
+    - Omar Kihel
+    - Kyung-Hee Kim
+    - Ivana Komljenovic Metcalf
+    - Polydoros Kyriacou
+    - Martin Lemaire
+    - Dorothy Levay
+    - Yuanlin Li
+    - Ping Liang
+    - Mike Lozon
+    - Thomas Macdonald
+    - Lori Macneil
+    - Neil Marshall
+    - William Marshall
+    - Stephanie Martin
+    - Francine Mccarthy
+    - Daniel Mccarthy
+    - Cheryl Mccormick
+    - Gary M Mcdonnell
+    - John Menzies
+    - Costa Metallinos
+    - Aleksandar Necakov
+    - Georgii Nikonov
+    - Alexandre Odesski
+    - Martin Ouellette
+    - Irene Palumbo
+    - Sergio Paone
+    - Justin Pentesco
+    - Gary Pickering
+    - Melanie Pilkington
+    - Liqun Qiu
+    - Fereidoon Razavi
+    - Maureen Reedyk
+    - Art Reimer
+    - Stephen Renda
+    - Miriam Richards
+    - Caroline Romero
+    - Kirill Samokhin
+    - Mariek Schmidt
+    - Barak Shoshany
+    - Astride Silis
+    - Mitch Sillaste
+    - Glaucio Haroldo Silva De Carvalho
+    - Razvan Simionescu
+    - Adonis Skandalis
+    - Alison Smart
+    - Jennifer Smith
+    - Gaynor Spencer
+    - Caroline Starrs
+    - Justin Steepe
+    - Edward Sternin
+    - Jeff Stuart
+    - Dorina Szuroczki
+    - Barbara Tatarnic
+    - Glenn Tattersall
+    - Hernan Ugalde
+    - Arthur Van Der Est
+    - Jordan Vandenhoff
+    - Liette Vasseur
+    - Nicholas Vesprini
+    - Jan Vrbik
+    - Leslie Wenzl
+    - Mark Willoughby
+    - Jim Willwerth
+    - Dorothy Witte
+    - Thomas Wolf
+    - Shufen Xu
+    - Xiaojian Xu
+    - Tony Yan
+    - Jayne Zarecky
+    - Paul Zelisko
+    - Hannah Zhang
+    - Josie Zhao
+    - Rosalie Zielinski-Lawrence
+
+- lookup: CourseDuration
+  examples: |
+    - [a-zA-Z]\d
