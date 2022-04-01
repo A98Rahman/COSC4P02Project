@@ -1,0 +1,83 @@
+[
+  {
+    "course_code": null,
+    "course_duration": null,
+    "course_section": null,
+    "exam_date": null,
+    "exam_start_time": null,
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": null,
+    "course_section": null,
+    "exam_date": null,
+    "exam_start_time": null,
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": null,
+    "exam_date": null,
+    "exam_start_time": null,
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": null,
+    "exam_start_time": null,
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": "Apr. 25",
+    "exam_start_time": null,
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": "Apr. 25",
+    "exam_start_time": "19:00",
+    "exam_end_time": null,
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": "Apr. 25",
+    "exam_start_time": "19:00",
+    "exam_end_time": "22:00",
+    "exam_location": null
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": "Apr. 25",
+    "exam_start_time": "19:00",
+    "exam_end_time": "22:00",
+    "exam_location": "WCIBDS"
+  },
+  {
+    "course_code": "CLAS 1P97",
+    "course_duration": "D3",
+    "course_section": "1",
+    "exam_date": "Apr. 25",
+    "exam_start_time": "19:00",
+    "exam_end_time": "22:00",
+    "exam_location": "WCIBDS"
+  }
+]

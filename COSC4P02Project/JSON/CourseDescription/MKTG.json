@@ -1,0 +1,2689 @@
+{
+  "course_code": null,
+  "course_name": null,
+  "course_duration": null,
+  "course_days": null,
+  "course_time": null,
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": null,
+  "course_duration": null,
+  "course_days": null,
+  "course_time": null,
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": null,
+  "course_days": null,
+  "course_time": null,
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": null,
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": null,
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P51",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "Marketing Basics",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P52",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "General Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": "ASY"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": "ASY"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": " ",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": " ",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 2P91",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Introduction to Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P24",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P96",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing Research",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P97",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing High-Tech Products & Innovations",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 3P98",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Analytics & Intelligence",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P23",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Communications",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P25",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Marketing Strategy",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P26",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Professional Selling & Sales Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P28",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Retail Management",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P29",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Business to Business Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P31",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "Consumer Behaviour",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P33",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "International Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P92",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Wine Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "SYN"
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D2",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P93",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "Internet & Social Media Marketing",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC"
+}{
+  "course_code": "MKTG 4P94",
+  "course_name": "New Product Development",
+  "course_duration": "D3",
+  "course_days": "  S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": ""
+}

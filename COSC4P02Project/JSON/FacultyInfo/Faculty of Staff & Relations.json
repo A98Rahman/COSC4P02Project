@@ -1,0 +1,40 @@
+{
+    "Programs":[
+    {
+    "Department":"Faculty & Staff Relations",
+    "FirstName":"Gabriela",
+    "LastName":"Donia",
+    "Email":"gdonia@brocku.ca",
+    "Email_url":"mailto:gdonia@brocku.ca",
+    "Extension":"3807",
+    "Location":"ST 1220A"
+    },
+    {
+    "Department":"Faculty & Staff Relations",
+    "FirstName":"Danielle",
+    "LastName":"McCrindle",
+    "Email":"dmccrindle@brocku.ca",
+    "Email_url":"mailto:dmccrindle@brocku.ca",
+    "Extension":"4329",
+    "Location":"ST 1210B"
+    },
+    {
+    "Department":"Faculty & Staff Relations",
+    "FirstName":"Rebecca",
+    "LastName":"Pilot",
+    "Email":"rpilot@brocku.ca",
+    "Email_url":"mailto:rpilot@brocku.ca",
+    "Extension":"3978",
+    "Location":"ST 1220A"
+    },
+    {
+    "Department":"Faculty & Staff Relations",
+    "FirstName":"Amanda",
+    "LastName":"Villella",
+    "Email":"avillella@brocku.ca",
+    "Email_url":"mailto:avillella@brocku.ca",
+    "Extension":"3022",
+    "Location":"ST 1210A"
+    }
+    ]
+    }

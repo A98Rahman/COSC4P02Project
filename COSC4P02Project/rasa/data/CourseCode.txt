@@ -1,0 +1,17 @@
+- lookup: CourseCode
+  examples: |
+    - ACTG 1P02
+    - ACTG 1P91
+    - ACTG 2P12
+    - ACTG 2P21
+    - ACTG 2P31
+    - ACTG 2P32
+    - ACTG 2P51
+    - ACTG 3P11
+    - ACTG 3P23
+    - ACTG 4P11
+    - ACTG 4P12
+    - ACTG 4P34
+    - ACTG 4P41
+    - ACTG 4P42
+    - ACTG 4P62
