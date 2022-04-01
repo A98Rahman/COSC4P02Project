@@ -1,0 +1,101 @@
+{
+  "course_code": "ACCC 0N01",
+  "course_name": "Work Placement I",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ACCC 0N02",
+  "course_name": "Work Placement II",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ACCC 0N02",
+  "course_name": "Work Placement II",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ACCC 0N03",
+  "course_name": "Work Placement III",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ACCC 0N03",
+  "course_name": "Work Placement III",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ACCC 0N04",
+  "course_name": "Work Placement IV",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N04",
+  "course_name": "Work Placement IV",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N05",
+  "course_name": "Work Placement V",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N05",
+  "course_name": "Work Placement V",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N90",
+  "course_name": "Co-Op Professional Preparation",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "1700-1830",
+  "course_format": "LEC",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}

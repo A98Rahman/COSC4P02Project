@@ -1,0 +1,501 @@
+{
+  "course_code": "BTEC 0N01",
+  "course_name": "Work Placement I",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N02",
+  "course_name": "Work Placement II",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N02",
+  "course_name": "Work Placement II",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N03",
+  "course_name": "Work Placement III",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N03",
+  "course_name": "Work Placement III",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N04",
+  "course_name": "Work Placement IV",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N04",
+  "course_name": "Work Placement IV",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N05",
+  "course_name": "Work Placement V",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 0N05",
+  "course_name": "Work Placement V",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 2P09",
+  "course_name": "Introduction to Biotechnology",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1200",
+  "course_format": "LEC",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Panagabko, Candace",
+  "location": "Location: ST108"
+}{
+  "course_code": "BTEC 2P09",
+  "course_name": "Introduction to Biotechnology",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1300",
+  "course_format": "TUT 1",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: WH203"
+}{
+  "course_code": "BTEC 2P09",
+  "course_name": "Introduction to Biotechnology",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1300",
+  "course_format": "TUT 2",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: WH204"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1200-1300",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Instructor: Matta, Divya",
+  "location": "Location: TH257"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "900 -1200",
+  "course_format": "LAB 1",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 2",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 3",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "900 -1200",
+  "course_format": "LAB 4",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 5",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 2P63",
+  "course_name": "Introduction to Biophysical Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 6",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 1P91 and 1P92 (1F92); one of MATH 1P01 and 1P02, MATH 1P05 and 1P06 (preferred), or MATH 1P97.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 3P09",
+  "course_name": "Bioreactor Processes",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Atkinson, Jeffrey",
+  "location": "Location: ST108"
+}{
+  "course_code": "BTEC 3P09",
+  "course_name": "Bioreactor Processes",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 1",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 3P09",
+  "course_name": "Bioreactor Processes",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1700-2000",
+  "course_format": "LAB 2",
+  "prerequisites": "Notes: materials fee required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: MCE303"
+}{
+  "course_code": "BTEC 3P50",
+  "course_name": "Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1200-1300",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BIOL 2P02 and 2P03 (2F01) or permission of the instructor.",
+  "instructor": "Instructor: Necakov, Aleksandar / Ciolfi, John / Despres, Charles",
+  "location": "Location: STH203 \u2014 South Block (formerly AS203)"
+}{
+  "course_code": "BTEC 3P50",
+  "course_name": "Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 1",
+  "prerequisites": "Prerequisites: Prerequisite(s): BIOL 2P02 and 2P03 (2F01) or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: MCH324"
+}{
+  "course_code": "BTEC 3P50",
+  "course_name": "Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 2",
+  "prerequisites": "Prerequisites: Prerequisite(s): BIOL 2P02 and 2P03 (2F01) or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: MCH324"
+}{
+  "course_code": "BTEC 3P50",
+  "course_name": "Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1000-1300",
+  "course_format": "LAB 3",
+  "prerequisites": "Prerequisites: Prerequisite(s): BIOL 2P02 and 2P03 (2F01) or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: MCH324"
+}{
+  "course_code": "BTEC 3P50",
+  "course_name": "Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 4",
+  "prerequisites": "Prerequisites: Prerequisite(s): BIOL 2P02 and 2P03 (2F01) or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: MCH324"
+}{
+  "course_code": "BTEC 3P62",
+  "course_name": "Bio-Organic Chemistry",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1500-1630",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as CHEM 3P62",
+  "instructor": "Instructor: Atkinson, Jeffrey",
+  "location": "Location: TH240"
+}{
+  "course_code": "BTEC 3P93",
+  "course_name": "Protein & Nucleic Acid Chemistry",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as CHEM 3P93",
+  "instructor": "Instructor: Yan, Hongbin (Tony)",
+  "location": "Location: WH206"
+}{
+  "course_code": "BTEC 4F90",
+  "course_name": "Research Project",
+  "course_duration": "D1",
+  "course_days": "S M T W T F S",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Crosslisting: also offered as CHEM 3P93",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 4F90",
+  "course_name": "Research Project",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Crosslisting: also offered as CHEM 3P93",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 4F91",
+  "course_name": "Thesis",
+  "course_duration": "D1",
+  "course_days": "S M T W T F S",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Open only to majors. See course description for re strictions list. Approval to Year IV (honours) is required. this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 4F91",
+  "course_name": "Thesis",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Open only to majors. See course description for re strictions list. Approval to Year IV (honours) is required. this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BTEC 4P06",
+  "course_name": "Bioinformatics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "900 -1200",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BTEC 3P50, BIOL 3P51 or permission of the instructor.",
+  "instructor": "Instructor: Liang,Ping",
+  "location": "Location: VLZ310PLZ310"
+}{
+  "course_code": "BTEC 4P08",
+  "course_name": "Topics in Plant & Microbial Biotechnology",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1800-2100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): one of BTEC 3P50, 3P93, BCHM 3P01, 3P02, BIOL 2P94 or permission of the instructor.",
+  "instructor": "Instructor: Dano, Jacinta / De Luca, Vincenzo",
+  "location": "Location: MCH313"
+}{
+  "course_code": "BTEC 4P08",
+  "course_name": "Topics in Plant & Microbial Biotechnology",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 1",
+  "prerequisites": "Prerequisites: Prerequisite(s): one of BTEC 3P50, 3P93, BCHM 3P01, 3P02, BIOL 2P94 or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: CRN558"
+}{
+  "course_code": "BTEC 4P08",
+  "course_name": "Topics in Plant & Microbial Biotechnology",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1700",
+  "course_format": "LAB 2",
+  "prerequisites": "Prerequisites: Prerequisite(s): one of BTEC 3P50, 3P93, BCHM 3P01, 3P02, BIOL 2P94 or permission of the instructor.",
+  "instructor": "Section: 1",
+  "location": "Location: CRN558"
+}{
+  "course_code": "BTEC 4P11",
+  "course_name": "Theory of Technqs in Biochem & Molecular Biol",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1500-1800",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BTEC 3P50.",
+  "instructor": "Instructor: Despres, Charles",
+  "location": "Location: MCA241"
+}{
+  "course_code": "BTEC 4P20",
+  "course_name": "Synthetic Biology",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1500-1800",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): one of BTEC 3P50, BCHM 3P01, BIOL 3P51.",
+  "instructor": "Instructor: Necakov, Aleksandar",
+  "location": "Location: GSB308"
+}{
+  "course_code": "BTEC 4P25",
+  "course_name": "Concepts in Bioremediation",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1000-1300",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): open to students holding 15 or more credits.",
+  "instructor": "Instructor: Waller, Alison",
+  "location": "Location: WH8G"
+}{
+  "course_code": "BTEC 4P26",
+  "course_name": "Toxicological Chemistry & Biochemistry",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1130-1300",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): CHEM 2P21 or permission of the instructor.",
+  "instructor": "Instructor: Yan, Hongbin (Tony)",
+  "location": "Location: MCG310"
+}{
+  "course_code": "BTEC 4P27",
+  "course_name": "Enzyme & Co-Enzyme Mechanisms",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as CHEM 4P27",
+  "instructor": "Instructor: Atkinson, Jeffrey",
+  "location": "Location: MCG310"
+}{
+  "course_code": "BTEC 4P28",
+  "course_name": "Bio-Organic Chem:carbohydrates & Nucleic Acid",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as CHEM 4P28",
+  "instructor": "Instructor: Yan, Hongbin (Tony)",
+  "location": "Location: GSB308"
+}{
+  "course_code": "BTEC 4P41",
+  "course_name": "Human Molecular Genetics",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1300-1430",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BTEC 3P50 or BIOL 3P51.",
+  "instructor": "Instructor: MacNeil, Lori",
+  "location": "Location: PLZ409"
+}{
+  "course_code": "BTEC 4P42",
+  "course_name": "Rna World",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "900 -1200",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BTEC 3P50 or BCHM 3P02.",
+  "instructor": "Instructor: MacNeil, Lori",
+  "location": "Location: TH258"
+}{
+  "course_code": "BTEC 4P51",
+  "course_name": "Molecular Virology",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): BTEC 3P50 or permission of the instructor.",
+  "instructor": "Instructor: Patterson, Ian",
+  "location": "Location: GSB308"
+}{
+  "course_code": "BTEC 4P67",
+  "course_name": "Biophysical Techniques",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1300-1430",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as BCHM 4P67 and CHEM 4P67",
+  "instructor": "Instructor: Van Der Est, Arthur J",
+  "location": "Location: PLZ409"
+}{
+  "course_code": "BTEC 4P67",
+  "course_name": "Biophysical Techniques",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1300-1430",
+  "course_format": "LEC",
+  "prerequisites": "Crosslisting: also offered as BCHM 4P67 and CHEM 4P67",
+  "instructor": "Instructor: Van Der Est, Arthur J",
+  "location": "Location: PLZ409"
+}{
+  "course_code": "BTEC 4P67",
+  "course_name": "Biophysical Techniques",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1430-1600",
+  "course_format": "LEC2",
+  "prerequisites": "Crosslisting: also offered as BCHM 4P67 and CHEM 4P67",
+  "instructor": "Instructor: Van Der Est, Arthur J",
+  "location": "Location: PLZ409"
+}{
+  "course_code": "BTEC 4P67",
+  "course_name": "Biophysical Techniques",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1430-1600",
+  "course_format": "LEC2",
+  "prerequisites": "Crosslisting: also offered as BCHM 4P67 and CHEM 4P67",
+  "instructor": "Instructor: Van Der Est, Arthur J",
+  "location": "Location: PLZ409"
+}
