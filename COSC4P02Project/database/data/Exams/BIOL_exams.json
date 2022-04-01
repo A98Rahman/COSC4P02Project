@@ -1,0 +1,937 @@
+[{
+  "course_code": null,
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": null,
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": null,
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": null,
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": null,
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": null,
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": null
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P24",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P27",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 1P92",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "2",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "16:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P03",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 21",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P05",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 20",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "09:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "11:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P92",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 23",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "14:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "17:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P96",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "22:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 2P97",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 18",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "19:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "21:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "SAKAI"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P50",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 25",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P91",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 14",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 3P98",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 22",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCIBDS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCDVIS"
+},{
+  "course_code": "BIOL 4P53",
+  "course_duration": "D3",
+  "course_section": "1",
+  "exam_date": "Apr. 13",
+  "exam_start_time": "09:00",
+  "exam_end_time": "12:00",
+  "exam_location": "WCDVIS"
+}]

@@ -1,0 +1,226 @@
+{
+    "Program":[
+    {
+    "Department":"Dean's Office - Grad Studies",
+    "Title":"Fax: 905-378-5705",
+    "Location":"MCD D255"
+    },
+    {
+    "Department":"Faculty of Graduate Studies",
+    "Title":"Fax: 905-688-0748",
+    "Location":"MCD D250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "Title":"General Inquiries",
+    "Extension":"4490",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Faculty of Graduate Studies",
+    "Title":"General Inquiries",
+    "Extension":"4490",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Joanna",
+    "LastName":"Amodeo",
+    "Email":"jamodeo@brocku.ca",
+    "Email_url":"mailto:jamodeo@brocku.ca",
+    "Title":"Graduate Officer, Student Awards and Funding",
+    "Extension":"5207",
+    "Location":"MCD 255A"
+    },
+    {
+    "Department":"Dean's Office - Grad Studies",
+    "FirstName":"Lyndsay",
+    "LastName":"Bocchinfuso",
+    "Email":"lbocchinfuso@brocku.ca",
+    "Email_url":"mailto:lbocchinfuso@brocku.ca",
+    "Title":"Executive Assistant To The Vice-Provost and Dean,",
+    "Extension":"5261",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Sarah",
+    "LastName":"Burger",
+    "Email":"sburger2@brocku.ca",
+    "Email_url":"mailto:sburger2@brocku.ca",
+    "Title":"Graduate Recruitment Coordinator",
+    "Extension":"5248",
+    "Location":"MCD 255A"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Lauryn",
+    "LastName":"Carrick",
+    "Email":"lcarrick@brocku.ca",
+    "Email_url":"mailto:lcarrick@brocku.ca",
+    "Title":"Manager, Graduate Education Engagement",
+    "Extension":"5197",
+    "Location":"MCD 257"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Jaye",
+    "LastName":"Cawood",
+    "Email":"jcawood@brocku.ca",
+    "Email_url":"mailto:jcawood@brocku.ca",
+    "Title":"Senior Graduate Specialist",
+    "Extension":"3549",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Cheryl",
+    "LastName":"Clark",
+    "Email":"cclark@brocku.ca",
+    "Email_url":"mailto:cclark@brocku.ca",
+    "Title":"Graduate Specialist",
+    "Extension":"3029",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Dean's Office - Grad Studies",
+    "FirstName":"Shelley",
+    "LastName":"Croll",
+    "Email":"scroll@brocku.ca",
+    "Email_url":"mailto:scroll@brocku.ca",
+    "Title":"Graduate Specialist, Faculty of Graduate Studies",
+    "Extension":"4275",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Dean's Office - Grad Studies",
+    "FirstName":"Suzanne",
+    "LastName":"Curtin",
+    "Email":"scurtin@brocku.ca",
+    "Email_url":"mailto:scurtin@brocku.ca",
+    "Title":"Vice-Provost, Grad. Stds. & Dean, Fac. of Grad. Stds.",
+    "Extension":"5346",
+    "Location":"MCD 257"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Allison",
+    "LastName":"Flynn-Bowman",
+    "Email":"aflynn@brocku.ca",
+    "Email_url":"mailto:aflynn@brocku.ca",
+    "Title":"Research Awards & Scholarships Specialist",
+    "Extension":"5040",
+    "Location":"MCD 255A"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Stacia",
+    "LastName":"Heaton",
+    "Email":"sheaton@brocku.ca",
+    "Email_url":"mailto:sheaton@brocku.ca",
+    "Title":"Graduate Student Success & Development Specialist",
+    "Extension":"5192",
+    "Location":"MCD 255A"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Stacia",
+    "LastName":"Heaton",
+    "Email":"sheaton@brocku.ca",
+    "Email_url":"mailto:sheaton@brocku.ca",
+    "Title":"Graduate Student Success & Development Specialist",
+    "Extension":"5047",
+    "Location":"ST 119A"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Kimberly",
+    "LastName":"Kelly",
+    "Email":"kkelly2@brocku.ca",
+    "Email_url":"mailto:kkelly2@brocku.ca",
+    "Title":"Director, Strategic Operations & Management",
+    "Extension":"4390",
+    "Location":"MCD 258"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Tania",
+    "LastName":"Melnyk",
+    "Email":"tmelnyk@brocku.ca",
+    "Email_url":"mailto:tmelnyk@brocku.ca",
+    "Title":"Manager, Graduate Operations & Systems",
+    "Extension":"3320",
+    "Location":"MCD 252"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Katie Jane",
+    "LastName":"Millington",
+    "Email":"kmillington@brocku.ca",
+    "Email_url":"mailto:kmillington@brocku.ca",
+    "Title":"Graduate Academic Specialist",
+    "Extension":"4960",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Shannon",
+    "LastName":"Rakutt",
+    "Email":"srakutt@brocku.ca",
+    "Email_url":"mailto:srakutt@brocku.ca",
+    "Title":"Graduate Assistant, Operations, Faculty of Graduat",
+    "Extension":"4608",
+    "Location":"MCD 259"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Brian",
+    "LastName":"Roy",
+    "Email":"broy@brocku.ca",
+    "Email_url":"mailto:broy@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"3779",
+    "Location":"MCD 255"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Angie",
+    "LastName":"Rubino",
+    "Email":"arubino@brocku.ca",
+    "Email_url":"mailto:arubino@brocku.ca",
+    "Title":"Graduate Specialist",
+    "Extension":"5691",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Jasmine",
+    "LastName":"Stasiuk Riddell",
+    "Email":"jstasiukriddell@brocku.ca",
+    "Email_url":"mailto:jstasiukriddell@brocku.ca",
+    "Title":"Graduate Calendar, Policy Systems Analyst",
+    "Extension":"4439",
+    "Location":"MCD 250"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Lauren",
+    "LastName":"Stewart",
+    "Email":"lstewart2@brocku.ca",
+    "Email_url":"mailto:lstewart2@brocku.ca",
+    "Title":"Graduate Assistant, Operations, Faculty of Graduat",
+    "Extension":"3315",
+    "Location":"MCD 259"
+    },
+    {
+    "Department":"Graduate Studies",
+    "FirstName":"Elizabeth",
+    "LastName":"Ye",
+    "Email":"eye@brocku.ca",
+    "Email_url":"mailto:eye@brocku.ca",
+    "Title":"International Graduate Academic Advisor",
+    "Extension":"5484",
+    "Location":"MCD 250"
+    }
+    ]
+    }
