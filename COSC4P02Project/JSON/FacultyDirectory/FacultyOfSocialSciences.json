@@ -1,0 +1,2552 @@
+{
+    "Program":[
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Parent/Child Play Lab",
+    "Location":"STH 448"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Parent/Child Observation Lab",
+    "Location":"STH 450"
+    },
+    {
+    "Department":"Labour Studies",
+    "Extension":"4753",
+    "Location":"MCD D411"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "Extension":"4290",
+    "Location":"SBH 309"
+    },
+    {
+    "Department":"Psychology",
+    "Extension":"5050",
+    "Location":"MCB 326/327"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "Title":"Part Time Instructors",
+    "Extension":"3179",
+    "Location":"MCD 350F"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "Title":"Teaching Assistants",
+    "Extension":"3922",
+    "Location":"MCD 350E"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Undergraduate Teaching Assistant Office",
+    "Extension":"5259",
+    "Location":"MCB 304"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"PSYC 1F90 Teaching Assistant Office",
+    "Extension":"3793",
+    "Location":"MCB 304"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"PSYC 2F23 Teaching Assistant Office",
+    "Extension":"5749",
+    "Location":"MCB 322A"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Attention Lab",
+    "Extension":"4064",
+    "Location":"MCB 402"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Cognitive and Affective Neuroscience Lab",
+    "Extension":"3451",
+    "Location":"PLZ 612"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Developmental Neuroendocrinology Lab",
+    "Extension":"5185",
+    "Location":"MCB 404K"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Coginitive Research",
+    "Extension":"5523",
+    "Location":"PLZ 627"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Graduate Lab",
+    "Extension":"4419",
+    "Location":"MCB 309"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Graduate Student Office",
+    "Extension":"5511",
+    "Location":"PLZ 616"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Graduate Student Office",
+    "Extension":"3034",
+    "Location":"PLZ 615"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Human Behavioural Endocrinology Lab",
+    "Extension":"4735",
+    "Location":"MCB 216"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Face Perception Lab (Infant & Child Development)",
+    "Extension":"4944",
+    "Location":"PLZ 622"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Intergroup Relations Laboratory",
+    "Extension":"5560",
+    "Location":"MCB 222A"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Psychosocial Lab",
+    "Extension":"4473",
+    "Location":"MCB 303"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Social/Personality Lab",
+    "Extension":"4680",
+    "Location":"MCB 226"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Sleep Research Laboratory",
+    "Extension":"3795",
+    "Location":"MCB 416"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Social Development Laboratory",
+    "Extension":"4455",
+    "Location":"PLZ 511E"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Visual Cognitive Neuroscience Lab",
+    "Extension":"5690",
+    "Location":"MCB 404H"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Teaching and Learning Lab",
+    "Extension":"3441",
+    "Location":"MCB 215"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Youth Engagement Lab",
+    "Extension":"4893",
+    "Location":"PLZ 511G"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Casino Niagara GIS Lab",
+    "Extension":"4386",
+    "Location":"MCC 406"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Climatology Lab",
+    "Extension":"5863",
+    "Location":"MCC 408"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Graduate Students",
+    "Extension":"4929",
+    "Location":"MCC 212"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Lab: Tekok-Kilic",
+    "Extension":"3347",
+    "Location":"CRN 342"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Christine Tardif-William's Research Lab",
+    "Extension":"5542",
+    "Location":"PLZ 511C"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Motivation, Instruction and Reading Lab",
+    "Extension":"5530",
+    "Location":"PLZ 510F"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Raby Lab",
+    "Extension":"5666",
+    "Location":"PLZ 518A"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Social Lab",
+    "Extension":"5107",
+    "Location":"PLZ 511A"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Sociocognitive Development Lab",
+    "Extension":"5535",
+    "Location":"PLZ 510G"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "Title":"Teaching Assistants",
+    "Extension":"5697",
+    "Location":"SBH 317"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "Title":"Teaching Assistants | Graduate",
+    "Extension":"4229",
+    "Location":"SBH 325"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "Title":"Teaching Assistants",
+    "Extension":"5696",
+    "Location":"SBH 315"
+    },
+    {
+    "Department":"Labour Studies",
+    "Title":"Part Time Faculty | CUPE 4207 Faculty",
+    "Extension":"4422",
+    "Location":"MCD D438"
+    },
+    {
+    "Department":"Political Science",
+    "Title":"Graduate Students' Office",
+    "Extension":"4246",
+    "Location":"PLZ 321"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Part Time Instructors",
+    "Extension":"6327",
+    "Location":"MCB 332"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Developmental Neuroendocrinology Lab",
+    "Extension":"5130",
+    "Location":"MCB 405"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Neuropsychology Cognitive Research (NCR)",
+    "Extension":"3556",
+    "Location":"PLZ 621"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Social/Personality Lab",
+    "Extension":"3957",
+    "Location":"MCB 217"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Graduate Students",
+    "Extension":"3153",
+    "Location":"MCC 211"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Soil Lab",
+    "Extension":"5859",
+    "Location":"MCC 310"
+    },
+    {
+    "Department":"Political Science",
+    "Email":"political.science@brocku.ca",
+    "Email_url":"mailto:political.science@brocku.ca",
+    "Title":"Department Email Address",
+    "Location":"PLZ 328"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "Title":"Fax: 905-688-2360",
+    "Location":"MCD D450F"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "Title":"Fax: 905-378-5719",
+    "Location":"TH 146K"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "Title":"Fax: 905-641-2509",
+    "Location":"CRN 318"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "Title":"Fax: 905-641-5076",
+    "Location":"SBH 324"
+    },
+    {
+    "Department":"Economics",
+    "Title":"Fax: 905-688-6388",
+    "Location":"PLZ 451"
+    },
+    {
+    "Department":"Political Science",
+    "Title":"Fax: 905-988-9388",
+    "Location":"PLZ 332"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Fax: 905-688-6922",
+    "Location":"MCB B326"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Grad Student Lab",
+    "Extension":"3959",
+    "Location":"MCB 410"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "Title":"Grad Office",
+    "Extension":"6163",
+    "Location":"MCD 350D"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "Title":"General",
+    "Extension":"5772",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "Email":"applied.linguistics@brocku.ca",
+    "Email_url":"mailto:applied.linguistics@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3374",
+    "Location":"MCD 450F"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Behavioural Developmental & Social Neuroscience Lab",
+    "Extension":"3140",
+    "Location":"MCB 404L"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Skills Lab",
+    "Extension":"6335",
+    "Location":"MCB 414"
+    },
+    {
+    "Department":"Psychology",
+    "Title":"Skills Lab",
+    "Extension":"6334",
+    "Location":"MCB 413"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Teaching Assistants",
+    "Extension":"3489",
+    "Location":"MCC 312A"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "Title":"WGST TA Office",
+    "Extension":"4234"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "Title":"WGST Instructors",
+    "Extension":"5057"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "Email":"wgst@brocku.ca",
+    "Email_url":"mailto:wgst@brocku.ca",
+    "Title":"General Enquiries",
+    "Extension":"4330",
+    "Location":"MCD 411"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "Title":"Part-Time Instructors",
+    "Extension":"3423",
+    "Location":"MCC 318"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "LastName":"Adolescent Development Lab",
+    "Title":"Adolescent Development Lab",
+    "Extension":"5557"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Naomi",
+    "LastName":"Andrews",
+    "Email":"nandrews@brocku.ca",
+    "Email_url":"mailto:nandrews@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4654",
+    "Location":"CRN 337B"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Arlene",
+    "LastName":"Arch",
+    "Email":"aarch@brocku.ca",
+    "Email_url":"mailto:aarch@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3374",
+    "Location":"MCD 450F"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Karen",
+    "LastName":"Arnell",
+    "Email":"karnell@brocku.ca",
+    "Email_url":"mailto:karnell@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3225",
+    "Location":"MCB 333"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Michael",
+    "LastName":"Ashton",
+    "Email":"mashton@brocku.ca",
+    "Email_url":"mailto:mashton@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3993",
+    "Location":"MCB 323"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Xue",
+    "LastName":"Bai",
+    "Email":"xbai@brocku.ca",
+    "Email_url":"mailto:xbai@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3938",
+    "Location":"PLZ 437"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Julia",
+    "LastName":"Baird",
+    "Email":"jbaird@brocku.ca",
+    "Email_url":"mailto:jbaird@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5426",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Lora",
+    "LastName":"Baliukas",
+    "Email":"lbaliukas@brocku.ca",
+    "Email_url":"mailto:lbaliukas@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3740",
+    "Location":"CRN 319"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Kate",
+    "LastName":"Bezanson",
+    "Email":"kate.bezanson@brocku.ca",
+    "Email_url":"mailto:kate.bezanson@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"6352",
+    "Location":"SBH 329"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Amanda",
+    "LastName":"Bishop",
+    "Email":"amanda.bishop@brocku.ca",
+    "Email_url":"mailto:amanda.bishop@brocku.ca",
+    "Title":"Communications & Administrative Officer",
+    "Extension":"3553",
+    "Location":"SBH 322"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Simon",
+    "LastName":"Black",
+    "Email":"sblack2@brocku.ca",
+    "Email_url":"mailto:sblack2@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5350",
+    "Location":"PLZ 333"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Jessica",
+    "LastName":"Blythe",
+    "Email":"jblythe2@brocku.ca",
+    "Email_url":"mailto:jblythe2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5986",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Joanne",
+    "LastName":"Boekestyn",
+    "Email":"joanne.boekestyn@brocku.ca",
+    "Email_url":"mailto:joanne.boekestyn@brocku.ca",
+    "Title":"Administrative Coordinator",
+    "Extension":"3542",
+    "Location":"MCB 325"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Jeff",
+    "LastName":"Boggs",
+    "Email":"jeff.boggs@brocku.ca",
+    "Email_url":"mailto:jeff.boggs@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4975",
+    "Location":"MCC 328"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Angela",
+    "LastName":"Book",
+    "Email":"abook@brocku.ca",
+    "Email_url":"mailto:abook@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5223",
+    "Location":"MCB 330"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Jacqueline",
+    "LastName":"Botterill",
+    "Email":"jbotterill@brocku.ca",
+    "Email_url":"mailto:jbotterill@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5364",
+    "Location":"SBH 338"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Dale",
+    "LastName":"Bradley",
+    "Email":"dbradley@brocku.ca",
+    "Email_url":"mailto:dbradley@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3180",
+    "Location":"SBH 341"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Leah",
+    "LastName":"Bradshaw",
+    "Email":"leah.bradshaw@brocku.ca",
+    "Email_url":"mailto:leah.bradshaw@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4282",
+    "Location":"PLZ 339"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Alison",
+    "LastName":"Braley-Rattai",
+    "Email":"abraleyrattai@brocku.ca",
+    "Email_url":"mailto:abraleyrattai@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6651",
+    "Location":"PLZ 334"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Marian",
+    "LastName":"Bredin",
+    "Email":"mbredin@brocku.ca",
+    "Email_url":"mailto:mbredin@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4658",
+    "Location":"SBH 340"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"David",
+    "LastName":"Brown",
+    "Email":"dbrown@brocku.ca",
+    "Email_url":"mailto:dbrown@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3293",
+    "Location":"MCC 425"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Priscilla",
+    "LastName":"Burnham Riosa",
+    "Email":"pburnhamriosa@brocku.ca",
+    "Email_url":"mailto:pburnhamriosa@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6376",
+    "Location":"TH 146G"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Michael",
+    "LastName":"Busseri",
+    "Email":"mbusseri@brocku.ca",
+    "Email_url":"mailto:mbusseri@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4798",
+    "Location":"MCB 316"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Jonah",
+    "LastName":"Butovsky",
+    "Email":"jbutovsky@brocku.ca",
+    "Email_url":"mailto:jbutovsky@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4371",
+    "Location":"STH 406"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"David",
+    "LastName":"Butz",
+    "Email":"dbutz@brocku.ca",
+    "Email_url":"mailto:dbutz@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3205",
+    "Location":"MCC 315"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Karen",
+    "LastName":"Campbell",
+    "Email":"kcampbell5@brocku.ca",
+    "Email_url":"mailto:kcampbell5@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4281",
+    "Location":"MCB 317"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Miguel",
+    "LastName":"Cardoso",
+    "Email":"mcardoso@brocku.ca",
+    "Email_url":"mailto:mcardoso@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6639",
+    "Location":"PLZ 439"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Heather",
+    "LastName":"Chalmers",
+    "Email":"hchalmers@brocku.ca",
+    "Email_url":"mailto:hchalmers@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3191",
+    "Location":"CRN 328"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Cornelius",
+    "LastName":"Christian",
+    "Email":"cchristian2@brocku.ca",
+    "Email_url":"mailto:cchristian2@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3971",
+    "Location":"PLZ 445"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Liz",
+    "LastName":"Clarke",
+    "Email":"lclarke@brocku.ca",
+    "Email_url":"mailto:lclarke@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6705",
+    "Location":"SBH 332A"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Rosemary",
+    "LastName":"Condillac",
+    "Email":"rcondillac@brocku.ca",
+    "Email_url":"mailto:rcondillac@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5671",
+    "Location":"TH 146J"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Charles",
+    "LastName":"Conteh",
+    "Email":"cconteh@brocku.ca",
+    "Email_url":"mailto:cconteh@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4075",
+    "Location":"PLZ 354"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Janet",
+    "LastName":"Conway",
+    "Email":"janet.conway@brocku.ca",
+    "Email_url":"mailto:janet.conway@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4196",
+    "Location":"STH 427"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Nancy",
+    "LastName":"Cook",
+    "Email":"ncook@brocku.ca",
+    "Email_url":"mailto:ncook@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3176",
+    "Location":"STH 416"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Lauren",
+    "LastName":"Corman",
+    "Email":"lcorman@brocku.ca",
+    "Email_url":"mailto:lcorman@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5080",
+    "Location":"STH 404"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Kimberly",
+    "LastName":"Cote",
+    "Email":"kcote@brocku.ca",
+    "Email_url":"mailto:kcote@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4806",
+    "Location":"MCE 217"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Kendra",
+    "LastName":"Coulter",
+    "Email":"kendra.coulter@brocku.ca",
+    "Email_url":"mailto:kendra.coulter@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5349",
+    "Location":"PLZ 331"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Alison",
+    "LastName":"Cox",
+    "Email":"acox@brocku.ca",
+    "Email_url":"mailto:acox@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3949",
+    "Location":"TH 146D"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Lindsay",
+    "LastName":"Cramp",
+    "Email":"lcramp@brocku.ca",
+    "Email_url":"mailto:lcramp@brocku.ca",
+    "Title":"Student Facilitator, CHYS",
+    "Extension":"6368",
+    "Location":"CRN 324"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Dan",
+    "LastName":"Cui",
+    "Email":"dcui@brocku.ca",
+    "Email_url":"mailto:dcui@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4548",
+    "Location":"CRN 340"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Erin",
+    "LastName":"Daly",
+    "Email":"edaly@brocku.ca",
+    "Email_url":"mailto:edaly@brocku.ca",
+    "Title":"Coordinator, Environmental Sustainability Research",
+    "Extension":"4523",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Drew",
+    "LastName":"Dane",
+    "Email":"adane@brocku.ca",
+    "Email_url":"mailto:adane@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4805",
+    "Location":"MCB 311"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Hevina",
+    "LastName":"Dashwood",
+    "Email":"hdashwood@brocku.ca",
+    "Email_url":"mailto:hdashwood@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3894",
+    "Location":"PLZ 337"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Danuta",
+    "LastName":"De Grosbois",
+    "Email":"ddegrosbois@brocku.ca",
+    "Email_url":"mailto:ddegrosbois@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5676",
+    "Location":"MCC 421"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Katerina",
+    "LastName":"Deliovsky",
+    "Email":"kdeliovsky@brocku.ca",
+    "Email_url":"mailto:kdeliovsky@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5267",
+    "Location":"STH 426"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Lynn",
+    "LastName":"Dempsey",
+    "Email":"ldempsey@brocku.ca",
+    "Email_url":"mailto:ldempsey@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5168",
+    "Location":"MCD 450K"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"James",
+    "LastName":"Desjardins",
+    "Email":"jdesjardins@brocku.ca",
+    "Email_url":"mailto:jdesjardins@brocku.ca",
+    "Title":"Electronicphysiologist Technologist",
+    "Extension":"4676",
+    "Location":"PLZ 613A"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Andrew",
+    "LastName":"Dickens",
+    "Email":"adickens@brocku.ca",
+    "Email_url":"mailto:adickens@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3991",
+    "Location":"PLZ 431"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"R. W.",
+    "LastName":"Dimand",
+    "Email":"rdimand@brocku.ca",
+    "Email_url":"mailto:rdimand@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3125",
+    "Location":"PLZ 426"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Stefan",
+    "LastName":"Dolgert",
+    "Email":"sdolgert@brocku.ca",
+    "Email_url":"mailto:sdolgert@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3891",
+    "Location":"PLZ 345"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Andrea",
+    "LastName":"Doucet",
+    "Email":"adoucet@brocku.ca",
+    "Email_url":"mailto:adoucet@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3150",
+    "Location":"STH 410"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Paula",
+    "LastName":"Duarte Guterman",
+    "Email":"pduarteguterman@brocku.ca",
+    "Email_url":"mailto:pduarteguterman@brocku.ca",
+    "Title":"Assistant Professor",
+    "Location":"MCB 409"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Tim",
+    "LastName":"Dun",
+    "Email":"tim.dun@brocku.ca",
+    "Email_url":"mailto:tim.dun@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5365",
+    "Location":"SBH 313"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Thomas",
+    "LastName":"Dunk",
+    "Email":"tdunk@brocku.ca",
+    "Email_url":"mailto:tdunk@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4762",
+    "Location":"STH 401A"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Veena",
+    "LastName":"Dwivedi",
+    "Email":"vdwivedi@brocku.ca",
+    "Email_url":"mailto:vdwivedi@brocku.ca",
+    "Title":"Professor | Brain & Language Lab",
+    "Extension":"5588",
+    "Location":"MCD 310"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Veena",
+    "LastName":"Dwivedi",
+    "Email":"veena.dwivedi@brocku.ca",
+    "Email_url":"mailto:veena.dwivedi@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5389",
+    "Location":"MCB 331"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Hannah",
+    "LastName":"Dyer",
+    "Email":"hdyer@brocku.ca",
+    "Email_url":"mailto:hdyer@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4323",
+    "Location":"CRN 346"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Stephen",
+    "LastName":"Emrich",
+    "Email":"stephen.emrich@brocku.ca",
+    "Email_url":"mailto:stephen.emrich@brocku.ca",
+    "Title":"Associate Professor | Graduate Program Director",
+    "Extension":"6181",
+    "Location":"MCB 336"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Angela",
+    "LastName":"Evans",
+    "Email":"aevans@brocku.ca",
+    "Email_url":"mailto:aevans@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5367",
+    "Location":"MCB 321"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Glenn",
+    "LastName":"Ewing",
+    "Email":"gewing@brocku.ca",
+    "Email_url":"mailto:gewing@brocku.ca",
+    "Title":"Instructor - Full Course",
+    "Extension":"3310",
+    "Location":"GLN_B 230"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Ifeanyi",
+    "LastName":"Ezeonu",
+    "Email":"iezeonu@brocku.ca",
+    "Email_url":"mailto:iezeonu@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4054",
+    "Location":"STH 424"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Thomas",
+    "LastName":"Farrell",
+    "Email":"tfarrell@brocku.ca",
+    "Email_url":"mailto:tfarrell@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"3846",
+    "Location":"MCD 450G"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Ann",
+    "LastName":"Farrell",
+    "Email":"afarrell@brocku.ca",
+    "Email_url":"mailto:afarrell@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4807",
+    "Location":"CRN 333"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Maurice",
+    "LastName":"Feldman",
+    "Email":"mfeldman@brocku.ca",
+    "Email_url":"mailto:mfeldman@brocku.ca",
+    "Title":"Professor | Director",
+    "Extension":"4894"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"David",
+    "LastName":"Fennell",
+    "Email":"dfennell@brocku.ca",
+    "Email_url":"mailto:dfennell@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4663",
+    "Location":"MCC 420"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Derek",
+    "LastName":"Foster",
+    "Email":"derek.foster@brocku.ca",
+    "Email_url":"mailto:derek.foster@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5366",
+    "Location":"SBH 311"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "FirstName":"Margot",
+    "LastName":"Francis",
+    "Email":"margot.francis@brocku.ca",
+    "Email_url":"mailto:margot.francis@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5381",
+    "Location":"MCD D329"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Jan",
+    "LastName":"Frijters",
+    "Email":"jan.frijters@brocku.ca",
+    "Email_url":"mailto:jan.frijters@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4219",
+    "Location":"CRN 339"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Christopher",
+    "LastName":"Fullerton",
+    "Email":"chris.fullerton@brocku.ca",
+    "Email_url":"mailto:chris.fullerton@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3487",
+    "Location":"MCC 417"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Claire",
+    "LastName":"Gallop",
+    "Email":"cgallop@brocku.ca",
+    "Email_url":"mailto:cgallop@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3476",
+    "Location":"PLZ 328"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Greg",
+    "LastName":"Gillespie",
+    "Email":"greg.gillespie@brocku.ca",
+    "Email_url":"mailto:greg.gillespie@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3160",
+    "Location":"SBH 308"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Lori Ann",
+    "LastName":"Gomez",
+    "Email":"lgomez@brocku.ca",
+    "Email_url":"mailto:lgomez@brocku.ca",
+    "Title":"Administrative Coordinator",
+    "Extension":"4479",
+    "Location":"STH 412"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Dawn",
+    "LastName":"Good",
+    "Email":"dgood@brocku.ca",
+    "Email_url":"mailto:dgood@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3869",
+    "Location":"MCB 308"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Jennifer",
+    "LastName":"Good",
+    "Email":"jgood@brocku.ca",
+    "Email_url":"mailto:jgood@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3707",
+    "Location":"SBH 342"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Nicole",
+    "LastName":"Goodman",
+    "Email":"nicole.goodman@brocku.ca",
+    "Email_url":"mailto:nicole.goodman@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3893",
+    "Location":"PLZ 327"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Kevin",
+    "LastName":"Gosine",
+    "Email":"kgosine@brocku.ca",
+    "Email_url":"mailto:kgosine@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4412",
+    "Location":"STH 427A"
+    },
+    {
+    "Department":"Sociology",
+    "LastName":"Graduate Students",
+    "Title":"Graduate Students",
+    "Extension":"3477"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Paul",
+    "LastName":"Gray",
+    "Email":"pgray2@brocku.ca",
+    "Email_url":"mailto:pgray2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5419",
+    "Location":"PLZ 340"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Lindsay",
+    "LastName":"Grifa",
+    "Email":"lgrifa@brocku.ca",
+    "Email_url":"mailto:lgrifa@brocku.ca",
+    "Title":"Graduate Administrative Coordinator",
+    "Extension":"3543",
+    "Location":"MCB 329"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Blayne",
+    "LastName":"Haggart",
+    "Email":"bhaggart@brocku.ca",
+    "Email_url":"mailto:bhaggart@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3895",
+    "Location":"PLZ 341"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"William",
+    "LastName":"Hall",
+    "Email":"whall@brocku.ca",
+    "Email_url":"mailto:whall@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4005",
+    "Location":"MCB 315"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Paul",
+    "LastName":"Hamilton",
+    "Email":"paul.hamilton@brocku.ca",
+    "Email_url":"mailto:paul.hamilton@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4646",
+    "Location":"PLZ 325"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Indra",
+    "LastName":"Hardeen",
+    "Email":"ihardeen@brocku.ca",
+    "Email_url":"mailto:ihardeen@brocku.ca",
+    "Title":"Academic Advisor",
+    "Extension":"5423",
+    "Location":"PLZ 454"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Atsuko",
+    "LastName":"Hashimoto",
+    "Email":"ahashimoto@brocku.ca",
+    "Email_url":"mailto:ahashimoto@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4367",
+    "Location":"MCC 422"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"David",
+    "LastName":"Hayes",
+    "Email":"david.hayes@brocku.ca",
+    "Email_url":"mailto:david.hayes@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5359",
+    "Location":"MCD 350H"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Tim",
+    "LastName":"Heinmiller",
+    "Email":"theinmiller@brocku.ca",
+    "Email_url":"mailto:theinmiller@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"4232",
+    "Location":"PLZ 351"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "FirstName":"Charlotte",
+    "LastName":"Henay",
+    "Email":"chenay@brocku.ca",
+    "Email_url":"mailto:chenay@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3466",
+    "Location":"MCD 331"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Matthew",
+    "LastName":"Hennigar",
+    "Email":"matthew.hennigar@brocku.ca",
+    "Email_url":"mailto:matthew.hennigar@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4474",
+    "Location":"PLZ 343"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Joanne",
+    "LastName":"Heritz",
+    "Email":"jheritz@brocku.ca",
+    "Email_url":"mailto:jheritz@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5412",
+    "Location":"PLZ 347"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Kim",
+    "LastName":"Hill",
+    "Email":"kim.hill@brocku.ca",
+    "Email_url":"mailto:kim.hill@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"4697",
+    "Location":"PLZ 451"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Gordon",
+    "LastName":"Hodson",
+    "Email":"ghodson@brocku.ca",
+    "Email_url":"mailto:ghodson@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5127",
+    "Location":"MCB 307"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Miles",
+    "LastName":"Howe",
+    "Email":"mhowe@brocku.ca",
+    "Email_url":"mailto:mhowe@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4468",
+    "Location":"STH 423"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Dimitre",
+    "LastName":"Iankoulov",
+    "Email":"djankoul@brocku.ca",
+    "Email_url":"mailto:djankoul@brocku.ca",
+    "Title":"Micro Support Analyst/Technician",
+    "Extension":"3485",
+    "Location":"MCC 312"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "FirstName":"Jennifer",
+    "LastName":"Janke-Predovich",
+    "Email":"jjanke@brocku.ca",
+    "Email_url":"mailto:jjanke@brocku.ca",
+    "Title":"Instructor - Half Course",
+    "Location":"MCD 332"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Megan",
+    "LastName":"Johnson",
+    "Email":"mjohnson@brocku.ca",
+    "Email_url":"mailto:mjohnson@brocku.ca",
+    "Title":"Academic & Internship Advisor",
+    "Extension":"5837",
+    "Location":"SBH 344"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Russell",
+    "LastName":"Johnston",
+    "Email":"rjohnston@brocku.ca",
+    "Email_url":"mailto:rjohnston@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3154",
+    "Location":"SBH 320"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Marilyne",
+    "LastName":"Jollineau",
+    "Email":"mjollineau@brocku.ca",
+    "Email_url":"mailto:mjollineau@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4556",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Chelsea",
+    "LastName":"Jones",
+    "Email":"cjones@brocku.ca",
+    "Email_url":"mailto:cjones@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5579",
+    "Location":"CRN 335"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Anthony",
+    "LastName":"Kinik",
+    "Email":"akinik@brocku.ca",
+    "Email_url":"mailto:akinik@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6397",
+    "Location":"SBH 335"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Tamari",
+    "LastName":"Kitossa",
+    "Email":"tkitossa@brocku.ca",
+    "Email_url":"mailto:tkitossa@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5672",
+    "Location":"STH 422"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Robert",
+    "LastName":"Koehn",
+    "Email":"rkoehn@brocku.ca",
+    "Email_url":"mailto:rkoehn@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"3104",
+    "Location":"PLZ 436"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Duncan",
+    "LastName":"Koerber",
+    "Email":"dkoerber@brocku.ca",
+    "Email_url":"mailto:dkoerber@brocku.ca",
+    "Extension":"5469",
+    "Location":"SBH 343"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Katerina",
+    "LastName":"Koka",
+    "Email":"kkoka@brocku.ca",
+    "Email_url":"mailto:kkoka@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4270",
+    "Location":"PLZ 452"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Julie",
+    "LastName":"Koudys",
+    "Email":"julie.koudys@brocku.ca",
+    "Email_url":"mailto:julie.koudys@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6706",
+    "Location":"TH 146C"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Joseph",
+    "LastName":"Kushner",
+    "Email":"jkushner@brocku.ca",
+    "Email_url":"mailto:jkushner@brocku.ca",
+    "Title":"Professor | Academic Adviser",
+    "Extension":"3165",
+    "Location":"PLZ 425"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Matt",
+    "LastName":"Kwan",
+    "Email":"mkwan@brocku.ca",
+    "Email_url":"mailto:mkwan@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5682",
+    "Location":"CRN 337"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Lester Mk",
+    "LastName":"Kwong",
+    "Email":"lkwong@brocku.ca",
+    "Email_url":"mailto:lkwong@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"5137",
+    "Location":"PLZ 428"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Alison",
+    "LastName":"Lahn",
+    "Email":"alahn@brocku.ca",
+    "Email_url":"mailto:alahn@brocku.ca",
+    "Title":"Coordinator",
+    "Extension":"4299",
+    "Location":"CRN 321"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Jean Francois",
+    "LastName":"Lamarche",
+    "Email":"jfl@brocku.ca",
+    "Email_url":"mailto:jfl@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3328",
+    "Location":"PLZ 443"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Andrew",
+    "LastName":"Lee",
+    "Email":"andrew.lee@brocku.ca",
+    "Email_url":"mailto:andrew.lee@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4313",
+    "Location":"MCD 350G"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Andrew",
+    "LastName":"Lee",
+    "Title":"Lab",
+    "Extension":"3097",
+    "Location":"MCC 411"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Diane",
+    "LastName":"Leon",
+    "Email":"dleon@brocku.ca",
+    "Email_url":"mailto:dleon@brocku.ca",
+    "Title":"Academic Advisor/Seminar Coordinator | Undergraduate Advisor",
+    "Extension":"4245",
+    "Location":"PLZ 326"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Mae",
+    "LastName":"Leong",
+    "Email":"mleong@brocku.ca",
+    "Email_url":"mailto:mleong@brocku.ca",
+    "Title":"Graduate Program Assistant",
+    "Extension":"5165",
+    "Location":"MCC 414"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Peter",
+    "LastName":"Lester",
+    "Email":"plester@brocku.ca",
+    "Email_url":"mailto:plester@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3822",
+    "Location":"SBH 318"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Gary",
+    "LastName":"Libben",
+    "Email":"gary.libben@brocku.ca",
+    "Email_url":"mailto:gary.libben@brocku.ca",
+    "Title":"Professor|Chair",
+    "Extension":"3704",
+    "Location":"MCD 450L"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Gary",
+    "LastName":"Libben",
+    "Title":"Psycholinguistics Lab",
+    "Extension":"6240",
+    "Location":"MCC 208"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Qian",
+    "LastName":"Liu",
+    "Email":"qliu@brocku.ca",
+    "Email_url":"mailto:qliu@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6726",
+    "Location":"PLZ 449"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Pierre",
+    "LastName":"Lizee",
+    "Email":"plizee@brocku.ca",
+    "Email_url":"mailto:plizee@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4076",
+    "Location":"PLZ 349"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Sadie",
+    "LastName":"Lovett",
+    "Email":"slovett@brocku.ca",
+    "Email_url":"mailto:slovett@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6653",
+    "Location":"TH 149B"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Nicole",
+    "LastName":"Luke",
+    "Email":"nluke@brocku.ca",
+    "Email_url":"mailto:nluke@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3951"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Cheng",
+    "LastName":"Luo",
+    "Email":"cluo@brocku.ca",
+    "Email_url":"mailto:cluo@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4285",
+    "Location":"MCD 450I"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Pascal",
+    "LastName":"Lupien",
+    "Email":"plupien@brocku.ca",
+    "Email_url":"mailto:plupien@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3478",
+    "Location":"PLZ 352"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Phillip",
+    "LastName":"Mackintosh",
+    "Email":"phillip.mackintosh@brocku.ca",
+    "Email_url":"mailto:phillip.mackintosh@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5221",
+    "Location":"MCC 319"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Jeannie",
+    "LastName":"Mackintosh",
+    "Email":"jmackintosh@brocku.ca",
+    "Email_url":"mailto:jmackintosh@brocku.ca",
+    "Title":"Communications Officer - Strategic Initiatives",
+    "Extension":"4345",
+    "Location":"SBH 333"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Samantha",
+    "LastName":"MacNeil",
+    "Email":"smacneil@brocku.ca",
+    "Email_url":"mailto:smacneil@brocku.ca",
+    "Title":"Student Facilitator, CHYS",
+    "Extension":"3151",
+    "Location":"CRN 324"
+    },
+    {
+    "Department":"Sociology",
+    "LastName":"MacS Graduate Student Lab",
+    "Extension":"4124",
+    "Location":"STH 411"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Caitlin",
+    "LastName":"Mahy",
+    "Email":"cmahy2@brocku.ca",
+    "Email_url":"mailto:cmahy2@brocku.ca",
+    "Title":"Associate Professor | Undergraduate Officer",
+    "Extension":"6151",
+    "Location":"MCB 324"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Ingrid",
+    "LastName":"Makus",
+    "Email":"imakus@brocku.ca",
+    "Email_url":"mailto:imakus@brocku.ca",
+    "Title":"Dean",
+    "Extension":"3425",
+    "Location":"SBH 324"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Voula",
+    "LastName":"Marinos",
+    "Email":"vmarinos@brocku.ca",
+    "Email_url":"mailto:vmarinos@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3386",
+    "Location":"CRN 341"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Tanya",
+    "LastName":"Martini",
+    "Email":"tmartini@brocku.ca",
+    "Email_url":"mailto:tmartini@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3086",
+    "Location":"MCB 305"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Sarah",
+    "LastName":"Matheson",
+    "Email":"smatheso@brocku.ca",
+    "Email_url":"mailto:smatheso@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"4395",
+    "Location":"SBH 332"
+    },
+    {
+    "Department":"Social Justice & Equity Studies",
+    "FirstName":"Ginny",
+    "LastName":"Mckinney",
+    "Email":"gmckinney@brocku.ca",
+    "Email_url":"mailto:gmckinney@brocku.ca",
+    "Title":"Graduate Administrative Coordinator",
+    "Extension":"5591",
+    "Location":"STH 400B"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"John",
+    "LastName":"McNamara",
+    "Email":"john.mcnamara@brocku.ca",
+    "Email_url":"mailto:john.mcnamara@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"3835",
+    "Location":"CRN 325"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Ivan",
+    "LastName":"Medovikov",
+    "Email":"imedovikov@brocku.ca",
+    "Email_url":"mailto:imedovikov@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6148",
+    "Location":"PLZ 429"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Liam",
+    "LastName":"Midzain-Gobin",
+    "Email":"lmidzaingobin@brocku.ca",
+    "Email_url":"mailto:lmidzaingobin@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3987",
+    "Location":"PLZ 353"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Christie",
+    "LastName":"Milliken",
+    "Email":"cmillike@brocku.ca",
+    "Email_url":"mailto:cmillike@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4480",
+    "Location":"SBH 336"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Richard",
+    "LastName":"Mitchell",
+    "Email":"richard.mitchell@brocku.ca",
+    "Email_url":"mailto:richard.mitchell@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5085",
+    "Location":"CRN 352"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Catherine",
+    "LastName":"Mondloch",
+    "Email":"cmondloch@brocku.ca",
+    "Email_url":"mailto:cmondloch@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5111",
+    "Location":"MCB 320"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Shannon",
+    "LastName":"Moore",
+    "Email":"smoore@brocku.ca",
+    "Email_url":"mailto:smoore@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5396",
+    "Location":"CRN 337B"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Samantha",
+    "LastName":"Morris",
+    "Email":"smorris3@brocku.ca",
+    "Email_url":"mailto:smorris3@brocku.ca",
+    "Title":"Academic Advisor/communications Coordinator",
+    "Extension":"3514",
+    "Location":"MCC 324"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Ann",
+    "LastName":"Motte",
+    "Title":"Canadian Economics Association - Voice Mail only",
+    "Extension":"6225",
+    "Location":"PLZ 426"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Cameron",
+    "LastName":"Muir",
+    "Email":"cmuir@brocku.ca",
+    "Email_url":"mailto:cmuir@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4681",
+    "Location":"MCB 334"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Laura",
+    "LastName":"Mullins",
+    "Email":"lmullins@brocku.ca",
+    "Email_url":"mailto:lmullins@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6654",
+    "Location":"TH 146L"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Tim",
+    "LastName":"Murphy",
+    "Email":"tim.murphy@brocku.ca",
+    "Email_url":"mailto:tim.murphy@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5518",
+    "Location":"PLZ 617"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Bohdan",
+    "LastName":"Nebesio",
+    "Email":"bnebesio@brocku.ca",
+    "Email_url":"mailto:bnebesio@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5211",
+    "Location":"SBH 334"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Scott",
+    "LastName":"Neufeld",
+    "Email":"sneufeld@brocku.ca",
+    "Email_url":"mailto:sneufeld@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"4464",
+    "Location":"MCB 319"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Trent",
+    "LastName":"Newmeyer",
+    "Email":"tnewmeyer@brocku.ca",
+    "Email_url":"mailto:tnewmeyer@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5118",
+    "Location":"STH 419"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "FirstName":"Trent",
+    "LastName":"Newmeyer",
+    "Title":"Director",
+    "Extension":"3117",
+    "Location":"MCD 328"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Melissa",
+    "LastName":"Nichol",
+    "Email":"mnichol@brocku.ca",
+    "Email_url":"mailto:mnichol@brocku.ca",
+    "Title":"Teaching Assistant",
+    "Extension":"5530",
+    "Location":"PLZ 510F"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Fatima",
+    "LastName":"Noorbhai",
+    "Email":"fatima@brocku.ca",
+    "Email_url":"mailto:fatima@brocku.ca",
+    "Title":"Executive Assistant to the Dean",
+    "Extension":"3425",
+    "Location":"SBH 324"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Thomas",
+    "LastName":"O'Neill",
+    "Email":"toneill@brocku.ca",
+    "Email_url":"mailto:toneill@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3110",
+    "Location":"CRN 343"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Marcel",
+    "LastName":"Oestreich",
+    "Email":"moestreich@brocku.ca",
+    "Email_url":"mailto:moestreich@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6252",
+    "Location":"PLZ 453"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Tomson",
+    "LastName":"Ogwang",
+    "Email":"togwang@brocku.ca",
+    "Email_url":"mailto:togwang@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4696",
+    "Location":"PLZ 435"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Debbie",
+    "LastName":"Ouellette",
+    "Email":"douellette@brocku.ca",
+    "Email_url":"mailto:douellette@brocku.ca",
+    "Title":"Administrative Coordinator & Graduate Advisor",
+    "Extension":"3455",
+    "Location":"STH 400A"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Monika",
+    "LastName":"Ovsonka",
+    "Title":"Teaching Assistant"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Erin",
+    "LastName":"Panda",
+    "Email":"ewhite2@brocku.ca",
+    "Email_url":"mailto:ewhite2@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3178",
+    "Location":"CRN 351"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Hijin",
+    "LastName":"Park",
+    "Email":"hijinpark@brocku.ca",
+    "Email_url":"mailto:hijinpark@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3540",
+    "Location":"STH 405"
+    },
+    {
+    "Department":"Sociology",
+    "LastName":"Part Time Instructors",
+    "Title":"Part Time Instructors",
+    "Extension":"5983",
+    "Location":"STH 407"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "LastName":"Part-Time Instructors",
+    "Extension":"4150",
+    "Location":"SBH 337"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Christina",
+    "LastName":"Peters",
+    "Email":"cpeters@brocku.ca",
+    "Email_url":"mailto:cpeters@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5199",
+    "Location":"TH 149E"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Milica",
+    "LastName":"Petkovic",
+    "Email":"mpetkovic2@brocku.ca",
+    "Email_url":"mailto:mpetkovic2@brocku.ca",
+    "Title":"Communications Officer, External Relations",
+    "Extension":"6729",
+    "Location":"SBH 326"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Michael",
+    "LastName":"Pisaric",
+    "Email":"mpisaric@brocku.ca",
+    "Email_url":"mailto:mpisaric@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"6152",
+    "Location":"MCC 321"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Ryan",
+    "LastName":"Plummer",
+    "Email":"rplummer@brocku.ca",
+    "Email_url":"mailto:rplummer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4782",
+    "Location":"SH 203"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Shauna",
+    "LastName":"Pomerantz",
+    "Email":"shauna.pomerantz@brocku.ca",
+    "Email_url":"mailto:shauna.pomerantz@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5371",
+    "Location":"CRN 331"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Rebecca",
+    "LastName":"Raby",
+    "Email":"rraby@brocku.ca",
+    "Email_url":"mailto:rraby@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3172",
+    "Location":"CRN 332"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Mary-Beth",
+    "LastName":"Raddon",
+    "Email":"mraddon@brocku.ca",
+    "Email_url":"mailto:mraddon@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3460",
+    "Location":"STH 401"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Charlis",
+    "LastName":"Raineki",
+    "Email":"craineki@brocku.ca",
+    "Email_url":"mailto:craineki@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6282",
+    "Location":"MCB 408"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Heather",
+    "LastName":"Ramey",
+    "Email":"hramey@brocku.ca",
+    "Email_url":"mailto:hramey@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4069",
+    "Location":"CRN 348"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Michael",
+    "LastName":"Ripmeester",
+    "Email":"michael.ripmeester@brocku.ca",
+    "Email_url":"mailto:michael.ripmeester@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4416",
+    "Location":"MCA 331"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Julie",
+    "LastName":"Ross",
+    "Email":"jross@brocku.ca",
+    "Email_url":"mailto:jross@brocku.ca",
+    "Title":"Administrative Assistant, Academic",
+    "Extension":"4623",
+    "Location":"MCB 327"
+    },
+    {
+    "Department":"Dean's Office - Social Sciences",
+    "FirstName":"Nikki",
+    "LastName":"Roy",
+    "Email":"nroy@brocku.ca",
+    "Email_url":"mailto:nroy@brocku.ca",
+    "Title":"Financial Manager",
+    "Extension":"6009",
+    "Location":"SBH 323"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Valdeep",
+    "LastName":"Saini",
+    "Email":"vsaini@brocku.ca",
+    "Email_url":"mailto:vsaini@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3950",
+    "Location":"TH 146F"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Larry",
+    "LastName":"Savage",
+    "Email":"lsavage@brocku.ca",
+    "Email_url":"mailto:lsavage@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5007",
+    "Location":"PLZ 329"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Sid",
+    "LastName":"Segalowitz",
+    "Email":"sid.segalowitz@brocku.ca",
+    "Email_url":"mailto:sid.segalowitz@brocku.ca",
+    "Title":"Professor Emeritus",
+    "Extension":"5446",
+    "Location":"PLZ 600E"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Teresa",
+    "LastName":"Shanley",
+    "Email":"tshanley@brocku.ca",
+    "Email_url":"mailto:tshanley@brocku.ca",
+    "Title":"Administrative Coordinator, Academic",
+    "Extension":"3484",
+    "Location":"MCC 322"
+    },
+    {
+    "Department":"Associate Dean's Office - SS",
+    "FirstName":"Tayler",
+    "LastName":"Shannon",
+    "Email":"tshannon@brocku.ca",
+    "Email_url":"mailto:tshannon@brocku.ca",
+    "Title":"Academic Advisor",
+    "Extension":"3852",
+    "Location":"SBH 322"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Lindsay",
+    "LastName":"Shaw",
+    "Email":"lshaw2@brocku.ca",
+    "Email_url":"mailto:lshaw2@brocku.ca",
+    "Title":"Academic Administrator",
+    "Extension":"3135",
+    "Location":"STH 402"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Elizabeth",
+    "LastName":"Shulman",
+    "Email":"eshulman@brocku.ca",
+    "Email_url":"mailto:eshulman@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4084",
+    "Location":"MCB 313"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Dragos",
+    "LastName":"Simandan",
+    "Email":"simandan@brocku.ca",
+    "Email_url":"mailto:simandan@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5010",
+    "Location":"MCC 327"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Jo-Anne",
+    "LastName":"Sinnige-Egger",
+    "Email":"jsinnigeegger@brocku.ca",
+    "Email_url":"mailto:jsinnigeegger@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"5893",
+    "Location":"CRN 322"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Danielle",
+    "LastName":"Sirianni Molnar",
+    "Email":"dsiriannimolnar@brocku.ca",
+    "Email_url":"mailto:dsiriannimolnar@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6127",
+    "Location":"CRN 329"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Teshawn",
+    "LastName":"Smikle",
+    "Email":"tsmikle@brocku.ca",
+    "Email_url":"mailto:tsmikle@brocku.ca",
+    "Title":"Student Services Coordinator, SWAC",
+    "Extension":"6480",
+    "Location":"ST 400"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Murray",
+    "LastName":"Smith",
+    "Email":"msmith@brocku.ca",
+    "Email_url":"mailto:msmith@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4370",
+    "Location":"STH 408"
+    },
+    {
+    "Department":"Communications, Popular Culture & Film",
+    "FirstName":"Karen Louise",
+    "LastName":"Smith",
+    "Email":"ksmith10@brocku.ca",
+    "Email_url":"mailto:ksmith10@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6497",
+    "Location":"SBH 316"
+    },
+    {
+    "Department":"Environmental Sustainability Research Centre",
+    "FirstName":"Amanda",
+    "LastName":"Smits",
+    "Email":"asmits@brocku.ca",
+    "Email_url":"mailto:asmits@brocku.ca",
+    "Title":"Centre Administrator",
+    "Extension":"5772",
+    "Location":"SH 300"
+    },
+    {
+    "Department":"Sociology",
+    "LastName":"Social Justice And Equity Stud",
+    "Title":"Fax: 905-378-5733",
+    "Location":"STH 400B"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Brandy",
+    "LastName":"Sokoloski",
+    "Email":"bsokoloski@brocku.ca",
+    "Email_url":"mailto:bsokoloski@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"5987",
+    "Location":"TH 146B"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"John",
+    "LastName":"Sorenson",
+    "Email":"jsorenson@brocku.ca",
+    "Email_url":"mailto:jsorenson@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4369",
+    "Location":"STH 414"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Dennis",
+    "LastName":"Soron",
+    "Email":"dsoron@brocku.ca",
+    "Email_url":"mailto:dsoron@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3458",
+    "Location":"STH 418"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Tammy",
+    "LastName":"Stewart",
+    "Email":"tammy.stewart@brocku.ca",
+    "Email_url":"mailto:tammy.stewart@brocku.ca",
+    "Title":"Department Coordinator/PSYC 1F90",
+    "Extension":"5048",
+    "Location":"MCB 310"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "LastName":"Stipend Office",
+    "Location":"CRN 348"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Vaisnavi",
+    "LastName":"Sugumar",
+    "Email":"vsugumar@brocku.ca",
+    "Email_url":"mailto:vsugumar@brocku.ca",
+    "Title":"Academic Advisor",
+    "Extension":"6162",
+    "Location":"MCB 328"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Ling",
+    "LastName":"Sun",
+    "Email":"lsun@brocku.ca",
+    "Email_url":"mailto:lsun@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5097",
+    "Location":"PLZ 425"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "LastName":"Ta Office",
+    "Extension":"5545",
+    "Location":"CRN 334"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Gökbörü Sarp",
+    "LastName":"Tanyildiz",
+    "Email":"gtanyildiz@brocku.ca",
+    "Email_url":"mailto:gtanyildiz@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"4096",
+    "Location":"STH 407A"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Christine",
+    "LastName":"Tardif-Williams",
+    "Email":"ctardif@brocku.ca",
+    "Email_url":"mailto:ctardif@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4557",
+    "Location":"CRN 326"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Donato",
+    "LastName":"Tarulli",
+    "Email":"dtarulli@brocku.ca",
+    "Email_url":"mailto:dtarulli@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4513",
+    "Location":"CRN 327"
+    },
+    {
+    "Department":"Sociology",
+    "LastName":"Teaching Assistants",
+    "Title":"Teaching Assistants",
+    "Extension":"3765",
+    "Location":"STH 403"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Ayda",
+    "LastName":"Tekok-Kilic",
+    "Email":"atekokkilic@brocku.ca",
+    "Email_url":"mailto:atekokkilic@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3937",
+    "Location":"CRN 349"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"David",
+    "LastName":"Telfer",
+    "Email":"dtelfer@brocku.ca",
+    "Email_url":"mailto:dtelfer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4100",
+    "Location":"MCC 415"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Sabrina",
+    "LastName":"Thai",
+    "Email":"sthai@brocku.ca",
+    "Email_url":"mailto:sthai@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4112",
+    "Location":"MCB 306"
+    },
+    {
+    "Department":"Forensic Psychology and Criminal Justice",
+    "FirstName":"Katie",
+    "LastName":"Thompson",
+    "Email":"kthompson3@brocku.ca",
+    "Email_url":"mailto:kthompson3@brocku.ca",
+    "Title":"Program Coordinator, Forensic Psych & Criminolgy",
+    "Extension":"4755",
+    "Location":"PLZ 416"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Kendra",
+    "LastName":"Thomson",
+    "Email":"kthomson@brocku.ca",
+    "Email_url":"mailto:kthomson@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6710",
+    "Location":"TH 146H"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Ron",
+    "LastName":"Thomson",
+    "Email":"ron.thomson@brocku.ca",
+    "Email_url":"mailto:ron.thomson@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5842",
+    "Location":"MCD 450-0"
+    },
+    {
+    "Department":"Political Science",
+    "FirstName":"Livianna",
+    "LastName":"Tossutti",
+    "Email":"ltossutti@brocku.ca",
+    "Email_url":"mailto:ltossutti@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5005",
+    "Location":"PLZ 335"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Jennifer",
+    "LastName":"Turner",
+    "Email":"jturner2@brocku.ca",
+    "Email_url":"mailto:jturner2@brocku.ca",
+    "Title":"Coordinator, Canada Research Chair Projects",
+    "Extension":"6626",
+    "Location":"WC 251"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Kevin",
+    "LastName":"Turner",
+    "Email":"kturner2@brocku.ca",
+    "Email_url":"mailto:kturner2@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5399",
+    "Location":"MCC 330"
+    },
+    {
+    "Department":"Geography & Tourism Studies",
+    "FirstName":"Ebru",
+    "LastName":"Ustundag",
+    "Email":"eustundag@brocku.ca",
+    "Email_url":"mailto:eustundag@brocku.ca",
+    "Title":"Associate Professor | Graduate Program Director",
+    "Extension":"4417",
+    "Location":"MCC 314"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Kirsti",
+    "LastName":"Van Dorsser",
+    "Email":"kvandorsser@brocku.ca",
+    "Email_url":"mailto:kvandorsser@brocku.ca",
+    "Title":"Department Administrator | Student Advisor",
+    "Extension":"5683",
+    "Location":"MCB 328"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Tricia",
+    "LastName":"Vause",
+    "Email":"tricia.vause@brocku.ca",
+    "Email_url":"mailto:tricia.vause@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3559",
+    "Location":"CRN 350"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Zain",
+    "LastName":"Virani",
+    "Email":"zvirani@brocku.ca",
+    "Email_url":"mailto:zvirani@brocku.ca",
+    "Title":"Teaching Assistant",
+    "Extension":"3443",
+    "Location":"MCE 200A"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Tony",
+    "LastName":"Volk",
+    "Email":"tvolk@brocku.ca",
+    "Email_url":"mailto:tvolk@brocku.ca",
+    "Title":"Professor | Lab",
+    "Extension":"6126",
+    "Location":"CRN 344"
+    },
+    {
+    "Department":"Child & Youth Studies",
+    "FirstName":"Tony",
+    "LastName":"Volk",
+    "Email":"tony.volk@brocku.ca",
+    "Email_url":"mailto:tony.volk@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5368",
+    "Location":"CRN 347"
+    },
+    {
+    "Department":"Labour Studies",
+    "FirstName":"Elizabeth",
+    "LastName":"Wasylowich",
+    "Email":"ewasylowich@brocku.ca",
+    "Email_url":"mailto:ewasylowich@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"4753",
+    "Location":"MCD D411"
+    },
+    {
+    "Department":"Centre For Women's & Gender Studies",
+    "FirstName":"Elizabeth",
+    "LastName":"Wasylowich",
+    "Email":"ewasylowich@brocku.ca",
+    "Email_url":"mailto:ewasylowich@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"4330",
+    "Location":"MCD 411"
+    },
+    {
+    "Department":"Sociology",
+    "FirstName":"Michelle",
+    "LastName":"Webber",
+    "Email":"mwebber@brocku.ca",
+    "Email_url":"mailto:mwebber@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4411",
+    "Location":"STH 420"
+    },
+    {
+    "Department":"Applied Linguistics",
+    "FirstName":"Richard",
+    "LastName":"Welland",
+    "Email":"rwelland@brocku.ca",
+    "Email_url":"mailto:rwelland@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4091",
+    "Location":"MCD 450M"
+    },
+    {
+    "Department":"Psychology",
+    "FirstName":"Teena",
+    "LastName":"Willoughby",
+    "Email":"twilloughby@brocku.ca",
+    "Email_url":"mailto:twilloughby@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"5474",
+    "Location":"PLZ 519D"
+    },
+    {
+    "Department":"Economics",
+    "FirstName":"Teegawende",
+    "LastName":"Zeida",
+    "Email":"tzeida@brocku.ca",
+    "Email_url":"mailto:tzeida@brocku.ca",
+    "Title":"Assistant Professor"
+    },
+    {
+    "Department":"Faculty Of Social Sciences",
+    "FirstName":"Dawn",
+    "LastName":"Zinga",
+    "Email":"dzinga@brocku.ca",
+    "Email_url":"mailto:dzinga@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"3152",
+    "Location":"CRN 330"
+    },
+    {
+    "Department":"Applied Disability Studies",
+    "FirstName":"Kimberley",
+    "LastName":"Zonneveld",
+    "Email":"kzonneveld@brocku.ca",
+    "Email_url":"mailto:kzonneveld@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6708"
+    }
+    ]
+    }

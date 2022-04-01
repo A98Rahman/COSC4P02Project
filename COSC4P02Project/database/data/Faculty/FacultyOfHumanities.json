@@ -1,0 +1,1511 @@
+{
+    "Program":[
+    {
+    "Department":"Canadian & American Studies",
+    "FirstName":"Elaine",
+    "LastName":"Aldridge-Low",
+    "Email":"ealdridgelow@brocku.ca",
+    "Email_url":"mailto:ealdridgelow@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"4029",
+    "Location":"GLN_A 213"
+    },
+    {
+    "Department":"Centre For Medieval & Renaissance Studies",
+    "FirstName":"Elaine",
+    "LastName":"Aldridge-Low",
+    "Title":"Administrative Assistant",
+    "Extension":"5325",
+    "Location":"GLN_A 213"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Robert",
+    "LastName":"Alexander",
+    "Email":"ralexander@brocku.ca",
+    "Email_url":"mailto:ralexander@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3886",
+    "Location":"GLN_A 139"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"James",
+    "LastName":"Allard",
+    "Email":"jallard@brocku.ca",
+    "Email_url":"mailto:jallard@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"3531",
+    "Location":"GLN_A 156"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Lynn",
+    "LastName":"Arner",
+    "Email":"larner@brocku.ca",
+    "Email_url":"mailto:larner@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5673",
+    "Location":"GLN_A 127"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Boyanna",
+    "LastName":"Bancic",
+    "Email":"boyanna.bancic@brocku.ca",
+    "Email_url":"mailto:boyanna.bancic@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3575",
+    "Location":"GLN_B 309"
+    },
+    {
+    "Department":"Rodman Hall",
+    "FirstName":"Lesley",
+    "LastName":"Bell",
+    "Email":"lbell@brocku.ca",
+    "Email_url":"mailto:lbell@brocku.ca",
+    "Title":"Coordinator, Collections",
+    "Extension":"5807",
+    "Location":"RH"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Michael",
+    "LastName":"Berman",
+    "Email":"mberman@brocku.ca",
+    "Email_url":"mailto:mberman@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"3317",
+    "Location":"GLN_A 273"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Gregory",
+    "LastName":"Betts",
+    "Email":"gbetts@brocku.ca",
+    "Email_url":"mailto:gbetts@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5318",
+    "Location":"GLN_A 131"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Diane",
+    "LastName":"Bielicki",
+    "Email":"dbielicki@brocku.ca",
+    "Email_url":"mailto:dbielicki@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"3589",
+    "Location":"GLN_A 270"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Michele",
+    "LastName":"Black",
+    "Email":"mblack@brocku.ca",
+    "Email_url":"mailto:mblack@brocku.ca",
+    "Title":"Executive Assistant To The Dean",
+    "Extension":"4562",
+    "Location":"MCA 310"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Irene",
+    "LastName":"Blayer",
+    "Email":"iblayer@brocku.ca",
+    "Email_url":"mailto:iblayer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3304",
+    "Location":"GLN_A 272"
+    },
+    {
+    "Department":"History",
+    "FirstName":"John",
+    "LastName":"Bonnett",
+    "Email":"jbonnett@brocku.ca",
+    "Email_url":"mailto:jbonnett@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5552",
+    "Location":"GLN_A 249"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Renee-Claude",
+    "LastName":"Breitenstein",
+    "Email":"rbreitenstein@brocku.ca",
+    "Email_url":"mailto:rbreitenstein@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"5889",
+    "Location":"GLN_A 266"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Thomas",
+    "LastName":"Brown",
+    "Email":"tbrown2@brocku.ca",
+    "Email_url":"mailto:tbrown2@brocku.ca",
+    "Title":"Project Coordinator, Digital Humanities",
+    "Extension":"4622",
+    "Location":"TH 269F"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Nadine",
+    "LastName":"Brundrett",
+    "Email":"nbrundrett@brocku.ca",
+    "Email_url":"mailto:nbrundrett@brocku.ca",
+    "Title":"Part-Time Instructor",
+    "Extension":"4427",
+    "Location":"GLN_B 321"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Amanda",
+    "LastName":"Burk",
+    "Email":"aburk@brocku.ca",
+    "Email_url":"mailto:aburk@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4507",
+    "Location":"MWS 338"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Natalee",
+    "LastName":"Caple",
+    "Email":"ncaple@brocku.ca",
+    "Email_url":"mailto:ncaple@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3155",
+    "Location":"GLN_A 153"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Linda",
+    "LastName":"Carreiro",
+    "Email":"lcarreiro@brocku.ca",
+    "Email_url":"mailto:lcarreiro@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"3996",
+    "Location":"MWS 332"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Linda",
+    "LastName":"Carreiro",
+    "Email":"lcarreiro@brocku.ca",
+    "Email_url":"mailto:lcarreiro@brocku.ca",
+    "Title":"Associate Dean",
+    "Extension":"6780",
+    "Location":"MWS 332"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Michael",
+    "LastName":"Carter",
+    "Email":"mjcarter@brocku.ca",
+    "Email_url":"mailto:mjcarter@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3796",
+    "Location":"GLN_B 312"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Alexander",
+    "LastName":"Christie",
+    "Email":"achristie@brocku.ca",
+    "Email_url":"mailto:achristie@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3217",
+    "Location":"MCA 219"
+    },
+    {
+    "Department":"Interactive Arts & Science",
+    "FirstName":"Alexander",
+    "LastName":"Christie",
+    "Title":"Assistant Professor",
+    "Extension":"3217",
+    "Location":"MCA 219"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Jessica",
+    "LastName":"Clark",
+    "Email":"jclark3@brocku.ca",
+    "Email_url":"mailto:jclark3@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4303",
+    "Location":"GLN_A 237"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"George W",
+    "LastName":"Cleland",
+    "Email":"gcleland@brocku.ca",
+    "Email_url":"mailto:gcleland@brocku.ca",
+    "Title":"University String Orchestra Conductor",
+    "Extension":"4346",
+    "Location":"MWS 236"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Violetta",
+    "LastName":"Clitheroe",
+    "Email":"vclitheroe@brocku.ca",
+    "Email_url":"mailto:vclitheroe@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3312",
+    "Location":"GLN_A 263"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Carmela",
+    "LastName":"Colella",
+    "Email":"ccolella@brocku.ca",
+    "Email_url":"mailto:ccolella@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3302",
+    "Location":"GLN_B 331"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Athena",
+    "LastName":"Colman",
+    "Email":"acolman@brocku.ca",
+    "Email_url":"mailto:acolman@brocku.ca",
+    "Title":"Graduate Program Director",
+    "Extension":"3323",
+    "Location":"GLN_B 345"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Tim",
+    "LastName":"Conley",
+    "Email":"tconley@brocku.ca",
+    "Email_url":"mailto:tconley@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5196",
+    "Location":"GLN_A 125"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Gale",
+    "LastName":"Coskan-Johnson",
+    "Email":"gcoskanjohnson@brocku.ca",
+    "Email_url":"mailto:gcoskanjohnson@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5001",
+    "Location":"GLN_A 133"
+    },
+    {
+    "Department":"Associate Dean's Office - HUM",
+    "FirstName":"Keri",
+    "LastName":"Cronin",
+    "Email":"keri.cronin@brocku.ca",
+    "Email_url":"mailto:keri.cronin@brocku.ca",
+    "Title":"Associate Dean/Research & Graduate Studies",
+    "Extension":"5306",
+    "Location":"MCA 304"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Keri",
+    "LastName":"Cronin",
+    "Email":"kcronin@brocku.ca",
+    "Email_url":"mailto:kcronin@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5306",
+    "Location":"MWS 335"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Brian",
+    "LastName":"Cumberland",
+    "Email":"bcumberland@brocku.ca",
+    "Email_url":"mailto:bcumberland@brocku.ca",
+    "Title":"Theatre Technical Production Manager",
+    "Extension":"4135",
+    "Location":"MWS 304"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Christine",
+    "LastName":"Daigle",
+    "Email":"cdaigle@brocku.ca",
+    "Email_url":"mailto:cdaigle@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3316",
+    "Location":"MCA 230"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Rohit",
+    "LastName":"Dalvi",
+    "Email":"rdalvi@brocku.ca",
+    "Email_url":"mailto:rdalvi@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3547",
+    "Location":"GLN_B 347"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Martin",
+    "LastName":"Danahay",
+    "Email":"mdanahay@brocku.ca",
+    "Email_url":"mailto:mdanahay@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5203",
+    "Location":"GLN_A 129"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Karin",
+    "LastName":"Di Bella",
+    "Email":"kdibella@brocku.ca",
+    "Email_url":"mailto:kdibella@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"3820",
+    "Location":"MWS 205"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Adam",
+    "LastName":"Dickinson",
+    "Email":"adickinson@brocku.ca",
+    "Email_url":"mailto:adickinson@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5315",
+    "Location":"GLN_A 102"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Fanny",
+    "LastName":"Dolansky",
+    "Email":"fdolansky@brocku.ca",
+    "Email_url":"mailto:fdolansky@brocku.ca",
+    "Title":"Associate Professor | Undergraduate Program Officer (UPO)",
+    "Extension":"5372",
+    "Location":"GLN_B 317"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Roberta",
+    "LastName":"Doylend",
+    "Email":"rdoylend@brocku.ca",
+    "Email_url":"mailto:rdoylend@brocku.ca",
+    "Title":"Head Of Wardrobe",
+    "Extension":"3204",
+    "Location":"MWS 313A"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Michael",
+    "LastName":"Driedger",
+    "Email":"mdriedger@brocku.ca",
+    "Email_url":"mailto:mdriedger@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3972",
+    "Location":"GLN_A 221"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Tamara",
+    "LastName":"El-Hoss",
+    "Email":"telhoss@brocku.ca",
+    "Email_url":"mailto:telhoss@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5212",
+    "Location":"GLN_A 275"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"David",
+    "LastName":"Fancy",
+    "Email":"dfancy@brocku.ca",
+    "Email_url":"mailto:dfancy@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3584",
+    "Location":"MWS 306"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Gavin",
+    "LastName":"Fearon",
+    "Email":"gfearon@brocku.ca",
+    "Email_url":"mailto:gfearon@brocku.ca",
+    "Title":"Technical Director",
+    "Extension":"5252",
+    "Location":"MWS 305"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Karen",
+    "LastName":"Fricker",
+    "Email":"kfricker@brocku.ca",
+    "Email_url":"mailto:kfricker@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5780",
+    "Location":"MWS 311"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Tami",
+    "LastName":"Friedman",
+    "Email":"tfriedman@brocku.ca",
+    "Email_url":"mailto:tfriedman@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3709",
+    "Location":"GLN_A 225"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Amy",
+    "LastName":"Friend",
+    "Email":"afriend@brocku.ca",
+    "Email_url":"mailto:afriend@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4656",
+    "Location":"MWS 317"
+    },
+    {
+    "Department":"Associate Dean's Office - HUM",
+    "FirstName":"Michael",
+    "LastName":"Gicante",
+    "Email":"mgicante@brocku.ca",
+    "Email_url":"mailto:mgicante@brocku.ca",
+    "Title":"Academic Advisor",
+    "Extension":"5279",
+    "Location":"MCA 313"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Allison",
+    "LastName":"Glazebrook",
+    "Email":"aglazebrook@brocku.ca",
+    "Email_url":"mailto:aglazebrook@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3319",
+    "Location":"GLN_B 313"
+    },
+    {
+    "Department":"Associate Dean's Office - HUM",
+    "FirstName":"Neta",
+    "LastName":"Gordon",
+    "Email":"ngordon@brocku.ca",
+    "Email_url":"mailto:ngordon@brocku.ca",
+    "Title":"Associate Dean, Undergraduate Student Affairs and Curriculum",
+    "Extension":"3863",
+    "Location":"MCA 305"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Neta",
+    "LastName":"Gordon",
+    "Email":"neta.gordon@brocku.ca",
+    "Email_url":"mailto:neta.gordon@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3863",
+    "Location":"GLN_A 149"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Elizabeth",
+    "LastName":"Greene",
+    "Email":"esgreene@brocku.ca",
+    "Email_url":"mailto:esgreene@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5373",
+    "Location":"GLN_B 315"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Mike",
+    "LastName":"Griffin",
+    "Email":"mgriffin@brocku.ca",
+    "Email_url":"mailto:mgriffin@brocku.ca",
+    "Title":"Lecturer",
+    "Extension":"5392",
+    "Location":"MWS 309"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Edgar",
+    "LastName":"Harris",
+    "Email":"eharris@brocku.ca",
+    "Email_url":"mailto:eharris@brocku.ca",
+    "Title":"Head of Stage Construction",
+    "Extension":"6150",
+    "Location":"MWS 267A"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Nicholas",
+    "LastName":"Hauck",
+    "Email":"nhauck@brocku.ca",
+    "Email_url":"mailto:nhauck@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4087",
+    "Location":"GLN_A 268"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Jason",
+    "LastName":"Hawreliak",
+    "Email":"jhawreliak@brocku.ca",
+    "Email_url":"mailto:jhawreliak@brocku.ca",
+    "Title":"Director",
+    "Extension":"6159",
+    "Location":"MCA 229"
+    },
+    {
+    "Department":"Interactive Arts & Science",
+    "FirstName":"Jason",
+    "LastName":"Hawreliak",
+    "Title":"Associate Professor",
+    "Extension":"6159",
+    "Location":"MCA 229"
+    },
+    {
+    "Department":"Associate Dean's Office - HUM",
+    "FirstName":"Liz",
+    "LastName":"Hay",
+    "Email":"lhay@brocku.ca",
+    "Email_url":"mailto:lhay@brocku.ca",
+    "Title":"Academic Adviser (Kaethler)",
+    "Extension":"5101",
+    "Location":"MCA 311"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Astrid",
+    "LastName":"Heyer",
+    "Email":"aheyer@brocku.ca",
+    "Email_url":"mailto:aheyer@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"5406",
+    "Location":"GLN_A 264"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Maximiliano",
+    "LastName":"Holten-Andersen",
+    "Email":"mholtenandersen@brocku.ca",
+    "Email_url":"mailto:mholtenandersen@brocku.ca",
+    "Title":"Media Resource Coordinator",
+    "Extension":"4033",
+    "Location":"MWS 229B"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Ann",
+    "LastName":"Howey",
+    "Email":"ahowey@brocku.ca",
+    "Email_url":"mailto:ahowey@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4302",
+    "Location":"GLN_A 145"
+    },
+    {
+    "Department":"Interactive Arts & Science",
+    "FirstName":"David",
+    "LastName":"Hutchison",
+    "Extension":"3354",
+    "Location":"WH 275"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"David",
+    "LastName":"Hutchison",
+    "Extension":"3354",
+    "Location":"WH 275"
+    },
+    {
+    "Department":"Temporary Services",
+    "FirstName":"Jenny",
+    "LastName":"Ing",
+    "Email":"jing@brocku.ca",
+    "Email_url":"mailto:jing@brocku.ca",
+    "Title":"Office Assistant",
+    "Extension":"3632",
+    "Location":"HAM 41E"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Alison",
+    "LastName":"Innes",
+    "Email":"ainnes@brocku.ca",
+    "Email_url":"mailto:ainnes@brocku.ca",
+    "Title":"Social Media Coordinator",
+    "Extension":"5102",
+    "Location":"MCA A306"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Anton",
+    "LastName":"Jansen",
+    "Email":"ajansen@brocku.ca",
+    "Email_url":"mailto:ajansen@brocku.ca",
+    "Title":"Instructor - Half Course",
+    "Extension":"4251",
+    "Location":"GLN_B 321"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Rajiv",
+    "LastName":"Kaushik",
+    "Email":"rkaushik@brocku.ca",
+    "Email_url":"mailto:rkaushik@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5311",
+    "Location":"GLN_B 339"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Liz",
+    "LastName":"Keenan",
+    "Email":"lkeenan@brocku.ca",
+    "Email_url":"mailto:lkeenan@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3469",
+    "Location":"GLN_A 157"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Derek",
+    "LastName":"Knight",
+    "Email":"dknight@brocku.ca",
+    "Email_url":"mailto:dknight@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3754",
+    "Location":"MWS 333"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Leah",
+    "LastName":"Knight",
+    "Email":"lknight@brocku.ca",
+    "Email_url":"mailto:lknight@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5379",
+    "Location":"GLN_A 137"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Jane",
+    "LastName":"Koustas",
+    "Email":"jkoustas@brocku.ca",
+    "Email_url":"mailto:jkoustas@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4314",
+    "Location":"GLN_A 278"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Gregor",
+    "LastName":"Kranjc",
+    "Email":"gregor.kranjc@brocku.ca",
+    "Email_url":"mailto:gregor.kranjc@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6161",
+    "Location":"GLN_A 245"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Murray",
+    "LastName":"Kropf",
+    "Email":"mkropf@brocku.ca",
+    "Email_url":"mailto:mkropf@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3212",
+    "Location":"MWS 315"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Peter",
+    "LastName":"Landey",
+    "Email":"plandey@brocku.ca",
+    "Email_url":"mailto:plandey@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3824",
+    "Location":"MWS 210"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Monika",
+    "LastName":"Lederich",
+    "Email":"mlederich@brocku.ca",
+    "Email_url":"mailto:mlederich@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3214",
+    "Location":"MWS 328"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Nigel",
+    "LastName":"Lezama",
+    "Email":"nlezama@brocku.ca",
+    "Email_url":"mailto:nlezama@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5688",
+    "Location":"GLN_A 272"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Brian",
+    "LastName":"Lightbody",
+    "Email":"blightbody@brocku.ca",
+    "Email_url":"mailto:blightbody@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5313",
+    "Location":"GLN_B 343"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Jack",
+    "LastName":"Lightstone",
+    "Email":"jlightstone@brocku.ca",
+    "Email_url":"mailto:jlightstone@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3730",
+    "Location":"GLN_A 257"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Maureen",
+    "LastName":"Lux",
+    "Email":"mlux@brocku.ca",
+    "Email_url":"mailto:mlux@brocku.ca",
+    "Title":"Professor | Chair",
+    "Extension":"5553",
+    "Location":"GLN_A 253"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Deanna",
+    "LastName":"Maerz",
+    "Email":"dmaerz@brocku.ca",
+    "Email_url":"mailto:dmaerz@brocku.ca",
+    "Title":"Faculty Budget Officer Assistant",
+    "Extension":"4444",
+    "Location":"MCA 214"
+    },
+    {
+    "Department":"History",
+    "LastName":"mahistory",
+    "Email":"mahistory@brocku.ca",
+    "Email_url":"mailto:mahistory@brocku.ca",
+    "Title":"Graduate Programs Assistant",
+    "Extension":"3884",
+    "Location":"GLN_A 202"
+    },
+    {
+    "Department":"Centre For Canadian Studies",
+    "FirstName":"Dan",
+    "LastName":"Malleck",
+    "Title":"Director",
+    "Extension":"5324",
+    "Location":"GLN_A 211"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Sandra",
+    "LastName":"Marcroft",
+    "Email":"smarcroft@brocku.ca",
+    "Email_url":"mailto:smarcroft@brocku.ca",
+    "Title":"Theatre Technician",
+    "Extension":"4561",
+    "Location":"MWS"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Mathew",
+    "LastName":"Martin",
+    "Email":"mmartin@brocku.ca",
+    "Email_url":"mailto:mmartin@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3889",
+    "Location":"GLN_A 151"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Aaron",
+    "LastName":"Mauro",
+    "Email":"amauro@brocku.ca",
+    "Email_url":"mailto:amauro@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"4253",
+    "Location":"MCA 210"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Arnie",
+    "LastName":"Mcbay",
+    "Email":"amcbay@brocku.ca",
+    "Email_url":"mailto:amcbay@brocku.ca",
+    "Title":"Visual Arts Facilities Coordinator",
+    "Extension":"5046",
+    "Location":"MWS 413A"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Andrew",
+    "LastName":"McDonald",
+    "Email":"amcdonald@brocku.ca",
+    "Email_url":"mailto:amcdonald@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3569",
+    "Location":"GLN_A 251"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Jane A.",
+    "LastName":"Mcleod",
+    "Email":"jmcleod@brocku.ca",
+    "Email_url":"mailto:jmcleod@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3501",
+    "Location":"GLN_A 241"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Carol",
+    "LastName":"Merriam",
+    "Email":"merriamc@brocku.ca",
+    "Email_url":"mailto:merriamc@brocku.ca",
+    "Title":"Dean",
+    "Extension":"4562",
+    "Location":"MCA 310"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Carol",
+    "LastName":"Merriam",
+    "Extension":"4562",
+    "Location":"MCA 310"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Murray",
+    "LastName":"Miles",
+    "Email":"mmiles@brocku.ca",
+    "Email_url":"mailto:mmiles@brocku.ca",
+    "Title":"Professor",
+    "Extension":"6080",
+    "Location":"MCD D350C"
+    },
+    {
+    "Department":"Office For The School Of Fine & Performing Arts",
+    "FirstName":"Gillian",
+    "LastName":"Minaker",
+    "Email":"gminaker@brocku.ca",
+    "Email_url":"mailto:gminaker@brocku.ca",
+    "Title":"Marketing & Communications Officer",
+    "Extension":"4765",
+    "Location":"MWS 334"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Behnaz",
+    "LastName":"Mirzai",
+    "Email":"bmirzai@brocku.ca",
+    "Email_url":"mailto:bmirzai@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5283",
+    "Location":"GLN_A 223"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Carrie",
+    "LastName":"Murray",
+    "Email":"cmurray@brocku.ca",
+    "Email_url":"mailto:cmurray@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"6238",
+    "Location":"GLN_B 327"
+    },
+    {
+    "Department":"Humanities Interdisciplinary",
+    "FirstName":"Brittany",
+    "LastName":"Nagy",
+    "Email":"bnagy@brocku.ca",
+    "Email_url":"mailto:bnagy@brocku.ca",
+    "Title":"Administrative Assistant | PhD Program in Interdisciplinary Humanities/MA SCLA",
+    "Extension":"3837",
+    "Location":"MCA 211"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Richard",
+    "LastName":"Ndayizigamiye",
+    "Email":"rndayizigamiye@brocku.ca",
+    "Email_url":"mailto:rndayizigamiye@brocku.ca",
+    "Title":"Instructor - Full Course"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Elizabeth",
+    "LastName":"Neswald",
+    "Email":"eneswald@brocku.ca",
+    "Email_url":"mailto:eneswald@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5327",
+    "Location":"GLN_A 227"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Roberto",
+    "LastName":"Nickel",
+    "Email":"rnickel@brocku.ca",
+    "Email_url":"mailto:rnickel@brocku.ca",
+    "Title":"Assistant Professor | Graduate Program Director",
+    "Extension":"4158",
+    "Location":"GLN_B 325"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Jean",
+    "LastName":"Ntakirutimana",
+    "Email":"jntakiru@brocku.ca",
+    "Email_url":"mailto:jntakiru@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3307",
+    "Location":"GLN_A 276"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Olatunji",
+    "LastName":"Ojo",
+    "Email":"oojo@brocku.ca",
+    "Email_url":"mailto:oojo@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5146",
+    "Location":"GLN_A 255"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Troy",
+    "LastName":"Ouellette",
+    "Email":"touellette@brocku.ca",
+    "Email_url":"mailto:touellette@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3749",
+    "Location":"MWS 317"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Catherine",
+    "LastName":"Parayre",
+    "Email":"cparayre@brocku.ca",
+    "Email_url":"mailto:cparayre@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4849",
+    "Location":"MWS 336"
+    },
+    {
+    "Department":"Centre For Studies In Arts & Culture",
+    "FirstName":"Catherine",
+    "LastName":"Parayre",
+    "Extension":"4849",
+    "Location":"MWS 336"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Sarah",
+    "LastName":"Parker",
+    "Email":"sparker@brocku.ca",
+    "Email_url":"mailto:sparker@brocku.ca",
+    "Title":"Part-Time Instructor",
+    "Extension":"4942",
+    "Location":"GLN_B 329"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "LastName":"Part Time Instructors",
+    "Extension":"3211",
+    "Location":"MWS 334"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Andrew",
+    "LastName":"Pendakis",
+    "Email":"apendakis@brocku.ca",
+    "Email_url":"mailto:apendakis@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5319",
+    "Location":"GLN_A 150"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Nina",
+    "LastName":"Penner",
+    "Email":"npenner@brocku.ca",
+    "Email_url":"mailto:npenner@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"3468",
+    "Location":"MWS 236"
+    },
+    {
+    "Department":"Dean's Office - Humanities",
+    "FirstName":"Liz",
+    "LastName":"Powell",
+    "Email":"lpowell2@brocku.ca",
+    "Email_url":"mailto:lpowell2@brocku.ca",
+    "Title":"Financial Manager",
+    "Extension":"6241",
+    "Location":"MCA 208"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Brian",
+    "LastName":"Power",
+    "Title":"Professor",
+    "Extension":"4306",
+    "Location":"MWS 230"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Gyllian",
+    "LastName":"Raby",
+    "Email":"graby@brocku.ca",
+    "Email_url":"mailto:graby@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3221",
+    "Location":"MWS 307"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Adam",
+    "LastName":"Rappold",
+    "Email":"arappold@brocku.ca",
+    "Email_url":"mailto:arappold@brocku.ca",
+    "Title":"Assistant Professor",
+    "Extension":"6367",
+    "Location":"GLN_B 323"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Lauren",
+    "LastName":"Regier",
+    "Email":"lregier@brocku.ca",
+    "Email_url":"mailto:lregier@brocku.ca",
+    "Title":"Preparator",
+    "Extension":"5802",
+    "Location":"RH"
+    },
+    {
+    "Department":"Centre For Intercultural Studies",
+    "FirstName":"Jeff",
+    "LastName":"Reichheld",
+    "Title":"Part Time Instructor",
+    "Extension":"4169",
+    "Location":"GLN_A 215"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Rachel",
+    "LastName":"Rensink-Hoff",
+    "Email":"rrensinkhoff@brocku.ca",
+    "Email_url":"mailto:rrensinkhoff@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3823",
+    "Location":"MWS 208"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Katarina",
+    "LastName":"Rieger",
+    "Email":"krieger@brocku.ca",
+    "Email_url":"mailto:krieger@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"3817",
+    "Location":"MWS 228"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Katarina",
+    "LastName":"Rieger",
+    "Email":"krieger@brocku.ca",
+    "Email_url":"mailto:krieger@brocku.ca",
+    "Title":"Administrative Assistant, Music",
+    "Extension":"5814",
+    "Location":"GLN_B 230"
+    },
+    {
+    "Department":"Rodman Hall",
+    "LastName":"Rodman Hall",
+    "Extension":"5800",
+    "Location":"RH"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Cindy",
+    "LastName":"Rorke",
+    "Email":"crorke@brocku.ca",
+    "Email_url":"mailto:crorke@brocku.ca",
+    "Title":"Administrative Assistant",
+    "Extension":"5255",
+    "Location":"MWS 314"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Colin",
+    "LastName":"Rose",
+    "Email":"crose@brocku.ca",
+    "Email_url":"mailto:crose@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5554",
+    "Location":"GLN_A 247"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Andrew",
+    "LastName":"Roth",
+    "Email":"aroth2@brocku.ca",
+    "Email_url":"mailto:aroth2@brocku.ca",
+    "Title":"Technical Associate, Research & Learning Support",
+    "Extension":"3814",
+    "Location":"TH 269E"
+    },
+    {
+    "Department":"Interactive Arts & Science",
+    "FirstName":"Andrew",
+    "LastName":"Roth",
+    "Title":"Technical Associate, Research & Learning Support",
+    "Extension":"3814",
+    "Location":"TH 269E"
+    },
+    {
+    "Department":"SF&PA - Music",
+    "FirstName":"Matthew",
+    "LastName":"Royal",
+    "Email":"mroyal@brocku.ca",
+    "Email_url":"mailto:mroyal@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5377",
+    "Location":"MWS 232"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Felipe",
+    "LastName":"Ruan",
+    "Email":"fruan@brocku.ca",
+    "Email_url":"mailto:fruan@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5331",
+    "Location":"GLN_A 280"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Renee",
+    "LastName":"Salhany",
+    "Email":"rsalhany@brocku.ca",
+    "Email_url":"mailto:rsalhany@brocku.ca",
+    "Title":"Graduate Program Director",
+    "Extension":"4231",
+    "Location":"GLN_A 239"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Daniel",
+    "LastName":"Samson",
+    "Email":"dsamson@brocku.ca",
+    "Email_url":"mailto:dsamson@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3503",
+    "Location":"GLN_A 219"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Cristina",
+    "LastName":"Santos",
+    "Email":"csantos@brocku.ca",
+    "Email_url":"mailto:csantos@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4498",
+    "Location":"GLN_A 282"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Elizabeth",
+    "LastName":"Sauer",
+    "Email":"emsauer@brocku.ca",
+    "Email_url":"mailto:emsauer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3887",
+    "Location":"GLN_B 236"
+    },
+    {
+    "Department":"History",
+    "FirstName":"David",
+    "LastName":"Schimmelpenninck",
+    "Title":"Professor",
+    "Extension":"3507",
+    "Location":"GLN_A 229"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Barbara",
+    "LastName":"Seeber",
+    "Email":"bseeber@brocku.ca",
+    "Email_url":"mailto:bseeber@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3470",
+    "Location":"GLN_A 141"
+    },
+    {
+    "Department":"Philosophy",
+    "FirstName":"Ravindra",
+    "LastName":"Singh",
+    "Email":"rsingh@brocku.ca",
+    "Email_url":"mailto:rsingh@brocku.ca",
+    "Title":"Professor",
+    "Extension":"4117",
+    "Location":"GLN_B 337"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Angus",
+    "LastName":"Smith",
+    "Email":"rsmith@brocku.ca",
+    "Email_url":"mailto:rsmith@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3798",
+    "Location":"GLN_B 319"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Luciano",
+    "LastName":"Soligo",
+    "Email":"lsoligo@brocku.ca",
+    "Email_url":"mailto:lsoligo@brocku.ca",
+    "Title":"Instructor - Full Course"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Susan",
+    "LastName":"Spearey",
+    "Email":"sspearey@brocku.ca",
+    "Email_url":"mailto:sspearey@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3885",
+    "Location":"GLN_A 143"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Mark",
+    "LastName":"Spencer",
+    "Email":"mspencer@brocku.ca",
+    "Email_url":"mailto:mspencer@brocku.ca",
+    "Title":"Professor",
+    "Extension":"3506",
+    "Location":"GLN_A 235"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Linda",
+    "LastName":"Steer",
+    "Email":"lsteer@brocku.ca",
+    "Email_url":"mailto:lsteer@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3821",
+    "Location":"MWS 337"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Carole",
+    "LastName":"Stewart",
+    "Email":"carole.stewart@brocku.ca",
+    "Email_url":"mailto:carole.stewart@brocku.ca",
+    "Title":"Professor",
+    "Extension":"5317",
+    "Location":"GLN_A 155"
+    },
+    {
+    "Department":"Centre For Digital Humanities",
+    "FirstName":"Clara",
+    "LastName":"Suba",
+    "Email":"csuba@brocku.ca",
+    "Email_url":"mailto:csuba@brocku.ca",
+    "Title":"Information Tech Support",
+    "Extension":"3270",
+    "Location":"TH 269D"
+    },
+    {
+    "Department":"Interactive Arts & Science",
+    "FirstName":"Clara",
+    "LastName":"Suba",
+    "Title":"Administrative Assistant|Information Tech Support",
+    "Extension":"3270",
+    "Location":"TH 269D"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Maria Del Carmen",
+    "LastName":"Suescun Pozas",
+    "Email":"msuescunpozas@brocku.ca",
+    "Email_url":"mailto:msuescunpozas@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5145",
+    "Location":"GLN_A 243"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Violetta Alexandra",
+    "LastName":"Sutton",
+    "Email":"vsutton@brocku.ca",
+    "Email_url":"mailto:vsutton@brocku.ca",
+    "Title":"Instructor - Full Course"
+    },
+    {
+    "Department":"SF&PA - Visual Arts",
+    "FirstName":"Donna",
+    "LastName":"Szoke",
+    "Email":"donna.szoke@brocku.ca",
+    "Email_url":"mailto:donna.szoke@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4116",
+    "Location":"MWS 339"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Reza",
+    "LastName":"Tabandeh",
+    "Email":"rtabandeh@brocku.ca",
+    "Email_url":"mailto:rtabandeh@brocku.ca",
+    "Title":"Post Doctoral Fellow",
+    "Extension":"5256",
+    "Location":"GLN_A 246"
+    },
+    {
+    "Department":"English Language & Literature",
+    "FirstName":"Melissa",
+    "LastName":"Vanatte",
+    "Email":"mvanatte@brocku.ca",
+    "Email_url":"mailto:mvanatte@brocku.ca",
+    "Title":"Graduate Program Assistant",
+    "Extension":"3884",
+    "Location":"GLN_A 202"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Melissa",
+    "LastName":"VanAtte",
+    "Title":"Graduate Programs Assistant",
+    "Extension":"3884",
+    "Location":"GLN_A 202"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Ernesto",
+    "LastName":"Virgulti",
+    "Email":"evirgulti@brocku.ca",
+    "Email_url":"mailto:evirgulti@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3306",
+    "Location":"GLN_A 273"
+    },
+    {
+    "Department":"Centre For Medieval & Renaissance Studies",
+    "FirstName":"Ernesto",
+    "LastName":"Virgulti",
+    "Title":"Director",
+    "Extension":"3306",
+    "Location":"GLN_A 273"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"David",
+    "LastName":"Vivian",
+    "Email":"dvivian@brocku.ca",
+    "Email_url":"mailto:dvivian@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4401",
+    "Location":"MWS 312"
+    },
+    {
+    "Department":"Centre For Studies In Arts & Culture",
+    "FirstName":"David",
+    "LastName":"Vivian",
+    "Title":"Director",
+    "Extension":"4401",
+    "Location":"MWS 312"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Elizabeth",
+    "LastName":"Vlossak",
+    "Email":"elizabeth.vlossak@brocku.ca",
+    "Email_url":"mailto:elizabeth.vlossak@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"4020",
+    "Location":"GLN_A 217"
+    },
+    {
+    "Department":"Classics & Archaeology",
+    "FirstName":"Katharine",
+    "LastName":"Von Stackelberg",
+    "Email":"kvonstackelberg@brocku.ca",
+    "Email_url":"mailto:kvonstackelberg@brocku.ca",
+    "Title":"Associate Professor | Chair",
+    "Extension":"5374",
+    "Location":"GLN_B 310"
+    },
+    {
+    "Department":"Centre For Canadian Studies",
+    "FirstName":"Michelle",
+    "LastName":"Vosburgh",
+    "Email":"mvosburgh@brocku.ca",
+    "Email_url":"mailto:mvosburgh@brocku.ca",
+    "Title":"Instructor",
+    "Extension":"4037",
+    "Location":"GLN_A 253"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Michelle",
+    "LastName":"Vosburgh",
+    "Title":"Instructor",
+    "Extension":"4037",
+    "Location":"GLN_A 253"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Ning",
+    "LastName":"Wang",
+    "Email":"nwang@brocku.ca",
+    "Email_url":"mailto:nwang@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3505",
+    "Location":"GLN_A 231"
+    },
+    {
+    "Department":"History",
+    "FirstName":"Murray",
+    "LastName":"Wickett",
+    "Email":"mwickett@brocku.ca",
+    "Email_url":"mailto:mwickett@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"3504",
+    "Location":"GLN_A 233"
+    },
+    {
+    "Department":"SF&PA - Dramatic Arts",
+    "FirstName":"Danielle",
+    "LastName":"Wilson",
+    "Email":"dwilson@brocku.ca",
+    "Email_url":"mailto:dwilson@brocku.ca",
+    "Title":"Associate Professor",
+    "Extension":"5397",
+    "Location":"MWS 308"
+    },
+    {
+    "Department":"Modern Languages, Literatures & Cultures",
+    "FirstName":"Beate",
+    "LastName":"Wolf",
+    "Email":"bwolf@brocku.ca",
+    "Email_url":"mailto:bwolf@brocku.ca",
+    "Title":"Instructor",
+    "Extension":"4920",
+    "Location":"GLN_A 270"
+    }
+    ]
+    }
