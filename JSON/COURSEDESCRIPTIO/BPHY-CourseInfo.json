@@ -1,0 +1,31 @@
+{
+  "course_code": "BPHY 4F90",
+  "course_name": "Research Project I",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BPHY 4F91",
+  "course_name": "Research Project II",
+  "course_duration": "D1",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "BPHY 4F91",
+  "course_name": "Research Project II",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}

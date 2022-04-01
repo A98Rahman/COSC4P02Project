@@ -1,0 +1,931 @@
+{
+  "course_code": "ACTG 1P01",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P11, 1P91 and 2P51.",
+  "instructor": "Instructor: Zhang, Xia (Celine)",
+  "location": "Location: GSB306"
+}{
+  "course_code": "ACTG 1P01",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P11, 1P91 and 2P51.",
+  "instructor": "Instructor: Skrubbeltrang, Glenn",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 1P01",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P11, 1P91 and 2P51.",
+  "instructor": "Instructor: Suwanyangyuan, Simon",
+  "location": "Location: GSB306"
+}{
+  "course_code": "ACTG 1P02",
+  "course_name": "Introduction to Managerial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 (1P11).",
+  "instructor": "Instructor: Shome, Anamitra",
+  "location": "Location: GSB306"
+}{
+  "course_code": "ACTG 1P02",
+  "course_name": "Introduction to Managerial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 (1P11).",
+  "instructor": "Instructor: Shome, Anamitra",
+  "location": "Location: GSB306"
+}{
+  "course_code": "ACTG 1P02",
+  "course_name": "Introduction to Managerial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 (1P11).",
+  "instructor": "Instructor: Skrubbeltrang, Glenn",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 1P02",
+  "course_name": "Introduction to Managerial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 (1P11).",
+  "instructor": "Instructor: Skrubbeltrang, Glenn",
+  "location": "Location: WH209"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Gong, Dan (Sabrina)",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Gong, Dan (Sabrina)",
+  "location": "Location: STH201 \u2014 South Block (formerly AS201)"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Suwanyangyuan, Simon",
+  "location": "Location: GSB306"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Suwanyangyuan, Simon",
+  "location": "Section: 5"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Suwanyangyuan, Simon",
+  "location": "Section: 6"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "SYN",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Trabelsi, Samir",
+  "location": "Location: STH201 \u2014 South Block (formerly AS201)"
+}{
+  "course_code": "ACTG 1P91",
+  "course_name": "Introduction to Financial Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P01, 1P11 and 2P51.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Section: 2"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Section: 3"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Section: 4"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Skrubbeltrang, Glenn",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Bay, Darlene",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 2P12",
+  "course_name": "Introduction to Management Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P01 or 1P91.",
+  "instructor": "Instructor: Bay, Darlene",
+  "location": "Location: GSB206"
+}{
+  "course_code": "ACTG 2P21",
+  "course_name": "Cost & Managerial Accounting I",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 2P21",
+  "course_name": "Cost & Managerial Accounting I",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 2P21",
+  "course_name": "Cost & Managerial Accounting I",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Herath, Hemantha",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Pacharn, Parunchana",
+  "location": "Location: GSB307"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Pacharn, Parunchana",
+  "location": "Section: 2"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Trabelsi, Samir",
+  "location": "Location: GSB307"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Trabelsi, Samir",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P31",
+  "course_name": "Accounting for External Reporting I",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB310"
+}{
+  "course_code": "ACTG 2P32",
+  "course_name": "Accounting for External Reporting II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P31.",
+  "instructor": "Instructor: Skrubbeltrang, Glenn",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 2P32",
+  "course_name": "Accounting for External Reporting II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P31.",
+  "instructor": "Instructor: Kim, Sohyung",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 2P32",
+  "course_name": "Accounting for External Reporting II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P31.",
+  "instructor": "Instructor: Kim, Sohyung",
+  "location": "Location: GSB308"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Maloney, David",
+  "location": "Location: STH215 \u2014 South Block (formerly AS215)"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Bush, Pat",
+  "location": "Location: STH216 \u2014 South Block (formerly AS216)"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Troup, Brad",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Book, Katharine",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Maloney, Patrick",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Bush, Erica",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Book, Katharine",
+  "location": "Location: STH217 \u2014 South Block (formerly AS217)"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Maloney, Patrick",
+  "location": "Location: ST107"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Troup, Brad",
+  "location": "Location: ST107"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Maloney, David",
+  "location": "Location: ST107"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Bush, Erica",
+  "location": "Location: STH201 \u2014 South Block (formerly AS201)"
+}{
+  "course_code": "ACTG 2P40",
+  "course_name": "Commercial Law",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Exclusions: Completion of this course will replace previous assigned grade and credit obtained in ACTG 1P71.",
+  "instructor": "Instructor: Bush, Pat",
+  "location": "Location: STH217 \u2014 South Block (formerly AS217)"
+}{
+  "course_code": "ACTG 2P51",
+  "course_name": "Understanding Accounting",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Notes: Not open to Bachelor of: Business Administration, Accounting, Business Economics, Computing and Busi ness and BA-combined Business majors. may be offered online.",
+  "instructor": "Instructor: Bush, Pat",
+  "location": "Section: 1"
+}{
+  "course_code": "ACTG 3P11",
+  "course_name": "Auditing Concepts",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P97.",
+  "instructor": "Instructor: Ho, Nam",
+  "location": "Location: GSB407"
+}{
+  "course_code": "ACTG 3P11",
+  "course_name": "Auditing Concepts",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P97.",
+  "instructor": "Instructor: Ho, Nam",
+  "location": "Location: GSB407"
+}{
+  "course_code": "ACTG 3P23",
+  "course_name": "Cost & Managerial Accounting II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P21.",
+  "instructor": "Instructor: Sohail, Tashfeen",
+  "location": "Location: GSB308"
+}{
+  "course_code": "ACTG 3P23",
+  "course_name": "Cost & Managerial Accounting II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P21.",
+  "instructor": "Instructor: Sohail, Tashfeen",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 3P23",
+  "course_name": "Cost & Managerial Accounting II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P21.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 3P33",
+  "course_name": "Accounting for External Reporting III",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P32.",
+  "instructor": "Instructor: Liu,Frank",
+  "location": "Location: GSB308"
+}{
+  "course_code": "ACTG 3P33",
+  "course_name": "Accounting for External Reporting III",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 2P32.",
+  "instructor": "Instructor: Liu,Frank",
+  "location": "Section: 2"
+}{
+  "course_code": "ACTG 3P41",
+  "course_name": "Taxation I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Location: GSB307"
+}{
+  "course_code": "ACTG 3P41",
+  "course_name": "Taxation I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Section: 2"
+}{
+  "course_code": "ACTG 3P41",
+  "course_name": "Taxation I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Li, Mengtian",
+  "location": "Location: GSB407"
+}{
+  "course_code": "ACTG 3P41",
+  "course_name": "Taxation I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Li, Mengtian",
+  "location": "Section: 4"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Nikitkov, Alex",
+  "location": "Location: MCJ201"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Nikitkov, Alex",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Nikitkov, Alex",
+  "location": "Section: 3"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Zhang, Xia (Celine)",
+  "location": "Location: MCJ201"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Zhang, Xia (Celine)",
+  "location": "Section: 5"
+}{
+  "course_code": "ACTG 3P97",
+  "course_name": "Accounting Information Systems",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12; ITIS 1P97.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Location: MCJ201"
+}{
+  "course_code": "ACTG 4P03",
+  "course_name": "Financial Analysis",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): FNCE 3P93.",
+  "instructor": "Instructor: Lazrak, Skander",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P11",
+  "course_name": "Accounting Theory",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Li,Jennifer",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 4P11",
+  "course_name": "Accounting Theory",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Brown, Kareen",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P11",
+  "course_name": "Accounting Theory",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Brown, Kareen",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P11",
+  "course_name": "Accounting Theory",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Elayan, Fayez",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P11",
+  "course_name": "Accounting Theory",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Brown, Kareen",
+  "location": "Location: GSB408"
+}{
+  "course_code": "ACTG 4P12",
+  "course_name": "Integration & Problem Solving",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P23, 3P33, 4P41 and 4P61.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB407"
+}{
+  "course_code": "ACTG 4P12",
+  "course_name": "Integration & Problem Solving",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P23, 3P33, 4P41 and 4P61.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P12",
+  "course_name": "Integration & Problem Solving",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P23, 3P33, 4P41 and 4P61.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P12",
+  "course_name": "Integration & Problem Solving",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P23, 3P33, 4P41 and 4P61.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB405"
+}{
+  "course_code": "ACTG 4P12",
+  "course_name": "Integration & Problem Solving",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P23, 3P33, 4P41 and 4P61.",
+  "instructor": "Instructor: Hollo, Sangeeta",
+  "location": "Location: GSB305"
+}{
+  "course_code": "ACTG 4P34",
+  "course_name": "Accounting for External Reporting IV",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: GSB405"
+}{
+  "course_code": "ACTG 4P34",
+  "course_name": "Accounting for External Reporting IV",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P34",
+  "course_name": "Accounting for External Reporting IV",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: GSB307"
+}{
+  "course_code": "ACTG 4P34",
+  "course_name": "Accounting for External Reporting IV",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P33.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: PLZ409"
+}{
+  "course_code": "ACTG 4P40",
+  "course_name": "Tax Strategies for Planning & Decision Making",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 1P02 (1P12) or 2P12.",
+  "instructor": "Instructor: Murphy, Brittany",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P41",
+  "course_name": "Taxation II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P41.",
+  "instructor": "Instructor: Murphy, Brittany",
+  "location": "Section: 1"
+}{
+  "course_code": "ACTG 4P41",
+  "course_name": "Taxation II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1900-2200",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P41.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Location: GSB308"
+}{
+  "course_code": "ACTG 4P42",
+  "course_name": "Taxation III",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P41.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Section: 1"
+}{
+  "course_code": "ACTG 4P42",
+  "course_name": "Taxation III",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P41.",
+  "instructor": "Instructor: Sheng, Su",
+  "location": "Section: 3"
+}{
+  "course_code": "ACTG 4P42",
+  "course_name": "Taxation III",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1400-1530",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P41.",
+  "instructor": "Instructor: Stillabower, Linda M.",
+  "location": "Location: GSB308"
+}{
+  "course_code": "ACTG 4P61",
+  "course_name": "External Auditing I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "800 -930",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P11.",
+  "instructor": "Instructor: Adamson, Ian L",
+  "location": "Location: GSB406"
+}{
+  "course_code": "ACTG 4P61",
+  "course_name": "External Auditing I",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "930 -1100",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 3P11.",
+  "instructor": "Instructor: Adamson, Ian L",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P62",
+  "course_name": "External Auditing II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P61.",
+  "instructor": "Instructor: Culumovic, Louis",
+  "location": "Location: GSB408"
+}{
+  "course_code": "ACTG 4P62",
+  "course_name": "External Auditing II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1530-1700",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P61.",
+  "instructor": "Instructor: Culumovic, Louis",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P62",
+  "course_name": "External Auditing II",
+  "course_duration": "D2",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "SYN",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P61.",
+  "instructor": "Instructor: Culumovic, Louis",
+  "location": "Location: SYNC"
+}{
+  "course_code": "ACTG 4P62",
+  "course_name": "External Auditing II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1100-1230",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P61.",
+  "instructor": "Instructor: Culumovic, Louis",
+  "location": "Location: GSB405"
+}{
+  "course_code": "ACTG 4P62",
+  "course_name": "External Auditing II",
+  "course_duration": "D3",
+  "course_days": "S M T W T F S",
+  "course_time": "1230-1400",
+  "course_format": "LEC",
+  "prerequisites": "Prerequisites: Prerequisite(s): ACTG 4P61.",
+  "instructor": "Instructor: Chasse, Norman",
+  "location": "Location: GSB405"
+}

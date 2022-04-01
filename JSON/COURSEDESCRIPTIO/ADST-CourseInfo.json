@@ -1,0 +1,51 @@
+{
+  "course_code": "ADST 4P50",
+  "course_name": "Disability & Society",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": " ",
+  "course_format": "ASY",
+  "prerequisites": "Prerequisites: Prerequisite(s): ADST 4P00 (6P00).",
+  "instructor": null,
+  "location": null
+}{
+  "course_code": "ADST 4P96",
+  "course_name": "Dir Studies in Applied Disability Studies I",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Prerequisites: Prerequisite(s): ADST 4P00 (6P00).",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ADST 4P96",
+  "course_name": "Dir Studies in Applied Disability Studies I",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Prerequisites: Prerequisite(s): ADST 4P00 (6P00).",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ADST 4P97",
+  "course_name": "Dir Studies in Applied Disability Studies II",
+  "course_duration": "D2",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Consult the Department regarding permission to reg ister. arrangements must be agreed upon with the instructor and the department prior to registration. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ADST 4P97",
+  "course_name": "Dir Studies in Applied Disability Studies II",
+  "course_duration": "D3",
+  "course_days": null,
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Consult the Department regarding permission to reg ister. arrangements must be agreed upon with the instructor and the department prior to registration. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}
