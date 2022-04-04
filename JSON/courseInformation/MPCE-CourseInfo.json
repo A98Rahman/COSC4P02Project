@@ -1,0 +1,122 @@
+{
+  "course_code": "MPCE 6F02",
+  "course_name": "Canadian Cultural Practices",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "MW",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Shalabi, Neivin",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6F05",
+  "course_name": "Introduction to Research",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D3",
+  "course_days": "TF",
+  "course_time": "1200-1500",
+  "course_format": "LEC",
+  "prerequisites": null,
+  "instructor": "Instructor: Julien, Karen",
+  "location": "Location: TH255"
+}{
+  "course_code": "MPCE 6P00",
+  "course_name": "Introducation to Educational Studies",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "W",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Beres, Jacqueline",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P01",
+  "course_name": "Graduate Study Preparation Seminar",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "F",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Kewley,C",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P03",
+  "course_name": "Critical Pedagogy & Social Justice",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "F",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Smith, Kenneth",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P03",
+  "course_name": "Critical Pedagogy & Social Justice",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D3",
+  "course_days": "M",
+  "course_time": "900 -1200",
+  "course_format": "LEC",
+  "prerequisites": null,
+  "instructor": "Instructor: Smith, Kenneth",
+  "location": "Location: WH311"
+}{
+  "course_code": "MPCE 6P07",
+  "course_name": "In/equity, Diversity & Change in Education",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "M",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Lane,Laura / Castrodale, Mark",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P07",
+  "course_name": "In/equity, Diversity & Change in Education",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "T",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Lane,Laura / Castrodale, Mark",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P08",
+  "course_name": "Organization of Canadian Higher Education",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D3",
+  "course_days": "T",
+  "course_time": "900 -1200",
+  "course_format": "LEC",
+  "prerequisites": null,
+  "instructor": "Instructor: Mindzak, Michael",
+  "location": "Location: WH203"
+}{
+  "course_code": "MPCE 6P11",
+  "course_name": "Wellness in Canadian Higher Education",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D2",
+  "course_days": "T",
+  "course_time": "800 -1100",
+  "course_format": "SYN",
+  "prerequisites": null,
+  "instructor": "Instructor: Griffiths, Lauren",
+  "location": "Location: SYNC"
+}{
+  "course_code": "MPCE 6P11",
+  "course_name": "Wellness in Canadian Higher Education",
+  "course_description": "Notes: Open to Certificate students. Click on course name to see restriction for list.",
+  "course_duration": "D3",
+  "course_days": "W",
+  "course_time": "900 -1200",
+  "course_format": "LEC",
+  "prerequisites": null,
+  "instructor": "Instructor: Woloshyn, Vera",
+  "location": "Location: TH257"
+}

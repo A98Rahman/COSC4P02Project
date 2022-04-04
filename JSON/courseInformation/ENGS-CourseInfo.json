@@ -1,0 +1,34 @@
+{
+  "course_code": "ENGS 3P41",
+  "course_name": "Creating Healthy Communities: Human Mechanics",
+  "course_description": "Invention of assistive devices for human augmentation (bionic technology, robotics and exoskeletons) to prolong and enhance lives. Assistive solutions for recovery from injury, improvement of sport mechanics, assistance for the elderly, and optimization of human performance for occupational workers.",
+  "course_duration": "D3",
+  "course_days": "MWF",
+  "course_time": "1200-1300",
+  "course_format": "SEM",
+  "prerequisites": "Notes: Open to Engineering Science minors only. this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Cudlip, Alan",
+  "location": "Location: ST108"
+}{
+  "course_code": "ENGS 3P41",
+  "course_name": "Creating Healthy Communities: Human Mechanics",
+  "course_description": "Invention of assistive devices for human augmentation (bionic technology, robotics and exoskeletons) to prolong and enhance lives. Assistive solutions for recovery from injury, improvement of sport mechanics, assistance for the elderly, and optimization of human performance for occupational workers.",
+  "course_duration": "D3",
+  "course_days": "T",
+  "course_time": "1400-1600",
+  "course_format": "LAB 1",
+  "prerequisites": "Notes: Labs/Tutorials/Seminars run alternate weeks beginn ing January 10, 2022. this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: CRN310"
+}{
+  "course_code": "ENGS 3P41",
+  "course_name": "Creating Healthy Communities: Human Mechanics",
+  "course_description": "Invention of assistive devices for human augmentation (bionic technology, robotics and exoskeletons) to prolong and enhance lives. Assistive solutions for recovery from injury, improvement of sport mechanics, assistance for the elderly, and optimization of human performance for occupational workers.",
+  "course_duration": "D3",
+  "course_days": "T",
+  "course_time": "1400-1600",
+  "course_format": "LAB 2",
+  "prerequisites": "Notes: Labs/Tutorials/Seminars run alternate weeks beginn ing January 17, 2022. this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: CRN310"
+}
