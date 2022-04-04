@@ -8,6 +8,12 @@ import { useTheme } from "./ThemeContext"
 export default function ChatBar({ onSubmitMessage }) {
 	const [theme, setTheme] = useTheme()
 
+	const mediaRecorderRef = useRef()
+	const streamRef = useRef()
+	const mediaDataRef = useRef([])
+	const rawDataRef = useRef([])
+	const isRecordingRef = useRef(false)
+
 	const [emptyChatbarErrorState, setEmptyChatbarErrorState, emptyChatbarErrorStateRef] = useStateRef(false)
 	const inputBarRef = useRef(null)
 	const submitButton = useRef(null)
@@ -23,6 +29,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	}
 	function handleOnSubmit(e) {
+		console.log(mediaDataRef.current)
 		//so the page doesn't reload
 		e.preventDefault()
 
@@ -74,6 +81,88 @@ export default function ChatBar({ onSubmitMessage }) {
 		return pixelSize
 	}
 
+	function submitSpeechToServer(data) {
+		fetch(
+			`/upload-speech`,
+			{
+				method: "POST",
+				body: { data: data }
+			}
+		).then(response => {
+			// display error message on frontend
+			if (!response.ok) {
+				navigate("/")
+				throw new Error(`Request failed with status ${response.status}`)
+			} else {
+				return response.json()
+			}
+
+		}).then(data => {
+			if (!data) {
+				alert("Failed to upload speech")
+				throw new Error(`Failed to upload speech`)
+			} else {
+				onSubmit()
+			}
+		}).catch((error) => console.warn(error))
+	}
+
+	function handleOnClickRecordButton(e) {
+		e.preventDefault()
+
+		//if there is no stream open
+		if (!streamRef.current) {
+			navigator.mediaDevices.getUserMedia({ audio: true, video: false }).then(
+				stream => {
+					streamRef.current = stream
+					toggleRecording()
+				}
+			)
+			console.log("Stream now open")
+			return
+		}
+
+		function toggleRecording() {
+			//if there is an active media recorder but the recording is stopped
+			if (!isRecordingRef.current) {
+				const mediaRecorder = new MediaRecorder(streamRef.current, { mimeType: "audio/ogg" })
+				mediaRecorderRef.current = mediaRecorder
+
+				mediaRecorder.addEventListener('dataavailable', e => {
+					if (e.data.size > 0) {
+						mediaDataRef.current.push(e.data)
+
+						const reader = new FileReader()
+						reader.addEventListener('loadend', () => {
+							console.log(reader.result)
+							submitSpeechToServer(reader.result)
+						});
+						reader.readAsBinaryString(e.data);
+
+						const blob = new Blob(mediaDataRef.current)
+						const url = URL.createObjectURL(blob)
+						console.log(url)
+
+						var audio = new Audio(url);
+						console.log(audio)
+						audio.play();
+					}
+				})
+
+				mediaRecorderRef.current.start()
+				isRecordingRef.current = true
+				console.log("recording started")
+			} else {
+				mediaRecorderRef.current.stop()
+				isRecordingRef.current = false
+				console.log("recording stopped")
+				mediaDataRef.current = []
+			}
+		}
+
+		toggleRecording()
+	}
+
 	return (
 
 		<FlexContainer
@@ -87,7 +176,7 @@ export default function ChatBar({ onSubmitMessage }) {
 			}}
 		>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px" }}>
-				
+
 				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: theme.colors.secondaryColorText }} />
@@ -106,6 +195,13 @@ export default function ChatBar({ onSubmitMessage }) {
 						color: theme.colors.secondaryColorText
 					}}
 				/>
+
+
+				<button onClick={handleOnClickRecordButton} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
+					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", boxSizing: "border-box", margin: "0px 8px 0px 8px" }}>
+						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "32px", color: "black" }} />
+					</div>
+				</button>
 
 				<button type="submit" style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.primaryColor }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", boxSizing: "border-box", margin: "0px 8px 0px 8px" }}>

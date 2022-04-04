@@ -10,8 +10,8 @@ import ThemeContext from "./ThemeContext"
 import ChatPage from "./ChatPage";
 
 export default function App() {
-
-
+	
+	
 	return (
 		<ThemeContext>
 			<LandingPage />
