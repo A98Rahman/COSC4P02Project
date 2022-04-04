@@ -1,0 +1,111 @@
+{
+  "course_code": "ACCC 0N01",
+  "course_name": "Work Placement I",
+  "course_description": "First co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N02",
+  "course_name": "Work Placement II",
+  "course_description": "Second co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D2",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N02",
+  "course_name": "Work Placement II",
+  "course_description": "Second co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N03",
+  "course_name": "Work Placement III",
+  "course_description": "Third co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D2",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N03",
+  "course_name": "Work Placement III",
+  "course_description": "Third co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N04",
+  "course_name": "Work Placement IV",
+  "course_description": "Optional co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D2",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N04",
+  "course_name": "Work Placement IV",
+  "course_description": "Optional co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N05",
+  "course_name": "Work Placement V",
+  "course_description": "Optional co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D2",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N05",
+  "course_name": "Work Placement V",
+  "course_description": "Optional co-op work placement (4 months) with an approved employer.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": null,
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "ACCC 0N90",
+  "course_name": "Co-Op Professional Preparation",
+  "course_description": "Provides students with the tools, resources and skills to maximize co-op employment and professional development opportunities.",
+  "course_duration": "D3",
+  "course_days": "W",
+  "course_time": "1700-1830",
+  "course_format": "LEC",
+  "prerequisites": "Notes: Open to Bachelor of Accounting Co-op students. WINTER 2022: This course has moved ONLINE-SYNCHRON OUS.",
+  "instructor": "Instructor: Zhu,Julia",
+  "location": "Location: SYNC"
+}

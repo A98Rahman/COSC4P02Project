@@ -1,0 +1,122 @@
+{
+  "course_code": "HUMA 0N01",
+  "course_name": "Work Placement I",
+  "course_description": "Provides students with a work integrated learning experience with an approved employer relevant to the student's degree learning outcomes.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D2",
+  "course_days": "F",
+  "course_time": "1600-1800",
+  "course_format": "SYN",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Planche, Jill",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D2",
+  "course_days": "T",
+  "course_time": "900 -1000",
+  "course_format": "SEM 1",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D2",
+  "course_days": "T",
+  "course_time": "900 -1000",
+  "course_format": "SEM 2",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D2",
+  "course_days": "F",
+  "course_time": "1000-1100",
+  "course_format": "SEM 3",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D2",
+  "course_days": "W",
+  "course_time": "1000-1100",
+  "course_format": "SEM 4",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D3",
+  "course_days": "F",
+  "course_time": "1300-1500",
+  "course_format": "SYN",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Planche, Jill",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D3",
+  "course_days": "F",
+  "course_time": "1200-1300",
+  "course_format": "SEM 1",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D3",
+  "course_days": "T",
+  "course_time": "900 -1000",
+  "course_format": "SEM 2",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D3",
+  "course_days": "T",
+  "course_time": "1400-1500",
+  "course_format": "SEM 3",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}{
+  "course_code": "HUMA 1P50",
+  "course_name": "The Master Student",
+  "course_description": "Introduction to core skills and best practices for learning in the Humanities classroom. Modules may include note-taking, effectivereading, essay writing, study strategies, time management and learning from feedback.",
+  "course_duration": "D3",
+  "course_days": "W",
+  "course_time": "1200-1300",
+  "course_format": "SEM 4",
+  "prerequisites": "Notes: Minimum 70% major average and minimum 60% non-majo r average is required. Must hold a minimum of 10.0 overall credits. full-time work experience employment, 35-40 hours per week for 12 to 16 weeks. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}
