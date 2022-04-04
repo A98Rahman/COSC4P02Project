@@ -2,6 +2,8 @@
 cd frontend npm install
 cd server npm install
 
+download the deepspeech files: https://brocku-my.sharepoint.com/:f:/g/personal/ag17za_brocku_ca/Ekv0ZEXX_qtFr1nlMULxEtwBLq4k4YdLQYhzy1ohkhyHug?e=jQXKAr which will need to be placed in server/dist
+
 ##one time build 
 cd frontend
 npm run build
