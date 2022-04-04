@@ -47,6 +47,7 @@ app.get('/test-deps', (req, res) => {
 			})
 			.on('end', () => {
 				responseString += 'Processing finished !' + "<br/><br/>"
+				res.send(responseString)
 				console.log('Processing finished !');
 				interpret()
 			})
@@ -62,8 +63,8 @@ app.get('/test-deps', (req, res) => {
 		reader.pipe(audioStream)
 		file.pipe(reader)
 
-		let modelPath = './dist/deepspeech-0.9.3-models.pbmm';
-		let scorerPath = './dist/deepspeech-0.9.3-models.scorer';
+		let modelPath = './dist/deepspeech-files/deepspeech-0.9.3-models.pbmm';
+		let scorerPath = './dist/deepspeech-files/deepspeech-0.9.3-models.scorer';
 		let model = new DeepSpeech.Model(modelPath);
 		model.enableExternalScorer(scorerPath);
 
@@ -76,14 +77,7 @@ app.get('/test-deps', (req, res) => {
 			let result = model.stt(audioBuffer);
 
 			console.log('result:', result);
-			responseString += 'result: ' + result + "<br/><br/>"
-
-			sendRes()
 		});
-	}
-
-	function sendRes() {
-		res.send(responseString)
 	}
 
 	convert()
