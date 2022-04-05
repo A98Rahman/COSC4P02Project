@@ -1,0 +1,45 @@
+[{
+  "course_code": "BMED 4F90",
+  "course_name": "Honours Thesis",
+  "course_description": "Students undertake a limited research project involving laboratory study under faculty supervision.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Consult the Co-ordinator regarding permission to r egister. to be taken in conjunction with BMED 4F91. Submission and oral defense of the thesis is required. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+},{
+  "course_code": "BMED 4F91",
+  "course_name": "Literature Research & Seminar",
+  "course_description": "Students undertake a detailed study of the scientific literature relevant to the topic of the honours thesis.",
+  "course_duration": "D1",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Consult the Co-ordinator regarding permission to r egister. to be taken in conjunction with BMED 4F90. The literature review will be included in the thesis and will be presented as a seminar. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 2",
+  "location": "Instructor: See dept."
+},{
+  "course_code": "BMED 4F91",
+  "course_name": "Literature Research & Seminar",
+  "course_description": "Students undertake a detailed study of the scientific literature relevant to the topic of the honours thesis.",
+  "course_duration": "D3",
+  "course_days": "",
+  "course_time": "Project Course",
+  "course_format": "PRO",
+  "prerequisites": "Notes: Consult the Co-ordinator regarding permission to r egister. to be taken in conjunction with BMED 4F90. The literature review will be included in the thesis and will be presented as a seminar. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Instructor: See dept."
+},{
+  "course_code": "BMED 4F92",
+  "course_name": "Library Research Essays",
+  "course_description": "Students will be required to carry out two detailed studies of the scientific literature under faculty and teaching assistant supervision.",
+  "course_duration": "D1",
+  "course_days": "T",
+  "course_time": "1400-1700",
+  "course_format": "LEC",
+  "prerequisites": "Notes: Consult the Co-ordinator regarding permission to r egister. to be taken in conjunction with BMED 4F90. The literature review will be included in the thesis and will be presented as a seminar. This course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Instructor: Stuart, Jeff / MacNeil, Lori",
+  "location": "Location: TH241"
+}]

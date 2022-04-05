@@ -1,0 +1,45 @@
+[{
+  "course_code": "FMSC 1P00",
+  "course_name": "Transitioning to University Sciences",
+  "course_description": "Foundational mathematics and topics from introductory science. Time management, learning skills, and library research skills. Data analysis and presentation using spreadsheets; lab report preparation.Note: More detailed information is available at https://brocku.ca/mathematics-science/transitioning-to-university-science-fmsc-1p00/",
+  "course_duration": "D2",
+  "course_days": "M",
+  "course_time": "1100-1200",
+  "course_format": "TUT 1",
+  "prerequisites": "Notes: this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+},{
+  "course_code": "FMSC 1P00",
+  "course_name": "Transitioning to University Sciences",
+  "course_description": "Foundational mathematics and topics from introductory science. Time management, learning skills, and library research skills. Data analysis and presentation using spreadsheets; lab report preparation.Note: More detailed information is available at https://brocku.ca/mathematics-science/transitioning-to-university-science-fmsc-1p00/",
+  "course_duration": "D2",
+  "course_days": "M",
+  "course_time": "1000-1100",
+  "course_format": "TUT 2",
+  "prerequisites": "Notes: this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+},{
+  "course_code": "FMSC 1P00",
+  "course_name": "Transitioning to University Sciences",
+  "course_description": "Foundational mathematics and topics from introductory science. Time management, learning skills, and library research skills. Data analysis and presentation using spreadsheets; lab report preparation.Note: More detailed information is available at https://brocku.ca/mathematics-science/transitioning-to-university-science-fmsc-1p00/",
+  "course_duration": "D2",
+  "course_days": "",
+  "course_time": "900 -1000",
+  "course_format": "TUT 3",
+  "prerequisites": "Notes: this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+},{
+  "course_code": "FMSC 1P00",
+  "course_name": "Transitioning to University Sciences",
+  "course_description": "Foundational mathematics and topics from introductory science. Time management, learning skills, and library research skills. Data analysis and presentation using spreadsheets; lab report preparation.Note: More detailed information is available at https://brocku.ca/mathematics-science/transitioning-to-university-science-fmsc-1p00/",
+  "course_duration": "D2",
+  "course_days": "W",
+  "course_time": "900 -1000",
+  "course_format": "TUT 4",
+  "prerequisites": "Notes: this course may be offered in multiple modes of delivery. The method of delivery will be listed on the academic timetable, in the applicable term.",
+  "instructor": "Section: 1",
+  "location": "Location: SYNC"
+}]
