@@ -29,7 +29,7 @@ export default function Message({ floatRight = false, message, children }) {
 
 			<FlexContainer flexDirection={floatRight ? "row-reverse" : "row"} >
 				<div style={{ width: "60px", height: "60px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: theme.colors.tertiaryColorBackground }}></div> {/* image */}
-				<div style={{ minWidth: "10vw", maxWidth: "70%", background: floatRight ? theme.colors.primaryColor : theme.colors.secondaryColor, color: "#ededed", fontSize: "1.2rem", padding: "8px", boxSizing: "border-box" }}>
+				<div style={{ minWidth: "80px", maxWidth: "70%", background: floatRight ? theme.colors.primaryColor : theme.colors.secondaryColor, color: "#ededed", fontSize: "1.2rem", padding: "8px", boxSizing: "border-box" }}>
 					{message.text && <p style={{ fontSize: `${1.4 * theme.fontScaleFactor}rem` }}>{message.text}</p>}
 					{message.image && <img src={message.image} style={{ width: "100%" }} />}
 				</div>
