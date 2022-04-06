@@ -77,7 +77,6 @@ typings/
 
 # Next.js build output
 .next
-dist
 
 # Nuxt.js build / generate output
 .nuxt
@@ -102,3 +101,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+#deepspeech files
+*.pbmm
+*.scorer
