@@ -25,7 +25,7 @@ export default function Message({ floatRight = false, message, children }) {
 		</FlexContainer> */
 
 
-		<FlexContainer flexDirection="column" alignItems={floatRight ? "flex-end" : "flex-start"} style={{ margin: "0 10vw 32px 10vw", boxSizing: "border-box" }}>
+		<FlexContainer flexDirection="column" alignItems={floatRight ? "flex-end" : "flex-start"} style={{ boxSizing: "border-box" }}>
 
 			<FlexContainer flexDirection={floatRight ? "row-reverse" : "row"} >
 				<div style={{ width: "60px", height: "60px", margin: floatRight ? "0 0 0 16px" : "0 16px 0 0", borderRadius: "50%", background: theme.colors.tertiaryColorBackground }}></div> {/* image */}

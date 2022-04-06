@@ -167,7 +167,6 @@ export default function ChatBar({ onSubmitMessage }) {
 		<FlexContainer
 			style={{
 				flex: "0 1 60px",
-				margin: "8px 10vw 24px 10vw",
 				boxSizing: "border-box",
 				background: theme.colors.primaryColorBackground,
 				border: `solid 1px ${theme.colors.borderColor}`,
