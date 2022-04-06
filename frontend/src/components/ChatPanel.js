@@ -111,7 +111,7 @@ export default function ChatPanel({ children }) {
 				background: theme.colors.primaryColorBackground
 			}}
 		>
-			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll" }}> {/*message container*/}
+			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser} message={message} />
