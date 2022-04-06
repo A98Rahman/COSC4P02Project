@@ -39,11 +39,16 @@ module.exports = {
 	devServer: {
 		open: true,
 		proxy: {
-			'/api': {
+			'/rasa': {
 				target: 'http://localhost:5005',
+				pathRewrite: { '^/rasa': '' },
+				secure: false,
+			},
+			'/api': {
+				target: 'http://localhost:3000',
 				pathRewrite: { '^/api': '' },
 				secure: false,
-			}
+			},
 		}
 	},
 	plugins: [htmlPlugin]
