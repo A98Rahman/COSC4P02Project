@@ -139,10 +139,7 @@ class ActionExamDate(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
-        print("raw: ", course_code)
-        course_code = normalize_course_code(course_code)
-        print("normalized: ", course_code)
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
