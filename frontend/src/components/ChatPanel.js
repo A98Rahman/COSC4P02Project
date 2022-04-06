@@ -74,14 +74,25 @@ export default function ChatPanel({ children }) {
 	}
 
 	function handleRASAResponse(res) {
-		const textValue = res[0].text
+		const resMessages = []
+		res.forEach(resMessage => {
+			const textValue = resMessage.text
+			const image = resMessage.image
+			const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
+
+			resMessages.push(
+				{
+					text: textValue,
+					image: image,
+					time: time,
+					fromUser: false
+				}
+			)
+		})
 
 		setMessagesState(curMessagesState => [
 			...curMessagesState,
-			{
-				text: textValue,
-				fromUser: false
-			}
+			...resMessages
 		])
 
 		//const messageContainer = messageContainerRef.current
@@ -94,7 +105,7 @@ export default function ChatPanel({ children }) {
 			alignItems="stretch"
 			style={{
 				flex: "1 1 75%",
-				minHeight: "0", 
+				minHeight: "0",
 				margin: "0px",
 				background: theme.colors.primaryColorBackground
 			}}
@@ -103,15 +114,14 @@ export default function ChatPanel({ children }) {
 
 				{
 					messagesState.map((message, i) =>
-						<Message key={i} floatRight={message.fromUser} message={message}>
-							<p style={{ margin: "8px 8px 8px 8px" }}>{message.text}</p>
-						</Message>
+						<Message key={i} floatRight={message.fromUser} message={message} />
 					)
 				}
 				{responsePendingState &&
-					<Message floatRight={false} message={{ text: "...", time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}>
-						<p style={{ padding: "8px" }}>...</p>
-					</Message>
+					<Message
+						floatRight={false}
+						message={{ text: "...", time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
+					/>
 				}
 			</FlexContainer>
 

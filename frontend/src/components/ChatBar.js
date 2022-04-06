@@ -29,7 +29,6 @@ export default function ChatBar({ onSubmitMessage }) {
 
 	}
 	function handleOnSubmit(e) {
-		console.log(mediaDataRef.current)
 		//so the page doesn't reload
 		e.preventDefault()
 
@@ -197,7 +196,7 @@ export default function ChatBar({ onSubmitMessage }) {
 				/>
 
 
-				<button onClick={handleOnClickRecordButton} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
+				<button type="button" onClick={handleOnClickRecordButton} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", boxSizing: "border-box", margin: "0px 8px 0px 8px" }}>
 						<FontAwesomeIcon icon={solid('paper-plane')} size="1x" style={{ height: "32px", color: "black" }} />
 					</div>
