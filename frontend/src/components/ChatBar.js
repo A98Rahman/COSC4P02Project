@@ -177,7 +177,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 				<button type="button" onClick={clearInput} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", margin: "0px 8px 0px 8px" }}>
-						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: theme.colors.secondaryColorText }} />
+						<FontAwesomeIcon icon={solid('xmark')} size="1x" style={{ height: "24px", color: theme.colors.iconColor }} />
 					</div>
 				</button>
 
@@ -197,7 +197,7 @@ export default function ChatBar({ onSubmitMessage }) {
 
 				<button type="button" onClick={handleOnClickRecordButton} style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", border: "none", background: theme.colors.secondaryColorBackground }}>
 					<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flex: "0 0 auto", boxSizing: "border-box", margin: "0px 8px 0px 8px" }}>
-						<FontAwesomeIcon icon={solid('microphone')} size="1x" style={{ height: "32px", color: theme.colors.secondaryColorText }} />
+						<FontAwesomeIcon icon={solid('microphone')} size="1x" style={{ height: "32px", color: theme.colors.iconColor }} />
 					</div>
 				</button>
 
