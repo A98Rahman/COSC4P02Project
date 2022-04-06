@@ -4,32 +4,88 @@ stories:
 
 # BASE STORIES
 
-- story: happy path
+- story: greet path
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
 
-- story: sad path 1
+- story: goodbye path
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
+  - intent: goodbye
   - action: utter_goodbye
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+###################################
+####### STATIC LINK STORIES #######
+###################################
+
+- story: restaraunts inquiry
+  steps:
+  - intent: restaraunts_inquiry
+  - action: utter_restaraunts_inquiry_1
+  - action: utter_restaraunts_inquiry_2
+
+- story: library booking
+  steps:
+  - intent: library_booking
+  - action: utter_library_booking
+
+- story: zone booking
+  steps:
+  - intent: zone_booking
+  - action: utter_zone_booking
+
+- story: library hours
+  steps:
+  - intent: library_hours
+  - action: utter_library_hours_1
+  - action: utter_library_hours_2
+
+- story: intramurals inquiry
+  steps:
+  - intent: intramurals_inquiry
+  - action: utter_intramurals_inquiry
+
+- story: campus map
+  steps:
+  - intent: campus_map
+  - action: utter_campus_map
+
+- story: parking inquiry
+  steps:
+  - intent: parking_inquiry 
+  - action: utter_parking_inquiry
+
+- story: bus routes
+  steps:
+  - intent: bus_routes
+  - action: utter_bus_routes_1
+  - action: utter_bus_routes_2
+
+- story: important dates
+  steps:
+  - intent: important_dates
+  - action: utter_important_dates
+
+- story: local info
+  steps:
+  - intent: local_info
+  - action: utter_local_info
+
+- story: brock news
+  steps:
+  - intent: brock_news
+  - action: utter_brock_news
+
+- story: brock careers
+  steps:
+  - intent: brock_careers
+  - action: utter_brock_careers_1
+  - action: utter_brock_careers_2
 
 ############################
 ####### CLUB STORIES #######

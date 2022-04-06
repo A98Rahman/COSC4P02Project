@@ -1,0 +1,115 @@
+stories:
+- story: basic conversation test
+  steps:
+  - user: |
+      hello
+    intent: greet
+  - action: utter_greet
+  - user: |
+      are you a bot?
+    intent: bot_challenge
+  - action: utter_iamabot
+  - user: |
+      ok, cya later then.
+    intent: goodbye
+  - action: utter_goodbye
+
+- story: static link test
+  steps:
+  - user: |
+      where can I eat at brock?
+    intent: restaraunts_inquiry
+  - action: utter_restaraunts_inquiry_1
+  - action: utter_restaraunts_inquiry_2
+  - user: |
+      how can I book a study room at the library?
+    intent: library_booking
+  - action: utter_library_booking
+  - user: |
+      Can I book a time slot at the zone?
+    intent: zone_booking
+  - action: utter_zone_booking
+  - user: |
+      When is the library open?
+    intent: library_hours
+  - action: utter_library_hours_1
+  - action: utter_library_hours_2
+  - user: |
+      does brock have an intramural basketball league?
+    intent: intramurals_inquiry
+  - action: utter_intramurals_inquiry
+  - user: |
+      Where can I find a map of the campus?
+    intent: campus_map
+  - action: utter_campus_map
+  - user: |
+      Where can I pay a parking ticket
+    intent: parking_inquiry
+  - action: utter_parking_inquiry
+  - user: |
+      I need the bus schedule
+    intent: bus_routes
+  - action: utter_bus_routes_1
+  - action: utter_bus_routes_2
+  - user: |
+      when is the first day of classes
+    intent: important_dates
+  - action: utter_important_dates
+  - user: |
+      what is there to do in niagara?
+    intent: local_info
+  - action: utter_local_info
+  - user: |
+      does brock have a school newspaper?
+    intent: brock_news
+  - action: utter_brock_news
+  - user: |
+      looking for a student job at brock
+    intent: brock_careers
+  - action: utter_brock_careers_1
+  - action: utter_brock_careers_2
+
+- story: club test
+  steps:
+  - user: |
+      is there a gaming club at brock?
+    intent: club_general_info
+  - action: action_club_general_info
+
+- story: program test
+  steps:
+  - user: |
+      is there a Business Program at brock?
+    intent: program_general_info
+  - action: action_program_general_info
+  - user: |
+      what are the requirements to get into Computing and Business?
+    intent: program_requirements
+  - action: action_program_requirements
+
+- story: faculty test
+  steps:
+  - user: |
+      does Dan Malleck work at brock?
+    intent: faculty_general_info
+  - action: action_faculty_general_info
+  - user: |
+      what department does Earl Foxwell work in?
+    intent: faculty_department
+  - action: action_faculty_department
+  - user: |
+      what is Mark Willoughby's Email?
+    intent: faculty_email
+  - action: action_faculty_email
+  - user: |
+      what is Jess Crosthwaite's title at brock?
+    intent: faculty_title
+  - action: action_faculty_title
+  - user: |
+      can I reach donna phelps by phone?
+    intent: faculty_extension
+  - action: action_faculty_extension
+  - user: |
+      where is Ally Fast's office located?
+    intent: faculty_location
+  - action: action_faculty_location

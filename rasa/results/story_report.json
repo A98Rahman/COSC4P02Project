@@ -1,0 +1,326 @@
+{
+  "action_program_general_info": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_bus_routes": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_faculty_email": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "action_faculty_location": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "restaraunts_inquiry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "program_requirements": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "parking_inquiry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "local_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_zone_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_campus_map": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_local_info": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1
+  },
+  "zone_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "faculty_email": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "bus_routes": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_faculty_department": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "faculty_extension": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_important_dates": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "None": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 24
+  },
+  "action_club_general_info": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "brock_news": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "library_hours": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "important_dates": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_restaraunts_inquiry": {
+    "precision": 0.3333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.5,
+    "support": 1
+  },
+  "campus_map": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_iamabot": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_intramurals_inquiry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "faculty_department": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_library_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_faculty_general_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_listen": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 24
+  },
+  "action_faculty_title": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "utter_brock_careers": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1
+  },
+  "utter_parking_inquiry": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1
+  },
+  "faculty_location": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_library_hours": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "library_booking": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_brock_news": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1
+  },
+  "club_general_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_goodbye": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "utter_greet": {
+    "precision": 0.5,
+    "recall": 1.0,
+    "f1-score": 0.6666666666666666,
+    "support": 1
+  },
+  "faculty_general_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "faculty_title": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "brock_careers": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_program_requirements": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1
+  },
+  "intramurals_inquiry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "action_faculty_extension": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "program_general_info": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 1
+  },
+  "micro avg": {
+    "precision": 0.9027777777777778,
+    "recall": 0.6770833333333334,
+    "f1-score": 0.7738095238095238,
+    "support": 96
+  },
+  "macro avg": {
+    "precision": 0.7766666666666666,
+    "recall": 0.84,
+    "f1-score": 0.7966666666666665,
+    "support": 96
+  },
+  "weighted avg": {
+    "precision": 0.6440972222222222,
+    "recall": 0.6770833333333334,
+    "f1-score": 0.6545138888888888,
+    "support": 96
+  },
+  "conversation_accuracy": {
+    "accuracy": 0.2,
+    "correct": 1,
+    "with_warnings": 0,
+    "total": 5
+  }
+}

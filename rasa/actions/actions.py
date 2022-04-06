@@ -139,7 +139,10 @@ class ActionExamDate(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+        course_code = tracker.get_slot('CourseCode')
+        print("raw: ", course_code)
+        course_code = normalize_course_code(course_code)
+        print("normalized: ", course_code)
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
@@ -301,7 +304,7 @@ class ActionFacultyGeneralInfo(Action):
             try:
                 info = next(cur)
                 dispatcher.utter_message(text=f'''
-                Yes, {info[0]} {info[1]} is a {info[2]} here at Brock.  They can be reached at {info[3]} or extension number {info[4]}.  Their office is located at {info[5]}.
+                {info[0]} {info[1]} is a {info[2]} here at Brock.  They can be reached at {info[3]} or extension number {info[4]}.  Their office is located at {info[5]}.
                 ''')
             except:
                 dispatcher.utter_message(text="Sorry, I couldn't find that person.")
