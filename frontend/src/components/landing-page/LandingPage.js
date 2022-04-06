@@ -8,7 +8,7 @@ export default function LandingPage() {
 	const [theme, setTheme] = useTheme()
 
 	return (
-		<FlexContainer flexDirection="column" style={{ width: "100%", minHeight: "100vh", background: theme.colors.primaryColorBackground }}> {/* landing page */}
+		<FlexContainer flexDirection="column" style={{ width: "100%", minWidth: "0", overflow: "hidden", minHeight: "100vh", background: theme.colors.primaryColorBackground }}> {/* landing page */}
 
 			<Header />
 

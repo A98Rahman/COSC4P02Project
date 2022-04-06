@@ -18,7 +18,7 @@ export default function ChatPage({ children, style }) {
 			height="100vh"
 			flexDirection="column"
 			alignItems="stretch"
-			style={{background: theme.colors.pageColorBackground, ...style }}>
+			style={{minWidth: "0", background: theme.colors.pageColorBackground, ...style }}>
 
 			<Titlebar></Titlebar>
 
