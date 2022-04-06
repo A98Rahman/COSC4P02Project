@@ -63,8 +63,8 @@ app.get('/test-deps', (req, res) => {
 		reader.pipe(audioStream)
 		file.pipe(reader)
 
-		let modelPath = './dist/deepspeech-files/deepspeech-0.9.3-models.pbmm';
-		let scorerPath = './dist/deepspeech-files/deepspeech-0.9.3-models.scorer';
+		let modelPath = './dist/deepspeech-0.9.3-models.pbmm';
+		let scorerPath = './dist/deepspeech-0.9.3-models.scorer';
 		let model = new DeepSpeech.Model(modelPath);
 		model.enableExternalScorer(scorerPath);
 
