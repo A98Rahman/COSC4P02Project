@@ -31,59 +31,6 @@ nlu:
     - bye bye
     - see you later
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
-
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
-
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
-
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
@@ -91,6 +38,128 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+################################
+##### STATIC LINK INTENTS ######
+################################
+
+- intent: restaraunts_inquiry
+  examples: |
+    - local restaraunts in niagara
+    - best places to eat in niagara
+    - where can I eat near brock
+    - local dining experiences brock
+    - best restaraunts on campus brock
+    - takeout near brock
+    - free delivery near brock uber eats
+    - local takeout restaraunts brock
+
+- intent: library_booking
+  examples: |
+    - I'm looking to book a room at the library
+    - Looking to book a private room in the library
+    - bookable study spaces brock library
+    - group study rooms brock
+    - places for study groups brock
+    - can I book a study room?
+
+- intent: zone_booking
+  examples: |
+    - zone booking
+    - I need to book a time slot at the zone
+    - can you book a time at the zone?
+    - I need to book a time at the zone
+    - looking to book a time at the brock gym
+
+- intent: library_hours
+  examples: |
+    - when does brock library open?
+    - when does the library close?
+    - when does the brock library close?
+    - brock library operating hours
+    - library hours brock
+    - library hours
+
+- intent: intramurals_inquiry
+  examples: |
+    - does brock have intramurals?
+    - brock intramurals
+    - can you give me some information about intramurals at brock?
+    - how do I sign up for intramurals at brock?
+    - does brock have an intramural league?
+    - co-ed intramurals brock
+
+- intent: campus_map
+  examples: |
+    - I need a map of the campus
+    - I'm lost
+    - can you give me directions
+    - I need directions
+    - Is there a campus map?
+
+- intent: parking_inquiry
+  examples: |
+    - how much does parking cost?
+    - is there free parking at brock?
+    - how do I pay a parking ticket?
+    - Why do I have to pay for parking?
+    - Is parking free as a brock student?
+    - where can I buy a parking pass?
+    - zone 2 parking pass
+    - zone 1 parking pass
+    - is parking free during the summer?
+
+- intent: bus_routes
+  examples: |
+    - I need a bus schedule
+    - What is the bus schedule?
+    - I need to know the bus schedule at brock
+    - is there a bus schedule
+    - can you give me a bus schedule?
+    - How do I find the bus routes brock
+    - bus routes brock university
+
+- intent: important_dates
+  examples: |
+    - Important dates brock
+    - registration dates brock
+    - last day to withdraw from courses brock
+    - residence move in day brock
+    - when is the first day of classes brock
+    - first day of fall/winter session
+    - When does registration close?
+    - When is reading week D1 semester
+    - when is reading week?
+    - when is the last day of classes winter
+    - when do spring courses begin?
+    - when does the fall semester start
+
+- intent: local_info
+  examples: |
+    - looking for fun stuff to do in niagara
+    - tourist activities niagara
+    - what is there to do at brock?
+    - local attractions at brock?
+    - what is going on in niagara
+    - nightlife niagara falls
+    - is there anything fun to do in niagara
+    - what is there to do in St. Catherines
+    - Leisure activities niagara region
+
+- intent: brock_news
+  examples: |
+    - i'm looking for news about brock
+    - brock news website
+    - can you give me the latest news about brock
+    - brock news
+
+- intent: brock_careers
+  examples: |
+    - i'm looking to apply for a job at brock
+    - is brock hiring right now?
+    - open jobs at brock
+    - brock careers
+    - does brock hire students?
+    - student jobs brock
 
 #########################
 ##### CLUB INTENTS ######
@@ -130,31 +199,32 @@ nlu:
 
 - intent: exam_general_info
   examples: |
-    - tell me about the [ACTG 4P41](CourseCode) exam?
-    - I want to know more about the [ACTG1P91](CourseCode) exam?
-    - Is there an exam for [3P11ACTG] (CourseCode)?
+    - tell me about the [econ2p15](CourseCode) exam?
+    - I want to know more about the [COSC4P61](CourseCode) exam?
+    - Is there an exam for [LABR 2Q98] (CourseCode)?
+    - [math 1p05] exam info
 - intent: exam_location
   examples: |
-    - where will the [ACTG 1P02](CourseCode) exam take place?
-    - What is the location of the [ACTG 3P11](CourseCode) exam?
-    - I want to know where [1P02ACTG] (CourseCode) exam will be
-    - I want to know the room of the [1P02 ACTG] (CourseCode) exam
-    - where is the [ACTG4P41](CourseCode) exam?
-    - Is the [ACTG 4P34] (CourseCode) exam face-to-face?
+    - where will the [comm2p98](CourseCode) exam take place?
+    - What is the location of the [cosc 1p50](CourseCode) exam?
+    - I want to know where [COSC 2P05] (CourseCode) exam will be
+    - I want to know the room of the [KINE2P41] (CourseCode) exam
+    - where is the [IASC2P70](CourseCode) exam?
+    - Is the [ITIS 1p97] (CourseCode) exam face-to-face?
 - intent: exam_date
   examples: |
-    - when is the [ACTG4P11](CourseCode) exam?
-    - when is the exam for [4P11 ACTG](CourseCode)?
-    - What time is the [2P51ACTG](CourseCode) exam?
-    - What day is the [ACTG 1p91] (CourseCode) exam?
-    - when will the [ACTG 4P11](CourseCode) take place?
-    - what is the date of the [ACTG 4P11](CourseCode) exam?
+    - when is the [ACTG 4P11](CourseCode) exam?
+    - when is the exam for [hlsc 4p03](CourseCode)?
+    - What time is the [geog3p09](CourseCode) exam?
+    - What day is the [HLSC2P49] (CourseCode) exam?
+    - when will the [Econ 2p21](CourseCode) take place?
+    - what is the date of the [Actg4P11](CourseCode) exam?
 - intent: exam_delivery
   examples: |
-    - Is the [ACTG1P02](CourseCode) exam online?
-    - How is the [3P11ACTG](CourseCode) exam being delivered?
-    - Is there an in-person exam for [1p02 ACTG] (CourseCode)?
-    - is the [actg 1p02](CourseCode) exam online?
+    - Is the [FREN1F90](CourseCode) exam online?
+    - How is the [FILM 2p94](CourseCode) exam being delivered?
+    - Is there an in-person exam for [ERSC3P90] (CourseCode)?
+    - is the [ECON2P90](CourseCode) exam online?
 
 - intent: course_duration
   examples: |
@@ -214,6 +284,10 @@ nlu:
     - Can I find [Suzanne Gabriel](Faculty) on campus?
     - Where could I find [Pauli Gardner](Faculty)?
     - Where is [Kimberley Gammage](Faculty) located?
+
+##########################
+##### LOOKUP TABLES ######
+##########################
 
 - lookup: Program
   examples: |
@@ -317,34 +391,21 @@ nlu:
     - American
     - Sign
     - Language
-    - Club
     - Angels
     - Animal
     - Activism
     - Anime
-    - Against
     - Homelessness
     - Baking
     - Bangladeshi
-    - Association
-    - Best
     - Buddies
     - Black
-    - Student
     - Euchre
     - Biological
-    - Society
     - Bollywood
     - Dance
-    - Campus
     - Conservatives
-    - Kids
-    - Foundation
-    - Canadian
-    - for
-    - Global
     - Nursing
-    - Students
     - Cancer
     - Awareness
     - Catholic
@@ -361,26 +422,14 @@ nlu:
     - Commerce
     - ECON
     - Concurrent
-    - Education
     - Crafting
     - Cure
     - Creeds
     - Cybersecurity
-    - Eco
-    - English
     - Esports
-    - Faculty
-    - Applied
     - Sciences
     - Mentorship
-    - Program
-    - Math
-    - Science
-    - Council
     - Filipino
-    - First
-    - Love
-    - Centre
     - French
     - FOCUS
     - Game
@@ -398,47 +447,34 @@ nlu:
     - Hercampus
     - HOSA
     - Improv
-    - Inclusive
-    - Communities
-    - Canada
     - Indian
-    - Institute
     - Healthcare
-    - Improvement
-    - Open
-    - School
     - Chapter
     - Jews
     - Chabad
     - Kinesiology
-    - Kin
     - Games
     - K-Pop
     - Korean
     - Leaders
-    - League
     - Legends
     - Learners
     - Lift
     - Church
     - Linguistic
-    - Network
     - Macedonian
-    - Middle
     - Eastern
-    - North
     - African
     - Magic
     - Malayalee
     - Mandarin
     - Menstruation
     - REDefined
-    - Model
     - United
     - Nations
     - Molecular
     - Technologies
-    - Montionball
+    - Motionball
     - Photography
     - Motorsports
     - Music
@@ -446,20 +482,13 @@ nlu:
     - Musical
     - Theatre
     - Muslim
-    - Niagara
     - Rotaract
-    - Strong
     - Pakistani
     - Pentecost
-    - Associates
-    - Party
     - Physicians
-    - Human
-    - Rights
     - Plant-Based
     - Pursuit
     - Happiness
-    - Power
     - Podcast
     - Pride
     - Psychology
@@ -469,24 +498,17 @@ nlu:
     - RECL
     - Rehabilitation
     - Relay
-    - Life
-    - Run
     - Senior
-    - Ties
     - Shinerama
     - Sikh
     - Smash
     - STEMSource
     - Sociology
     - Criminology
-    - South
     - Asian
     - Space
     - Exploration
     - Sport
-    - Business
-    - Helps
-    - Everyone
     - Make
     - Allies
     - Management
@@ -502,13 +524,6 @@ nlu:
     - Women
     - Young
     - Liberals
-
-- lookup: CourseCode
-  examples: |
-    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d
-    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\s\d[A-Za-z]\d\d
-    - \d[A-Za-z]\d\d\s[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
-    - \d[A-Za-z]\d\d[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
 
 - lookup: Faculty
   examples: |
@@ -1382,6 +1397,16 @@ nlu:
     - Josie Zhao
     - Rosalie Zielinski-Lawrence
 
+- regex: CourseCode
+  examples: |
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\s\d[A-Za-z]\d\d
+
 - lookup: CourseDuration
   examples: |
-    - [a-zA-Z]\d
+    - D1
+    - D2
+    - D3
+    - d1
+    - d2
+    - d3

@@ -4,11 +4,19 @@ intents:
     # Base Intents 
   - greet
   - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
+  - restaraunts_inquiry
+  - library_booking
+  - zone_booking
+  - library_hours
+  - intramurals_inquiry
+  - campus_map
+  - parking_inquiry
+  - bus_routes
+  - important_dates
+  - local_info
+  - brock_news
+  - brock_careers
     # Club intents 
   - club_general_info:
       use_entities: true
@@ -92,24 +100,65 @@ actions:
   - action_exam_location
 
 responses:
+
+  # BASE RESPONSES
+
   utter_greet:
   - text: "Hey! How are you?"
-
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  # STATIC LINK RESPONSES
+
+  utter_restaraunts_inquiry_1:
+  - text: "Here's a link to the campus dining options: https://brocku.ca/dining-services/dining-on-campus/locations-on-campus-and-hours-of-operation/"
+  utter_restaraunts_inquiry_2:
+  - text: "For off-campus dining, check out this list: https://www.niagarafallstourism.com/eat/"
+
+  utter_library_booking:
+  - text: "Click this link to book a study room in the library: https://calendar.library.brocku.ca/r/new"
+
+  utter_zone_booking:
+  - text: "Here's a link to book a time-slot in the Zone: https://anc.ca.apm.activecommunities.com/brocku/activity/search?onlineSiteId=0&activity_select_param=2&activity_category_ids=43&viewMode=list"
+
+  utter_library_hours_1:
+  - text: "The main library is open from 8am to 11pm from Monday to Thursday, from 8am to 9pm on Friday, and from 10am to 9pm on the weekends"
+  utter_library_hours_2:
+  - text: "for more details about the different library offices, go to this page: https://brocku.ca/library/hours/"
+
+  utter_intramurals_inquiry:
+  - text: "Brock has a very popular and diverse set of intramurals leagues.  For more information, visit this page: https://brocku.ca/recreation/intramurals/"
+
+  utter_campus_map:
+  - text: "We have an interactive map on our website.  Check it out: https://brocku.ca/blogs/campus-map/"
+
+  utter_parking_inquiry:
+  - text: "Here's a link to our parking services page: https://brocku.ca/parking-services/"
+
+  utter_bus_routes_1:
+  - text: "If you are a Brock student, you qualify for a discount on transit services through BUSU: https://www.brockbusu.ca/services/transit/"
+  utter_bus_routes_2:
+  - text: "For information about bus routes, check out the official Niagara Region Transit Routes & Schedules website. https://www.niagararegion.ca/transit/routes.aspx"
+  
+  utter_important_dates:
+  - text: "All of the important dates are listed on the Brock website: https://brocku.ca/important-dates/"
+
+  utter_local_info:
+  - text: "Niagara is full of fun activities.  Check out the Niagara Falls Tourism Website for some of the most popular options: https://www.niagarafallstourism.com/play/"
+
+  utter_brock_news:
+  - text: "Check out Brock news: https://brocku.ca/brock-news/"
+
+  utter_brock_careers_1:
+  - text: "If you're looking to apply for a job at Brock, visit the career portal: https://brocku.ca/careers/"
+  utter_brock_careers_2:
+  - text: "If you're a student looking for career help, visit CareerZone: https://careerzone.brocku.ca/home.htm"
+
+  # EXAM CLARIFICATION RESPONSES
 
   utter_course_duration:
   - text: |
