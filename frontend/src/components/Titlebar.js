@@ -38,19 +38,6 @@ export default function Titlebar({ children }) {
 				background: "#b02a2a"
 			}}
 		>
-			<FontAwesomeIcon icon={solid('bars')} size="2x" inverse style={{ paddingRight: "1%", paddingLeft: "1%" }} />
-			<FlexContainer style={{ background: /*theme.colors.secondaryColor*/ theme.colors.primaryColor, paddingRight: "1%", paddingLeft: "1%" }}>
-				<p style={{ color: "white" }}>Use Dark Theme</p>
-				<input onChange={handleOnChangeTheme} type="checkbox" />
-			</FlexContainer>
-			<FlexContainer style={{ paddingRight: "1%", paddingLeft: "1%" }}>
-				<div style={{ background: /*theme.colors.secondaryColor*/ theme.colors.primaryColor }}>
-					<p style={{ color: "white" }}>Font Size</p>
-					<input onChange={handleOnChangeFontSize} min="1.0" max="4.0" defaultValue="1.0" step="0.1" type="range" />
-				</div>
-			</FlexContainer>
-
-
 
 		</FlexContainer>
 	)

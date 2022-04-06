@@ -104,6 +104,7 @@ export default function ChatPanel({ children }) {
 			flexDirection="column"
 			alignItems="stretch"
 			style={{
+				width: "100%",
 				height: "100%",
 				padding: "36px 16px 16px 16px",
 				boxSizing: "border-box",
