@@ -1,5 +1,6 @@
 import React from 'react'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
+import Speech from 'speak-tts'
 import useStateRef from "../useStateRef.js"
 import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
@@ -40,6 +41,23 @@ export default function ChatPanel({ children }) {
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(false)
 	const messageContainerRef = useRef(null)
+	const speechRef = useRef(null)
+
+	useEffect(() => {
+		const speech = new Speech() // will throw an exception if not browser supported
+		if (speech.hasBrowserSupport()) { // returns a boolean
+			console.log("speech synthesis supported")
+
+			speechRef.current = new Speech()
+			speech.init({'lang': 'en-GB'}).then((data) => {
+				console.log("Speech is ready, voices are available", data)
+			}).catch(e => {
+				console.error("An error occured while initializing : ", e)
+			})
+		}
+
+	}, [])
+
 
 	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
@@ -115,7 +133,7 @@ export default function ChatPanel({ children }) {
 			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
-						<Message key={i} floatRight={message.fromUser} message={message} />
+						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef}/>
 					)
 				}
 				{responsePendingState &&
