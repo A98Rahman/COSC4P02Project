@@ -131,29 +131,29 @@ nlu:
 - intent: exam_general_info
   examples: |
     - tell me about the [ACTG 4P41](CourseCode) exam?
-    - I want to know more about the [ACTG 1P91](CourseCode) exam?
-    - Is there an exam for [ACTG 3P11] (CourseCode)?
+    - I want to know more about the [ACTG1P91](CourseCode) exam?
+    - Is there an exam for [3P11ACTG] (CourseCode)?
 - intent: exam_location
   examples: |
     - where will the [ACTG 1P02](CourseCode) exam take place?
     - What is the location of the [ACTG 3P11](CourseCode) exam?
-    - I want to know where [ACTG 1P02] (CourseCode) exam will be
-    - I want to know the room of the [ACTG 1P02] (CourseCode) exam
-    - where is the [ACTG 4P41](CourseCode) exam?
+    - I want to know where [1P02ACTG] (CourseCode) exam will be
+    - I want to know the room of the [1P02 ACTG] (CourseCode) exam
+    - where is the [ACTG4P41](CourseCode) exam?
     - Is the [ACTG 4P34] (CourseCode) exam face-to-face?
 - intent: exam_date
   examples: |
-    - when is the [ACTG 4P11](CourseCode) exam?
-    - when is the exam for [ACTG 4P11](CourseCode)?
-    - What time is the [ACTG 2P51](CourseCode) exam?
+    - when is the [ACTG4P11](CourseCode) exam?
+    - when is the exam for [4P11 ACTG](CourseCode)?
+    - What time is the [2P51ACTG](CourseCode) exam?
     - What day is the [ACTG 1p91] (CourseCode) exam?
     - when will the [ACTG 4P11](CourseCode) take place?
     - what is the date of the [ACTG 4P11](CourseCode) exam?
 - intent: exam_delivery
   examples: |
-    - Is the [ACTG 1P02](CourseCode) exam online?
-    - How is the [ACTG 3P11](CourseCode) exam being delivered?
-    - Is there an in-person exam for [ACTG 1P02] (CourseCode)?
+    - Is the [ACTG1P02](CourseCode) exam online?
+    - How is the [3P11ACTG](CourseCode) exam being delivered?
+    - Is there an in-person exam for [1p02 ACTG] (CourseCode)?
     - is the [actg 1p02](CourseCode) exam online?
 
 - intent: course_duration
@@ -505,21 +505,10 @@ nlu:
 
 - lookup: CourseCode
   examples: |
-    - ACTG 1P02
-    - ACTG 1P91
-    - ACTG 2P12
-    - ACTG 2P21
-    - ACTG 2P31
-    - ACTG 2P32
-    - ACTG 2P51
-    - ACTG 3P11
-    - ACTG 3P23
-    - ACTG 4P11
-    - ACTG 4P12
-    - ACTG 4P34
-    - ACTG 4P41
-    - ACTG 4P42
-    - ACTG 4P62
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d
+    - [a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\s\d[A-Za-z]\d\d
+    - \d[A-Za-z]\d\d\s[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
+    - \d[A-Za-z]\d\d[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]
 
 - lookup: Faculty
   examples: |
@@ -1395,7 +1384,4 @@ nlu:
 
 - lookup: CourseDuration
   examples: |
-    - D1
-    - D2
-    - D3
-    - D4
+    - [a-zA-Z]\d
