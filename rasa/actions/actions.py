@@ -5,6 +5,7 @@
 # https://rasa.com/docs/rasa/custom-actions
 
 from typing import Any, Text, Dict, List
+import re
 
 import mariadb
 import sys
@@ -85,7 +86,7 @@ class ActionExamGeneralInfo(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
@@ -111,7 +112,7 @@ class ActionExamLocation(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
@@ -138,7 +139,7 @@ class ActionExamDate(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
@@ -163,7 +164,7 @@ class ActionExamDelivery(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 
@@ -504,3 +505,8 @@ class ActionFacultyLocation(Action):
             dispatcher.utter_message(text="Sorry, I couldn't find that person.")
         return []
 
+def normalize_course_code( course_input):
+ course_code = course_input
+ if  re.match("[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d", course_input): #eg: cosc1p02
+     course_code = course_input[0:4] + ' ' + course_input[4:]
+ return course_code

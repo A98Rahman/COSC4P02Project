@@ -127,6 +127,27 @@ stories:
       - CourseSection: "3"
   - action: action_exam_delivery
 
+- story: exam date   
+  steps:
+  - intent: exam_date 
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: utter_course_section  
+  - intent: course_section
+    entities:
+      - CourseSection: "3"
+  - slot_was_set:
+      - CourseSection: "3"
+  - action: action_exam_date
+
 ############################
 ##### FACULTY STORIES ######
 ############################
