@@ -29,6 +29,38 @@ except mariadb.Error as e:
     print(f"Error connecting to MariaDB Platform: {e}")
     sys.exit(1)
 
+###########################
+##### COURSE ACTIONS ######
+###########################
+
+class ActionCourseGeneralInfo(Action):
+    def name(self) -> Text:
+        return "action_course_general_info"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+        course_duration = tracker.get_slot('CourseDuration')
+        course_section = tracker.get_slot('CourseSection')
+
+        # response
+        if course_code:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT CrsCode, CrsName, CrsDesc, PreReqs FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod<>'LAB' OR DeliveryMethod<>'TUT');",
+                (course_code,course_duration)
+            )
+            try:
+                course_info = next(cur)
+                dispatcher.utter_message(text=f'Here\'s some info about {course_info[0]}, {course_info[1]}: {course_info[2]}.')
+                print(course_info[3])
+                if course_info[3]:
+                    dispatcher.utter_message(f'Here are the prerequisites: {course_info[3]}')
+            except:
+                dispatcher.utter_message(text="I couldn't find that course")
+        return [AllSlotsReset()]
+
 #########################
 ##### CLUB ACTIONS ######
 #########################
@@ -139,10 +171,7 @@ class ActionExamDate(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        course_code = tracker.get_slot('CourseCode')
-        print("raw: ", course_code)
-        course_code = normalize_course_code(course_code)
-        print("normalized: ", course_code)
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
         course_duration = tracker.get_slot('CourseDuration')
         course_section = tracker.get_slot('CourseSection')
 

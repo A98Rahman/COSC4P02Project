@@ -87,6 +87,26 @@ stories:
   - action: utter_brock_careers_1
   - action: utter_brock_careers_2
 
+##############################
+####### COURSE STORIES #######
+##############################
+
+- story: course general info 
+  steps:
+  - intent: course_general_info
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: action_course_general_info
+  
+
 ############################
 ####### CLUB STORIES #######
 ############################

@@ -17,6 +17,9 @@ intents:
   - local_info
   - brock_news
   - brock_careers
+    # Club intents
+  - course_general_info:
+      use_entities: true
     # Club intents 
   - club_general_info:
       use_entities: true
@@ -81,6 +84,8 @@ slots:
       entity: CourseSection
 
 actions:
+  # Course Actions
+  - action_course_general_info
   # Club Actions
   - action_club_general_info 
   # Program Actions
