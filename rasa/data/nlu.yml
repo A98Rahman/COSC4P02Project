@@ -161,6 +161,18 @@ nlu:
     - does brock hire students?
     - student jobs brock
 
+###########################
+##### COURSE INTENTS ######
+###########################
+
+- intent: course_general_info
+  examples: |
+    - tell me about [poli 3p21](CourseCode)?
+    - I want to know more about [neur0n01](CourseCode)
+    - [PHYS2P51](CourseCode) course info
+    - [POLI 2P91](CourseCode) course details
+    - is [PSYC2p25](CourseCode) a good course?
+
 #########################
 ##### CLUB INTENTS ######
 #########################
