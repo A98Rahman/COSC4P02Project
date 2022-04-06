@@ -34,6 +34,7 @@ export default function Titlebar({ children }) {
 			flexDirection='row-reverse'
 			style={{
 				flexShrink: 0,
+				minHeight: 0,
 				background: "#b02a2a"
 			}}
 		>

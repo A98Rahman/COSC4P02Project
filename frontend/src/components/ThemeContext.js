@@ -26,7 +26,9 @@ export const lightTheme = {
 
 		pageColorBackground: "white",
 
-		borderColor: "lightgrey"
+		borderColor: "lightgrey",
+
+		iconColor: "#7a7a7a"
 	}
 }
 
@@ -50,7 +52,9 @@ export const darkTheme = {
 
 		pageColorBackground: "rgba(0, 0, 0, 0.85)",
 
-		borderColor: "#363636"
+		borderColor: "#363636",
+
+		iconColor: "#c9c9c9"
 	}
 }
 
