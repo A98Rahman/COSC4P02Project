@@ -49,7 +49,7 @@ export default function ChatPanel({ children }) {
 			console.log("speech synthesis supported")
 
 			speechRef.current = new Speech()
-			speech.init({'lang': 'en-GB'}).then((data) => {
+			speech.init({ 'lang': 'en-GB' }).then((data) => {
 				console.log("Speech is ready, voices are available", data)
 			}).catch(e => {
 				console.error("An error occured while initializing : ", e)
@@ -133,7 +133,7 @@ export default function ChatPanel({ children }) {
 			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
-						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef}/>
+						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef} />
 					)
 				}
 				{responsePendingState &&

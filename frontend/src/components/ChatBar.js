@@ -80,30 +80,24 @@ export default function ChatBar({ onSubmitMessage }) {
 		return pixelSize
 	}
 
-	function submitSpeechToServer(data) {
-		fetch(
-			`/upload-speech`,
-			{
-				method: "POST",
-				body: { data: data }
-			}
-		).then(response => {
-			// display error message on frontend
-			if (!response.ok) {
-				navigate("/")
-				throw new Error(`Request failed with status ${response.status}`)
-			} else {
-				return response.json()
-			}
+	function submitSpeechToServer(blob) {
+		//var myBlob = new Blob(["This is my blob content"], { type: "text/plain" });
+		//console.log(blob)
 
-		}).then(data => {
-			if (!data) {
-				alert("Failed to upload speech")
-				throw new Error(`Failed to upload speech`)
-			} else {
-				onSubmit()
-			}
-		}).catch((error) => console.warn(error))
+		var fd = new FormData()
+		fd.append('upl', blob, 'audio-recording.webm');
+
+		fetch('api/upload-speech', {
+			method: 'post',
+			body: fd
+		})
+			.then(promise => {
+				return promise.json()
+			})
+			.then(response => {
+				console.log(response)
+				inputBarRef.current.value = response.result
+			})
 	}
 
 	function handleOnClickRecordButton(e) {
@@ -124,36 +118,30 @@ export default function ChatBar({ onSubmitMessage }) {
 		function toggleRecording() {
 			//if there is an active media recorder but the recording is stopped
 			if (!isRecordingRef.current) {
-				const mediaRecorder = new MediaRecorder(streamRef.current, { mimeType: "audio/ogg" })
+				const mediaRecorder = new MediaRecorder(streamRef.current, { mimeType: "audio/webm" })
 				mediaRecorderRef.current = mediaRecorder
 
 				mediaRecorder.addEventListener('dataavailable', e => {
 					if (e.data.size > 0) {
 						mediaDataRef.current.push(e.data)
+						submitSpeechToServer(e.data)
 
-						const reader = new FileReader()
-						reader.addEventListener('loadend', () => {
-							console.log(reader.result)
-							submitSpeechToServer(reader.result)
-						});
-						reader.readAsBinaryString(e.data);
-
-						const blob = new Blob(mediaDataRef.current)
-						const url = URL.createObjectURL(blob)
-						console.log(url)
-
-						var audio = new Audio(url);
-						console.log(audio)
-						audio.play();
+						//const blob = new Blob(mediaDataRef.current)
+						//const url = URL.createObjectURL(blob)
+						//console.log(url)
+						//var audio = new Audio(url);
+						//audio.play();
 					}
 				})
 
 				mediaRecorderRef.current.start()
 				isRecordingRef.current = true
+				inputBarRef.current.value = "Speak now. Click record button when finished speaking."
 				console.log("recording started")
 			} else {
 				mediaRecorderRef.current.stop()
 				isRecordingRef.current = false
+				inputBarRef.current.value = "Processing audio..."
 				console.log("recording stopped")
 				mediaDataRef.current = []
 			}
