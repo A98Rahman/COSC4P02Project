@@ -5,6 +5,7 @@ import FlexContainer from "../FlexContainer"
 import { useTheme } from "../ThemeContext"
 import WavingBadger from "../../waving-badger.png"
 import BadgerHoldingBrain from "../../badger-holding-brain.png"
+import GreetingMessage from './GreetingMessage';
 
 export default function LandingPage() {
 	const [theme, setTheme] = useTheme()
@@ -38,6 +39,8 @@ export default function LandingPage() {
 				transform="translateX(-5%) translateY(-10%)"
 				text="Some text about the guide goes here."
 			/>
+
+			<GreetingMessage></GreetingMessage>
 
 		</FlexContainer>
 	)
