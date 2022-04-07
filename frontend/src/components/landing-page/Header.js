@@ -16,7 +16,7 @@ export default function Header() {
 
 	return (
 
-		<FlexContainer flexDirection="column" style={{background: theme.colors.primaryColor }}>
+		<FlexContainer flexDirection="column" style={{ background: theme.colors.primaryColor }}>
 			<FlexContainer justifyContent="space-between" style={{ width: "100%", padding: "8px 16px 0px 16px", boxSizing: "border-box" }}>
 				<a href="https://brocku.ca/" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>Brock University</a>
 				<a href="https://brocku.ca/brock-news/" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>The Brock News</a>
@@ -24,9 +24,9 @@ export default function Header() {
 				<a href="" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>Development Team</a>
 			</FlexContainer>
 
-			<FlexContainer style={{padding: "16px", boxSizing: "border-box"}}>
-				<img ref={imgRef} src={BadgerImage1} alt="Badger Logo" style={{display: "block", width: "min(50vw, 50vh)", height: imgHeight, position: "relative", marginRight: "32px" }} />
-				<h1 style={{ fontSize: "6vw", alignSelf: "center", color: "#ededed"}}>Brock University <br></br> Chatbadger</h1>
+			<FlexContainer style={{ padding: "16px", boxSizing: "border-box" }}>
+				<img ref={imgRef} src={BadgerImage1} alt="Badger Logo" style={{ display: "block", width: "min(50vw, 50vh)", height: imgHeight, position: "relative", marginRight: "32px" }} />
+				<h1 style={{ fontSize: "6vw", alignSelf: "center", color: "#ededed" }}>Brock University <br></br> Chatbadger</h1>
 			</FlexContainer>
 
 		</FlexContainer>

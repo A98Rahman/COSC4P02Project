@@ -1,9 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import FlexContainer from "../FlexContainer"
 import { useTheme } from "../ThemeContext"
-import WavingBadger from "../../waving-badger.png"
 
-export default function LandingPageRow({ title = "Title", text = "text...", reverseDirection = false }) {
+export default function LandingPageRow({ title = "Title", text = "text...", image, transform, reverseDirection = false }) {
 	const [theme, setTheme] = useTheme()
 	const imgContainerRef = useRef()
 	const textContainerRef = useRef()
@@ -46,7 +45,7 @@ export default function LandingPageRow({ title = "Title", text = "text...", reve
 			</FlexContainer>
 
 			<div ref={imgContainerRef} style={{ width: "250px", height: "250px", borderRadius: "50%", background: theme.colors.secondaryColor }}>
-				<img src={WavingBadger} style={{ width: "100%", marginTop: "-10px" }} />
+				<img src={image} style={{ width: "125%", transform: transform }} />
 			</div>
 
 		</FlexContainer>
