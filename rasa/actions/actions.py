@@ -61,6 +61,124 @@ class ActionCourseGeneralInfo(Action):
                 dispatcher.utter_message(text="I couldn't find that course")
         return [AllSlotsReset()]
 
+class ActionCourseLabSem(Action):
+    def name(self) -> Text:
+        return "action_course_labORsem"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+        course_duration = tracker.get_slot('CourseDuration')
+        count=0
+        # response
+        if course_code:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT CrsCode, CrsName, COUNT(*) FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
+                (course_code,course_duration)
+            )
+            try:
+                course_info = next(cur)
+                count = course_info[2]
+                dispatcher.utter_message(text=f'{course_info[0]}, {course_info[1]}, has {course_info[2]} labs/seminars.')
+                print(count)
+            except:
+                dispatcher.utter_message(text="I couldn't find that course")
+            if count != 0: 
+                cur.execute( 
+                    "SELECT DeliveryMethod, CrsDays, CrsTiming, CrsLocation FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
+                    (course_code,course_duration)
+                )  
+                info = cur.fetchall()
+                for row in info:
+                    day = get_day(row[1]) 
+                    location = get_location(row[3])
+                    dispatcher.utter_message(text=f'{row[0]} runs {day}, from {row[2]} at {location}.')
+            else:
+                dispatcher.utter_message(text=f'It appears that {course_code} does not have any labs/seminars.')
+        return [AllSlotsReset()]
+
+
+class ActionCourseTerm(Action):
+    def name(self) -> Text:
+        return "action_course_term"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+        course_duration = tracker.get_slot('CourseDuration')
+
+        # response
+        if course_code:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT CrsCode, CrsName, CrsDuration FROM course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
+                (course_code,)
+            )
+            try:
+                previous_duration= ""
+                info = cur.fetchall()
+                for row in info:
+                    duration = get_duration(row[2])
+                    if previous_duration != duration:
+                       dispatcher.utter_message(text=f'{row[0]}, {row[1]}, runs {duration} for duration {row[2]}.')
+                       previous_duration = duration
+            except:
+                dispatcher.utter_message(text="I couldn't find that course")
+        return [AllSlotsReset()]
+
+
+class ActionCourseInstructor(Action):
+    def name(self) -> Text:
+        return "action_course_instructor"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+
+        # response
+        if course_code:
+            cur = conn.cursor()
+            cur.execute(
+                "SELECT CrsCode, CrsName, CrsInstructor FROM course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
+                (course_code,)
+            )
+            try:
+                info = cur.fetchall()
+                for row in info:
+                    instructor=get_instructor(row[2])
+                    dispatcher.utter_message(text=f'{row[0]}, {row[1]} is instructed by {instructor}.')
+            except:
+                dispatcher.utter_message(text="I couldn't find that course")
+        return [AllSlotsReset()]
+
+
+class ActionCoursePrereqs(Action):
+    def name(self) -> Text:
+        return "action_course_prereqs"
+
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        course_code = normalize_course_code(tracker.get_slot('CourseCode'))
+        course_duration = tracker.get_slot('CourseDuration')
+
+        # response
+        if course_code:
+            cur = conn.cursor()
+            cur.execute("SELECT CrsCode, CrsName, PreReqs FROM course WHERE CrsCode=? AND (DeliveryMethod NOT LIKE 'LAB%' OR DeliveryMethod NOT LIKE 'TUT%' OR DeliveryMethod NOT LIKE 'SEM%');",
+            (course_code,) )
+            try:
+                course_info = next(cur)
+                prereq = get_prereq(course_info[2])
+                dispatcher.utter_message(text=f'{course_info[0]}, {course_info[1]}, has the following p{prereq}.')
+            except:
+                dispatcher.utter_message(text="I couldn't find that course")
+        return [AllSlotsReset()]
+
 #########################
 ##### CLUB ACTIONS ######
 #########################
@@ -542,3 +660,62 @@ def normalize_course_code( course_input):
  if  re.match("[a-zA-Z][a-zA-Z][a-zA-Z][a-zA-Z]\d[A-Za-z]\d\d", course_input): #eg: cosc1p02
      course_code = course_input[0:4] + ' ' + course_input[4:]
  return course_code
+
+def get_day(day_input):
+    if day_input == "M":
+        return 'Monday'
+    elif day_input == "T":
+        return 'Tuesday'
+    elif day_input == "W":
+        return 'Wednesday'
+    elif day_input == "R":
+        return 'Thursday'
+    elif day_input == "F":
+        return 'Friday'
+
+def get_location(location_input):
+    return(location_input[10:])
+
+def get_instructor(instructor_input):
+    return(instructor_input[12:])
+
+def get_prereq(prereq_input):
+    return(prereq_input[16:])
+
+def get_duration(location_input):
+    if location_input =='D1':
+        return ('Aug 30 - Apr 1')
+    if location_input =='D2':
+        return ('Sep 7 - Dec 8')
+    if location_input =='D3':
+        return ('Jan 10 - Apr 11')
+    if location_input =='D4':
+        return ('Aug 30 - Oct 8')
+    if location_input =='D5':
+        return ('Aug 30 - Nov 26')
+    if location_input =='D6':
+        return ('Aug 30 - Dec 17')
+    if location_input =='D7':
+        return ('Sep 7 - Oct 29')
+    if location_input =='D8':
+        return ('Sep 7 - Feb 12')
+    if location_input =='D9':
+        return ('Oct 18 - Nov 26')
+    if location_input =='D10':
+        return('Nov 1 - Dec 18')
+    if location_input =='D11':
+        return ('Jan 3 - Jan 28')
+    if location_input =='D12':
+        return ('Jan 4 - Feb 11')
+    if location_input =='D13':
+        return ('Jan 4 - Apr 1')
+    if location_input =='D14':
+        return ('Jan 31 - Mar 11')
+    if location_input =='D15':
+        return ('Jan 31 - Apr 29')
+    if location_input =='D16':
+        return ('Feb 16 - Apr 29')
+    if location_input =='D17':
+        return ('Mar 21 - Apr 29')
+    if location_input =='D18':
+        return ('Apr 2 - Apr 29')

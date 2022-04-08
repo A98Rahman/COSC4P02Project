@@ -105,6 +105,48 @@ stories:
   - slot_was_set:
       - CourseDuration: "D2"
   - action: action_course_general_info
+
+- story: course labORsem
+  steps:
+  - intent: course_labORsem
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: utter_course_duration
+  - intent: course_duration
+    entities:
+      - CourseDuration: "D2"
+  - slot_was_set:
+      - CourseDuration: "D2"
+  - action: action_course_labORsem
+
+- story: course term
+  steps:
+  - intent: course_term
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: action_course_term
+
+- story: course instructor
+  steps:
+  - intent: course_instructor
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: action_course_instructor
+
+- story: course prereqs
+  steps:
+  - intent: course_prereqs
+    entities:
+      - CourseCode: "ACTG 1P91"
+  - slot_was_set:
+      - CourseCode: "ACTG 1P91"
+  - action: action_course_prereqs
   
 
 ############################

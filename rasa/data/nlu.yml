@@ -173,6 +173,41 @@ nlu:
     - [POLI 2P91](CourseCode) course details
     - is [PSYC2p25](CourseCode) a good course?
 
+- intent: course_labORsem
+  examples: |
+    - are there any labs for [poli 3p21](CourseCode)?
+    - are there any seminars for [neur0n01](CourseCode)?
+    - what labs are there for [PHYS2P51](CourseCode)?
+    - what seminars are there for [POLI 2P91](CourseCode)?
+    - does [PSYC2p25](CourseCode) have labs?
+    - does have for [PHYS2P51](CourseCode) seminars?
+    - are there labs scheduled for [POLI 2P91](CourseCode)?
+    - are there seminars scheduled for [PSYC2p25](CourseCode)?
+
+- intent: course_term
+  examples: |
+    - what term is [poli 3p21](CourseCode)?
+    - when is the term for [neur0n01](CourseCode)
+    - is [PHYS2P51](CourseCode) this term?
+    - is [POLI 2P91](CourseCode) next term?
+    - term [PSYC2p25](CourseCode)
+
+- intent: course_instructor
+  examples: |
+    - who teaches [poli 3p21](CourseCode)?
+    - who is teaching [neur0n01](CourseCode) this year?
+    - which instructor is teaching [PHYS2P51](CourseCode)?
+    - who's teaching [POLI 2P91](CourseCode) next term?
+
+- intent: course_prereqs
+  examples: |
+    - what are the prereqs for [poli 3p21](CourseCode)?
+    - what are the prerequisites for [neur0n01](CourseCode)?
+    - are there any prereqs for [PHYS2P51](CourseCode)?
+    - are there any prerequisites for [POLI 2P91](CourseCode)?
+    - does [PSYC2p25](CourseCode) have any prerequisites?
+    - does [poli 3p21](CourseCode) have prereqs?
+
 #########################
 ##### CLUB INTENTS ######
 #########################
@@ -426,13 +461,11 @@ nlu:
     - Chess
     - Chinese
     - Scholars
-    - CHYS
     - Christian
     - Fellowship
     - Climbing
     - Bouldering
     - Commerce
-    - ECON
     - Concurrent
     - Crafting
     - Cure
@@ -507,7 +540,6 @@ nlu:
     - Mind
     - Body
     - Wellness
-    - RECL
     - Rehabilitation
     - Relay
     - Senior
@@ -1422,3 +1454,10 @@ nlu:
     - d1
     - d2
     - d3
+
+- lookup: CourseSection
+  examples: |
+    - 1
+    - 2
+    - 3
+    - 4
