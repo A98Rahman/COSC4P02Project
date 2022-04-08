@@ -87,7 +87,7 @@ export default function ChatBar({ onSubmitMessage }) {
 		var fd = new FormData()
 		fd.append('upl', blob, 'audio-recording.webm');
 
-		fetch('api/upload-speech', {
+		fetch('/api/upload-speech', {
 			method: 'post',
 			body: fd
 		})
