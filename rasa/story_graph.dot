@@ -4,9 +4,9 @@ digraph  {
 1 [class=active, fontsize=12, label=action_session_start];
 2 [class=active, fontsize=12, label=utter_course_duration];
 3 [class=active, fontsize=12, label=utter_course_section];
-4 [class=active, fontsize=12, label=action_exam_date];
+4 [class=active, fontsize=12, label=action_exam_delivery];
 5 [class="intent dashed active", label="  ?  ", shape=rect];
-6 [class="intent active", fillcolor=lightblue, label="/exam_date", shape=rect, style=filled];
+6 [class="intent active", fillcolor=lightblue, label="/exam_delivery", shape=rect, style=filled];
 7 [class="intent active", fillcolor=lightblue, label="/course_duration", shape=rect, style=filled];
 8 [class="intent active", fillcolor=lightblue, label="/course_section", shape=rect, style=filled];
 0 -> "-1"  [class="", key=NONE, label=""];

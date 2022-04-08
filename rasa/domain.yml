@@ -17,8 +17,16 @@ intents:
   - local_info
   - brock_news
   - brock_careers
-    # Club intents
+    # Course intents
   - course_general_info:
+      use_entities: true
+  - course_labORsem:
+      use_entities: true
+  - course_term:
+      use_entities: true
+  - course_instructor:
+      use_entities: true
+  - course_prereqs:
       use_entities: true
     # Club intents 
   - club_general_info:
@@ -86,6 +94,10 @@ slots:
 actions:
   # Course Actions
   - action_course_general_info
+  - action_course_labORsem    
+  - action_course_term   
+  - action_course_instructor 
+  - action_course_prereqs
   # Club Actions
   - action_club_general_info 
   # Program Actions
