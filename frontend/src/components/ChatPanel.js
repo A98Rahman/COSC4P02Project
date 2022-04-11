@@ -58,6 +58,10 @@ export default function ChatPanel({ children }) {
 
 	}, [])
 
+	useEffect(() => {
+		const messageContainer = messageContainerRef.current
+		messageContainer.scrollTo(0, messageContainer.scrollHeight)
+	}, [messagesState])
 
 	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
@@ -112,9 +116,6 @@ export default function ChatPanel({ children }) {
 			...curMessagesState,
 			...resMessages
 		])
-
-		//const messageContainer = messageContainerRef.current
-		//messageContainer.scrollTo(0,messageContainer.scrollHeight)
 	}
 
 	return (
@@ -124,7 +125,7 @@ export default function ChatPanel({ children }) {
 			style={{
 				width: "100%",
 				height: "100%",
-				padding: "36px 16px 16px 16px",
+				padding: "16px 16px 16px 16px",
 				boxSizing: "border-box",
 				minHeight: "0",
 				background: theme.colors.primaryColorBackground

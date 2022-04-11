@@ -158,7 +158,8 @@ export default function ChatBar({ onSubmitMessage }) {
 				boxSizing: "border-box",
 				background: theme.colors.primaryColorBackground,
 				border: `solid 1px ${theme.colors.borderColor}`,
-				borderRadius: "4px"
+				borderRadius: "4px",
+				marginTop: "8px"
 			}}
 		>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px" }}>
