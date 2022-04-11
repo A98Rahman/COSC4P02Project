@@ -11,13 +11,16 @@ export default function GreetingMessage() {
 		const growAnimation = `
 		@keyframes grow {
 			0% {
-				width: 0vw;
+				min-width: 0vw;
+				max-width: 0vw;
 			}
 			50% {
+				min-width: 40%;
 				opacity: 1;
 			}
 			100% {
-				width: 40vw;
+				min-width: 40%;
+				max-width: 100vw;
 				opacity: 1;
 			}
 		}
@@ -27,7 +30,7 @@ export default function GreetingMessage() {
 		const growClass = `
 		.grow {
 			animation-name: grow;
-			animation-duration: 1.0s;
+			animation-duration: 4.0s;
 			animation-fill-mode: forwards;
 		}
 		`
@@ -73,7 +76,7 @@ export default function GreetingMessage() {
 
 
 	return (
-		<div ref={divRef} onClick={handleOnClick} style={{ width: "40vw", height: "10vw", background: theme.colors.primaryColor, alignSelf: "flex-end", margin: "32px", opacity: "0", padding: "8px", boxSizing: "border-box" }}>
+		<div ref={divRef} onClick={handleOnClick} style={{ background: theme.colors.primaryColor, alignSelf: "flex-end", margin: "32px", opacity: "0", padding: "8px", boxSizing: "border-box", overflow: "hidden" }}>
 			<h3 style={{ whiteSpace: "nowrap", color: "white", fontWeight: "normal", fontSize: "1.5rem" }}>The Chatbager says hello.</h3>
 			<h3 style={{ textDecoration: "underline", whiteSpace: "nowrap", color: "white", fontSize: "1.5rem" }}><br />Click here to meet them.</h3>
 		</div>

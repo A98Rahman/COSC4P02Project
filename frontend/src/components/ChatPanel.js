@@ -10,11 +10,11 @@ import { useTheme } from "./ThemeContext"
 export default function ChatPanel({ children }) {
 	const placeholderMessageData = [
 		{
-			text: "text",
-			time: "8:05 am",
+			text: "Hello!",
+			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
 			fromUser: false
 		},
-		{
+	/*	{
 			text: "test text",
 			time: "8:05 am",
 			fromUser: true
@@ -33,7 +33,7 @@ export default function ChatPanel({ children }) {
 			text: "test text",
 			time: "8:05 am",
 			fromUser: false
-		},
+		},*/
 	]
 
 	const [theme, setTheme] = useTheme()
