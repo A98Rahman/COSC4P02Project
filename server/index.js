@@ -1,5 +1,6 @@
 const express = require('express')
 const multer = require('multer')
+const proxy = require('express-http-proxy')
 const cors = require('cors')
 const path = require('path')
 const cookieParser = require('cookie-parser')
@@ -40,6 +41,7 @@ const upload = multer({ storage })
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json({ limit: '5mb' }))
 app.use(cors(corsOptions))
+app.use('/rasa', proxy('http://localhost:3001/'))
 
 async function convert(path) {
 	return new Promise(resolve => {

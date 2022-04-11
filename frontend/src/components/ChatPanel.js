@@ -76,7 +76,7 @@ export default function ChatPanel({ children }) {
 		])
 
 		//submit the user message to rasa and handle the response
-		fetch('http://localhost:8080/rasa/webhooks/rest/webhook', {
+		fetch('rasa/webhooks/rest/webhook', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ sender: "user", message: textValue })
