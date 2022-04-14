@@ -17,6 +17,7 @@ intents:
   - local_info
   - brock_news
   - brock_careers
+  - swear
     # Course intents
   - course_general_info:
       use_entities: true
@@ -189,7 +190,8 @@ responses:
   utter_exam_duration:
   - text: Type 1 for fall, 2 for winter, 3 for spring
 
-
+  utter_not_nice:
+  - text: Even this badger knows that swearing is not nice and makes you sound less intelligent  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

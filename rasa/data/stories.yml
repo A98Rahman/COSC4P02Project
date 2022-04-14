@@ -19,6 +19,10 @@ stories:
   - intent: bot_challenge
   - action: utter_iamabot
 
+- story: rude
+  steps:
+  - intent: swear
+  - action: utter_not_nice 
 ###################################
 ####### STATIC LINK STORIES #######
 ###################################

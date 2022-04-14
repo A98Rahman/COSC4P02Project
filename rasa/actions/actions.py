@@ -58,7 +58,7 @@ class ActionCourseGeneralInfo(Action):
                 if course_info[3]:
                     dispatcher.utter_message(f'Here are the prerequisites: {course_info[3]}')
             except:
-                dispatcher.utter_message(text="I couldn't find that course")
+                dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
         return [AllSlotsReset()]
 
 class ActionCourseLabSem(Action):
@@ -84,7 +84,7 @@ class ActionCourseLabSem(Action):
                 dispatcher.utter_message(text=f'{course_info[0]}, {course_info[1]}, has {course_info[2]} labs/seminars.')
                 print(count)
             except:
-                dispatcher.utter_message(text="I couldn't find that course")
+                dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
             if count != 0: 
                 cur.execute( 
                     "SELECT DeliveryMethod, CrsDays, CrsTiming, CrsLocation FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
@@ -126,7 +126,7 @@ class ActionCourseTerm(Action):
                        dispatcher.utter_message(text=f'{row[0]}, {row[1]}, runs {duration} for duration {row[2]}.')
                        previous_duration = duration
             except:
-                dispatcher.utter_message(text="I couldn't find that course")
+                dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
         return [AllSlotsReset()]
 
 
@@ -152,7 +152,7 @@ class ActionCourseInstructor(Action):
                     instructor=get_instructor(row[2])
                     dispatcher.utter_message(text=f'{row[0]}, {row[1]} is instructed by {instructor}.')
             except:
-                dispatcher.utter_message(text="I couldn't find that course")
+                dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
         return [AllSlotsReset()]
 
 
@@ -176,7 +176,7 @@ class ActionCoursePrereqs(Action):
                 prereq = get_prereq(course_info[2])
                 dispatcher.utter_message(text=f'{course_info[0]}, {course_info[1]}, has the following p{prereq}.')
             except:
-                dispatcher.utter_message(text="I couldn't find that course")
+                dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
         return [AllSlotsReset()]
 
 #########################
@@ -251,7 +251,7 @@ class ActionExamGeneralInfo(Action):
                 exam_info = next(cur)
                 dispatcher.utter_message(text=f'The exam for {exam_info[0]} will be held on {exam_info[1]}, from {exam_info[2]} to {exam_info[3]}, at {exam_info[4]}')
             except:
-                dispatcher.utter_message(text="I couldn't find that exam")
+                dispatcher.utter_message(text="I couldn't find that exam. You can find more information regarding exams at https://brocku.ca/guides-and-timetables/exams/")
         return [AllSlotsReset()]
 
 
@@ -278,7 +278,7 @@ class ActionExamLocation(Action):
                 exam_info = next(cur)
                 dispatcher.utter_message(text=f'The exam for {exam_info[0]} will be held at {exam_info[1]}')
             except:
-                dispatcher.utter_message(text="I couldn't find that exam")
+                dispatcher.utter_message(text="I couldn't find that exam. You can find more information regarding exams at https://brocku.ca/guides-and-timetables/exams/")
         return [AllSlotsReset()]
 
 
@@ -304,7 +304,7 @@ class ActionExamDate(Action):
                 exam_info = next(cur)
                 dispatcher.utter_message(text=f'The exam for {exam_info[0]} will be held on {exam_info[1]} from {exam_info[2]} to {exam_info[3]}')
             except:
-                dispatcher.utter_message(text="I couldn't find that exam")
+                dispatcher.utter_message(text="I couldn't find that exam. You can find more information regarding exams at https://brocku.ca/guides-and-timetables/exams/")
         return [AllSlotsReset()]
 
 
@@ -331,7 +331,7 @@ class ActionExamDelivery(Action):
                 else: 
                   dispatcher.utter_message(text=f'The exam for {exam_info[0]} will be held face-to-face at {exam_info[1]}')
             except:
-                dispatcher.utter_message(text="I couldn't find that exam")
+                dispatcher.utter_message(text="I couldn't find that exam. You can find more information regarding exams at https://brocku.ca/guides-and-timetables/exams/")
         return [AllSlotsReset()]
 
 
@@ -371,10 +371,10 @@ class ActionProgramGeneralInfo(Action):
                     {info[1]}.  Here's a link for more information: {info[2]}
                 ''')
             except:
-                dispatcher.utter_message(text="I couldn't find that program")
+                dispatcher.utter_message(text="I couldn't find that program. You can find more information about programs at https://brocku.ca/programs/")
 
         else:
-            dispatcher.utter_message(text="I couldn't find that program")
+            dispatcher.utter_message(text="I couldn't find that program. You can find more information about programs at https://brocku.ca/programs/")
         return []
 
 class ActionProgramRequirements(Action):
@@ -412,10 +412,10 @@ class ActionProgramRequirements(Action):
                     For more details, visit our admissions website: https://brocku.ca/admissions/undergraduate/
                 ''')
             except:
-                dispatcher.utter_message(text="I couldn't find that program")
+                dispatcher.utter_message(text="I couldn't find that program. You can find more information about programs at https://brocku.ca/programs/")
 
         else:
-            dispatcher.utter_message(text="I couldn't find that program")
+            dispatcher.utter_message(text="I couldn't find that program. You can find more information about programs at https://brocku.ca/programs/")
         return []
 
 ############################
@@ -454,11 +454,11 @@ class ActionFacultyGeneralInfo(Action):
                 {info[0]} {info[1]} is a {info[2]} here at Brock.  They can be reached at {info[3]} or extension number {info[4]}.  Their office is located at {info[5]}.
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
             
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 class ActionFacultyDepartment(Action):
@@ -493,11 +493,11 @@ class ActionFacultyDepartment(Action):
                 {info[0]} {info[1]} works in {info[2]}
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
             
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 class ActionFacultyEmail(Action):
@@ -532,11 +532,11 @@ class ActionFacultyEmail(Action):
                 {info[0]} {info[1]}'s email is {info[2]}
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
             
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 class ActionFacultyTitle(Action):
@@ -571,11 +571,11 @@ class ActionFacultyTitle(Action):
                 {info[0]} {info[1]}'s official title is {info[2]}
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
             
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 class ActionFacultyExtension(Action):
@@ -610,10 +610,10 @@ class ActionFacultyExtension(Action):
                 {info[0]} {info[1]}'s extension number is {info[2]}.  You can reach them at (905) 688-5550 x{info[2]}
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 class ActionFacultyLocation(Action):
@@ -648,11 +648,11 @@ class ActionFacultyLocation(Action):
                 You can find {info[0]} {info[1]} at {info[2]}.
                 ''')
             except:
-                dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+                dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
 
             
         else:
-            dispatcher.utter_message(text="Sorry, I couldn't find that person.")
+            dispatcher.utter_message(text="Sorry, I couldn't find that person. You can find more information about faculty and staff at https://brocku.ca/directory/")
         return []
 
 def normalize_course_code( course_input):
