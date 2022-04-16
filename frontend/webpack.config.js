@@ -40,7 +40,7 @@ module.exports = {
 		open: true,
 		proxy: {
 			'/rasa': {
-				target: 'http://localhost:5005',
+				target: 'http://localhost:3001',
 				pathRewrite: { '^/rasa': '' },
 				secure: false,
 			},

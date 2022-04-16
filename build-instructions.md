@@ -12,7 +12,7 @@ download the deepspeech files: https://brocku-my.sharepoint.com/:f:/g/personal/a
 
 ## running the site with live reloading
 cd rasa<br/>
-rasa run<br/>
+rasa run --port 3001<br/>
 rasa run actions<br/>
 
 cd server<br/>
@@ -20,3 +20,5 @@ npx nodemon index<br/>
 
 cd frontend<br/>
 npm start<br/>
+
+You may need to wait for the rasa server to boot up fully before starting the node server and webpack dev server.

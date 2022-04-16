@@ -14,26 +14,26 @@ export default function ChatPanel({ children }) {
 			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
 			fromUser: false
 		},
-	/*	{
-			text: "test text",
-			time: "8:05 am",
-			fromUser: true
-		},
-		{
-			text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-			time: "8:05 am",
-			fromUser: true
-		},
-		{
-			text: "test text",
-			time: "8:05 am",
-			fromUser: true
-		},
-		{
-			text: "test text",
-			time: "8:05 am",
-			fromUser: false
-		},*/
+		/*	{
+				text: "test text",
+				time: "8:05 am",
+				fromUser: true
+			},
+			{
+				text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+				time: "8:05 am",
+				fromUser: true
+			},
+			{
+				text: "test text",
+				time: "8:05 am",
+				fromUser: true
+			},
+			{
+				text: "test text",
+				time: "8:05 am",
+				fromUser: false
+			},*/
 	]
 
 	const [theme, setTheme] = useTheme()
@@ -80,18 +80,21 @@ export default function ChatPanel({ children }) {
 		])
 
 		//submit the user message to rasa and handle the response
+		setResponsePendingState(true)
 		fetch('rasa/webhooks/rest/webhook', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ sender: "user", message: textValue })
 		})
 			.then(response => {
-				setResponsePendingState(true)
 				return response.json()
 			})
 			.then(data => {
 				handleRASAResponse(data)
 				setResponsePendingState(false)
+			})
+			.catch((error) => {
+				console.log(error)
 			})
 	}
 
