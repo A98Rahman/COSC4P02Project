@@ -15,13 +15,13 @@ export default function SettingsPanel({ downloadMessages }) {
 
 	function increaseFontSize(e) {
 		const newFontSize = Math.min(theme.fontScaleFactor + 0.1, 1.8)
-		localStorage.fontScale = newFontSize
+		localStorage.setItem("fontScale", newFontSize)
 		setTheme({ ...theme, fontScaleFactor: newFontSize })
 	}
 
 	function decreaseFontSize(e) {
 		const newFontSize = Math.max(theme.fontScaleFactor - 0.1, 0.8)
-		localStorage.fontScale = newFontSize
+		localStorage.setItem("fontScale", newFontSize)
 		setTheme({ ...theme, fontScaleFactor: newFontSize })
 	}
 
@@ -31,10 +31,10 @@ export default function SettingsPanel({ downloadMessages }) {
 		activeThemeRef.current = !activeThemeRef.current
 
 		if (activeThemeRef.current) {
-			localStorage.theme = "dark"
+			localStorage.setItem("theme", "dark")
 			themeColors = darkTheme.colors
 		} else {
-			localStorage.theme = "light"
+			localStorage.setItem("theme", "light")
 			themeColors = lightTheme.colors
 		}
 
