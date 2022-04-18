@@ -5,7 +5,7 @@ import useStateRef from '../useStateRef'
 import FlexContainer from './FlexContainer'
 import { useTheme } from "./ThemeContext"
 
-export default function ChatBar({ onSubmitMessage }) {
+export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 	const [theme, setTheme] = useTheme()
 
 	const mediaRecorderRef = useRef()
@@ -15,11 +15,13 @@ export default function ChatBar({ onSubmitMessage }) {
 	const isRecordingRef = useRef(false)
 
 	const [emptyChatbarErrorState, setEmptyChatbarErrorState, emptyChatbarErrorStateRef] = useStateRef(false)
+	const [chatbarLocked, setChatbarLocked] = useState(false)
 	const inputBarRef = useRef(null)
 	const submitButton = useRef(null)
 	const formBarRef = useRef(null)
 
 	function clearInput(e) {
+		if(chatbarLocked || isRecordingRef.current) return
 		e.preventDefault()
 
 		console.log("clear")
@@ -31,6 +33,7 @@ export default function ChatBar({ onSubmitMessage }) {
 	function handleOnSubmit(e) {
 		//so the page doesn't reload
 		e.preventDefault()
+		if(chatbarLocked || isRecordingRef.current) return
 
 		console.log("submit")
 
@@ -53,6 +56,7 @@ export default function ChatBar({ onSubmitMessage }) {
 	}
 
 	function handleOnInput(e) {
+		if(chatbarLocked) return
 		const textValue = e.target.value
 
 		if (textValue.trim() !== "" && emptyChatbarErrorStateRef.current === true) {
@@ -63,6 +67,7 @@ export default function ChatBar({ onSubmitMessage }) {
 	}
 
 	function handleOnBlurInputField(e) {
+		if(chatbarLocked) return
 		const related = e.relatedTarget
 
 		if (related && e.target.parentElement.contains(related)) {
@@ -96,11 +101,13 @@ export default function ChatBar({ onSubmitMessage }) {
 			})
 			.then(response => {
 				console.log(response)
+				setChatbarLocked(false)
 				inputBarRef.current.value = response.result
 			})
 	}
 
 	function handleOnClickRecordButton(e) {
+		if(chatbarLocked) return
 		e.preventDefault()
 
 		//if there is no stream open
@@ -142,6 +149,7 @@ export default function ChatBar({ onSubmitMessage }) {
 				mediaRecorderRef.current.stop()
 				isRecordingRef.current = false
 				inputBarRef.current.value = "Processing audio..."
+				setChatbarLocked(true)
 				console.log("recording stopped")
 				mediaDataRef.current = []
 			}
@@ -159,7 +167,8 @@ export default function ChatBar({ onSubmitMessage }) {
 				background: theme.colors.primaryColorBackground,
 				border: `solid 1px ${theme.colors.borderColor}`,
 				borderRadius: "4px",
-				marginTop: "8px"
+				marginTop: "8px",
+				opacity: chatbarLocked ? 0.5 : 1.0
 			}}
 		>
 			<form onSubmit={handleOnSubmit} style={{ width: "100%", display: "flex", overflow: "hidden", borderRadius: "4px" }}>
@@ -173,6 +182,7 @@ export default function ChatBar({ onSubmitMessage }) {
 				<input
 					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField}
 					placeholder="Ask a question"
+					readOnly={chatbarLocked || responsePendingState !== null}
 					style={{
 						width: "100%",
 						minHeight: "auto",

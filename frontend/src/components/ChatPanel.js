@@ -58,7 +58,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				}
 			</FlexContainer>
 
-			<ChatBar onSubmitMessage={handleMessageSubmit}></ChatBar>
+			<ChatBar onSubmitMessage={handleMessageSubmit} responsePendingState={responsePendingState}></ChatBar>
 		</FlexContainer>
 	)
 }

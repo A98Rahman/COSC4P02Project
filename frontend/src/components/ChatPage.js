@@ -84,7 +84,7 @@ export default function ChatPage({ children, style }) {
 			})
 			.then(data => {
 				handleRASAResponse(data)
-				setResponsePendingState(false)
+				setResponsePendingState(null)
 			})
 			.catch((error) => {
 				handleRASAResponse([{ text: "Couldn't reach the badger. They are probably sleeping right now, but you can always try again later." }])
