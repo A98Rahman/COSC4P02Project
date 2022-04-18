@@ -159,7 +159,7 @@ app.get('/test-deps', (req, res) => {
 })
 
 app.get('/', (req, res) => {
-	res.sendFile(path.join(__dirname, '/index.html'));
+	res.sendFile(path.join(__dirname, '/dist/index.html'));
 })
 
 app.post('/upload-speech', upload.single('upl'), async (req, res) => {
@@ -171,6 +171,11 @@ app.post('/upload-speech', upload.single('upl'), async (req, res) => {
 	const result = await interpret(convertedPath)
 
 	res.send({ message: 'Successfully uploaded files', result: result })
+})
+
+app.get('/*', (req, res) => {
+	console.log("call")
+	res.sendFile(path.join(__dirname, '/dist/index.html'));
 })
 
 app.listen(port, () => {
