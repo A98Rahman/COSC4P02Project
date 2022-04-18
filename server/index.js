@@ -13,7 +13,17 @@ const ffmpeg = require('fluent-ffmpeg')
 const wav = require('wav');
 
 const app = express()
-const port = process.env.PORT || 3000
+
+function getArgv(key) {
+	if (process.argv.includes(`--${key}`)) return true
+
+	const value = process.argv.find(element => element.startsWith(`--${key}=`))
+	if (!value) return null
+	return value.replace(`--${key}=`, '')
+}
+const port = process.env.PORT || getArgv('PORT') || 3000
+const rasaPrefix = getArgv('RASA_PREFIX') || 'http://localhost:3001/'
+console.log("port: " + port + "  RASA_PREFIX: " + rasaPrefix)
 
 app.use(cookieParser())
 
@@ -41,7 +51,7 @@ const upload = multer({ storage })
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json({ limit: '5mb' }))
 app.use(cors(corsOptions))
-app.use('/rasa', proxy('http://localhost:3001/'))
+app.use('/rasa', proxy(rasaPrefix))
 
 async function convert(path) {
 	return new Promise(resolve => {

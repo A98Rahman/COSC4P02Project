@@ -8,26 +8,47 @@ from typing import Any, Text, Dict, List
 import re
 
 import mariadb
+import time
 import sys
+import os
 
 from rasa_sdk import Action, Tracker, FormValidationAction
 from rasa_sdk.events import FollowupAction, SlotSet, AllSlotsReset
 from rasa_sdk.executor import CollectingDispatcher
 from sqlalchemy import desc
 
-# Connect to MariaDB Platform
-try:
-    conn = mariadb.connect(
-        user="root",
-        password="chatbot",
-        host="127.0.0.1",
-        port=3306,
-        database="brockdb"
-    )
+running_in_docker = os.environ.get('RUNNING_IN_DOCKER_CONTAINER', False)
+print("__init__.py running_in_docker = " + str(running_in_docker), flush=True)
 
-except mariadb.Error as e:
-    print(f"Error connecting to MariaDB Platform: {e}")
-    sys.exit(1)
+# Connect to MariaDB Platform
+conn = None
+if (running_in_docker):
+	while (conn is None):
+		print("Attempting to connect to MariaDB...", flush=True)
+		try:
+			conn = mariadb.connect(
+				user="root",
+				password="chatbot",
+				host="mariadb-service",
+				port=3306,
+				database="brockdb"
+			)
+		except mariadb.Error as e:
+			print(f"Error connecting to MariaDB Platform: {e}", flush=True)
+		time.sleep(3.0)
+	print("Successfully connected to MariaDB...", flush=True)
+else:
+	try:
+		conn = mariadb.connect(
+			user="root",
+			password="chatbot",
+			host="127.0.0.1",
+			port=3306,
+			database="brockdb"
+		)
+	except mariadb.Error as e:
+		print(f"Error connecting to MariaDB Platform: {e}")
+		sys.exit(1)
 
 ###########################
 ##### COURSE ACTIONS ######
@@ -48,7 +69,7 @@ class ActionCourseGeneralInfo(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, CrsName, CrsDesc, PreReqs FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod<>'LAB' OR DeliveryMethod<>'TUT');",
+                "SELECT CrsCode, CrsName, CrsDesc, PreReqs FROM Course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod<>'LAB' OR DeliveryMethod<>'TUT');",
                 (course_code,course_duration)
             )
             try:
@@ -75,7 +96,7 @@ class ActionCourseLabSem(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, CrsName, COUNT(*) FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
+                "SELECT CrsCode, CrsName, COUNT(*) FROM Course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
                 (course_code,course_duration)
             )
             try:
@@ -87,7 +108,7 @@ class ActionCourseLabSem(Action):
                 dispatcher.utter_message(text="I couldn't find that course. You can find more information regarding courses at https://brocku.ca/guides-and-timetables/timetables/?session=fw&type=ug&level=all")
             if count != 0: 
                 cur.execute( 
-                    "SELECT DeliveryMethod, CrsDays, CrsTiming, CrsLocation FROM course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
+                    "SELECT DeliveryMethod, CrsDays, CrsTiming, CrsLocation FROM Course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod LIKE 'LAB%' OR DeliveryMethod LIKE 'SEM%');",
                     (course_code,course_duration)
                 )  
                 info = cur.fetchall()
@@ -114,7 +135,7 @@ class ActionCourseTerm(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, CrsName, CrsDuration FROM course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
+                "SELECT CrsCode, CrsName, CrsDuration FROM Course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
                 (course_code,)
             )
             try:
@@ -143,7 +164,7 @@ class ActionCourseInstructor(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, CrsName, CrsInstructor FROM course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
+                "SELECT CrsCode, CrsName, CrsInstructor FROM Course WHERE CrsCode=? AND DeliveryMethod LIKE 'LEC%';",
                 (course_code,)
             )
             try:
@@ -169,7 +190,7 @@ class ActionCoursePrereqs(Action):
         # response
         if course_code:
             cur = conn.cursor()
-            cur.execute("SELECT CrsCode, CrsName, PreReqs FROM course WHERE CrsCode=? AND (DeliveryMethod NOT LIKE 'LAB%' OR DeliveryMethod NOT LIKE 'TUT%' OR DeliveryMethod NOT LIKE 'SEM%');",
+            cur.execute("SELECT CrsCode, CrsName, PreReqs FROM Course WHERE CrsCode=? AND (DeliveryMethod NOT LIKE 'LAB%' OR DeliveryMethod NOT LIKE 'TUT%' OR DeliveryMethod NOT LIKE 'SEM%');",
             (course_code,) )
             try:
                 course_info = next(cur)
@@ -270,7 +291,7 @@ class ActionExamLocation(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, ExamLocation FROM exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
+                "SELECT CrsCode, ExamLocation FROM Exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
                 (course_code,course_duration,course_section)
             )
 
@@ -297,7 +318,7 @@ class ActionExamDate(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, ExamDate, ExamStartTime, ExamEndTime FROM exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
+                "SELECT CrsCode, ExamDate, ExamStartTime, ExamEndTime FROM Exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
                 (course_code,course_duration,course_section)
             )
             try:
@@ -321,7 +342,7 @@ class ActionExamDelivery(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, ExamLocation FROM exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
+                "SELECT CrsCode, ExamLocation FROM Exam WHERE CrsCode=? AND CrsDuration=? AND CrsSection=?;",
                 (course_code,course_duration,course_section)
             )
             try:
@@ -358,7 +379,7 @@ class ActionProgramGeneralInfo(Action):
         if program_name:
             cur = conn.cursor()
             cur.execute(
-                "SELECT PrgName, PrgDesc, PrgLink, PrgFac FROM program WHERE PrgName=?;",
+                "SELECT PrgName, PrgDesc, PrgLink, PrgFac FROM Program WHERE PrgName=?;",
                 (program_name,)
             )
 
@@ -396,7 +417,7 @@ class ActionProgramRequirements(Action):
         if program_name:
             cur = conn.cursor()
             cur.execute(
-                "SELECT PrgName, PrgReqs FROM program WHERE PrgName=?;",
+                "SELECT PrgName, PrgReqs FROM Program WHERE PrgName=?;",
                 (program_name,)
             )
 
