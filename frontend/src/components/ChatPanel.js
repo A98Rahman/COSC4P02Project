@@ -1,45 +1,14 @@
 import React from 'react'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import Speech from 'speak-tts'
-import useStateRef from "../useStateRef.js"
 import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
 import Message from './Message'
 import { useTheme } from "./ThemeContext"
 
-export default function ChatPanel({ children }) {
-	const placeholderMessageData = [
-		{
-			text: "Hello! The badger is waiting to hear from you.",
-			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
-			fromUser: false
-		},
-		/*	{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: false
-			},*/
-	]
-
+export default function ChatPanel({ messagesState, responsePendingState, handleMessageSubmit, children }) {
 	const [theme, setTheme] = useTheme()
 
-	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
-	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(null)
 	const messageContainerRef = useRef(null)
 	const speechRef = useRef(null)
 
@@ -61,67 +30,6 @@ export default function ChatPanel({ children }) {
 		const messageContainer = messageContainerRef.current
 		messageContainer.scrollTo(0, messageContainer.scrollHeight)
 	}, [messagesState])
-
-	function handleMessageSubmit(messageValue) {
-		//get the submitted text from the message and clear the chatbar
-		const textValue = messageValue
-
-		const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
-
-		//update the messages state to include the user submitted message
-		setMessagesState(curMessagesState => [
-			...curMessagesState,
-			{
-				text: textValue,
-				time: time,
-				fromUser: true
-			}
-		])
-
-		setResponsePendingState("...")
-
-		//submit the user message to rasa and handle the response
-		fetch('rasa/webhooks/rest/webhook', {
-			method: 'POST',
-			headers: { 'Content-Type': 'application/json' },
-			body: JSON.stringify({ sender: "user", message: textValue })
-		})
-			.then(response => {
-				return response.json()
-			})
-			.then(data => {
-				handleRASAResponse(data)
-				setResponsePendingState(false)
-			})
-			.catch((error) => {
-				handleRASAResponse([{ text: "Couldn't reach the badger. They are probably sleeping right now, but you can always try again later." }])
-				setResponsePendingState(null)
-				console.log(error)
-			})
-	}
-
-	function handleRASAResponse(res) {
-		const resMessages = []
-		res.forEach(resMessage => {
-			const textValue = resMessage.text
-			const image = resMessage.image
-			const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
-
-			resMessages.push(
-				{
-					text: textValue,
-					image: image,
-					time: time,
-					fromUser: false
-				}
-			)
-		})
-
-		setMessagesState(curMessagesState => [
-			...curMessagesState,
-			...resMessages
-		])
-	}
 
 	return (
 		<FlexContainer
