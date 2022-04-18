@@ -34,7 +34,7 @@ export default function LandingPage() {
 				title="The Badger is Friendly"
 				image={WavingBadger}
 				transform="translateX(-5%) translateY(-10%)"
-				text="The chatbadger can speak and understand plain english. They are always happy to receive greetings and small talk but he especially loves to answer questions about Brock University and St. Catharines."
+				text="The chatbadger can speak and understand plain english. They are always happy to receive greetings and small talk but they especially love to answer questions about Brock University and St. Catharines."
 			/>
 
 			<hr style={{ width: "95%", alignSelf: "center", margin: 0, border: "none", borderTop: `solid 1px ${theme.colors.borderColor}` }} />
