@@ -162,7 +162,7 @@ app.get('/', (req, res) => {
 	res.sendFile(path.join(__dirname, '/dist/index.html'));
 })
 
-app.post('/upload-speech', upload.single('upl'), async (req, res) => {
+app.post('/api/upload-speech', upload.single('upl'), async (req, res) => {
 	console.log(req.file)
 	const originalPath = "./uploads/" + req.file.originalname
 	const convertedPath = originalPath.slice(0, -4) + "wav"
@@ -174,7 +174,6 @@ app.post('/upload-speech', upload.single('upl'), async (req, res) => {
 })
 
 app.get('/*', (req, res) => {
-	console.log("call")
 	res.sendFile(path.join(__dirname, '/dist/index.html'));
 })
 
