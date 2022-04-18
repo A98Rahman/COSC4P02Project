@@ -32,10 +32,6 @@ export default function LandingPageRow({ title = "Title", text = "text...", imag
 		window.addEventListener("resize", responseToWrap)
 	}, [])
 
-
-	function calculateRowWidth() {
-
-	}
 	return (
 		<FlexContainer refs={containerRef} flexDirection={reverseDirection ? "row-reverse" : "row"} flexWrap={reverseDirection ? "wrap" : "wrap-reverse"} alignItems="center" justifyContent="center" style={{ rowGap: "30px", margin: "62px 16px 62px 16px" }}>
 
@@ -45,7 +41,7 @@ export default function LandingPageRow({ title = "Title", text = "text...", imag
 			</FlexContainer>
 
 			<div ref={imgContainerRef} style={{ width: "250px", height: "250px", borderRadius: "50%", background: theme.colors.secondaryColor }}>
-				<img src={image} style={{ width: "125%", transform: transform }} />
+				<img src={image} style={{ width: "125%", transform: transform, filter: `brightness(${theme.imageBrightness}) contrast(${theme.imageContrast})` }}/>
 			</div>
 
 		</FlexContainer>

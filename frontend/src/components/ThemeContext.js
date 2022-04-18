@@ -5,7 +5,6 @@ export const common = {
 	fontScaleFactor: 1.0
 }
 
-
 export const lightTheme = {
 	...common,
 	colors: {
@@ -28,8 +27,10 @@ export const lightTheme = {
 
 		borderColor: "lightgrey",
 
-		iconColor: "#7a7a7a"
-	}
+		iconColor: "#7a7a7a",
+	},
+	imageBrightness: 1.0,
+	imageContrast: 1.0
 }
 
 export const darkTheme = {
@@ -54,8 +55,10 @@ export const darkTheme = {
 
 		borderColor: "#363636",
 
-		iconColor: "#c9c9c9"
-	}
+		iconColor: "#c9c9c9",
+	},
+	imageBrightness: 0.8,
+	imageContrast: 1.2
 }
 
 const Context = React.createContext()
