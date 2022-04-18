@@ -10,7 +10,7 @@ import { useTheme } from "./ThemeContext"
 export default function ChatPanel({ children }) {
 	const placeholderMessageData = [
 		{
-			text: "Hello!",
+			text: "Hello! The badger is waiting to hear from you.",
 			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
 			fromUser: false
 		},
@@ -39,7 +39,7 @@ export default function ChatPanel({ children }) {
 	const [theme, setTheme] = useTheme()
 
 	const [messagesState, setMessagesState, messagesStateRef] = useStateRef(placeholderMessageData)
-	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(false)
+	const [responsePendingState, setResponsePendingState, responsePendingStateRef] = useStateRef(null)
 	const messageContainerRef = useRef(null)
 	const speechRef = useRef(null)
 
@@ -55,7 +55,6 @@ export default function ChatPanel({ children }) {
 				console.error("An error occured while initializing : ", e)
 			})
 		}
-
 	}, [])
 
 	useEffect(() => {
@@ -79,8 +78,9 @@ export default function ChatPanel({ children }) {
 			}
 		])
 
+		setResponsePendingState("...")
+
 		//submit the user message to rasa and handle the response
-		setResponsePendingState(true)
 		fetch('rasa/webhooks/rest/webhook', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
@@ -94,6 +94,8 @@ export default function ChatPanel({ children }) {
 				setResponsePendingState(false)
 			})
 			.catch((error) => {
+				handleRASAResponse([{ text: "Couldn't reach the badger. They are probably sleeping right now, but you can always try again later." }])
+				setResponsePendingState(null)
 				console.log(error)
 			})
 	}
@@ -143,7 +145,7 @@ export default function ChatPanel({ children }) {
 				{responsePendingState &&
 					<Message
 						floatRight={false}
-						message={{ text: "...", time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
+						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
 					/>
 				}
 			</FlexContainer>
