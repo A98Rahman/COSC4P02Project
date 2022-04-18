@@ -22,7 +22,6 @@ export default function useSize(elementRef) {
 
 		return () => {
 			window.removeEventListener("resize", onResize)
-			elementRef.current.removeEventListener("resize", onResize)
 		}
 	}, [elementRef, elementRef.current])
 

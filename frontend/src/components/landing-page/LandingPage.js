@@ -1,14 +1,29 @@
 import React from 'react'
+import { useEffect } from 'react'
 import Header from "./Header"
 import LandingPageRow from "./LandingPageRow";
 import FlexContainer from "../FlexContainer"
-import { useTheme } from "../ThemeContext"
+import { useTheme, lightTheme, darkTheme } from "../ThemeContext"
 import WavingBadger from "../../waving-badger.png"
 import BadgerHoldingBrain from "../../badger-holding-brain.png"
 import GreetingMessage from './GreetingMessage';
 
 export default function LandingPage() {
 	const [theme, setTheme] = useTheme()
+
+	useEffect(() => {
+		var fontScale = theme.fontScaleFactor
+		if (localStorage.fontScale) {
+			fontScale = parseFloat(localStorage.fontScale)
+		}
+		if (localStorage.theme) {
+			if (localStorage.theme === "light") {
+				setTheme({ ...lightTheme, fontScaleFactor: fontScale })
+			} else {
+				setTheme({ ...darkTheme, fontScaleFactor: fontScale })
+			}
+		}
+	}, [])
 
 	return (
 		<FlexContainer flexDirection="column" style={{ width: "100%", minWidth: "0", overflow: "hidden", minHeight: "100vh", background: theme.colors.primaryColorBackground }}> {/* landing page */}

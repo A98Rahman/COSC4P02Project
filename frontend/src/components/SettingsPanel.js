@@ -1,12 +1,12 @@
 import React from 'react'
-import { useRef, useState } from 'react'
+import { useRef, useState, useEffect } from 'react'
 import FlexContainer from './FlexContainer.js'
 import { useTheme, lightTheme, darkTheme } from "./ThemeContext"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 import useSize from '../useSize.js'
 
-export default function SettingsPanel({downloadMessages}) {
+export default function SettingsPanel({ downloadMessages }) {
 	const [theme, setTheme] = useTheme()
 	const activeThemeRef = useRef(0)
 	const [open, setOpen] = useState(false)
@@ -15,11 +15,13 @@ export default function SettingsPanel({downloadMessages}) {
 
 	function increaseFontSize(e) {
 		const newFontSize = Math.min(theme.fontScaleFactor + 0.1, 1.8)
+		localStorage.fontScale = newFontSize
 		setTheme({ ...theme, fontScaleFactor: newFontSize })
 	}
 
 	function decreaseFontSize(e) {
 		const newFontSize = Math.max(theme.fontScaleFactor - 0.1, 0.8)
+		localStorage.fontScale = newFontSize
 		setTheme({ ...theme, fontScaleFactor: newFontSize })
 	}
 
@@ -29,8 +31,10 @@ export default function SettingsPanel({downloadMessages}) {
 		activeThemeRef.current = !activeThemeRef.current
 
 		if (activeThemeRef.current) {
+			localStorage.theme = "dark"
 			themeColors = darkTheme.colors
 		} else {
+			localStorage.theme = "light"
 			themeColors = lightTheme.colors
 		}
 
@@ -43,9 +47,6 @@ export default function SettingsPanel({downloadMessages}) {
 		setOpen((open) => !open)
 	}
 
-	if (panelSize) {
-		console.log("panelSize")
-	}
 	return (
 		<FlexContainer
 			refs={panelRef}

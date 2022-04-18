@@ -1,7 +1,7 @@
 import React from 'react'
 import { useRef, useEffect, useState } from 'react'
 import FlexContainer from './FlexContainer.js'
-import { useTheme } from "./ThemeContext"
+import { useTheme, lightTheme, darkTheme } from "./ThemeContext"
 import Titlebar from './Titlebar'
 import ChatPanel from "./ChatPanel"
 import SettingsPanel from './SettingsPanel.js'
@@ -40,6 +40,20 @@ export default function ChatPage({ children, style }) {
 
 	const [messagesState, setMessagesState] = useState(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState] = useState(null)
+
+	useEffect(() => {
+		var fontScale = theme.fontScaleFactor
+		if (localStorage.fontScale) {
+			fontScale = parseFloat(localStorage.fontScale)
+		}
+		if (localStorage.theme) {
+			if (localStorage.theme === "light") {
+				setTheme({ ...lightTheme, fontScaleFactor: fontScale })
+			} else {
+				setTheme({ ...darkTheme, fontScaleFactor: fontScale })
+			}
+		}
+	}, [])
 
 	function handleMessageSubmit(messageValue) {
 		//get the submitted text from the message and clear the chatbar
