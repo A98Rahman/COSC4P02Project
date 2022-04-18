@@ -28,6 +28,7 @@ export const lightTheme = {
 		borderColor: "lightgrey",
 
 		iconColor: "#7a7a7a",
+		userIconColor: 'white'
 	},
 	imageBrightness: 1.0,
 	imageContrast: 1.0
@@ -56,6 +57,7 @@ export const darkTheme = {
 		borderColor: "#363636",
 
 		iconColor: "#c9c9c9",
+		userIconColor: '#c9c9c9'
 	},
 	imageBrightness: 0.8,
 	imageContrast: 1.2
