@@ -102,12 +102,6 @@ stories:
       - CourseCode: "ACTG 1P91"
   - slot_was_set:
       - CourseCode: "ACTG 1P91"
-  - action: utter_course_duration
-  - intent: course_duration
-    entities:
-      - CourseDuration: "D2"
-  - slot_was_set:
-      - CourseDuration: "D2"
   - action: action_course_general_info
 
 - story: course labORsem

@@ -13,7 +13,6 @@ pipeline:
   - name: WhitespaceTokenizer
   - name: RegexFeaturizer 
   - name: RegexEntityExtractor
-
   - name: LexicalSyntacticFeaturizer
   - name: CountVectorsFeaturizer
   - name: CountVectorsFeaturizer
@@ -38,7 +37,7 @@ policies:
 # # See https://rasa.com/docs/rasa/policies for more information.
   - name: AugmentedMemoizationPolicy
   - name: RulePolicy
-    core_fallback_threshold: 0.4
+    core_fallback_threshold: 0.35
     core_fallback_action_name: "action_default_fallback"
     enable_fallback_prediction: True
 #   - name: UnexpecTEDIntentPolicy

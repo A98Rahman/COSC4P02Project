@@ -69,7 +69,7 @@ class ActionCourseGeneralInfo(Action):
         if course_code:
             cur = conn.cursor()
             cur.execute(
-                "SELECT CrsCode, CrsName, CrsDesc, PreReqs FROM Course WHERE CrsCode=? AND CrsDuration=? AND (DeliveryMethod<>'LAB' OR DeliveryMethod<>'TUT');",
+                "SELECT CrsCode, CrsName, CrsDesc, PreReqs FROM Course WHERE CrsCode=? AND (DeliveryMethod<>'LAB' OR DeliveryMethod<>'TUT');",
                 (course_code,course_duration)
             )
             try:

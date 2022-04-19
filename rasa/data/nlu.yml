@@ -54,6 +54,7 @@ nlu:
     - bastard
     - dick
     - son of a bitch
+  # nice
 
 ################################
 ##### STATIC LINK INTENTS ######
@@ -185,6 +186,7 @@ nlu:
 - intent: course_general_info
   examples: |
     - tell me about [poli 3p21](CourseCode)?
+    - tell me a bit about [poli 3p21](CourseCode)?
     - I want to know more about [neur0n01](CourseCode)
     - [PHYS2P51](CourseCode) course info
     - [POLI 2P91](CourseCode) course details
@@ -263,7 +265,7 @@ nlu:
 
 - intent: exam_general_info
   examples: |
-    - tell me about the [econ2p15](CourseCode) exam?
+    - [econ2p15](CourseCode) exam?
     - I want to know more about the [COSC4P61](CourseCode) exam?
     - Is there an exam for [LABR 2Q98] (CourseCode)?
     - [math 1p05] exam info
