@@ -37,7 +37,7 @@ export default function Header() {
 				<a href="https://brocku.ca/" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>Brock University</a>
 				<a href="https://brocku.ca/brock-news/" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>The Brock News</a>
 				<a href="https://www.stcatharines.ca/en/index.aspx" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>City of St. Catharines</a>
-				<a href="" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>Development Team</a>
+				<a href="https://www.stcatharines.ca/en/index.aspx" style={{ height: "min-content", fontSize: `${1.0 * theme.fontScaleFactor}rem`, color: "white" }}>Development Team</a>
 			</FlexContainer>
 
 			<FlexContainer justifyContent="center" style={{ padding: "16px", boxSizing: "border-box", margin: "auto 0 auto 0", transform: "skewY(4deg)", transformOrigin: "top left" }}>

@@ -26,23 +26,22 @@ export default function CloudParticles({ style }) {
 		if (!canvasWidth || !canvasHeight || canvasWidth === 0 || canvasHeight === 0) return null
 		const particles = []
 
-		let particleCount = 8
-		let bbs = 0.5
-		let boundingbox1 = { top: 0, right: bbs * canvasWidth, bottom: bbs * canvasHeight, left: 0 }
+		let particleCount = 28
+		let boundingbox1 = { top: 0, right: 0.75 * canvasWidth, bottom: 0.5 * canvasHeight, left: 0 }
 		boundingbox1.width = boundingbox1.right - boundingbox1.left
 		boundingbox1.height = boundingbox1.bottom - boundingbox1.top
 		for (let i = 0; i < particleCount; i++) {
-			const size = 0.5 * randomRange(0.8 * boundingbox1.width, 0.8 * boundingbox1.width)
+			const size = 0.3 * Math.min(boundingbox1.width, boundingbox1.height)
 			const colorFactor = 138
-			const x = randomRange(size, boundingbox1.width - size)
-			const y = randomRange(size, boundingbox1.width - size)
+			const x = randomRange(boundingbox1.left + size, boundingbox1.right - size)
+			const y = randomRange(boundingbox1.top + size, boundingbox1.bottom - size)
 			const vx = randomRange(-0.3, 0.3)
 			const vy = randomRange(-0.3, 0.3)
 			particles.push(getParticle(x, y, vx, vy, size, colorFactor, 0.8, boundingbox1))
 		}
 
 		particleCount = 4
-		bbs = 0.1
+		let bbs = 0.1
 		let boundingbox2 = { top: 0.95 * boundingbox1.bottom, right: 0.7 * boundingbox1.right + bbs * canvasWidth, bottom: 0.95 * boundingbox1.bottom + bbs * canvasHeight, left: 0.7 * boundingbox1.right }
 		boundingbox2.width = boundingbox2.right - boundingbox2.left
 		boundingbox2.height = boundingbox2.bottom - boundingbox2.top

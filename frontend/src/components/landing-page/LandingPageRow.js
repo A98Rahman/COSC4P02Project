@@ -5,7 +5,7 @@ import useSize from "../../useSize"
 import HeartParticles from '../HeartParticles'
 import CloudParticles from '../CloudParticles'
 
-function LandingPageRow({ title = "Title", text = "text...", image, particalSystemType, transform, reverseDirection = false }) {
+function LandingPageRow({ title = "Title", text = "text...", image, alt, particalSystemType, transform, reverseDirection = false }) {
 	const [theme, setTheme] = useTheme()
 	const imgContainerRef = useRef()
 	const textContainerRef = useRef()
@@ -90,7 +90,7 @@ function LandingPageRow({ title = "Title", text = "text...", image, particalSyst
 					background: theme.colors.secondaryColor
 				}}
 			>
-				<img src={image} style={{ width: "125%", transform: transform, filter: `brightness(${theme.imageBrightness}) contrast(${theme.imageContrast})` }} />
+				<img src={image} alt={alt} style={{ width: "125%", transform: transform, filter: `brightness(${theme.imageBrightness}) contrast(${theme.imageContrast})` }} />
 				{particalSystemType === 1 &&
 					<HeartParticles
 						style={{
