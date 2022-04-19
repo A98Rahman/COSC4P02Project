@@ -33,8 +33,10 @@ export default function LandingPage() {
 			<LandingPageRow
 				title="The Badger is Friendly"
 				image={WavingBadger}
+				alt="Badger waving."
+				particalSystemType={LandingPageRow.particalSystemType.HEARTS}
 				transform="translateX(-5%) translateY(-10%)"
-				text="The chatbadger can speak and understand plain english. He is always happy to receive greetings and small talk but he especially loves to answer questions about Brock University and St. Catharines."
+				text="The chatbadger can speak and understand plain english. They are always happy to receive greetings and small talk but they especially love to answer questions about Brock University and St. Catharines."
 			/>
 
 			<hr style={{ width: "95%", alignSelf: "center", margin: 0, border: "none", borderTop: `solid 1px ${theme.colors.borderColor}` }} />
@@ -42,6 +44,8 @@ export default function LandingPage() {
 			<LandingPageRow reverseDirection
 				title="The Badger is Smart"
 				image={BadgerHoldingBrain}
+				alt="Badger holding a brain."
+				particalSystemType={LandingPageRow.particalSystemType.CLOUDS}
 				transform="translateX(-10%) translateY(-10%)"
 				text="The chatbadger is very knowledgeable about Brock University and St. Catharines. You can ask him all kinds of questions such as those relating to programs, classes, events, schedules, locations..."
 			/>
@@ -51,6 +55,8 @@ export default function LandingPage() {
 			<LandingPageRow
 				title="The Chatbadger Guide"
 				image={WavingBadger}
+				alt="Badger waving."
+				particalSystemType={LandingPageRow.particalSystemType.NONE}
 				transform="translateX(-5%) translateY(-10%)"
 				text="Some text about the guide goes here."
 			/>
