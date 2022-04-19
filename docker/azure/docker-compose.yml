@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  rasa-service:
+    image: cosc4p02.azurecr.io/cosc4p02-rasa
+    ports: 
+      - 3001:3001
+
+  rasa-actions-service:
+    image: cosc4p02.azurecr.io/cosc4p02-rasa-actions
+    ports: 
+     - 5055:5055
+    depends_on: 
+     - mariadb-service
+
+  node-service: 
+    image: cosc4p02.azurecr.io/cosc4p02-node
+    ports: 
+      - 80:80
+    depends_on: 
+      - rasa-service
+
+  mariadb-service: 
+    image: cosc4p02.azurecr.io/cosc4p02-mariadb
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: "brockdb"
+      MARIADB_ROOT_PASSWORD: "chatbot"

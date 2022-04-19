@@ -38,6 +38,23 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
 
+- intent: swear
+  examples: |
+    - fuck you 
+    - bitch
+    - asshole 
+    - motherfucker 
+    - dumbass
+    - shit
+    - cunt 
+    - pussy 
+    - dickhead
+    - piss off 
+    - wanker 
+    - bastard
+    - dick
+    - son of a bitch
+
 ################################
 ##### STATIC LINK INTENTS ######
 ################################
@@ -1450,9 +1467,21 @@ nlu:
     - D1
     - D2
     - D3
+    - D4
+    - D5
+    - D6
+    - D7
+    - D8
+    - D9
     - d1
     - d2
     - d3
+    - d4
+    - d5
+    - d6
+    - d7
+    - d8
+    - d9
 
 - lookup: CourseSection
   examples: |
@@ -1460,3 +1489,7 @@ nlu:
     - 2
     - 3
     - 4
+    - 5
+    - 6
+    - 7
+    - 8

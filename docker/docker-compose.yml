@@ -1,0 +1,53 @@
+version: '3.9'
+
+services:
+  rasa-service:
+    build:
+      context: ../
+      dockerfile: ./docker/rasa/Dockerfile
+    image: cosc4p02.azurecr.io/cosc4p02-rasa
+    ports: 
+      - 3001:3001
+    depends_on: 
+      rasa-actions-service:
+        condition: service_healthy
+    healthcheck:
+      test: "exit 0"
+
+  rasa-actions-service:
+    build:
+      context: ../
+      dockerfile: ./docker/rasa-actions/Dockerfile
+    image: cosc4p02.azurecr.io/cosc4p02-rasa-actions
+    ports: 
+     - 5055:5055
+    depends_on: 
+      mariadb-service:
+        condition: service_healthy
+    healthcheck:
+      test: "exit 0"
+
+  node-service: 
+    build:
+      context: ../
+      dockerfile: ./docker/node/Dockerfile
+    image: cosc4p02.azurecr.io/cosc4p02-node
+    ports: 
+      - 80:80
+    depends_on: 
+      rasa-service:
+        condition: service_healthy
+
+  mariadb-service: 
+    build:
+      context: ../
+      dockerfile: ./docker/mariadb/Dockerfile
+    image: cosc4p02.azurecr.io/cosc4p02-mariadb
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_DATABASE: "brockdb"
+      MARIADB_ROOT_PASSWORD: "chatbot"
+    healthcheck:
+      test: "exit 0"
