@@ -10,7 +10,8 @@ RUN apt install -y ffmpeg
 
 WORKDIR /usr/src/app
 COPY /server/. ./server
-
+COPY /docker/node/deepspeech-0.9.3-models.pbmm ./server/dist
+COPY /docker/node/deepspeech-0.9.3-models.scorer ./server/dist
 
 WORKDIR /usr/src/app/server
 RUN npm install
