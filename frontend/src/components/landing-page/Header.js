@@ -11,7 +11,6 @@ export default function Header() {
 	const imageSize = useSize(imgRef)
 	const headerSize = useSize(headerRef)
 
-
 	return (
 
 		<FlexContainer
@@ -43,7 +42,7 @@ export default function Header() {
 
 			<FlexContainer justifyContent="center" style={{ padding: "16px", boxSizing: "border-box", margin: "auto 0 auto 0", transform: "skewY(4deg)", transformOrigin: "top left" }}>
 				<img ref={imgRef} src={BadgerImage1} alt="Badger Logo" style={{ width: "50vw", maxWidth: "400px", height: imageSize.width, position: "relative", marginRight: "32px" }} />
-				<h1 style={{ fontSize: "6vw", alignSelf: "center", color: "#ededed" }}>Brock University <br></br> Chatbadger</h1>
+				<h1 style={{ fontSize: "min(6vw, 100px)", alignSelf: "center", color: "#ededed" }}>Brock University <br></br> Chatbadger</h1>
 			</FlexContainer>
 
 		</FlexContainer>
