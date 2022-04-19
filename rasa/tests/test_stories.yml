@@ -72,44 +72,44 @@ stories:
 - story: club test
   steps:
   - user: |
-      is there a gaming club at brock?
+      is there a [gaming](Club) club at brock?
     intent: club_general_info
   - action: action_club_general_info
 
 - story: program test
   steps:
   - user: |
-      is there a Business Program at brock?
+      is there a [Business](Program) Program at brock?
     intent: program_general_info
   - action: action_program_general_info
   - user: |
-      what are the requirements to get into Computing and Business?
+      what are the requirements to get into [Computing and Business](Program)?
     intent: program_requirements
   - action: action_program_requirements
 
 - story: faculty test
   steps:
   - user: |
-      does Dan Malleck work at brock?
+      does [Dan Malleck](Faculty) work at brock?
     intent: faculty_general_info
   - action: action_faculty_general_info
   - user: |
-      what department does Earl Foxwell work in?
+      what department does [Earl Foxwell](Faculty) work in?
     intent: faculty_department
   - action: action_faculty_department
   - user: |
-      what is Mark Willoughby's Email?
+      what is [Mark Willoughby](Faculty)'s Email?
     intent: faculty_email
   - action: action_faculty_email
   - user: |
-      what is Jess Crosthwaite's title at brock?
+      what is [Jess Crosthwaite](Faculty)'s title at brock?
     intent: faculty_title
   - action: action_faculty_title
   - user: |
-      can I reach donna phelps by phone?
+      can I reach [donna phelps](Faculty) by phone?
     intent: faculty_extension
   - action: action_faculty_extension
   - user: |
-      where is Ally Fast's office located?
+      where is [Ally Fast](Faculty)'s office located?
     intent: faculty_location
   - action: action_faculty_location

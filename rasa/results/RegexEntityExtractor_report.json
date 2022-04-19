@@ -1,0 +1,62 @@
+{
+  "CourseSection": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 4,
+    "confused_with": {}
+  },
+  "Faculty": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
+    "confused_with": {}
+  },
+  "Program": {
+    "precision": 1.0,
+    "recall": 0.9047619047619048,
+    "f1-score": 0.9500000000000001,
+    "support": 21,
+    "confused_with": {}
+  },
+  "CourseCode": {
+    "precision": 0.8405797101449275,
+    "recall": 1.0,
+    "f1-score": 0.9133858267716535,
+    "support": 58,
+    "confused_with": {}
+  },
+  "Club": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 3,
+    "confused_with": {}
+  },
+  "CourseDuration": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 4,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.9,
+    "recall": 0.9782608695652174,
+    "f1-score": 0.9375,
+    "support": 138
+  },
+  "macro avg": {
+    "precision": 0.8345410628019323,
+    "recall": 0.9424603174603176,
+    "f1-score": 0.8784214473190851,
+    "support": 138
+  },
+  "weighted avg": {
+    "precision": 0.9106542743121192,
+    "recall": 0.9782608695652174,
+    "f1-score": 0.9398391777114818,
+    "support": 138
+  }
+}

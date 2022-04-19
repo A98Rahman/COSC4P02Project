@@ -1,0 +1,169 @@
+[
+  {
+    "text": "how do I sign up for intramurals at brock?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "Club",
+        "start": 9,
+        "end": 13,
+        "value": "sign",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "zone 2 parking pass",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseSection",
+        "start": 5,
+        "end": 6,
+        "value": "2",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "zone 1 parking pass",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseSection",
+        "start": 5,
+        "end": 6,
+        "value": "1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "When is reading week D1 semester",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseDuration",
+        "start": 21,
+        "end": 23,
+        "value": "D1",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Give me an overview of Biomedical Science",
+    "entities": [
+      {
+        "start": 23,
+        "end": 41,
+        "value": "Biomedical Science",
+        "entity": "Program"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Is there an exam for [LABR 2Q98] (CourseCode)?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 22,
+        "end": 31,
+        "value": "LABR 2Q98",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "[math 1p05] exam info",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 1,
+        "end": 10,
+        "value": "math 1p05",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to know where [COSC 2P05] (CourseCode) exam will be",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 22,
+        "end": 31,
+        "value": "COSC 2P05",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "I want to know the room of the [KINE2P41] (CourseCode) exam",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 32,
+        "end": 40,
+        "value": "KINE2P41",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Is the [ITIS 1p97] (CourseCode) exam face-to-face?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 8,
+        "end": 17,
+        "value": "ITIS 1p97",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "What day is the [HLSC2P49] (CourseCode) exam?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 17,
+        "end": 25,
+        "value": "HLSC2P49",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "Is there an in-person exam for [ERSC3P90] (CourseCode)?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "CourseCode",
+        "start": 32,
+        "end": 40,
+        "value": "ERSC3P90",
+        "extractor": "RegexEntityExtractor"
+      }
+    ]
+  },
+  {
+    "text": "D4",
+    "entities": [
+      {
+        "start": 0,
+        "end": 2,
+        "value": "D4",
+        "entity": "CourseDuration"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

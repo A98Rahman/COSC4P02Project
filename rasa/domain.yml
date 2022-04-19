@@ -118,6 +118,11 @@ actions:
 
 responses:
 
+  # FALLBACK RESPONSE (When intent confidence is low)
+
+  utter_default:
+  - text: "Sorry, I didn't understand that question.  Try rephrasing it."
+
   # BASE RESPONSES
 
   utter_greet:

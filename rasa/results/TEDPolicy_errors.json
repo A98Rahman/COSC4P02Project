@@ -1,0 +1,112 @@
+[
+  {
+    "text": "is there a gaming club at brock?",
+    "entities": [
+      {
+        "text": "is there a gaming club at brock?",
+        "start": 11,
+        "end": 17,
+        "entity": "Club",
+        "value": "gaming"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "is there a Business Program at brock?",
+    "entities": [
+      {
+        "text": "is there a Business Program at brock?",
+        "start": 11,
+        "end": 19,
+        "entity": "Program",
+        "value": "Business"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what are the requirements to get into Computing and Business?",
+    "entities": [
+      {
+        "start": 38,
+        "end": 60,
+        "value": "Computing and Business",
+        "entity": "Program"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "does Dan Malleck work at brock?",
+    "entities": [
+      {
+        "start": 5,
+        "end": 16,
+        "value": "Dan Malleck",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what department does Earl Foxwell work in?",
+    "entities": [
+      {
+        "start": 21,
+        "end": 33,
+        "value": "Earl Foxwell",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is Mark Willoughby's Email?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 23,
+        "value": "Mark Willoughby",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "what is Jess Crosthwaite's title at brock?",
+    "entities": [
+      {
+        "start": 8,
+        "end": 24,
+        "value": "Jess Crosthwaite",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "can I reach donna phelps by phone?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 24,
+        "value": "donna phelps",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "where is Ally Fast's office located?",
+    "entities": [
+      {
+        "start": 9,
+        "end": 18,
+        "value": "Ally Fast",
+        "entity": "Faculty"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
