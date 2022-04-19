@@ -194,16 +194,13 @@ class ActionClubGeneralInfo(Action):
         entity = tracker.get_latest_entity_values(entity_type="Club")
         club_keyword = False
         try:
-            print(club_keyword)
             club_keyword = next(entity)
-            print(club_keyword)
         except:
             pass
 
         # response
         if club_keyword:
             club_wildcard = "%" + club_keyword + "%"
-            print(club_wildcard)
             cur = conn.cursor()
             cur.execute(
                 "SELECT ClubName, ClubContact, ClubDesc FROM club WHERE ClubDesc LIKE %s or ClubName LIKE %s;",
