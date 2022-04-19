@@ -37,10 +37,20 @@ function LandingPageRow({ title = "Title", text = "text...", image, particalSyst
 	}, [])
 
 	function getTextMargin() {
+		//if we wrapped
 		if (textWidth === "100%") {
 			return "0"
 		}
 		return !reverseDirection ? "0px 0vw 0px 4vw" : "0px 4vw 0px 0vw"
+	}
+
+	function getCloudOffset() {
+		//if we wrapped
+		if (textWidth === "100%") {
+			return { top: -0.6 * particalSystemSize.height, left: -0.2 * particalSystemSize.width }
+
+		}
+		return { top: -0.6 * particalSystemSize.height, left: -0.5 * particalSystemSize.width }
 	}
 
 	return (
@@ -85,10 +95,10 @@ function LandingPageRow({ title = "Title", text = "text...", image, particalSyst
 					<HeartParticles
 						style={{
 							position: "absolute",
-							width: 1.4 * particalSystemSize.width,
-							height: 1.4 * particalSystemSize.height,
-							top: -(0.2) * particalSystemSize.height,
-							left: -(0.2) * particalSystemSize.width,
+							width: 1.8 * particalSystemSize.width,
+							height: 1.8 * particalSystemSize.height,
+							top: -(0.4) * particalSystemSize.height,
+							left: -(0.4) * particalSystemSize.width,
 							background: "none"
 						}}
 					/>
@@ -99,8 +109,8 @@ function LandingPageRow({ title = "Title", text = "text...", image, particalSyst
 							position: "absolute",
 							width: 1.2 * particalSystemSize.width,
 							height: 1.2 * particalSystemSize.height,
-							top: -0.6 * particalSystemSize.height,
-							left: -0.5 * particalSystemSize.width,
+							top: getCloudOffset().top,
+							left: getCloudOffset().left,
 							background: "none"
 						}}
 					/>
