@@ -28,6 +28,8 @@ pipeline:
   - name: ResponseSelector
     epochs: 100
     constrain_similarities: true
+# - name: "ConveRTFeaturizer"
+#   model_url: "https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
