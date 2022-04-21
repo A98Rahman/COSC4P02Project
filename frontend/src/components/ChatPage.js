@@ -12,7 +12,8 @@ export default function ChatPage({ children, style }) {
 		{
 			text: "Hello! The badger is waiting to hear from you.",
 			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
-			fromUser: false
+			fromUser: false,
+			firstInGroup: true
 		},
 		/*	{
 				text: "test text",
@@ -68,7 +69,8 @@ export default function ChatPage({ children, style }) {
 			{
 				text: textValue,
 				time: time,
-				fromUser: true
+				fromUser: true,
+				firstInGroup: true
 			}
 		])
 
@@ -96,7 +98,7 @@ export default function ChatPage({ children, style }) {
 
 	function handleRASAResponse(res) {
 		const resMessages = []
-		res.forEach(resMessage => {
+		res.forEach((resMessage, i) => {
 			const textValue = resMessage.text
 			const image = resMessage.image
 			const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
@@ -106,7 +108,8 @@ export default function ChatPage({ children, style }) {
 					text: textValue,
 					image: image,
 					time: time,
-					fromUser: false
+					fromUser: false,
+					firstInGroup: i === 0
 				}
 			)
 		})

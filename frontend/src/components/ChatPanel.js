@@ -141,7 +141,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				{responsePendingState &&
 					<Message
 						floatRight={false}
-						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
+						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false, firstInGroup: true }}
 					/>
 				}
 				<FlexContainer flexWrap="wrap" style={{ alignSelf: "flex-end", justifyContent: "flex-end", maxWidth: "min(525px, 90%)", gap: "8px", marginTop: "auto" }}>
