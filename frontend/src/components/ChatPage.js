@@ -40,6 +40,7 @@ export default function ChatPage({ children, style }) {
 
 	const [messagesState, setMessagesState] = useState(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState] = useState(null)
+	const [inputBarTextState, setInputBarTextState] = useState(null)
 
 	useEffect(() => {
 		var fontScale = theme.fontScaleFactor
@@ -116,6 +117,10 @@ export default function ChatPage({ children, style }) {
 		])
 	}
 
+	function handleOnClickSuggestedQuestion(question) {
+		setInputBarTextState(question.question)
+	}
+
 	function downloadMessages() {
 		let conversationText = ""
 		messagesState.forEach(message => {
@@ -152,7 +157,13 @@ export default function ChatPage({ children, style }) {
 
 			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%", minHeight: "0" }}> {/* panels */}
 				<SettingsPanel downloadMessages={downloadMessages}></SettingsPanel>
-				<ChatPanel messagesState={messagesState} responsePendingState={responsePendingState} handleMessageSubmit={handleMessageSubmit}></ChatPanel>
+				<ChatPanel
+					messagesState={messagesState}
+					responsePendingState={responsePendingState}
+					handleMessageSubmit={handleMessageSubmit}
+					handleOnClickSuggestedQuestion={handleOnClickSuggestedQuestion}
+					inputBarTextState={inputBarTextState}
+				/>
 			</FlexContainer>
 
 		</FlexContainer>
