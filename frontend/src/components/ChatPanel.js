@@ -74,8 +74,10 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 	function findQuestionSuggestions(substring) {
 		//remove any accents and make lowercase, remove any dashes
 		let normalizedSubstring = substring.trim().normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase()
-		normalizedSubstring = normalizedSubstring.replace(/-+/g, "").replace(/\s+/g, "")
+		normalizedSubstring = normalizedSubstring.replace(/-+/g, " ").replace(/\s+/g, " ")
+		let normalizedSubstrings = normalizedSubstring.split(" ")
 
+		
 		var matches = []
 
 		for (let i = 0; i < questions.length; i++) {
@@ -84,9 +86,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 
 			//remove any accents and make lowercase
 			const normalizedQuestionName = questionName.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase()
-
-			if (normalizedQuestionName.includes(normalizedSubstring)) {
-				matches.push(question)
+			
+			for (let i = 0; i < normalizedSubstrings.length; i++) {
+				let str = normalizedSubstrings[i]
+				if (normalizedQuestionName.includes(str)) {
+					matches.push(question)
+					break
+				}
 			}
 		}
 
@@ -103,13 +109,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 
 	function renderSuggestedQuestions() {
 		let arr = questions
-		if (suggestedQuestionMatches) {
+		if (suggestedQuestionMatches && suggestedQuestionMatches.length !== 0) {
 			arr = suggestedQuestionMatches
 		}
 		return arr.map((question, i) => {
 			const limit = getSuggestedQuestionLimit()
 			if (i >= limit) return null
-			return < QuestionSuggestion key={i} question={question} onClick={handleOnClickSuggestedQuestion} />
+			return <QuestionSuggestion key={i} question={question} onClick={handleOnClickSuggestedQuestion} />
 		})
 	}
 
@@ -138,7 +144,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
 					/>
 				}
-				<FlexContainer flexWrap="wrap" style={{ alignSelf: "flex-end", justifyContent: "flex-end", maxWidth: "30%", gap: "8px", marginTop: "auto" }}>
+				<FlexContainer flexWrap="wrap" style={{ alignSelf: "flex-end", justifyContent: "flex-end", maxWidth: "min(525px, 90%)", gap: "8px", marginTop: "auto" }}>
 					{renderSuggestedQuestions()}
 				</FlexContainer>
 
