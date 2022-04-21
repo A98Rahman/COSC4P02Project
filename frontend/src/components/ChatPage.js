@@ -14,28 +14,9 @@ export default function ChatPage({ children, style }) {
 			text: "Hello! The badger is waiting to hear from you.",
 			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
 			fromUser: false,
-			firstInGroup: true
-		},
-		/*	{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: false
-			},*/
+			firstInGroup: true,
+			indexInGroup: 0
+		}
 	]
 
 	const [theme, setTheme] = useTheme()
@@ -72,7 +53,8 @@ export default function ChatPage({ children, style }) {
 				text: textValue,
 				time: time,
 				fromUser: true,
-				firstInGroup: true
+				firstInGroup: true,
+				indexInGroup: 0
 			}
 		])
 
@@ -111,7 +93,8 @@ export default function ChatPage({ children, style }) {
 					image: image,
 					time: time,
 					fromUser: false,
-					firstInGroup: i === 0
+					firstInGroup: i === 0,
+					indexInGroup: i
 				}
 			)
 		})

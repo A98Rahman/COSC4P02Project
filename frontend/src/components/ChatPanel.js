@@ -77,7 +77,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 		normalizedSubstring = normalizedSubstring.replace(/-+/g, " ").replace(/\s+/g, " ")
 		let normalizedSubstrings = normalizedSubstring.split(" ")
 
-		
+
 		var matches = []
 
 		for (let i = 0; i < questions.length; i++) {
@@ -86,7 +86,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 
 			//remove any accents and make lowercase
 			const normalizedQuestionName = questionName.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase()
-			
+
 			for (let i = 0; i < normalizedSubstrings.length; i++) {
 				let str = normalizedSubstrings[i]
 				if (normalizedQuestionName.includes(str)) {
@@ -141,7 +141,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				{responsePendingState &&
 					<Message
 						floatRight={false}
-						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false, firstInGroup: true }}
+						message={{
+							text: responsePendingState,
+							time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
+							fromUser: false,
+							firstInGroup: true,
+							indexInGroup: -1
+						}}
 					/>
 				}
 				<FlexContainer flexWrap="wrap" style={{ alignSelf: "flex-end", justifyContent: "flex-end", maxWidth: "min(525px, 90%)", gap: "8px", marginTop: "auto" }}>
