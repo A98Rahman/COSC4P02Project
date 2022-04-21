@@ -60,10 +60,10 @@ export default function ChatPage({ children, style }) {
 
 		let recievedAnswer = false
 		setTimeout(() => {
-			if(recievedAnswer) return
+			if (recievedAnswer) return
 			setResponsePendingState("...")
 		}, 2000);
-		
+
 
 		//submit the user message to rasa and handle the response
 		fetch('rasa/webhooks/rest/webhook', {
@@ -148,11 +148,11 @@ export default function ChatPage({ children, style }) {
 			alignItems="stretch"
 			style={{ minWidth: "0", minHeight: "0", maxHeight: "100vh", background: theme.colors.pageColorBackground, ...style }}>
 
-			{(windowSize.width >= 500) &&
+			{(windowSize.width >= 500 && windowSize.height > 500 ) &&
 				<Titlebar></Titlebar>
 			}
 
-			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%", minHeight: "0" }}> {/* panels */}
+			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100vw", height: "100%", minHeight: "0", minWidth: "0" }}> {/* panels */}
 				<SettingsPanel downloadMessages={downloadMessages}></SettingsPanel>
 				<ChatPanel
 					messagesState={messagesState}

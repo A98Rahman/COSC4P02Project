@@ -5,7 +5,7 @@ import useStateRef from '../useStateRef'
 import FlexContainer from './FlexContainer'
 import { useTheme } from "./ThemeContext"
 
-export default function ChatBar({ onSubmitMessage, responsePendingState, inputBarTextState, onUpdate }) {
+export default function ChatBar({ onSubmitMessage, responsePendingState, inputBarTextState, onUpdate, onFocus }) {
 	const [theme, setTheme] = useTheme()
 
 	const mediaRecorderRef = useRef()
@@ -189,7 +189,7 @@ export default function ChatBar({ onSubmitMessage, responsePendingState, inputBa
 				</button>
 
 				<input
-					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField}
+					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField} onFocus={onFocus}
 					placeholder="Ask a question"
 					readOnly={chatbarLocked || responsePendingState !== null}
 					style={{

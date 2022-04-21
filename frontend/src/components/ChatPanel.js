@@ -52,7 +52,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 	const placeholderMessageRef = useRef(null)
 
 	const animationLength = 1.0
-	
+
 
 	useEffect(() => {
 		const speech = new Speech() // will throw an exception if not browser supported
@@ -171,7 +171,12 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 	}
 
 	function getSuggestedQuestionLimit() {
-		return 12
+		const widthBound = 158
+		const heightBound = 35
+		const cols = Math.floor(Math.min(0.9 * windowSize.width, 525) / widthBound)
+		const rows = Math.floor(0.25 * windowSize.height / heightBound)
+
+		return rows * cols
 	}
 
 	function findQuestionSuggestions(substring) {
@@ -200,6 +205,10 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 		}
 
 		return matches
+	}
+
+	function handleOnInputBarFocus() {
+		messageContainerRef.current.scrollTo(0, messageContainerRef.current.scrollHeight)
 	}
 
 	function handleOnInputBarUpdate(value) {
@@ -231,11 +240,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				height: "100%",
 				padding: "16px 16px 16px 16px",
 				boxSizing: "border-box",
+				minWidth: 0,
+				overflowX: "hidden",
 				minHeight: "0",
 				background: theme.colors.primaryColorBackground
 			}}
 		>
-			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minWidth: 0, minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
+			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minWidth: 0, minHeight: "0", overflowX: "hidden", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef} />
@@ -259,7 +270,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 
 			</FlexContainer>
 
-			<ChatBar onSubmitMessage={handleMessageSubmit} responsePendingState={responsePendingState} inputBarTextState={inputBarTextState} onUpdate={handleOnInputBarUpdate}></ChatBar>
+			<ChatBar
+				onSubmitMessage={handleMessageSubmit}
+				responsePendingState={responsePendingState}
+				inputBarTextState={inputBarTextState}
+				onUpdate={handleOnInputBarUpdate}
+				onFocus={handleOnInputBarFocus}
+			/>
 		</FlexContainer>
 	)
 }
