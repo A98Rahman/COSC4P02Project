@@ -132,7 +132,7 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				background: theme.colors.primaryColorBackground
 			}}
 		>
-			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
+			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minWidth: 0, minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef} />

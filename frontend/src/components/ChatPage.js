@@ -5,6 +5,7 @@ import { useTheme, lightTheme, darkTheme } from "./ThemeContext"
 import Titlebar from './Titlebar'
 import ChatPanel from "./ChatPanel"
 import SettingsPanel from './SettingsPanel.js'
+import useWindowSize from '../useWindowSize.js'
 
 
 export default function ChatPage({ children, style }) {
@@ -42,6 +43,7 @@ export default function ChatPage({ children, style }) {
 	const [messagesState, setMessagesState] = useState(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState] = useState(null)
 	const [inputBarTextState, setInputBarTextState] = useState(null)
+	const windowSize = useWindowSize()
 
 	useEffect(() => {
 		var fontScale = theme.fontScaleFactor
@@ -156,7 +158,9 @@ export default function ChatPage({ children, style }) {
 			alignItems="stretch"
 			style={{ minWidth: "0", minHeight: "0", maxHeight: "100vh", background: theme.colors.pageColorBackground, ...style }}>
 
-			<Titlebar></Titlebar>
+			{(windowSize.width >= 500) &&
+				<Titlebar></Titlebar>
+			}
 
 			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%", minHeight: "0" }}> {/* panels */}
 				<SettingsPanel downloadMessages={downloadMessages}></SettingsPanel>
