@@ -5,7 +5,7 @@ import FlexContainer from './FlexContainer'
 import { useTheme } from './ThemeContext'
 import useWindowSize from '../useWindowSize'
 
-export default function Message({ floatRight = false, message, speechRef, children }) {
+export default function Message({ floatRight = false, message, speechRef, refs, children }) {
 	const [theme, setTheme] = useTheme()
 	const windowSize = useWindowSize()
 	const [small, setSmall] = useState(false)
@@ -13,8 +13,8 @@ export default function Message({ floatRight = false, message, speechRef, childr
 	const messageRef = useRef()
 	const timeTextRef = useRef()
 
-	const animationLength = 0.8
-	const delayBetweenMessages = 0.5
+	const animationLength = 1.0
+	const delayBetweenMessages = 1.0
 
 	useEffect(() => {
 		if (windowSize.width < "450") {
@@ -43,88 +43,9 @@ export default function Message({ floatRight = false, message, speechRef, childr
 	}
 
 	useEffect(() => {
-		const slideRightAnimation = `
-		@keyframes slideRight {
-			0% {
-				transform: translateX(${0.5 * windowSize.width}px);
-				opacity: 0.0;
-			}
-			100% {
-				transform: translateX(0);
-				opacity: 1.0;
-			}
-		}
-		`
-
-		const slideLeftAnimation = `
-		@keyframes slideLeft {
-			0% {
-				transform: translateX(${-0.5 * windowSize.width}px);
-				opacity: 0.0;
-			}
-			100% {
-				transform: translateX(0);
-				opacity: 1.0;
-			}
-		}
-		`
-
-		const fadeInAnimation = `
-		@keyframes fadeIn {
-			0% {
-				opacity: 0.0;
-			}
-			100% {
-				opacity: 1.0;
-			}
-		}
-		`
-
-		const fadeOutAnimation = `
-		@keyframes fadeOut {
-			0% {
-				opacity: 1.0;
-			}
-			100% {
-				opacity: 0.0;
-			}
-		}
-		`
-
-		const slideRightClass = `
-		.slideRight {
-			animation-name: slideRight;
-			animation-duration: ${animationLength}s;
-			animation-fill-mode: forwards;
-		}
-		`
-
-		const slideLeftClass = `
-		.slideLeft {
-			animation-name: slideLeft;
-			animation-duration: ${animationLength}s;
-			animation-fill-mode: forwards;
-		}
-		`
-
-		const fadeInClass = `
-		.fadeIn {
-			animation-name: fadeIn;
-			animation-duration: ${animationLength}s;
-			animation-fill-mode: forwards;
-		}
-		`
-
-		const fadeOutClass = `
-		.fadeOut {
-			animation-name: fadeOut;
-			animation-duration: ${animationLength}s;
-			animation-fill-mode: forwards;
-		}
-		`
 
 
-		injectStyle([slideRightAnimation, slideLeftAnimation, fadeInAnimation, fadeOutAnimation, fadeInClass, fadeOutClass, slideRightClass, slideLeftClass])
+		//	injectStyle([slideRightAnimation, slideLeftAnimation, fadeInAnimation, fadeOutAnimation, fadeInClass, fadeOutClass, slideRightClass, slideLeftClass])
 
 		animate()
 	}, [])

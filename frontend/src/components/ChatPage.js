@@ -58,7 +58,12 @@ export default function ChatPage({ children, style }) {
 			}
 		])
 
-		setResponsePendingState("...")
+		let recievedAnswer = false
+		setTimeout(() => {
+			if(recievedAnswer) return
+			setResponsePendingState("...")
+		}, 2000);
+		
 
 		//submit the user message to rasa and handle the response
 		fetch('rasa/webhooks/rest/webhook', {
@@ -71,10 +76,12 @@ export default function ChatPage({ children, style }) {
 			})
 			.then(data => {
 				handleRASAResponse(data)
+				recievedAnswer = true
 				setResponsePendingState(null)
 			})
 			.catch((error) => {
 				handleRASAResponse([{ text: "Couldn't reach the badger. They are probably sleeping right now, but you can always try again later." }])
+				recievedAnswer = true
 				setResponsePendingState(null)
 				console.log(error)
 			})

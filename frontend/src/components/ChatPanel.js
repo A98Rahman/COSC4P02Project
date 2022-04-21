@@ -6,6 +6,7 @@ import FlexContainer from './FlexContainer'
 import Message from './Message'
 import QuestionSuggestion from './QuestionSuggestion'
 import { useTheme } from "./ThemeContext"
+import useWindowSize from '../useWindowSize'
 
 export default function ChatPanel({ messagesState, responsePendingState, handleMessageSubmit, handleOnClickSuggestedQuestion, inputBarTextState, children }) {
 	const questions = [
@@ -47,6 +48,11 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 	const messageContainerRef = useRef(null)
 	const speechRef = useRef(null)
 	const [suggestedQuestionMatches, setSuggestedQuestionMatches] = useState(null)
+	const windowSize = useWindowSize()
+	const placeholderMessageRef = useRef(null)
+
+	const animationLength = 1.0
+	
 
 	useEffect(() => {
 		const speech = new Speech() // will throw an exception if not browser supported
@@ -66,6 +72,103 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 		const messageContainer = messageContainerRef.current
 		messageContainer.scrollTo(0, messageContainer.scrollHeight)
 	}, [messagesState])
+
+	useEffect(() => {
+		const slideRightAnimation = `
+		@keyframes slideRight {
+			0% {
+				transform: translateX(${0.5 * windowSize.width}px);
+				opacity: 0.0;
+			}
+			100% {
+				transform: translateX(0);
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const slideLeftAnimation = `
+		@keyframes slideLeft {
+			0% {
+				transform: translateX(${-0.5 * windowSize.width}px);
+				opacity: 0.0;
+			}
+			100% {
+				transform: translateX(0);
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const fadeInAnimation = `
+		@keyframes fadeIn {
+			0% {
+				opacity: 0.0;
+			}
+			100% {
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const fadeOutAnimation = `
+		@keyframes fadeOut {
+			0% {
+				opacity: 1.0;
+			}
+			100% {
+				opacity: 0.0;
+			}
+		}
+		`
+
+		const slideRightClass = `
+		.slideRight {
+			animation-name: slideRight;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const slideLeftClass = `
+		.slideLeft {
+			animation-name: slideLeft;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const fadeInClass = `
+		.fadeIn {
+			animation-name: fadeIn;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const fadeOutClass = `
+		.fadeOut {
+			animation-name: fadeOut;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		injectStyle([slideRightAnimation, slideLeftAnimation, fadeInAnimation, fadeOutAnimation, fadeInClass, fadeOutClass, slideRightClass, slideLeftClass])
+	}, [])
+
+	function injectStyle(styles) {
+		const styleElement = document.createElement('style')
+		let styleSheet = null
+
+		document.head.appendChild(styleElement)
+
+		styleSheet = styleElement.sheet
+
+		styles.forEach((style) => {
+			styleSheet.insertRule(style, styleSheet.cssRules.length)
+		})
+	}
 
 	function getSuggestedQuestionLimit() {
 		return 12
