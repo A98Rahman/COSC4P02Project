@@ -1,16 +1,1 @@
-version: "3.0"
-stories:
-- story: club test (.\tests\test_stories.yml)
-  steps:
-  - intent: club_general_info  # predicted: club_general_info: is there a gaming club at brock?
-    entities: []
-  - action: action_club_general_info
-- story: program test (.\tests\test_stories.yml)
-  steps:
-  - intent: program_general_info  # predicted: program_general_info: is there a Business Program at brock?
-    entities: []
-  - action: action_program_general_info
-  - intent: program_requirements
-    entities:
-    - Program: Computing and Business
-  - action: action_program_requirements
+# None of the test stories failed - all good!

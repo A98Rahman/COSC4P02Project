@@ -1,0 +1,10 @@
+[
+  {
+    "text": "when is MATH1P66?",
+    "intent": "course_term",
+    "intent_prediction": {
+      "name": "exam_general_info",
+      "confidence": 0.2518877387046814
+    }
+  }
+]

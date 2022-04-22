@@ -206,10 +206,11 @@ nlu:
 - intent: course_term
   examples: |
     - what term is [poli 3p21](CourseCode)?
-    - when is the term for [neur0n01](CourseCode)
-    - is [PHYS2P51](CourseCode) this term?
-    - is [POLI 2P91](CourseCode) next term?
-    - term [PSYC2p25](CourseCode)
+    - when is [MATH1P66](CourseCode)?
+    - when will [ERSC1P94](CourseCode) be offered?
+    - [CLAS1P91](CourseCode) start date
+    - when is [NEUR1P01](CourseCode) being offered?
+    - [BIOL1P91](CourseCode) semester
 
 - intent: course_instructor
   examples: |
@@ -267,29 +268,32 @@ nlu:
   examples: |
     - [econ2p15](CourseCode) exam?
     - I want to know more about the [COSC4P61](CourseCode) exam?
-    - Is there an exam for [LABR 2Q98] (CourseCode)?
-    - [math 1p05] exam info
+    - Is there an exam for [LABR 2Q98](CourseCode)?
+    - [math 1p05](CourseCode) exam info
 - intent: exam_location
   examples: |
     - where will the [comm2p98](CourseCode) exam take place?
     - What is the location of the [cosc 1p50](CourseCode) exam?
-    - I want to know where [COSC 2P05] (CourseCode) exam will be
-    - I want to know the room of the [KINE2P41] (CourseCode) exam
+    - I want to know where [COSC 2P05](CourseCode) exam will be
+    - I want to know the room of the [KINE2P41](CourseCode) exam
     - where is the [IASC2P70](CourseCode) exam?
-    - Is the [ITIS 1p97] (CourseCode) exam face-to-face?
+    - Is the [ITIS 1p97](CourseCode) exam face-to-face?
+
 - intent: exam_date
   examples: |
     - when is the [ACTG 4P11](CourseCode) exam?
     - when is the exam for [hlsc 4p03](CourseCode)?
     - What time is the [geog3p09](CourseCode) exam?
-    - What day is the [HLSC2P49] (CourseCode) exam?
-    - when will the [Econ 2p21](CourseCode) take place?
+    - What day is the [HLSC2P49](CourseCode) exam?
+    - when will the [Econ 2p21](CourseCode) exam take place?
     - what is the date of the [Actg4P11](CourseCode) exam?
+    - [ERSC1P01](CourseCode) exam date
+
 - intent: exam_delivery
   examples: |
     - Is the [FREN1F90](CourseCode) exam online?
     - How is the [FILM 2p94](CourseCode) exam being delivered?
-    - Is there an in-person exam for [ERSC3P90] (CourseCode)?
+    - Is there an in-person exam for [ERSC3P90](CourseCode)?
     - is the [ECON2P90](CourseCode) exam online?
 
 - intent: course_duration
@@ -359,60 +363,89 @@ nlu:
   examples: |
     - Accounting
     - Adult Education
+    - Education
     - Applied Computing
     - Applied Linguistics
+    - Linguistics
     - Biochemistry
     - Biological Sciences
     - Biomedical Sciences
+    - Biomed
     - Biophysics
     - Biotechnology
     - Business Administration
+    - Business
     - Business Administration Co-op International Double Degree
     - Business Communication
+    - Communication
     - Business Economics
     - Canadian Studies
     - Chemistry
     - Child and Youth Studies
+    - Child and Youth
     - Child Health
     - Classics and Archaeology
+    - Classics
+    - Archaeology
     - Community Health
     - Computer Science
     - Computer Science and Mathematics
     - Computing and Business
     - Computing and Network Communications
+    - Network Communications
+    - Network
     - Critical Criminology
     - Dramatic Arts
     - Early Childhood Education
+    - Childhood Education
     - Earth Sciences
     - Economics
     - Engineering Science
+    - Engineering
     - English Language and Literature
+    - Literature
+    - English
+    - English Language
     - Environmental Geoscience
+    - Geoscience
     - Environmental Sustainability
+    - Sustainability
     - Film Studies
+    - Film
     - Forensic Psychology and Criminal Justice
+    - Criminal Justice
+    - Forensic Psychology
     - French Studies
+    - French
     - Game Design
     - Game Programming
     - General Humanities
+    - Humanities
     - Geography
     - German
     - Hispanic and Latin American Studies
+    - Latin American
     - History
     - Indigenous Education
+    - Indigenous
     - Interactive Arts and Science
+    - Interactive Arts
     - Italian Studies
+    - Italian
     - Kinesiology
     - Kinesiology Accelerate Into Masters
     - Labour Studies
     - Mathematics and Statistics
     - Media and Communication Studies
+    - Media
     - Medical Sciences
     - Medieval and Renaissance Studies
     - Music
     - Neuroscience
     - Nursing
     - Oenology and Viticulture
+    - Oenology
+    - Viticulture
     - Philosophy
     - Physical Education
     - Physics
@@ -422,31 +455,22 @@ nlu:
     - Public Health
     - Public Health Accelerate Into Masters
     - Recreation and Leisure Studies
+    - Leisure Studies
+    - Recreation
     - Sciences
     - Social Sciences
     - Sociology
     - Sport Management
+    - Sport
     - Studies in Arts and Culture
     - Teacher Education Consecutive
+    - Teacher Education
     - Technological Education
     - Tourism Studies
+    - Tourism
     - Visual Arts
     - Womens and Gender Studies
-
-- lookup: Course
-  examples: |
-    - Engineering
-    - Accounting
-    - Product Management
-    - Sales
-    - Research and Development
-    - Business Development
-    - Training
-    - Support
-    - Marketing
-    - Legal
-    - Human Resources
-    - Services
+    - Gender Studies
 
 - lookup: Club
   examples: |

@@ -374,10 +374,11 @@ class ActionProgramGeneralInfo(Action):
 
         # response
         if program_name:
+            program_wildcard = "%" + program_name + "%"
             cur = conn.cursor()
             cur.execute(
-                "SELECT PrgName, PrgDesc, PrgLink, PrgFac FROM Program WHERE PrgName=?;",
-                (program_name,)
+                "SELECT PrgName, PrgDesc, PrgLink, PrgFac FROM Program WHERE PrgName LIKE %s;",
+                (program_wildcard,)
             )
 
             try:
@@ -412,10 +413,11 @@ class ActionProgramRequirements(Action):
 
         # response
         if program_name:
+            program_wildcard = "%" + program_name + "%"
             cur = conn.cursor()
             cur.execute(
-                "SELECT PrgName, PrgReqs FROM Program WHERE PrgName=?;",
-                (program_name,)
+                "SELECT PrgName, PrgReqs FROM Program WHERE PrgName LIKE %s;",
+                (program_wildcard,)
             )
 
             try:

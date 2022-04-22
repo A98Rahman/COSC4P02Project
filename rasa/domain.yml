@@ -5,6 +5,8 @@ intents:
   - greet
   - goodbye
   - bot_challenge
+  - swear
+    # Static Link Intents
   - restaraunts_inquiry
   - library_booking
   - zone_booking
@@ -17,7 +19,6 @@ intents:
   - local_info
   - brock_news
   - brock_careers
-  - swear
     # Course intents
   - course_general_info:
       use_entities: true
@@ -122,7 +123,7 @@ responses:
   # FALLBACK RESPONSE (When intent confidence is low)
 
   utter_default:
-  - text: "Sorry, I didn't understand that question.  Try rephrasing it."
+  - text: "Sorry, I couldn't find anything on that.  Try rephrasing your question."
 
   # BASE RESPONSES
 

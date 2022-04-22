@@ -1,16 +1,23 @@
 {
-  "Program": {
+  "CourseSection": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
     "support": 4,
     "confused_with": {}
   },
-  "Faculty": {
+  "CourseDuration": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 12,
+    "support": 5,
+    "confused_with": {}
+  },
+  "Program": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
     "confused_with": {}
   },
   "Club": {
@@ -20,22 +27,36 @@
     "support": 1,
     "confused_with": {}
   },
+  "CourseCode": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "Faculty": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {}
+  },
   "micro avg": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 17
+    "support": 35
   },
   "macro avg": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 17
+    "support": 35
   },
   "weighted avg": {
     "precision": 0.0,
     "recall": 0.0,
     "f1-score": 0.0,
-    "support": 17
+    "support": 35
   }
 }
