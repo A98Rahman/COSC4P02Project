@@ -81,7 +81,8 @@ export default function SettingsPanel({ downloadMessages }) {
 					marginLeft: "4px",
 					background: theme.colors.primaryColor,
 					borderRadius: "8px",
-					opacity: "0.8"
+					opacity: "0.8",
+					zIndex: 2
 				}}
 			>
 				<FontAwesomeIcon icon={open ? solid('angle-left') : solid('gear')} size="1x" style={{ height: "28px", color: "white" }} />

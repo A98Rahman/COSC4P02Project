@@ -5,6 +5,7 @@ import { useTheme, lightTheme, darkTheme } from "./ThemeContext"
 import Titlebar from './Titlebar'
 import ChatPanel from "./ChatPanel"
 import SettingsPanel from './SettingsPanel.js'
+import useWindowSize from '../useWindowSize.js'
 
 
 export default function ChatPage({ children, style }) {
@@ -12,34 +13,18 @@ export default function ChatPage({ children, style }) {
 		{
 			text: "Hello! The badger is waiting to hear from you.",
 			time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
-			fromUser: false
-		},
-		/*	{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: true
-			},
-			{
-				text: "test text",
-				time: "8:05 am",
-				fromUser: false
-			},*/
+			fromUser: false,
+			firstInGroup: true,
+			indexInGroup: 0
+		}
 	]
 
 	const [theme, setTheme] = useTheme()
 
 	const [messagesState, setMessagesState] = useState(placeholderMessageData)
 	const [responsePendingState, setResponsePendingState] = useState(null)
+	const [inputBarTextState, setInputBarTextState] = useState(null)
+	const windowSize = useWindowSize()
 
 	useEffect(() => {
 		var fontScale = theme.fontScaleFactor
@@ -67,11 +52,18 @@ export default function ChatPage({ children, style }) {
 			{
 				text: textValue,
 				time: time,
-				fromUser: true
+				fromUser: true,
+				firstInGroup: true,
+				indexInGroup: 0
 			}
 		])
 
-		setResponsePendingState("...")
+		let recievedAnswer = false
+		setTimeout(() => {
+			if (recievedAnswer) return
+			setResponsePendingState("...")
+		}, 2000);
+
 
 		//submit the user message to rasa and handle the response
 		fetch('rasa/webhooks/rest/webhook', {
@@ -84,10 +76,12 @@ export default function ChatPage({ children, style }) {
 			})
 			.then(data => {
 				handleRASAResponse(data)
+				recievedAnswer = true
 				setResponsePendingState(null)
 			})
 			.catch((error) => {
 				handleRASAResponse([{ text: "Couldn't reach the badger. They are probably sleeping right now, but you can always try again later." }])
+				recievedAnswer = true
 				setResponsePendingState(null)
 				console.log(error)
 			})
@@ -95,7 +89,7 @@ export default function ChatPage({ children, style }) {
 
 	function handleRASAResponse(res) {
 		const resMessages = []
-		res.forEach(resMessage => {
+		res.forEach((resMessage, i) => {
 			const textValue = resMessage.text
 			const image = resMessage.image
 			const time = new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase()
@@ -105,7 +99,9 @@ export default function ChatPage({ children, style }) {
 					text: textValue,
 					image: image,
 					time: time,
-					fromUser: false
+					fromUser: false,
+					firstInGroup: i === 0,
+					indexInGroup: i
 				}
 			)
 		})
@@ -114,6 +110,10 @@ export default function ChatPage({ children, style }) {
 			...curMessagesState,
 			...resMessages
 		])
+	}
+
+	function handleOnClickSuggestedQuestion(question) {
+		setInputBarTextState(question.question)
 	}
 
 	function downloadMessages() {
@@ -148,11 +148,19 @@ export default function ChatPage({ children, style }) {
 			alignItems="stretch"
 			style={{ minWidth: "0", minHeight: "0", maxHeight: "100vh", background: theme.colors.pageColorBackground, ...style }}>
 
-			<Titlebar></Titlebar>
+			{(windowSize.width >= 500 && windowSize.height > 500 ) &&
+				<Titlebar></Titlebar>
+			}
 
-			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100%", height: "100%", minHeight: "0" }}> {/* panels */}
+			<FlexContainer flexDirection="row" alignItems="stretch" style={{ width: "100vw", height: "100%", minHeight: "0", minWidth: "0" }}> {/* panels */}
 				<SettingsPanel downloadMessages={downloadMessages}></SettingsPanel>
-				<ChatPanel messagesState={messagesState} responsePendingState={responsePendingState} handleMessageSubmit={handleMessageSubmit}></ChatPanel>
+				<ChatPanel
+					messagesState={messagesState}
+					responsePendingState={responsePendingState}
+					handleMessageSubmit={handleMessageSubmit}
+					handleOnClickSuggestedQuestion={handleOnClickSuggestedQuestion}
+					inputBarTextState={inputBarTextState}
+				/>
 			</FlexContainer>
 
 		</FlexContainer>

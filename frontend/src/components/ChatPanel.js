@@ -4,13 +4,55 @@ import Speech from 'speak-tts'
 import ChatBar from './ChatBar'
 import FlexContainer from './FlexContainer'
 import Message from './Message'
+import QuestionSuggestion from './QuestionSuggestion'
 import { useTheme } from "./ThemeContext"
+import useWindowSize from '../useWindowSize'
 
-export default function ChatPanel({ messagesState, responsePendingState, handleMessageSubmit, children }) {
+export default function ChatPanel({ messagesState, responsePendingState, handleMessageSubmit, handleOnClickSuggestedQuestion, inputBarTextState, children }) {
+	const questions = [
+		{ text: "Restaurants", question: "Tell me about the restaurants at Brock." },
+		{ text: "Study Room Bookings", question: "I'm looking to book a room at the library." },
+		{ text: "Zone Bookings", question: "I would like to book a time at the zone." },
+		{ text: "Library Hours", question: "What are the library hours at Brock?" },
+		{ text: "Intramurals", question: "Does brock have intramurals?" },
+		{ text: "Campus Map", question: "I would like to see the campus map." },
+		{ text: "Parking", question: "Tell me about parking at Brock." },
+		{ text: "Buses", question: "Do any buses go to brock?" },
+		{ text: "Important Dates", question: "What are the important dates at Brock?" },
+		{ text: "Niagara", question: "what is there to do in Niagara?" },
+		{ text: "News", question: "I'm looking for news about Brock." },
+		{ text: "Careers", question: "Tell me about careers at Brock." },
+		{ text: "Course Info", question: "Tell me about ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Course Labs", question: "Are there any labs for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Course Term", question: "What term is ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Course Instructor", question: "Who teaches ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Course Prerequisites", question: "what are the prerequisites for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Clubs", question: "Is there a club for ", userInputPlaceholder: "enter club name", requireUserInput: true },
+		{ text: "Programs", question: "Is there a program for ", userInputPlaceholder: "enter program name", requireUserInput: true },
+		{ text: "Program Requirements", question: "What are the requirements to get into ", userInputPlaceholder: "enter program name", requireUserInput: true },
+		{ text: "Exams", question: "I want to know about the exam for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Exam Locations", question: "Where will the exam be for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Exam Dates", question: "When will the exam be for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Exam Delivery", question: "Will the exam be online for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Course Exams", question: "I want to know about the exam for ", userInputPlaceholder: "enter course code", requireUserInput: true },
+		{ text: "Faculty Member", question: "I'm looking for information on ", userInputPlaceholder: "enter faculty member name", requireUserInput: true },
+		{ text: "Faculty Member Department", question: "In which department is  ", userInputPlaceholder: "enter faculty member name", requireUserInput: true },
+		{ text: "Faculty Member Email", question: "I'm looking for the email that belongs to", userInputPlaceholder: "enter faculty member name", requireUserInput: true },
+		{ text: "Faculty Member Title", question: "I'm looking for the faculty title for ", userInputPlaceholder: "enter faculty member name", requireUserInput: true },
+		{ text: "Faculty Extension", question: "I'm looking for the extension number for ", userInputPlaceholder: "enter faculty member name", requireUserInput: true },
+		{ text: "Faculty Location", question: "Where can I find the office of ", userInputPlaceholder: "enter faculty member name", requireUserInput: true }
+	]
+
 	const [theme, setTheme] = useTheme()
 
 	const messageContainerRef = useRef(null)
 	const speechRef = useRef(null)
+	const [suggestedQuestionMatches, setSuggestedQuestionMatches] = useState(null)
+	const windowSize = useWindowSize()
+	const placeholderMessageRef = useRef(null)
+
+	const animationLength = 1.0
+
 
 	useEffect(() => {
 		const speech = new Speech() // will throw an exception if not browser supported
@@ -31,6 +73,164 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 		messageContainer.scrollTo(0, messageContainer.scrollHeight)
 	}, [messagesState])
 
+	useEffect(() => {
+		const slideRightAnimation = `
+		@keyframes slideRight {
+			0% {
+				transform: translateX(${0.5 * windowSize.width}px);
+				opacity: 0.0;
+			}
+			100% {
+				transform: translateX(0);
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const slideLeftAnimation = `
+		@keyframes slideLeft {
+			0% {
+				transform: translateX(${-0.5 * windowSize.width}px);
+				opacity: 0.0;
+			}
+			100% {
+				transform: translateX(0);
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const fadeInAnimation = `
+		@keyframes fadeIn {
+			0% {
+				opacity: 0.0;
+			}
+			100% {
+				opacity: 1.0;
+			}
+		}
+		`
+
+		const fadeOutAnimation = `
+		@keyframes fadeOut {
+			0% {
+				opacity: 1.0;
+			}
+			100% {
+				opacity: 0.0;
+			}
+		}
+		`
+
+		const slideRightClass = `
+		.slideRight {
+			animation-name: slideRight;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const slideLeftClass = `
+		.slideLeft {
+			animation-name: slideLeft;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const fadeInClass = `
+		.fadeIn {
+			animation-name: fadeIn;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		const fadeOutClass = `
+		.fadeOut {
+			animation-name: fadeOut;
+			animation-duration: ${animationLength}s;
+			animation-fill-mode: forwards;
+		}
+		`
+
+		injectStyle([slideRightAnimation, slideLeftAnimation, fadeInAnimation, fadeOutAnimation, fadeInClass, fadeOutClass, slideRightClass, slideLeftClass])
+	}, [])
+
+	function injectStyle(styles) {
+		const styleElement = document.createElement('style')
+		let styleSheet = null
+
+		document.head.appendChild(styleElement)
+
+		styleSheet = styleElement.sheet
+
+		styles.forEach((style) => {
+			styleSheet.insertRule(style, styleSheet.cssRules.length)
+		})
+	}
+
+	function getSuggestedQuestionLimit() {
+		const widthBound = 158
+		const heightBound = 35
+		const cols = Math.floor(Math.min(0.9 * windowSize.width, 525) / widthBound)
+		const rows = Math.floor(0.25 * windowSize.height / heightBound)
+
+		return rows * cols
+	}
+
+	function findQuestionSuggestions(substring) {
+		//remove any accents and make lowercase, remove any dashes
+		let normalizedSubstring = substring.trim().normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase()
+		normalizedSubstring = normalizedSubstring.replace(/-+/g, " ").replace(/\s+/g, " ")
+		let normalizedSubstrings = normalizedSubstring.split(" ")
+
+
+		var matches = []
+
+		for (let i = 0; i < questions.length; i++) {
+			const question = questions[i]
+			const questionName = question.text
+
+			//remove any accents and make lowercase
+			const normalizedQuestionName = questionName.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLowerCase()
+
+			for (let i = 0; i < normalizedSubstrings.length; i++) {
+				let str = normalizedSubstrings[i]
+				if (normalizedQuestionName.includes(str)) {
+					matches.push(question)
+					break
+				}
+			}
+		}
+
+		return matches
+	}
+
+	function handleOnInputBarFocus() {
+		messageContainerRef.current.scrollTo(0, messageContainerRef.current.scrollHeight)
+	}
+
+	function handleOnInputBarUpdate(value) {
+		if (value.trim === "") {
+			setSuggestedQuestionMatches(null)
+		} else {
+			setSuggestedQuestionMatches(findQuestionSuggestions(value))
+		}
+	}
+
+	function renderSuggestedQuestions() {
+		let arr = questions
+		if (suggestedQuestionMatches && suggestedQuestionMatches.length !== 0) {
+			arr = suggestedQuestionMatches
+		}
+		return arr.map((question, i) => {
+			const limit = getSuggestedQuestionLimit()
+			if (i >= limit) return null
+			return <QuestionSuggestion key={i} question={question} onClick={handleOnClickSuggestedQuestion} />
+		})
+	}
+
 	return (
 		<FlexContainer
 			flexDirection="column"
@@ -40,11 +240,13 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				height: "100%",
 				padding: "16px 16px 16px 16px",
 				boxSizing: "border-box",
+				minWidth: 0,
+				overflowX: "hidden",
 				minHeight: "0",
 				background: theme.colors.primaryColorBackground
 			}}
 		>
-			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minHeight: "0", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
+			<FlexContainer height="100%" refs={messageContainerRef} flexDirection="column" style={{ minWidth: 0, minHeight: "0", overflowX: "hidden", overflowY: "scroll", gap: "10px" }}> {/*message container*/}
 				{
 					messagesState.map((message, i) =>
 						<Message key={i} floatRight={message.fromUser} message={message} speechRef={speechRef} />
@@ -53,12 +255,28 @@ export default function ChatPanel({ messagesState, responsePendingState, handleM
 				{responsePendingState &&
 					<Message
 						floatRight={false}
-						message={{ text: responsePendingState, time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(), fromUser: false }}
+						message={{
+							text: responsePendingState,
+							time: new Date().toLocaleString('en-US', { hour: 'numeric', minute: 'numeric', hour12: true }).toLowerCase(),
+							fromUser: false,
+							firstInGroup: true,
+							indexInGroup: -1
+						}}
 					/>
 				}
+				<FlexContainer flexWrap="wrap" style={{ alignSelf: "flex-end", justifyContent: "flex-end", maxWidth: "min(525px, 90%)", gap: "8px", marginTop: "auto" }}>
+					{renderSuggestedQuestions()}
+				</FlexContainer>
+
 			</FlexContainer>
 
-			<ChatBar onSubmitMessage={handleMessageSubmit} responsePendingState={responsePendingState}></ChatBar>
+			<ChatBar
+				onSubmitMessage={handleMessageSubmit}
+				responsePendingState={responsePendingState}
+				inputBarTextState={inputBarTextState}
+				onUpdate={handleOnInputBarUpdate}
+				onFocus={handleOnInputBarFocus}
+			/>
 		</FlexContainer>
 	)
 }

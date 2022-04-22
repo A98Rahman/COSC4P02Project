@@ -5,7 +5,7 @@ import useStateRef from '../useStateRef'
 import FlexContainer from './FlexContainer'
 import { useTheme } from "./ThemeContext"
 
-export default function ChatBar({ onSubmitMessage, responsePendingState }) {
+export default function ChatBar({ onSubmitMessage, responsePendingState, inputBarTextState, onUpdate, onFocus }) {
 	const [theme, setTheme] = useTheme()
 
 	const mediaRecorderRef = useRef()
@@ -20,20 +20,27 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 	const submitButton = useRef(null)
 	const formBarRef = useRef(null)
 
-	function clearInput(e) {
-		if(chatbarLocked || isRecordingRef.current) return
-		e.preventDefault()
+	useEffect(() => {
+		if (!inputBarTextState) return
 
-		console.log("clear")
+		inputBarRef.current.value = inputBarTextState
+		inputBarRef.current.focus()
+	}, [inputBarTextState])
+
+
+	function clearInput(e) {
+		if (chatbarLocked || isRecordingRef.current) return
+		e.preventDefault()
 
 		const inputElement = inputBarRef.current
 		inputElement.value = ""
+		onUpdate("")
 
 	}
 	function handleOnSubmit(e) {
 		//so the page doesn't reload
 		e.preventDefault()
-		if(chatbarLocked || isRecordingRef.current) return
+		if (chatbarLocked || isRecordingRef.current) return
 
 		console.log("submit")
 
@@ -42,6 +49,7 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 
 		//clear the input 
 		inputElement.value = ""
+		onUpdate("")
 
 		if (textValue.trim() === "") {
 			inputElement.setCustomValidity("Enter some text")
@@ -56,8 +64,9 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 	}
 
 	function handleOnInput(e) {
-		if(chatbarLocked) return
+		if (chatbarLocked) return
 		const textValue = e.target.value
+		onUpdate(textValue)
 
 		if (textValue.trim() !== "" && emptyChatbarErrorStateRef.current === true) {
 			e.target.setCustomValidity("");
@@ -67,7 +76,7 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 	}
 
 	function handleOnBlurInputField(e) {
-		if(chatbarLocked) return
+		if (chatbarLocked) return
 		const related = e.relatedTarget
 
 		if (related && e.target.parentElement.contains(related)) {
@@ -107,7 +116,7 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 	}
 
 	function handleOnClickRecordButton(e) {
-		if(chatbarLocked) return
+		if (chatbarLocked) return
 		e.preventDefault()
 
 		//if there is no stream open
@@ -180,7 +189,7 @@ export default function ChatBar({ onSubmitMessage, responsePendingState }) {
 				</button>
 
 				<input
-					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField}
+					ref={inputBarRef} type="text" onInput={handleOnInput} onBlur={handleOnBlurInputField} onFocus={onFocus}
 					placeholder="Ask a question"
 					readOnly={chatbarLocked || responsePendingState !== null}
 					style={{

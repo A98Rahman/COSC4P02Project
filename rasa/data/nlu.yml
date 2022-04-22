@@ -17,6 +17,11 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hello chatbadger
+    - hello chatbadger
+    - hi mr. badger
+    - good to see you 
+    - hello, its nice to meet you
 
 - intent: goodbye
   examples: |
@@ -30,6 +35,17 @@ nlu:
     - see you around
     - bye bye
     - see you later
+    - it was a pleasure to meet you
+    - see ya
+    - ttyl
+    - talk to you again later
+    - goodbye badger 
+    - good talking to you badger
+    - this was nice 
+    - this was fun 
+    - i enjoyed this
+    - it was good to see you
+    - it was nice to meet you
 
 - intent: bot_challenge
   examples: |
@@ -37,6 +53,12 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+    - are you real?
+    - are you programmed
+    - are you a robot
+    - you are a robot
+    - who made you?
+    - who programmed you?
 
 - intent: swear
   examples: |
@@ -70,6 +92,16 @@ nlu:
     - takeout near brock
     - free delivery near brock uber eats
     - local takeout restaraunts brock
+    - im hungry
+    - on campas restaruants 
+    - campas dining. 
+    - good rasteraunts 
+    - brock reseturants
+    - local resterants in st. catharines
+    - im looking for good rstaraunts
+    - can I eat at the school
+    - at school restaraunts
+    - in-school dining options
 
 - intent: library_booking
   examples: |
@@ -135,6 +167,15 @@ nlu:
     - can you give me a bus schedule?
     - How do I find the bus routes brock
     - bus routes brock university
+    - transportation to brock university
+    - brock transit
+    - transit schedule
+    - brock university buses
+    - do any buses go to brock?
+    - do any busses go to brock?
+    - is there public transportation to brock
+    - st. catharines buses to brock
+
 
 - intent: important_dates
   examples: |
