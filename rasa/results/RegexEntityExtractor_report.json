@@ -6,11 +6,11 @@
     "support": 4,
     "confused_with": {}
   },
-  "Faculty": {
-    "precision": 1.0,
+  "CourseDuration": {
+    "precision": 0.8,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 48,
+    "f1-score": 0.888888888888889,
+    "support": 4,
     "confused_with": {}
   },
   "Program": {
@@ -20,43 +20,43 @@
     "support": 21,
     "confused_with": {}
   },
-  "CourseCode": {
-    "precision": 0.8405797101449275,
-    "recall": 1.0,
-    "f1-score": 0.9133858267716535,
-    "support": 58,
-    "confused_with": {}
-  },
   "Club": {
-    "precision": 0.75,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.8571428571428571,
+    "f1-score": 1.0,
     "support": 3,
     "confused_with": {}
   },
-  "CourseDuration": {
-    "precision": 0.75,
-    "recall": 0.75,
-    "f1-score": 0.75,
-    "support": 4,
+  "CourseCode": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 72,
+    "confused_with": {}
+  },
+  "Faculty": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 48,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 0.9,
-    "recall": 0.9782608695652174,
-    "f1-score": 0.9375,
-    "support": 138
+    "precision": 0.9803921568627451,
+    "recall": 0.9868421052631579,
+    "f1-score": 0.9836065573770492,
+    "support": 152
   },
   "macro avg": {
-    "precision": 0.8345410628019323,
-    "recall": 0.9424603174603176,
-    "f1-score": 0.8784214473190851,
-    "support": 138
+    "precision": 0.9111111111111111,
+    "recall": 0.9841269841269842,
+    "f1-score": 0.9398148148148149,
+    "support": 152
   },
   "weighted avg": {
-    "precision": 0.9106542743121192,
-    "recall": 0.9782608695652174,
-    "f1-score": 0.9398391777114818,
-    "support": 138
+    "precision": 0.9859649122807018,
+    "recall": 0.9868421052631579,
+    "f1-score": 0.9849049707602341,
+    "support": 152
   }
 }

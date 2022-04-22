@@ -20,13 +20,13 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 200
     constrain_similarities: true
     sequence maximum_positive_similarity: 1.0
     entity_recognition: False
   - name: EntitySynonymMapper
   - name: ResponseSelector
-    epochs: 100
+    epochs: 200
     constrain_similarities: true
 # - name: "ConveRTFeaturizer"
 #   model_url: "https://github.com/connorbrinton/polyai-models/releases/download/v1.0/model.tar.gz"
@@ -46,7 +46,7 @@ policies:
 #     max_history: 5
 #     epochs: 100
   - name: TEDPolicy
-    epochs: 100
+    epochs: 200
 #     constrain_similarities: true
 
 

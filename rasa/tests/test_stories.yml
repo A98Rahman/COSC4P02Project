@@ -13,6 +13,10 @@ stories:
       ok, cya later then.
     intent: goodbye
   - action: utter_goodbye
+  - user: |
+      fuck you and ya motha
+    intent: swear
+  - action: utter_not_nice
 
 - story: static link test
   steps:
@@ -72,7 +76,7 @@ stories:
 - story: club test
   steps:
   - user: |
-      is there a [gaming](Club) club at brock?
+      is there a [Euchre](Club) club at brock?
     intent: club_general_info
   - action: action_club_general_info
 
@@ -113,3 +117,121 @@ stories:
       where is [Ally Fast](Faculty)'s office located?
     intent: faculty_location
   - action: action_faculty_location
+
+- story: course test
+  steps:
+  - user: |
+      tell me a bit about [MATH1P05](CourseCode)
+    intent: course_general_info
+  # - slot_was_set:
+  #   - CourseCode: MATH1P05
+  - action: action_course_general_info
+
+  - user: |
+      does [COSC1P03](CourseCode) have a seminar?
+    intent: course_labORsem
+  # - slot_was_set:
+  #   - CourseCode: COSC1P03
+  - action: utter_course_duration
+  - user: |
+      [D2](CourseDuration)
+    intent: course_duration
+  # - slot_was_set:
+  #   - CourseDuration: D2
+  - action: action_course_labORsem
+
+  - user: |
+      when is [COSC1P03](CourseCode) being offered?
+    intent: course_term
+  # - slot_was_set:
+  #   - CourseCode: COSC1P03
+  - action: action_course_term
+  - user: |
+      who teaches [COSC1P03](CourseCode)?
+    intent: course_instructor
+  # - slot_was_set:
+  #   - CourseCode: COSC1P03
+  - action: action_course_instructor
+
+  - user: |
+      what are the prereqs for [COSC1P03](CourseCode)?
+    intent: course_prereqs
+  # - slot_was_set:
+  #   - CourseCode: COSC1P03
+  - action: action_course_prereqs
+  
+- story: exam test
+  steps:
+  - user: |
+      [MATH1P67](CourseCode) exam info
+    intent: exam_general_info
+  # - slot_was_set:
+  #   - CourseCode: MATH1P67
+  - action: utter_course_duration
+  - user: |
+      [D3](CourseDuration)
+    intent: course_duration
+  # - slot_was_set:
+  #   - CourseDuration: D3
+  - action: utter_course_section
+  - user: |
+      [1](CourseSection)
+    intent: course_section
+  # - slot_was_set:
+  #   - CourseSection: 1
+  - action: action_exam_general_info
+
+  - user: |
+      where is the [MATH1P67](CourseCode) exam?
+    intent: exam_location
+  # - slot_was_set:
+  #   - CourseCode: MATH1P67
+  - action: utter_course_duration
+  - user: |
+      [D3](CourseDuration)
+    intent: course_duration
+  # - slot_was_set:
+  #   - CourseDuration: D3
+  - action: utter_course_section
+  - user: |
+      [1](CourseSection)
+    intent: course_section
+  # - slot_was_set:
+  #   - CourseSection: 1
+  - action: action_exam_location
+
+  - user: |
+      when is the [MATH1P67](CourseCode) exam?
+    intent: exam_date
+  # - slot_was_set:
+  #   - CourseCode: MATH1P67
+  - action: utter_course_duration
+  - user: |
+      [D3](CourseDuration)
+    intent: course_duration
+  # - slot_was_set:
+  #   - CourseDuration: D3
+  - action: utter_course_section
+  - user: |
+      [1](CourseSection)
+    intent: course_section
+  # - slot_was_set:
+  #   - CourseSection: 1
+  - action: action_exam_date
+
+  - user: |
+      how is the [MATH1P67](CourseCode) exam being delivered
+    intent: exam_delivery
+  # - slot_was_set:
+  #   - CourseCode: MATH1P67
+  - action: utter_course_duration
+  - user: |
+      [D3](CourseDuration)
+    intent: course_duration
+  # - slot_was_set:
+  #   - CourseDuration: D3
+  - action: utter_course_section
+  - user: |
+      [1](CourseSection)
+    intent: course_section
+  - action: action_exam_delivery
