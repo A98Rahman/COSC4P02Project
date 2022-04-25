@@ -19,6 +19,7 @@ intents:
   - local_info
   - brock_news
   - brock_careers
+  - covid_questions
     # Course intents
   - course_general_info:
       use_entities: true
@@ -131,7 +132,7 @@ responses:
   - text: "Hey! How are you?"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Goodbye"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
@@ -181,6 +182,9 @@ responses:
   - text: "If you're looking to apply for a job at Brock, visit the career portal: https://brocku.ca/careers/"
   utter_brock_careers_2:
   - text: "If you're a student looking for career help, visit CareerZone: https://careerzone.brocku.ca/home.htm"
+
+  utter_covid_info:
+  - text: "Information about COVID-19 policy at Brock can be found here: https://brocku.ca/coronavirus/"
 
   # EXAM CLARIFICATION RESPONSES
 

@@ -91,6 +91,11 @@ stories:
   - action: utter_brock_careers_1
   - action: utter_brock_careers_2
 
+- story: covid questions
+  steps:
+  - intent: covid_questions
+  - action: utter_covid_info
+
 ##############################
 ####### COURSE STORIES #######
 ##############################

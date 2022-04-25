@@ -220,6 +220,14 @@ nlu:
     - does brock hire students?
     - student jobs brock
 
+- intent: covid_questions
+  examples: |
+    - covid information niagara
+    - Brock covid policy
+    - Brock coronavirus rules and regulations
+    - Does brock have any special COVID-19 measures or restrictions in place?
+    - What are brock's policies surrounding COVID-19
+
 ###########################
 ##### COURSE INTENTS ######
 ###########################
