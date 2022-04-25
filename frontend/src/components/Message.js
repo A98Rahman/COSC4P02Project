@@ -117,8 +117,7 @@ export default function Message({ floatRight = false, message, speechRef, refs, 
 						opacity: 0.0
 					}}
 				> {/* message */}
-
-					{message.text && <p style={{ fontSize: `${1.0 * theme.fontScaleFactor}rem` }}>{message.text}</p>}
+					{message.text && <p style={{wordWrap: "break-word", fontSize: `${1.0 * theme.fontScaleFactor}rem` }}>{message.text}</p>}
 					{message.image && <img src={message.image} style={{ width: "100%" }} />}
 
 				</div>
@@ -127,7 +126,6 @@ export default function Message({ floatRight = false, message, speechRef, refs, 
 			<p
 				ref={timeTextRef}
 				style={{
-					dispaly: "block",
 					fontSize: `${0.8 * theme.fontScaleFactor}rem`, margin: small ? "0" : "0 calc(40px + 6px) 0 calc(40px + 6px)",
 					color: "grey",
 					animationDelay: `${animationLength + delayBetweenMessages * message.indexInGroup}s`,
