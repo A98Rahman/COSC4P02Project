@@ -50,6 +50,7 @@ export default function LandingPage() {
 				text="The chatbadger is very knowledgeable about Brock University and St. Catharines. You can ask him all kinds of questions such as those relating to programs, classes, events, schedules, locations..."
 			/>
 
+			{/*	
 			<hr style={{ width: "95%", alignSelf: "center", margin: 0, border: "none", borderTop: `solid 1px ${theme.colors.borderColor}` }} />
 
 			<LandingPageRow
@@ -60,6 +61,7 @@ export default function LandingPage() {
 				transform="translateX(-5%) translateY(-10%)"
 				text="Some text about the guide goes here."
 			/>
+			*/}
 
 			<GreetingMessage></GreetingMessage>
 
